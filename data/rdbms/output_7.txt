@@ -1,0 +1,128 @@
+Certainly! Here are 124 unique natural language queries that are best suited for relational databases, where structured data and complex relationships between data entities can be efficiently managed:
+
+1. Retrieve employee records where the salary is above the 90th percentile.
+2. List all customers who have made more than three purchases in the last month.
+3. Find suppliers who have not delivered any products in the past year.
+4. Get a count of employees grouped by department sorted in descending order.
+5. Retrieve orders that have been shipped but not yet delivered.
+6. List products with sales less than the average product sale.
+7. Identify customers who have purchased all products in a specific category.
+8. Find out which products received the highest ratings across all reviews.
+9. Determine the top 10% of sales representatives by total sales volume.
+10. Show a detailed report of orders including customer and product details.
+11. List the top five students with the highest GPA in each class.
+12. Find departments where the average employee tenure is more than five years.
+13. Generate a report of expenses categorized by type and month for the current year.
+14. Identify transactions involving more than one payment method.
+15. Retrieve a list of authors who have collaborated on at least three publications.
+16. Find customers who have not made any purchases this fiscal year.
+17. Retrieve books that have been borrowed more than ten times in the library.
+18. List products that do not belong to any category.
+19. Find customers whose last purchase was a year ago or more.
+20. Show all transactions overshadowing $5000 over the last quarter.
+21. Identify stores with sales growth exceeding 20% annually.
+22. List employees who report directly to a particular manager.
+23. Retrieve annual revenue segmented by country.
+24. Find employees with more than 15 years of service who have not been promoted.
+25. List projects completed within budget but past the deadline.
+26. Show which departments have vacancies exceeding 5% of total positions.
+27. Retrieve a list of all active memberships in the gym.
+28. Identify products with no stock in the warehouse.
+29. Find customers who have made repeat purchases within the same month.
+30. List all flights with zero passengers over the last week.
+31. Retrieve invoices exceeding $1000 while showing respective client details.
+32. Identify regions with more than a 10% increase in population.
+33. Show students enrolled in courses without a final exam.
+34. Retrieve accounts that have shown no activity for over two years.
+35. Find companies with more than five subsidiaries in different sectors.
+36. List all vehicles registered in multiple locations.
+37. Identify events with more attendees than the previous event.
+38. Retrieve all products with missing supplier information.
+39. Find hospitals with vacancy rates below 5%.
+40. List rental properties with a 100% occupancy for six months.
+41. Identify devices with more than three support tickets in one year.
+42. Retrieve the latest updates on projects nearing completion.
+43. Find partners with more than 20% of shared operations.
+44. List channels with the highest engagement rates.
+45. Identify team leads who have led more than two projects this year.
+46. Retrieve service orders completed within 24 hours.
+47. Find items in the inventory without barcodes.
+48. List partners who have not renewed their contracts this year.
+49. Identify sectors with a downturn compared to last year.
+50. Retrieve artwork exhibited in more than one gallery.
+51. Find programs with an annual increase in applications.
+52. List the latest transactions per customer.
+53. Identify users with incomplete profile information.
+54. Retrieve properties sold above the average listing price.
+55. Find agencies with full-time staff working remotely.
+56. List audits with unresolved discrepancies.
+57. Identify accounts with irregular transaction patterns.
+58. Retrieve machinery maintained more than annually.
+59. Find exhibitions with more than 20% international participants.
+60. List contracts without termination clauses.
+61. Identify donors contributing each year for over five years.
+62. Retrieve insurance claims resolved without litigation.
+63. Find products packaged in recycled material.
+64. List journals publishing more than six editions yearly.
+65. Identify sectors contributing over 30% to national GDP.
+66. Retrieve employees with outstanding performance reviews.
+67. Find urban areas with rapid transportation growth.
+68. List open positions filled internally.
+69. Identify funds with annual instead of monthly reports.
+70. Retrieve investments outperforming the market average.
+71. Find books translated into five or more languages.
+72. List athletes with multi-year endorsements.
+73. Identify partnerships spanning more than a decade.
+74. Retrieve equipment with frequent maintenance logs.
+75. Find cities with more libraries than its counterparts.
+76. List patents filed in multiple countries.
+77. Identify fabrics with sustainability certifications.
+78. Retrieve plans offering better rates than their predecessors.
+79. Find surveys with comprehensive longitudinal data.
+80. List satellites with overlapping orbits.
+81. Identify bands with members from different continents.
+82. Retrieve volunteer programs with more than five years of operation.
+83. Find exhibits with multimedia presentations.
+84. List applications with an over 100% increase in users monthly.
+85. Identify courses with multi-disciplinary curricula.
+86. Retrieve meals with locally sourced ingredients.
+87. Find devices compatible with multiple platforms.
+88. List scholarships catering to international students.
+89. Identify screenings with interactive sessions.
+90. Retrieve solutions with predictive analysis capabilities.
+91. Find awards recognizing notable professionals.
+92. List training programs with a significant increase in enrollments.
+93. Identify parks with certified biodiversity rankings.
+94. Retrieve highways with high traffic congestion indices.
+95. Find brands with more than a 50% online sales share.
+96. List funds with risk categories broader than most.
+97. Identify platforms supporting cross-cultural exchanges.
+98. Retrieve energy grids with renewable sources higher than fossil.
+99. Find seminars with follow-up certifications offered.
+100. List subscription services with annual savings plans.
+101. Identify travel itineraries catering to eco-friendly options.
+102. Retrieve technologies with open-source alternatives.
+103. Find fairs with a significant number of international exhibitors.
+104. List press releases detailing multi-phase initiatives.
+105. Identify campaigns with a proven impact assessment.
+106. Retrieve theaters equipped with immersive sound systems.
+107. Find plantations with organic certifications.
+108. List workshops offering skill enhancement certificates.
+109. Identify diagnostics centers with telemedicine services.
+110. Retrieve charity events with transparent fund usage.
+111. Find films shown at more than ten global film festivals.
+112. List markets that run all year round.
+113. Identify databases supporting dynamic data visualization.
+114. Retrieve courses with over 50% online attendance.
+115. Find catalogs distributed in five or more languages.
+116. List competitions with recurring sponsorships.
+117. Identify helplines active 24/7 with multi-lingual support.
+118. Retrieve forums with discussion topics archiving older posts.
+119. Find directories with entries verified annually.
+120. List conventions hosting more than five keynote speakers.
+121. Identify beaches with blue flag certifications.
+122. Retrieve articles with peer reviews from multiple experts.
+123. Find all languages supported across company platforms.
+124. List military bases with joint international operations.
+
+Each of these queries leverages relational database capabilities like joins, aggregations, foreign keys, and complex filtering conditions, making them efficient on platforms like SQL server, Oracle, or MySQL. Non-relational databases may struggle with these due to their unstructured nature and lack of pre-defined schemas.

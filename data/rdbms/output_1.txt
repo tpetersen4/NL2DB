@@ -1,0 +1,101 @@
+Certainly! Below are 97 unique natural language queries that can be efficiently executed on relational databases due to their structured nature, where they benefit from features such as SQL, joins, constraints, and strict schema definitions. These queries might not perform as well or may be more complex to implement in non-relational databases, which may not support the same kinds of operations or transactional integrity without extra effort.
+
+1. Find all orders placed by a specific customer within the last year.
+2. Retrieve the list of products that have never been sold.
+3. Get the total sales amount for each product category in the last month.
+4. List all employees who have been with the company for over five years and their respective departments.
+5. Retrieve a list of customers who have ordered more than 10 times in the past.
+6. Find the average order value for each customer.
+7. Show the top 10 selling products of the past quarter.
+8. Generate a report of weekly sales totals over the past year.
+9. List all suppliers who have not delivered any products in the past six months.
+10. Find customers who have spent more than a specified amount in their lifetime.
+11. Retrieve orders that include products from multiple categories.
+12. Find the oldest active customer based on registration date.
+13. List customers along with the count of orders they have placed.
+14. Find products with low stock levels and their suppliers.
+15. Retrieve employees who have managed more than three different departments during their tenure.
+16. Get the total number of orders placed on the most recent Black Friday.
+17. List employees along with the number of projects they are currently working on.
+18. Find all invoices issued in the last year that have been fully paid.
+19. Show the customer who has ordered the most diverse range of products.
+20. Retrieve the product with the highest number of returns within the past year.
+21. Calculate the average delivery time for orders.
+22. List employees who have never reported time-off.
+23. Find the product categories that generate the most revenue.
+24. Show all orders that required expedited shipping.
+25. Retrieve customer feedback along with corresponding order details.
+26. List the names of customers who have ever cancelled an order.
+27. Find top employees based on the number of completed projects.
+28. Retrieve suppliers with the most number of products in their catalog.
+29. List all pending shipments with estimated delivery dates.
+30. Find all departments with more than ten employees.
+31. Retrieve the most popular product for each season.
+32. List customers who have returned items more than five times.
+33. Find all transactions exceeding a specified amount.
+34. Show the hierarchy of departments within the organization.
+35. Retrieve suppliers and their corresponding top-selling products.
+36. Find the historical change in product prices.
+37. List all orders with special instructions.
+38. Retrieve customers and their preferred payment methods.
+39. Find employees with the same last name as any of their managers.
+40. List customers who have received a loyalty bonus.
+41. Find sales transactions that included a specific promotional code.
+42. Retrieve products in decreasing order of profit margin.
+43. List active projects and their expected completion dates.
+44. Find all invoices that are past due.
+45. Retrieve product bundles frequently bought together.
+46. Find all items that are out of stock.
+47. List all recurring customers who prefer weekend deliveries.
+48. Find the most used shipping routes.
+49. Retrieve employees with matching skill sets.
+50. List all purchases with invoices not yet generated.
+51. Find all customers who have opted in for newsletters.
+52. Retrieve historical revenue data for forecasting.
+53. List all VIP customers and offer details.
+54. Find season-specific promotions and their success metrics.
+55. Show customers with addresses in more than one city.
+56. List the newest products launched in the past three months.
+57. Retrieve invoices containing errors.
+58. Find customer support tickets resolved within an hour.
+59. List products supplied by only one vendor.
+60. Retrieve accounts with prepaid subscription plans.
+61. Find employees eligible for retirement in the next year.
+62. List the warehouses with maximum storage capacity.
+63. Retrieve all products available in a specified color.
+64. Find unresolved disputes in customer transactions.
+65. List technicians with certifications expiring this year.
+66. Retrieve products with a warranty period exceeding two years.
+67. Find all projects completed earlier than the deadline.
+68. List customers who prefer recycled packaging.
+69. Retrieve annual growth rate data for customer base.
+70. Find errors in the input data for various tables.
+71. List project milestones across different departments.
+72. Retrieve products with alternate suppliers.
+73. Find training programs attended after working hours.
+74. List items not sold in the last inventory cycle.
+75. Retrieve promotions not availed by any customer.
+76. Find support representatives with the most closed tickets.
+77. List all custom packages requested by clients.
+78. Retrieve products listed at the same price for more than a year.
+79. Find locations with the least number of order dispatches.
+80. List customer accounts marked for follow-up.
+81. Retrieve items with component parts out of stock.
+82. Find meetings scheduled with external partners.
+83. List assets scheduled for depreciation discussions.
+84. Retrieve payment logs with non-standard payment gateways.
+85. Find holiday sales campaigns and corresponding discounts.
+86. List legacy systems still in use across departments.
+87. Retrieve all client interactions for key accounts.
+88. Find production targets exceeded two years in a row.
+89. List interview results for the last hiring cycle.
+90. Retrieve shipping exceptions for the last holiday season.
+91. Find customers who have not interacted with the company in over a year.
+92. List all employees participating in skill development programs.
+93. Retrieve financial transactions needing manager approval.
+94. Find peak order periods and corresponding inventory levels.
+95. List unexpected return reasons for electronic products.
+96. Retrieve organizational policies modified in the last year.
+97. Find leading channels for new customer acquisition. 
+
+These queries take advantage of relational database strengths such as joins, indexing, transaction support, and strict schema enforcement. Non-relational databases, while offering other benefits, might not be optimal for such structured and relational data-centric tasks.

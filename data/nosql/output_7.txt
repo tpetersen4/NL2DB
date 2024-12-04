@@ -1,0 +1,113 @@
+Creating 109 unique queries that can efficiently run on NoSQL databases like MongoDB requires understanding the typical operations for NoSQL databases, which often involve collections, documents, and key-value pairs. Here are 109 queries:
+
+1. Retrieve all documents where the user's age is greater than 30.
+2. Find all orders placed in December 2022.
+3. Get the names of all employees who work in the "Engineering" department.
+4. List all products with a price less than $50.
+5. Count the number of documents in the "customers" collection.
+6. Find documents with an email domain of "example.com".
+7. Retrieve all blog posts tagged with "MongoDB".
+8. List all invoices with a status of "unpaid".
+9. Find the top 5 most expensive items.
+10. Retrieve documents where the "status" is either "active" or "pending".
+11. List users who have logged in within the last 7 days.
+12. Get all documents that have a "null" value in the "address" field.
+13. Find all books authored by "John Doe".
+14. Retrieve documents containing a specific word in the "description" field.
+15. List all comments made on a particular blog post.
+16. Find users whose registration date is before January 1, 2023.
+17. Retrieve all profiles with more than 1000 followers.
+18. List all venues available for a specific date range.
+19. Find all movies released in 2021.
+20. Get all documents where the "score" is in the top 10 percentile.
+21. List products that are currently out of stock.
+22. Find all documents with an embedded document matching specific criteria.
+23. Retrieve documents with array fields containing a specific element.
+24. List all employees with more than 5 years of experience.
+25. Find the sum of all "sales" for a specific product.
+26. Retrieve users whose "last_login" is after a certain timestamp.
+27. List all active users with a verified email address.
+28. Get documents where "rating" is greater than or equal to 4.
+29. Find documents with a "created_at" date within the last month.
+30. List all transactions above a specific dollar amount.
+31. Retrieve documents where any field contains "urgent".
+32. Find profiles located within 50 miles of a specific geolocation.
+33. Get all albums by a specific artist.
+34. List documents with fields matching regular expression patterns.
+35. Find reservations that overlap with a given time slot.
+36. Retrieve all documents without a "deleted_at" timestamp.
+37. List all messages sent by a user with a specific ID.
+38. Get documents with a specific value in the first position of an array.
+39. Find profiles where the "bio" field is not empty.
+40. Retrieve all documents with a "true" value for a Boolean field.
+41. List employees who joined in the year 2020.
+42. Get documents with a specific category and a price range.
+43. Find all events happening in a particular city.
+44. Retrieve documents that do not contain a certain field.
+45. List all posts with more than 100 likes.
+46. Find all accounts created within the last year.
+47. Retrieve documents with specific nested field criteria.
+48. List products sorted by "release_date" in descending order.
+49. Find documents where the "author" matches a given ID.
+50. Retrieve all jobs with "remote" in their description.
+51. List all restaurants serving a specific type of cuisine.
+52. Find documents with exactly 3 elements in an array field.
+53. Retrieve sessions lasting longer than a specific duration.
+54. List all accounts with names starting with "A".
+55. Find all unpublished articles.
+56. Retrieve user profiles created after a specific date.
+57. List all devices connected in the last hour.
+58. Get documents where a specific field exists.
+59. Find all teams having more than 8 members.
+60. Retrieve all feedback with a "negative" sentiment label.
+61. List all courses taught by a certain instructor.
+62. Find documents containing numeric values within a range.
+63. Retrieve products with discounts greater than 20%.
+64. List all contracts expiring in the next 3 months.
+65. Find users with incomplete profiles.
+66. Retrieve documents with duplicate emails.
+67. List all projects with a "completed" status.
+68. Find all reviews with a 5-star rating.
+69. Retrieve all books within a certain ISBN range.
+70. List documents grouped by a specific field.
+71. Find sessions with no associated user.
+72. Retrieve all collections with documents exceeding 1MB size.
+73. List users with a specific role or permission.
+74. Get documents using a complex query on multiple fields.
+75. Find all tickets sold for a specific concert.
+76. Retrieve all students enrolled in a specific semester.
+77. List all animals with a microchip ID.
+78. Find documents modified within the last 24 hours.
+79. Retrieve events with more than 100 attendees.
+80. List all athletes managed by a specific agent.
+81. Get documents where an embedded array matches criteria.
+82. Find products made by a specific manufacturer.
+83. Retrieve all recipes with "vegan" in their title.
+84. List users with birthdays in January.
+85. Find reports submitted by a specific department.
+86. Retrieve all documents without child documents.
+87. List all digital products available for download.
+88. Find lectures scheduled for the current week.
+89. Retrieve discussions with replies from more than 10 users.
+90. List all programming languages used in a project.
+91. Find all artists with an album count greater than 4.
+92. Retrieve documents with additional metadata fields.
+93. List all trips booked through a certain travel agency.
+94. Find contracts with an auto-renewal clause.
+95. Retrieve all subjects taught in a specific school year.
+96. List events not categorized under any label.
+97. Find all vacant positions in a company.
+98. Retrieve documents where the value starts with a number.
+99. List all newsletters sent after a given date.
+100. Find issues reported with a specific software version.
+101. Retrieve all comments flagged as inappropriate.
+102. List animals available for adoption.
+103. Find orders pending for more than a week.
+104. Retrieve all questions with a specific tag.
+105. List all assets owned by a particular division.
+106. Find all leads generated from a marketing campaign.
+107. Retrieve club members joined after a specific event.
+108. List all goods exported in 2023.
+109. Find documents with field names matching a specific regex.
+
+These queries embody various operations in MongoDB, including filtering, aggregation, sorting, and text search.

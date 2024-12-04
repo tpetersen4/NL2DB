@@ -1,0 +1,119 @@
+Creating unique natural language queries suitable for NoSQL databases, such as MongoDB, requires understanding the typical operations that can be performed efficiently with these systems. Here are 115 examples of such queries:
+
+1. Retrieve all user profiles created in the last seven days.
+2. Find the total number of orders placed in the last month.
+3. Show all products with a price greater than $50.
+4. List all documents where the "status" field is "pending".
+5. Count the number of unique users who have logged in today.
+6. Fetch all blog posts containing the keyword "travel".
+7. Get the average rating of a product with ID '12345'.
+8. Return all movies released in the year 2020.
+9. List the names of students who scored above 90 in math.
+10. Find documents where the array field "tags" includes "featured".
+11. Get the list of cities with more than 100,000 residents.
+12. Retrieve messages sent by user "john_doe" in the last hour.
+13. Find products with a stock of less than 10 items.
+14. Show all active subscriptions.
+15. List usernames of users who have not updated their profile in over a year.
+16. Find documents where the nested field "address.zip" is "12345".
+17. Get all transactions made using the payment method "PayPal".
+18. List all employees in the "marketing" department.
+19. Retrieve the latest 50 entries from the event log.
+20. Count the number of comments on a post with ID '67890'.
+21. Fetch all books by author "Jane Austen".
+22. Find all products with a discount greater than 20%.
+23. Get a list of all vehicles registered after 2018.
+24. List users whose email addresses end with "@example.com".
+25. Retrieve all records with a "date" field in the future.
+26. Find items with a "category" field that contains the word "electronics".
+27. Get the sum of the order totals for today.
+28. Show profiles where the "bio" contains "software developer".
+29. Find all documents with a non-null "profile_pic" field.
+30. List movies with a rating of 4 stars or higher.
+31. Retrieve all courses that start next month.
+32. Find all records modified in the last 24 hours.
+33. Get user reviews with a "helpful" score above 10.
+34. List all assets with a depreciation rate above 5%.
+35. Retrieve songs by artist "The Beatles".
+36. Find properties in the "New York" area.
+37. Get usernames who have not logged in for six months.
+38. Show all entries with a "priority" of "high".
+39. List names of clients older than 60 years.
+40. Retrieve documents with a missing "last_login" field.
+41. Find all invoices marked as "paid".
+42. Get messages received by user "alice@example.com".
+43. Show all files larger than 10MB.
+44. List restaurants with 5-star reviews.
+45. Retrieve all events scheduled for today.
+46. Find sessions where "duration" exceeds 2 hours.
+47. Get all active projects.
+48. Show all devices registered to "Company XYZ".
+49. List all export shipments for this year.
+50. Retrieve contacts in the "Friends" group.
+51. Find all articles published in August.
+52. Get transactions that occurred on weekends.
+53. List all available job postings.
+54. Show all images uploaded by user "photosmith".
+55. Retrieve buildings with more than 10 floors.
+56. Find all car listings priced below $10,000.
+57. Get sales data for the latest quarter.
+58. Show all announcements tagged "urgent".
+59. List training sessions for this week.
+60. Retrieve surveys with a "completed" status.
+61. Find documents where "type" is either "A" or "B".
+62. Get students with perfect attendance.
+63. Show all messages flagged as "important".
+64. List all services offered by "Provider A".
+65. Retrieve ongoing maintenance tasks.
+66. Find donations made above $1000.
+67. Get software licenses that expire next year.
+68. Show all ships docked at "Port of Miami".
+69. List campaigns scheduled to launch next month.
+70. Retrieve user activities from the last 48 hours.
+71. Find all completed orders with a refund request.
+72. Get restaurants offering "vegan" options.
+73. Show all courses at "University B".
+74. List employees with more than 10 years of service.
+75. Retrieve applications received in March.
+76. Find all membership renewals due this month.
+77. Get photographers who specialize in weddings.
+78. Show top 10 trending topics today.
+79. List all apartments with "garden" in their description.
+80. Retrieve customer feedback rated 5 stars.
+81. Find scheduled appointments for tomorrow.
+82. Get cars with "hybrid" engines.
+83. Show all services booked by "customerX".
+84. List users who have completed the "Beginner Level".
+85. Retrieve annual reports for the last three years.
+86. Find expeditions to "Antarctica".
+87. Get loans with interest rates above 5%.
+88. Show artworks priced above $2000.
+89. List articles with a read time of less than 5 minutes.
+90. Retrieve filed patents in the technology sector.
+91. Find all pets available for adoption.
+92. Get the total number of units in stock.
+93. Show properties with swimming pools.
+94. List patients with scheduled follow-ups.
+95. Retrieve all fashion items branded "TrendSetter".
+96. Find all notifications marked as "unread".
+97. Get flights to "Los Angeles" with available seats.
+98. Show users with pending verification.
+99. List all solar panel installations.
+100. Retrieve furniture items made of "oak".
+101. Find all train tickets booked in the last week.
+102. Get return requests from the holiday season.
+103. Show all customer queries pending response.
+104. List every item sold in the last flash sale.
+105. Retrieve recipes containing "chocolate".
+106. Find business meetings held in "Room A".
+107. Get all high school alumni from "Class of 2000".
+108. Show recipes marked as "family favorites".
+109. List vaccinations administered in the school clinic.
+110. Retrieve manuscripts submitted for review.
+111. Find events hosted by "community_center".
+112. Get all emails in the "inbox" folder.
+113. Show property listings in "downtown".
+114. List movie genres preferred by age group 18-24.
+115. Retrieve all user feedback containing "suggestion".
+
+These queries are specifically designed to work well with the strengths of NoSQL databases, focusing on filtering, aggregation, or targeted retrieval operations typical in use cases where NoSQL systems thrive.

@@ -1,0 +1,119 @@
+Certainly! Here are 115 unique natural language queries suitable for a NoSQL database like MongoDB:
+
+1. Find all users with more than 500 followers.
+2. List products with a price less than $20.
+3. Show all orders made in the last 30 days.
+4. Retrieve customer emails who signed up this year.
+5. Get details of books written by "John Doe".
+6. Show posts with more than 100 likes.
+7. Find movies released after 2020.
+8. List all songs by "The Beatles".
+9. Get all documents where status is "active".
+10. Find entries created in the last week.
+11. Retrieve users who live in "New York".
+12. Display events scheduled for today.
+13. Get restaurants with a rating above 4.5.
+14. Show products back in stock.
+15. Find users whose last name is "Smith".
+16. List articles tagged with "technology".
+17. Retrieve the latest comments on a blog post.
+18. Get all books in the "Science Fiction" genre.
+19. Show employees who joined after 2019.
+20. Find devices registered in "California".
+21. List stores with "Summer Sale" promotion.
+22. Retrieve all transactions over $1,000.
+23. Get photos taken by "Jane Doe".
+24. Show videos longer than 10 minutes.
+25. Find messages marked as urgent.
+26. List recipes without gluten.
+27. Retrieve cars manufactured by "Toyota".
+28. Get users with verified accounts.
+29. Show shows airing on "Netflix".
+30. Find articles published by "TechCrunch".
+31. List athletes competing in "Marathon".
+32. Retrieve properties with ocean view.
+33. Get hotels with free breakfast.
+34. Show campaigns launched this month.
+35. Find teachers with over 10 years of experience.
+36. List patients enrolled in "Health Program A".
+37. Retrieve files larger than 5GB.
+38. Get projects with "pending" status.
+39. Show flights departing from "JFK Airport".
+40. Find gardens with more than 50 types of plants.
+41. List phone numbers starting with "+1".
+42. Retrieve apps developed by "XYZ Labs".
+43. Get all cities in "Country A".
+44. Show users who haven't logged in for 6 months.
+45. Find properties listed for sale.
+46. List donations above $500.
+47. Retrieve exhibits opened in 2022.
+48. Get items with free shipping.
+49. Show authors with a bestseller book.
+50. Find clubs with more than 100 members.
+51. List films with a rating of 5 stars.
+52. Retrieve workshops held online.
+53. Get athletes in the "Hall of Fame".
+54. Show distributors in "Europe".
+55. Find studies focused on "Climate Change".
+56. List items eligible for the discount code "SAVE20".
+57. Retrieve podcasts hosted by "John Doe".
+58. Get job postings with remote work option.
+59. Show playlists curated by "DJ X".
+60. Find newsletters published weekly.
+61. List channels with over 100,000 subscribers.
+62. Retrieve sessions available for booking.
+63. Get newsletters from the "Marketing" category.
+64. Show members on the "Premium" plan.
+65. Find trainers certified in "Yoga".
+66. List artworks created in 19th century.
+67. Retrieve vendors at the local market.
+68. Get themes with a dark mode option.
+69. Show professors in the "Physics" department.
+70. Find apartments with more than 3 bedrooms.
+71. List hiking trails over 5 miles long.
+72. Retrieve organizations part of "Global Initiative".
+73. Get ingredients required for "Chocolate Cake".
+74. Show trends in "Artificial Intelligence".
+75. Find startups founded in 2021.
+76. List alerts generated in the security system.
+77. Retrieve charts topping the "Pop" category.
+78. Get albums recorded in "Abbey Road Studios".
+79. Show brands participating in "Fashion Week".
+80. Find ingredients sourced locally.
+81. List members with a "Lifetime" membership.
+82. Retrieve FAQs related to "Account Management".
+83. Get classes with open seats available.
+84. Show policies covering "Travel Insurance".
+85. Find gadgets rated as "Eco-Friendly".
+86. List partners in "North America".
+87. Retrieve forecasts predicting rain.
+88. Get series available in "4K".
+89. Show agents licensed in "Real Estate".
+90. Find instructors for "Advanced Coding".
+91. List bridges constructed before 1950.
+92. Retrieve protocols for data security.
+93. Get dishes that are "Vegan".
+94. Show plans in "Phase 3".
+95. Find containers currently in transit.
+96. List publications reviewed by "Peer Network".
+97. Retrieve sequences from "DNA Research".
+98. Get fabrics suitable for "Summer Wear".
+99. Show facilities open 24/7.
+100. Find scripts written by "Screenwriters Guild".
+101. List formulas used in "Rocket Science".
+102. Retrieve settings for "Automatic Updates".
+103. Get paddocks occupied by "Horses".
+104. Show tests passed with "A" grade.
+105. Find rounds in the "Quarterfinal Stage".
+106. List conventions held in "Las Vegas".
+107. Retrieve logs from "Server A".
+108. Get algorithms for "Pattern Recognition".
+109. Show cartoons aired in morning slots.
+110. Find currencies accepted in "International Market".
+111. List novels over 400 pages long.
+112. Retrieve pages optimized for "SEO".
+113. Get cigars from "Cuban Collection".
+114. Show manifolds compatible with "Model X".
+115. Find excavations in "Ancient Sites".
+
+These queries are designed to illustrate diverse queries that leverage the capabilities of NoSQL databases, especially MongoDB, to handle and analyze large and diverse datasets efficiently.

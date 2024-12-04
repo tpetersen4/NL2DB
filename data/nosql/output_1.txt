@@ -1,0 +1,132 @@
+Sure! Here is a list of 128 unique natural language queries that can be executed efficiently on NoSQL databases like MongoDB:
+
+1. Find all customers in New York.
+2. Retrieve products priced below $20.
+3. List all employees hired after 2020.
+4. Show all orders with a status of "shipped."
+5. Find books authored by "Jane Doe."
+6. Retrieve all entries updated today.
+7. List users with a premium subscription.
+8. Find all blog posts tagged "technology."
+9. Retrieve all active accounts.
+10. List all items in stock.
+11. Find transactions above $1,000.
+12. Show all records with a "pending" status.
+13. Retrieve reviews with a rating above 4.
+14. List all events in December 2023.
+15. Find unpublished articles.
+16. Retrieve movies directed by "John Smith."
+17. Show all completed tasks.
+18. Find profiles created in the last 30 days.
+19. Retrieve comments containing "excellent."
+20. List all suppliers from China.
+21. Find music tracks longer than 5 minutes.
+22. Retrieve recipes using "chicken."
+23. List all messages sent this week.
+24. Find invoices that are overdue.
+25. Show all courses offered online.
+26. Retrieve all non-profit organizations.
+27. List all projects due next month.
+28. Find photos tagged "sunset."
+29. Retrieve all vegetarian dishes.
+30. Find players with more than 50 goals.
+31. Show all unread notifications.
+32. Retrieve hotels with a 5-star rating.
+33. List all books published by "Penguin."
+34. Find devices running Android.
+35. Retrieve courses with more than 1000 students.
+36. List all blogs with more than 10,000 views.
+37. Find software with a version below 2.0.
+38. Retrieve all movies released in 2022.
+39. Show all orders processed today.
+40. Find contacts in the healthcare industry.
+41. Retrieve photos more than 1MB in size.
+42. List all podcasts in the "science" category.
+43. Find videos shorter than 10 minutes.
+44. Retrieve all clothing items in "medium" size.
+45. Show restaurants open past midnight.
+46. Find pilots with over 200 flight hours.
+47. Retrieve books translated into Spanish.
+48. List all destinations with "beach" in the name.
+49. Find auctions ending tomorrow.
+50. Show all invoices marked as "paid."
+51. Retrieve actors with at least one Oscar.
+52. List all startups in the "fintech" sector.
+53. Find apps downloaded over 1 million times.
+54. Retrieve documents created in 2021.
+55. Show all resumes containing "Python."
+56. Find clubs offering "yoga" classes.
+57. Retrieve courses that include "statistics."
+58. List all properties near "Central Park."
+59. Find tutorials with "beginner" in the title.
+60. Retrieve jobs posted in Los Angeles.
+61. Show courses taught by "Dr. Emily White."
+62. Find all research papers on "AI."
+63. Retrieve videos with "nature" in the title.
+64. List pets available for adoption.
+65. Find bank accounts with "savings" type.
+66. Show reservations for the "penthouse."
+67. Retrieve vehicles with hybrid engines.
+68. Find lectures recorded in 2021.
+69. List all apps compatible with iOS.
+70. Retrieve "CFO" role job listings.
+71. Show art pieces from the 19th century.
+72. Find podcasts hosted by "Alice Wright."
+73. Retrieve "urgent" priority tickets.
+74. List all items ordered by "John Doe."
+75. Find bicycles under $500.
+76. Show theaters playing "Avengers."
+77. Retrieve tourist attractions in Italy.
+78. Find apartments with at least 3 bedrooms.
+79. List all companies founded in the 90s.
+80. Retrieve wines from "Napa Valley."
+81. Show deliveries expected tomorrow.
+82. Find classes scheduled for weekends.
+83. Retrieve gadgets released last year.
+84. List all volunteers in "community service."
+85. Find newsletters with "discount" offers.
+86. Retrieve culinary schools in Paris.
+87. Show all members of the "New York Club."
+88. Find charities focused on "education."
+89. Retrieve fashion brands with "eco-friendly" labels.
+90. List all annual reports from 2020.
+91. Find finished products in "wood" category.
+92. Retrieve user guides for "Model X."
+93. Show all alerts for "security breaches."
+94. Find discounts on "electronics" category.
+95. Retrieve top-rated "Italian" chefs.
+96. List all transportation bookings for July.
+97. Find all webinars on "machine learning."
+98. Retrieve credits exceeding 40 hours.
+99. Show local events in "San Francisco."
+100. Find hiking trails rated 5 stars.
+101. Retrieve details of "vegan" meal plans.
+102. List all property listings in "Brooklyn."
+103. Find game releases in "RPG" genre.
+104. Show courses starting in "spring semester."
+105. Retrieve artworks by "Leonardo da Vinci."
+106. List all planned "summer festivals."
+107. Find partnerships with "tech giants."
+108. Retrieve email campaigns with CTR over 20%.
+109. Show transactions involving cryptocurrency.
+110. Find concerts held in the "amphitheater."
+111. Retrieve flight schedules to "Tokyo."
+112. List all plantations using "organic" methods.
+113. Find forensic documents on "cybercrime."
+114. Retrieve all "Science Fiction" magazines.
+115. Show completed "renovation projects."
+116. Find opening hours for "holiday weekends."
+117. Retrieve licenses for "professional software."
+118. List all testimonials mentioning "great service."
+119. Find packages delivered "overnight."
+120. Retrieve studies published in "medical journals."
+121. Show gadget reviews from "tech experts."
+122. Find floral arrangements under "wedding" theme.
+123. Retrieve workshops on "personal development."
+124. List all "flight status" notifications.
+125. Find stationery supplies available "in bulk."
+126. Show all expeditions in "Antarctica."
+127. Retrieve case studies on "business innovation."
+128. List all "emergency contact" details updated recently.
+
+These queries are designed considering the strengths of NoSQL databases, such as scalability, flexible schema design, and efficient querying of semi-structured data.

@@ -1,0 +1,111 @@
+Sure, here are 107 unique natural language queries that would typically run efficiently on relational databases due to their structured nature and capabilities in handling complex queries, transactions, and relationships between tables. These types of queries might not perform as well or be as suitable in non-relational databases, which are generally optimized for other use cases such as unstructured data or hierarchical data:
+
+1. What is the total sales revenue for each product category this quarter?
+2. How many active users were there on our platform last month?
+3. Retrieve the list of customers who have made more than three purchases this year.
+4. Find the top 10 best-selling products in the last 30 days.
+5. Calculate the average order value for each customer segment.
+6. Generate a list of employees along with their department and job title.
+7. What is the total number of refunds processed last week?
+8. Find employees who joined the company before 2010 but have not received a promotion.
+9. List all suppliers located in Germany along with their contact information.
+10. Determine the number of orders exceeding $500 for each sales region.
+11. Find students who are enrolled in both Math and Science courses.
+12. Identify the top three customers by lifetime value.
+13. What is the monthly growth rate of active subscriptions this year?
+14. Calculate the total profit for each product in the electronics category.
+15. Find all orders shipped to California that were placed by VIP customers.
+16. List customers who have not made any purchases in the last six months.
+17. Determine the average salary for each department in the company.
+18. Find the projects that are overdue along with their project managers.
+19. List all books borrowed by students in the History department.
+20. Calculate the churn rate for the past two quarters.
+21. Identify the five most common reasons for customer service calls.
+22. What is the average number of items per order for online sales?
+23. Find professors who are teaching more than three courses this semester.
+24. List all the branches with a year-over-year increase in revenue.
+25. Calculate the total number of units sold for each supplier.
+26. Find the demographic profile of users who purchased the new product line.
+27. What products have seen a decline in sales for three consecutive months?
+28. Generate a list of users with expired subscriptions.
+29. Identify the regions with the highest increase in new customer acquisitions.
+30. Find employees who have both a performance score above 90 and attendance below 95%.
+31. Calculate the difference in revenue between this quarter and the previous one.
+32. List customers with multiple addresses on file.
+33. Identify products that were out of stock more than twice this quarter.
+34. Find all active projects along with their start and end dates.
+35. Calculate the percentage of products returned for each category.
+36. What is the employee turnover rate for the past year?
+37. Find customers who have placed orders in both online and offline channels.
+38. List the top five departments with the highest budget overruns.
+39. Calculate the average delivery time for each shipping method.
+40. Identify the shifts with the highest number of incidents reported.
+41. Find sales that involved both discounts and promotional items.
+42. List manager-employee relationships for each department.
+43. Identify the cities with the highest number of retail stores.
+44. Calculate the average product rating for each brand.
+45. Find items that were restocked more than three times this month.
+46. What is the quarterly revenue breakdown by payment method?
+47. List all events with a participant count over 100.
+48. Identify duplicate records in the customer database.
+49. Calculate the year-over-year growth for each store location.
+50. Find authors who have published in more than two genres.
+51. What are the common skills among employees in the IT department?
+52. List suppliers who have been inactive for over six months.
+53. Identify courses with the highest student dropout rates.
+54. Calculate the average customer lifetime span.
+55. Find orders with discrepancies between billed and shipped quantities.
+56. List departments with more than 50 open positions.
+57. Identify all unpaid invoices older than 90 days.
+58. Calculate the utilization rate of conference rooms.
+59. What is the customer satisfaction rate by product category?
+60. Find employees with both sales and customer service experience.
+61. List research papers with citations over 1000.
+62. Identify regions where promotional campaigns had the lowest impact.
+63. Calculate the ratio of male to female employees by department.
+64. Find users who have interacted with both email and SMS campaigns.
+65. List software versions used across different departments.
+66. Identify the busiest day of the week for customer support.
+67. Calculate the average tenure of employees in managerial positions.
+68. Find items frequently bought together with bestseller products.
+69. What is the fraud rate by payment method?
+70. List product bundles purchased more than 100 times.
+71. Identify inactive clients who were previously high-volume purchasers.
+72. Calculate the energy consumption by department.
+73. Find service contracts due for renewal within the next month.
+74. List all employees who participated in the leadership training program.
+75. Identify departments with declining employee satisfaction scores.
+76. Calculate the coverage ratio of insurance policies.
+77. List transactions flagged by the fraud detection system.
+78. Identify training programs with the highest completion rates.
+79. Calculate the average spend per visit at physical stores.
+80. Find supply chain partners with ISO certifications.
+81. What is the attrition rate for top performers?
+82. List equipment maintenance logs completed last quarter.
+83. Identify the ten oldest customer accounts by creation date.
+84. Calculate the net promoter score by customer segment.
+85. Find products recommended by both new and existing customers.
+86. List all active contracts with multinational companies.
+87. Identify top five reasons for employee absenteeism.
+88. Calculate the occupancy rate for office spaces.
+89. Find all collaborators on patents filed in the last two years.
+90. List all departments engaged in cross-departmental projects.
+91. Identify the training modules used across different regions.
+92. Calculate the approval rate of loan applications by branch.
+93. Find partnerships that lasted over five years.
+94. List all donations received with attached donor conditions.
+95. Identify the correlation between sales and marketing expenses.
+96. Calculate the return on investment for each marketing campaign.
+97. Find legacy systems still in use across departments.
+98. What is the end-to-end processing time for customer orders?
+99. List facilities with utilization rates below 50%.
+100. Identify age groups with the highest penetration of new product features.
+101. Calculate the impact of customer loyalty programs on purchase frequency.
+102. Find drivers with both clean records and over 5 years of experience.
+103. List all courses offered by more than two departments.
+104. Identify collaborative projects between engineering and product development teams.
+105. Calculate the customer acquisition cost by channel.
+106. Find patents NOT contributing to any current project or product line.
+107. List all branches with revenue growth exceeding 10% year over year.
+
+These queries generally involve multiple tables, complex joins, aggregations, and structured data, which are well-suited to the capabilities of relational databases.

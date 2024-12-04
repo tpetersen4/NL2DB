@@ -1,0 +1,112 @@
+Certainly! Here is a list of unique natural language queries that can be efficiently executed on NoSQL databases like MongoDB. These queries cover various scenarios, data types, and operations:
+
+1. Retrieve all documents where the user's age is greater than 25.
+2. Find all products with a price lower than $50.
+3. List all orders placed in the last 7 days.
+4. Fetch all records where the status is "active".
+5. Get user profiles with verified email addresses.
+6. Show all items with a rating of 4 stars or higher.
+7. Find cars manufactured in the year 2020 or later.
+8. Retrieve blog posts containing the keyword "technology".
+9. List customers who have purchased more than 10 items.
+10. Get all events happening next month.
+11. Fetch documents with a "priority" field set to "high".
+12. Retrieve all cities with a population of over 1 million.
+13. Find employees who have joined after January 1, 2023.
+14. List all books written by "J.K. Rowling".
+15. Get records where the "is_member" field is true.
+16. Fetch all transactions exceeding $1,000.
+17. Show all comments made by user ID 12345.
+18. Find all movies in the "comedy" genre.
+19. Retrieve products available in "green" color.
+20. List all available rooms with a "sea view".
+21. Get reviews with a five-star rating.
+22. Fetch all messages sent in the last 24 hours.
+23. Retrieve profiles with a "premium" membership.
+24. Find all active campaigns ending this week.
+25. List employees working in the "marketing" department.
+26. Get all tasks marked as "completed".
+27. Fetch books published after the year 2010.
+28. Show all videos over 10 minutes long.
+29. Find recipes with "chocolate" as an ingredient.
+30. Retrieve all flights departing from "JFK" airport.
+31. List projects with a deadline next quarter.
+32. Get documents updated in the last 30 days.
+33. Fetch songs by artist "Taylor Swift".
+34. Retrieve all games with multiplayer capabilities.
+35. Find schools with an "A" rating.
+36. List all houses with at least 3 bedrooms.
+37. Get all posts tagged with "health".
+38. Fetch applications submitted after August 1, 2023.
+39. Show all lectures available online.
+40. Find all hotels in "New York".
+41. Retrieve all profiles with a profile picture.
+42. List sales greater than $5000.
+43. Get documents with a specific keyword in the title.
+44. Fetch films directed by "Steven Spielberg".
+45. Retrieve all plants in the "succulent" family.
+46. Find users who have logged in today.
+47. List podcasts longer than 60 minutes.
+48. Get all courses starting next semester.
+49. Fetch software releases after version 2.0.
+50. Show real estate listings under $300,000.
+51. Find public groups created this year.
+52. Retrieve all donations over $100.
+53. List all jobs in the "tech" industry.
+54. Get books with an available e-book version.
+55. Fetch articles with over 1,000 views.
+56. Retrieve all cars with automatic transmission.
+57. Find stores open on Sundays.
+58. List all available internships in "finance".
+59. Get concerts scheduled for this weekend.
+60. Fetch pet adoptions after March 2023.
+61. Show classes taught by "Professor John Doe".
+62. Find community centers offering yoga classes.
+63. Retrieve contest entries from the last month.
+64. List all gadgets with a warranty.
+65. Get photos tagged with "summer".
+66. Fetch accommodation options in "Paris".
+67. Retrieve devices manufactured by "Samsung".
+68. Find active registrations for this seminar.
+69. List all items back in stock.
+70. Get discounts applicable to student members.
+71. Fetch all support tickets marked "urgent".
+72. Show digital art pieces from 2022.
+73. Find books translated into French.
+74. Retrieve all hiking trails in "Colorado".
+75. List scholarships available for undergraduates.
+76. Get wines rated above 90 points.
+77. Fetch laptops released in the last year.
+78. Retrieve all gourmet restaurants in "Tokyo".
+79. Find corporate training sessions scheduled this year.
+80. List artworks exhibited in 2023.
+81. Get mobile plans with unlimited data.
+82. Fetch rental cars with GPS included.
+83. Show recent developments in "AI".
+84. Retrieve top-selling items last quarter.
+85. Find forums with active discussions.
+86. List all completed construction projects.
+87. Get news articles published today.
+88. Fetch user reviews for "Hotel XYZ".
+89. Retrieve online resources for learning "Python".
+90. Find newsletters sent in the past week.
+91. List clubs with a membership fee under $50.
+92. Get presentations by keynote speaker "Jane Doe".
+93. Fetch insurance policies ending this year.
+94. Show all communities focused on sustainability.
+95. Find theaters showing "Oppenheimer".
+96. Retrieve all charity events in December.
+97. List health plans covering "dental".
+98. Get grants awarded to "non-profits".
+99. Fetch all device settings with "dark mode".
+100. Retrieve open listings in the "art" category.
+101. Find all boats available for rent this weekend.
+102. List workshops related to "photography".
+103. Get courses suitable for beginners.
+104. Fetch access records in the past two weeks.
+105. Show documentaries about wildlife.
+106. Find journals with "peer-reviewed" status.
+107. Retrieve grant applications due in 2024.
+108. List all available data analysis tools. 
+
+These queries demonstrate the flexibility and diverse capabilities of NoSQL databases, particularly for varied application domains and data types.

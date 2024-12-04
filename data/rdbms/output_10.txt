@@ -1,0 +1,113 @@
+Certainly, here is a list of 109 unique natural language queries that are typically efficient with relational databases due to their structured nature and would generally not perform as well in non-relational or other types of databases:
+
+1. List all employees who were hired before 2005.
+2. Count the number of orders placed by each customer.
+3. Display all students who have scored above 85% in Mathematics.
+4. Find the average salary of employees in each department.
+5. Retrieve all products that have inventory levels below the reorder threshold.
+6. Show all flight bookings made within the last 6 months.
+7. List the top 10 customers by order volume.
+8. Find the course names and the number of students enrolled in each.
+9. Display the total sales amount for each product category.
+10. Retrieve customers who haven't placed an order in the last year.
+11. Show employees who have not received a promotion in the last 5 years.
+12. Find the most recent orders placed by international customers.
+13. Calculate the total revenue from sales in the last fiscal quarter.
+14. List all employees sorted by their hire date.
+15. Retrieve all transactions that occurred on a holiday.
+16. Find the highest-priced product in each category.
+17. List all active projects and their completion percentages.
+18. Display customer names and the total amount spent by each in descending order.
+19. Find all books authored by 'Jane Doe' and published after 2010.
+20. Show all vendors with whom we have active contracts.
+21. Retrieve the names and contact details of all employees who are managers.
+22. List all departments with the number of employees in each.
+23. Find all classes scheduled for Monday and Wednesday this semester.
+24. Display students who have not paid their tuition fees.
+25. Retrieve the average score in each subject across all students.
+26. List all branches and their corresponding regional managers.
+27. Find customers with more than three transactions in a single month.
+28. Show the last login date of users who have not logged in this month.
+29. Retrieve the list of suppliers and the number of products supplied by each.
+30. Display all meetings scheduled for next week with their locations.
+31. Find all patients who have had more than two appointments this year.
+32. List the top 5 highest grossing movies in the current year.
+33. Retrieve users who have rated more than 50 items in the system.
+34. Show employees who will retire in the next 5 years.
+35. Find all products that have never been sold.
+36. Display customer feedback submitted within the last week.
+37. List all invoices with a due date within the next 30 days.
+38. Retrieve all land parcels with incomplete development status.
+39. Show all students enrolled in both Math and Science courses.
+40. Find projects with a start date in the next quarter.
+41. Retrieve the list of cities with the highest number of sales.
+42. Display all managers who supervise more than ten employees.
+43. Find the number of units sold of each product this year.
+44. List all maintenance requests pending for more than one month.
+45. Retrieve all active members with expired memberships.
+46. Show scheduled events for the next three months.
+47. Find employee pairs that share the same job title but work in different offices.
+48. Display a list of all vendors who supply both electronics and furniture.
+49. Retrieve all concerts at venues with a capacity over 5000 seats.
+50. List all active promotions and their expiration dates.
+51. Find all library books that have never been checked out.
+52. Show all bank accounts with a negative balance.
+53. Retrieve current and past memberships of all club members.
+54. List all registered vehicles older than 15 years.
+55. Find properties with a valuation above the median price in their area.
+56. Display the transaction history of all corporate accounts for last year.
+57. Show all software licenses that will expire within the next 60 days.
+58. Retrieve a list of all customers with multiple accounts.
+59. List all restaurants in the database and their average customer rating.
+60. Find the total hours worked by each employee this month.
+61. Show products purchased by employees in the last 6 months.
+62. Retrieve the number of active licenses per software category.
+63. List all articles published in the journal's latest issue.
+64. Find all warehouses with storage utilization below 50%.
+65. Display vendor payment histories with outstanding balances.
+66. Show all user accounts locked due to incorrect login attempts.
+67. Retrieve machinery maintenance records overdue by more than 10 days.
+68. List all teachers handling three or more different subjects.
+69. Find stock items with a turnover rate exceeding quarterly projections.
+70. Display students with identical scores in more than one subject.
+71. Retrieve all facilities closed temporarily within the calendar year.
+72. List all conference attendees from the healthcare sector.
+73. Find all foreign exchange transactions in the messaging system.
+74. Show all expired subscription services as of last month.
+75. Retrieve the list of athletes with qualifying scores for the finals.
+76. List all publications older than 100 years in the library catalog.
+77. Find all overdue books and their respective borrowers.
+78. Display the schedule for public transport during holidays.
+79. Show artists with more than ten artworks listed for sale.
+80. Retrieve payments processed through multiple payment gateways.
+81. List all doctors who have on-call duties this week.
+82. Find categories of products with declining month-over-month sales.
+83. Display all available courses for the upcoming semester.
+84. Retrieve character names played by actors in more than one franchise.
+85. List all completed infrastructure projects in the last 10 years.
+86. Find unclaimed insurance policies after the policy end date.
+87. Show the enrollment count for each class in the upcoming year.
+88. Retrieve broadcast times for all live events on the network.
+89. List all landmarks and their visitor statistics.
+90. Find internship opportunities at companies within a specific location.
+91. Display all rental properties with a vacancy longer than 6 months.
+92. Show research papers published in journals with an impact factor above 5.
+93. Retrieve the history of all high-severity technical incidents.
+94. List alumni who graduated with honors in the last decade.
+95. Find all asset classes with an average annual return above 8%.
+96. Display all tailgating events associated with major events.
+97. Show non-profit organizations with annual donations above $50,000.
+98. Retrieve conference papers presented by the same author group.
+99. List all products recalled due to safety concerns.
+100. Find the pension plan beneficiaries with incorrect or missing information.
+101. Display all logistics companies with partnerships in Europe.
+102. Retrieve photographers with collections in both online and physical formats.
+103. List all verified suppliers certified by environmental standards.
+104. Find all technical certifications renovable within the year.
+105. Show all recurring inventory audit discrepancies.
+106. Retrieve companies with a corporate social responsibility score above average.
+107. List all emerging market funds underperforming since inception.
+108. Find current sports teams with players from over 10 different countries.
+109. Display all renovation plans for commercial buildings since 2020.
+
+These queries take advantage of relational databases' capabilities to handle structured data relationships, join across multiple tables, apply complex filtering and aggregations, and enforce data integrity, with efficiency and precision that non-relational databases generally cannot match for these types of queries.

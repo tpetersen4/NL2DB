@@ -1,0 +1,125 @@
+Creating natural language queries suitable for a relational database requires considering queries that involve structured data, complex relationships, and precise, table-based operations. Here are 121 unique queries:
+
+1. What are the top 10 best-selling products this month?
+2. List the customers who made purchases in both January and February.
+3. Which employees are assigned to more than three projects?
+4. Find all orders that have not been delivered yet.
+5. What is the average salary for employees in the Marketing department?
+6. List the top 5 suppliers by the number of products supplied.
+7. Which products have never been ordered?
+8. Find the total sales revenue generated from online orders.
+9. Which customers have not made any purchases in the last year?
+10. List all employees who report directly to the CEO.
+11. Which salesman's commissions exceeded $10,000 last quarter?
+12. Identify the top 3 categories of products sold in 2022.
+13. What are the names of authors with more than 5 published books?
+14. Find all students who are enrolled in Algebra and Chemistry.
+15. What days have the highest transaction counts over the last month?
+16. List all locations that have more than one branch.
+17. Find customers whose orders have been delayed more than twice.
+18. Which invoices were unpaid more than 60 days overdue?
+19. What is the total quantity of each product sold in the past week?
+20. Identify products with declining sales over the last three months.
+21. List managers with more than 10 subordinates.
+22. What events are scheduled for the next quarter?
+23. Identify the average delivery time for all shipments.
+24. Which tenants have rental agreements expiring this month?
+25. List all active users who registered in the last 6 months.
+26. Which books have been checked out but never returned?
+27. Find employees who have worked in more than three departments.
+28. What are the longest-running partnerships with vendors?
+29. Which accounts have been inactive for more than a year?
+30. List courses with more than 50 students enrolled.
+31. Find all rooms that are currently unavailable.
+32. What is the net profit by branch for the last fiscal year?
+33. Identify patients who have appointments within the next week.
+34. Which servers are hosting more than 100 virtual machines?
+35. List items in stock that have not been reordered in the last year.
+36. What are the most common customer complaints?
+37. Find departments with a budget over $1 million.
+38. Which products have been returned the most?
+39. List all patrons with overdue library books.
+40. What is the ratio of male to female employees?
+41. Identify books that have a waiting list.
+42. Which contractors have contracts worth over $500,000?
+43. What is the total expense for travel in 2023?
+44. List all vehicles that require maintenance this month.
+45. Identify suppliers who have been inactive this quarter.
+46. What is the performance ranking of all employees by group?
+47. Which programs are fully booked for the next quarter?
+48. List securities with less than 100 shares held.
+49. Identify customers with multiple accounts.
+50. Which scholarships have the highest number of applicants?
+51. List all tenants with outstanding rent payments.
+52. What are the ongoing projects in the Research department?
+53. Identify the least popular classes based on enrollment.
+54. Which vendors offer discounts on bulk orders?
+55. List all machines that have had maintenance twice this year.
+56. What is the total number of units produced by each factory?
+57. Identify orders placed by first-time customers this month.
+58. Which airports have the most international flights?
+59. List movies with a rating below 2 stars.
+60. What are the most frequently used shipping carriers?
+61. Identify crops planted by more than 20 farmers.
+62. Which contracts expire within the next 30 days?
+63. List teachers with more than 20 years of service.
+64. What is the longest wait time reported by customers?
+65. Identify products eligible for a promotional discount.
+66. Which parcels have been in transit for over 10 days?
+67. List properties that have changed ownership this year.
+68. What is the customer satisfaction score by region?
+69. Identify artists with more than five exhibitions.
+70. Which webinars have the most registered attendees?
+71. List all digital assets that require archive action.
+72. What are the shipment weights for orders over $500?
+73. Identify software licenses that are due for renewal.
+74. Which athletes have won more than five medals?
+75. List seminars that have issued certificates of completion.
+76. What products have a reorder level of less than 10?
+77. Identify all supervisors with fewer than three team members.
+78. Which employees have failed to complete annual training?
+79. List affiliates with more than 1,000 referrals.
+80. What books are most frequently requested?
+81. Identify the revenue streams that are underperforming.
+82. Which cities have employees with more than two job roles?
+83. List magazines with a subscription decline over 10%.
+84. What is the depletion rate for warehouse stock?
+85. Identify popular room service items by hotel.
+86. Which games have a review score below 50%?
+87. List training sessions with open attendance slots.
+88. What are the oldest active equipment items?
+89. Identify the most common causes for service outages.
+90. Which flights have overbooked seating?
+91. List properties under construction in the last quarter.
+92. What languages are used in automated procedures?
+93. Identify sectors with the highest employee turnover.
+94. Which stocks have a trading volume above 500,000?
+95. List all scheduled maintenance tasks for next week.
+96. What is the growth percentage by department?
+97. Identify the projects completed ahead of schedule.
+98. Which services have the lowest customer ratings?
+99. List all contracts awarded this quarter.
+100. What is the geographical distribution of warehouses?
+101. Identify critical system alerts from last month.
+102. Which stores have experienced stockouts most frequently?
+103. List attendees of the last annual conference.
+104. What is the approval rate for recent applications?
+105. Identify breaches in compliance within policies.
+106. Which campaigns have exceeded their targets?
+107. List all returns processed within the last month.
+108. What are the breakdowns of team productivity metrics?
+109. Identify houses listed for sale over six months.
+110. Which professors have submitted final grades late?
+111. List all cases open in the legal department.
+112. What is the utilization rate of shared resources?
+113. Identify partners with co-branding agreements.
+114. Which courses have students with a waiting list?
+115. List authors scheduled for book signings.
+116. What’s the success rate of closed support tickets?
+117. Identify grants awarded to more than 30 applicants.
+118. Which leaders have managed cross-functional projects?
+119. List all venues with event bookings in December.
+120. What are the vehicles' emissions compliance status?
+121. Identify all sales channels underperforming targets.
+
+These queries demonstrate the kind of structured, relationship-dependent inquiries that relational databases handle well.

@@ -1,0 +1,113 @@
+Certainly! Here are 111 unique natural language queries suitable for NoSQL databases like MongoDB:
+
+1. What is the total number of users registered in our database?
+2. Find the user's profile with the username "john_doe".
+3. Retrieve all products that have a stock level below 20 units.
+4. List all orders placed in the last 30 days.
+5. Show all customers with an email address from the domain "gmail.com".
+6. Find posts that have more than 100 likes.
+7. Search for all movies released in the year 2021.
+8. Retrieve all blogs tagged with "technology".
+9. Find users who have made at least one purchase this year.
+10. Show all songs longer than four minutes duration.
+11. List all employees who joined in the last six months.
+12. Find the highest-priced product in the electronics category.
+13. Retrieve details of the latest five articles published.
+14. List all cities where the order volume exceeds 50.
+15. Find names of all authors with more than five publications.
+16. Show all comments containing the keyword "excellent".
+17. Retrieve all recipes that include "chocolate" as an ingredient.
+18. Find all books with a rating higher than four stars.
+19. List all products with a discount greater than 10%.
+20. Find all photos uploaded by user "alice123".
+21. Retrieve all events scheduled for the month of December.
+22. Show all employees who work in the "marketing" department.
+23. List all vendors located in California.
+24. Find all transactions exceeding $1,000.
+25. Retrieve all issues reported in the last 24 hours.
+26. Show all feedback with a user rating of five stars.
+27. Retrieve all students enrolled in the "data science" course.
+28. Find all video games with an age rating of "Teen".
+29. List all vehicles manufactured after the year 2015.
+30. Show all job postings tagged as "remote".
+31. Retrieve all properties within a 10-mile radius of New York City.
+32. Find all restaurants with a delivery option.
+33. List all open tickets in the support system.
+34. Retrieve details of the top ten most popular products.
+35. Show all flights departing from Los Angeles.
+36. List all emails sent to the address "support@example.com".
+37. Find all messages marked as "urgent".
+38. Retrieve all notifications sent within the last hour.
+39. Show all images labeled as "nature".
+40. List all languages spoken by more than a million users.
+41. Retrieve all applications with a status of "pending".
+42. Find all books authored by "Stephen King".
+43. Show all accounts that have been inactive for over 90 days.
+44. Retrieve all invoice records from January 2023.
+45. Find all pets available for adoption in "San Francisco".
+46. List all podcasts with a runtime less than 30 minutes.
+47. Retrieve all transaction histories for "account_id_123".
+48. Find all classes that are scheduled on Mondays.
+49. Show all promotional offers available currently.
+50. List all permits issued in the "construction" sector.
+51. Retrieve all website visits within the last week.
+52. Find all cities with a population over a million.
+53. Show all hotels with a star rating of five.
+54. Retrieve all chapters under the "introduction" section.
+55. List all stores open past 9 PM.
+56. Find all films directed by "Christopher Nolan".
+57. Show all tasks assigned to team "alpha".
+58. Retrieve all notes with the tag "important".
+59. Find all software updates released this quarter.
+60. List all anime series with more than 50 episodes.
+61. Show all bank branches located in "downtown".
+62. Retrieve all newsletters sent in April 2022.
+63. Find all datasets categorized under "environment".
+64. List all virtual reality games compatible with Oculus.
+65. Retrieve all calendar events for February 14th.
+66. Find all trains arriving at "Station A" before noon.
+67. Show all tutorials related to "machine learning".
+68. List all documentaries with "award-winning" mentions.
+69. Retrieve all "read" status notifications.
+70. Find all weather reports for the past seven days.
+71. Show all real estate listings priced under $500,000.
+72. List all business accounts registered since 2020.
+73. Retrieve all recipes suitable for "vegetarian" diets.
+74. Find all runners registered for the "city marathon".
+75. Show all museums offering free entry.
+76. Retrieve all clothing items in the "summer" collection.
+77. Find all adventure parks near "Miami".
+78. List all foreign exchange rates between USD and EUR.
+79. Retrieve all grant applications submitted this month.
+80. Show all faculty members teaching "biology".
+81. Find all threads with more than 50 comments.
+82. List all mobile apps developed by "TechCorp".
+83. Retrieve all published patents by "Innovate Inc.".
+84. Find all journal entries with "grateful" as a keyword.
+85. Show all items included in the clearance sale.
+86. Retrieve all requests marked as "high priority".
+87. Find all training modules completed by "employee_id_456".
+88. List all fantasy books in our inventory.
+89. Show all hiking trails open during winter.
+90. Retrieve all biographies written in the 20th century.
+91. Find all artwork on display in the "modern art" section.
+92. List all awards won by actor "Leonardo DiCaprio".
+93. Retrieve all bills with a due date past today's date.
+94. Find all libraries offering "ebook" loans.
+95. Show all tweets with the hashtag "#InnovationSummit".
+96. Retrieve all workshops related to "leadership skills".
+97. Find all discounts applicable for "first-time buyers".
+98. List all playlist titles created by "dj_smith".
+99. Show all experiences tagged under "extreme sports".
+100. Retrieve all customer support chats from last Friday.
+101. Find all bicycles available for rent in "Central Park".
+102. List all APIs used in the "WeatherApp" project.
+103. Retrieve all feature films with subtitles in Spanish.
+104. Find all user comments posted on "RecipeBlog".
+105. Show all band performances at "Jazz Festival".
+106. List all construction projects completed this summer.
+107. Retrieve all personalized recommendations for "user123".
+108. Find all annual reports archived in 2022.
+109. Show all fundraising activities by "CharityOrg".
+110. Retrieve all interactive tutorials for "web development".
+111. Find all campus events marked as "open to public".

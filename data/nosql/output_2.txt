@@ -1,0 +1,127 @@
+Sure! Creating 123 unique queries requires understanding the type of data you might store in a NoSQL database like MongoDB. Below is a list of example queries. These queries aim to demonstrate a range of operations such as filtering, aggregation, and updates, which are common in NoSQL databases.
+
+1. Find all users who signed up after January 1, 2022.
+2. Retrieve products with a price greater than $50.
+3. List all orders shipped to Canada.
+4. Count the number of active users.
+5. Find all books written by "J.K. Rowling".
+6. Retrieve all movies released in the year 2020.
+7. List all customers with more than three orders.
+8. Find all employees working in the "Sales" department.
+9. Get the average price of all electronic products.
+10. Retrieve all blog posts containing the keyword "AI".
+11. List all cities with a population greater than 1 million.
+12. Find all events scheduled for the next two weeks.
+13. Retrieve all songs longer than 4 minutes.
+14. List all restaurants with a five-star rating.
+15. Find all cars manufactured by "Toyota".
+16. Get the total sales for March 2022.
+17. Retrieve all messages sent by "john_doe".
+18. List all books translated into Spanish.
+19. Find all students enrolled in "Math 101".
+20. Retrieve all comments on the article titled "The Future of Tech".
+21. List all flights departing from "JFK Airport".
+22. Find all transactions above $1,000.
+23. Retrieve all paintings by "Picasso".
+24. List all phone numbers of users from New York.
+25. Find all hotels with an available pool.
+26. Retrieve all conferences happening in 2023.
+27. List all job postings for "software engineer".
+28. Find all recipes that include "chocolate".
+29. Retrieve all user profiles with a completed bio.
+30. List all dogs available for adoption.
+31. Find all courses with more than 50 enrolled students.
+32. Retrieve all usernames that start with "A".
+33. List all blog posts published last week.
+34. Find all articles tagged with "health".
+35. Retrieve all apartments for rent under $1,200.
+36. List all products with a discount greater than 20%.
+37. Find all wedding venues in "San Francisco".
+38. Retrieve all podcasts hosted by "Jane Doe".
+39. List all tweets mentioning "climate change".
+40. Find all laptops with at least 8GB RAM.
+41. Retrieve the top 10 best-selling books.
+42. List all records in the genre "jazz".
+43. Find all artworks currently on exhibition.
+44. Retrieve all user accounts created in 2023.
+45. List all properties with at least 3 bedrooms.
+46. Find all vegan-friendly restaurants.
+47. Retrieve all published research papers on "quantum physics".
+48. List all current subscribers of the newsletter.
+49. Find all gym members whose membership is expired.
+50. Retrieve all orders below $100.
+51. List all projects with a deadline in December.
+52. Find all antiques from the 18th century.
+53. Retrieve all transactions processed by "Paypal".
+54. List all games rated "E" for everyone.
+55. Find all events sponsored by "TechCorp".
+56. Retrieve all trains arriving at "Union Station".
+57. List all freelancers with JavaScript skills.
+58. Find all hotels booked in the past month.
+59. Retrieve all profiles with a profile picture.
+60. List all recipes rated four stars or higher.
+61. Find all messages containing the hashtag "#travel".
+62. Retrieve all iOS apps launched in 2022.
+63. List all employees hired after March 15, 2021.
+64. Find all laptops with a touchscreen feature.
+65. Retrieve all cars with a sunroof option.
+66. List all blogs that have "tutorial" in the title.
+67. Find all issues reported on "GitHub".
+68. Retrieve all customer reviews for product "X".
+69. List all episodes of the podcast "Innovation Today".
+70. Find all shoes available in size 10.
+71. Retrieve all surveys completed by "company Y".
+72. List all users who have admin privileges.
+73. Find all blockchain-related research papers.
+74. Retrieve all available job positions in "Finance".
+75. List all orchestral recordings with "Beethoven".
+76. Find all properties with a garden.
+77. Retrieve all Uber rides requested on New Year’s Eve.
+78. List all businesses opened after 2020.
+79. Find all vacancies in "San Diego".
+80. Retrieve all music albums released after 2015.
+81. List all photos tagged as "sunset".
+82. Find all freelance jobs paying over $100/hr.
+83. Retrieve all courses available online.
+84. List all cosmetics free from animal testing.
+85. Find all batteries with a capacity over 5000mAh.
+86. Retrieve all short stories by "John Steinbeck".
+87. List all running events happening in June.
+88. Find all calculators supporting statistics functions.
+89. Retrieve all online orders not yet shipped.
+90. List all paintings auctioned at "Sotheby's".
+91. Find all themes categorized under "minimalist".
+92. Retrieve all web comics with the character "Hero-Man".
+93. List all book series with more than 5 parts.
+94. Find all chocolate brands made in Switzerland.
+95. Retrieve names of all trees located in "Central Park".
+96. List all game consoles released before 2005.
+97. Find all breweries producing more than 1 million barrels yearly.
+98. Retrieve all webinar registrations until April 2023.
+99. List all spas offering a hot stone massage.
+100. Find all stadiums with a retractable roof.
+101. Retrieve all authors featured in this month’s magazine.
+102. List all cafes open 24 hours.
+103. Find all locations offering free COVID-19 testing.
+104. Retrieve all investment opportunities tagged as "green tech".
+105. List all beaches designated as "safe for swimming".
+106. Find all museums with free entry on Sundays.
+107. Retrieve all influencers with over 100k followers.
+108. List all orchestras performing "Mozart Requiem".
+109. Find all exams scheduled for next Friday.
+110. Retrieve all references to "Mars" in published articles.
+111. List all fashion shows scheduled for September.
+112. Find all yoga classes with "outdoor" in the description.
+113. Retrieve all fishing licenses issued this year.
+114. List all matchmaking profiles with a compatibility score above 80.
+115. Find all cloud storage services offering unlimited backup.
+116. Retrieve all car models available in electric variants.
+117. List all candy containing more than 50% cocoa.
+118. Find all wildlife documentaries categorized as "endangered species".
+119. Retrieve all foreign exchange rates updated today.
+120. List all exclusive collections of jewelry over $5,000.
+121. Find all patient records with scheduled surgeries.
+122. Retrieve all groups interested in "sustainability".
+123. List all innovative startups in "Artificial Intelligence".
+
+These queries demonstrate how you might interact with various types of data stored in a NoSQL database like MongoDB. Adjust field names and parameters as needed to fit your specific database schema and requirements.

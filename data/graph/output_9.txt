@@ -1,0 +1,119 @@
+Creating efficient and unique natural language queries for graph databases involves understanding the types of questions that graph structures are well-suited to handle. Below is a diverse set of queries that can be efficiently executed on graph databases. These queries assume a generic graph structure and can be adapted to specific domains or datasets.
+
+1. Find all people connected to John within two degrees of separation.
+2. What are the shortest paths from Alice to Bob?
+3. Who are the mutual friends between Charlie and Dave?
+4. List all the products purchased by customers who also bought "Product X".
+5. Identify all the authors who have co-authored a paper with Dr. Smith.
+6. Which employees report directly or indirectly to Manager Y?
+7. Find all the cities directly connected to Paris by direct flights.
+8. What is the most common job title among Susan's first-degree connections?
+9. Retrieve the top influencers in this social network.
+10. What are the common interests between members of Group A and Group B?
+11. Find customers who have purchased items frequently bought together.
+12. Identify all companies in which Investor Z has investments.
+13. List all possible paths from Source A to Destination B.
+14. Who are the key opinion leaders in this discussion forum?
+15. What films have actor Y starred in with actor Z?
+16. Find all papers that cite "Important Paper X".
+17. Which nodes have the highest degree centrality in the network?
+18. Who are the alumni of University X that work at Company Y?
+19. Discover all the components of the graph that are strongly connected.
+20. List the top five communities detected within this network.
+21. What are the shortest paths for package delivery between City A and City B?
+22. Identify potential frauds by analyzing unusual transaction patterns.
+23. Retrieve all nodes reachable from Node A within three hops.
+24. Which products form a dependency chain leading to "Product X"?
+25. Find all people in the company who have worked under both Supervisor A and B.
+26. Which websites are frequently visited by the same users who log into Site X?
+27. What are the hierarchical levels between Employee X and the CEO?
+28. Detect possible loops in this supply chain network.
+29. Find all buildings connected to the main power grid.
+30. List all family members related to Individual Y up to three generations back.
+31. How many clusters are there in the customer purchase graph?
+32. Which paths have the least resistance in this electrical grid?
+33. Retrieve all security vulnerabilities reported in software "Product X".
+34. Which facilities are directly supplied by Factory Y?
+35. Identify all nodes affected if Node A fails in this network.
+36. What are the typical migration patterns observed in the species?
+37. List the key decision-makers in this organizational chart.
+38. Find all related legal cases for Case X.
+39. Who in the network has the strongest connection to the marketing department?
+40. Retrieve all projects Employee Y has collaborated on across teams.
+41. Discover all common ancestors of Person A and Person B.
+42. What alternative routes exist between two traffic points?
+43. Find influencers who have connections in at least three distinct communities.
+44. Identify all known aliases of Criminal X in the network.
+45. Which transactions in this network exceed $1 million?
+46. List all individuals who attended both Conference A and B.
+47. Discover which areas in the city are underserved by public transport.
+48. Find all artists involved in both Art Movement A and B.
+49. How many redundant connections exist in this telecom network?
+50. Retrieve all dependencies for library "Library X".
+51. What other sports are played by athletes competing in "Sport X"?
+52. Identify companies with shared board members.
+53. List all nodes in the graph with a degree higher than ten.
+54. Discover all potential routes for data packets in the network.
+55. What are the key campaigns influencing public opinion in this year?
+56. Find all mentors connected to Student X across the program.
+57. List all online communities Person Y is a member of.
+58. Identify all government officials with ties to Organization X.
+59. Retrieve all user's travel histories that include "City Y".
+60. Find all seminars attended by employees from Department X.
+61. Who are the repeat customers for Product Y?
+62. Discover all events linked to Participant Z.
+63. Retrieve all safety incidents reported in Plant A.
+64. List all satellite connections originating from Ground Station X.
+65. Identify all software that interoperate with System Y.
+66. Find the main hubs in this transportation network.
+67. List all team members in projects led by Leader X.
+68. Retrieve all the routes in this railway network.
+69. Which natural resources are shared between Region A and Region B?
+70. Discover the shortest path to reach Customer X.
+71. Who are the key suppliers for components in Product Y?
+72. List all scientists who contributed to Research Project X.
+73. What are the overlap points in distribution channels A and B?
+74. Retrieve all events Person Y RSVP'd 'Yes' to but didn't attend.
+75. Identify all shareholders with stakes in both Company A and B.
+76. Discover all past and present associations with Club X.
+77. Find all houses connected to the main water supply system.
+78. What nodes have direct connections to both Node A and B?
+79. Retrieve all the countries trading with Country X.
+80. List all tasks Employee Y manages across different projects.
+81. Identify all user interactions with the support team.
+82. Which countries are directly influenced by policies from Organization X?
+83. Find common pathways used by hackers in system breaches.
+84. Retrieve all customer complaints related to Feature Y.
+85. Which team members have collaborated at least three times on projects?
+86. Discover universities with the highest number of published authors in Field X.
+87. List all neighboring nodes to Node Z within one degree.
+88. Identify critical junctions in this network infrastructure.
+89. Retrieve all connections between Member A and B in this club.
+90. Find all places Person X has lived in the past decade.
+91. What are the overlap periods for employees with dual department roles?
+92. Who are the primary influencers on Topic X in social media platforms?
+93. Retrieve the history of ownership for Property Y.
+94. List all the dependencies required for System X updates.
+95. Identify all pathways disrupted by the removal of Node Z.
+96. Which politicians have overlapping interests in Policy Y?
+97. Find all data nodes affected by a recent security breach.
+98. Who has shared publications with Author Y?
+99. List all available backups for Data Node X.
+100. What other projects interact with Project A based on shared resources?
+101. Find the hierarchy of positions within Department X.
+102. Identify all cross-functional team collaborations in the company.
+103. Retrieve interactions between Users A, B, and C during Event X.
+104. Which researchers have patents co-authored with Inventor Y?
+105. Discover common themes across different forums discussing Technology X.
+106. List all authors who simultaneously belong to multiple study groups.
+107. Find all the junctions in this road network susceptible to bottlenecks.
+108. Retrieve all the related catalogs for "Catalog Series Y".
+109. Identify hidden influencers within subcategories of this social network.
+110. What are the most traversed pathways during peak hour in the city?
+111. List all services provided by Supplier X to Client Y.
+112. What common points do rival companies share within their supply chains?
+113. Find all real estate properties linked to Agency Z.
+114. Which employees are involved in at least two training programs?
+115. Retrieve all legal entities Person X has a controlling interest in.
+
+These queries leverage graph database capabilities like pathfinding, network traversal, community detection, and pattern matching which are optimized for graph data structures. Adjustments may be required based on specific database schema and requirements.

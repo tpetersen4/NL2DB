@@ -1,0 +1,123 @@
+Sure, here are 119 unique natural language queries that are well-suited for relational databases due to their structured data requirements and the efficiency of SQL:
+
+1. What are the total sales figures by region for the last quarter?
+2. List all customers who haven't made a purchase in the last year.
+3. What is the average order value for each product category?
+4. Show a year-over-year comparison of employee headcount by department.
+5. Find all suppliers who provide more than three different types of products.
+6. What is the total revenue from each customer segment?
+7. List all products that have never been sold.
+8. Which employees have exceeded their sales targets this year?
+9. Generate a report of monthly sales by product for the past five years.
+10. Identify underperforming stores based on revenue benchmarks.
+11. List employee details with their respective departmental head.
+12. What is the customer lifecycle duration on average?
+13. Show all transactions that exceed the customer's average transaction value.
+14. How many orders were placed during each promotional event?
+15. What are the average delivery times by carrier?
+16. List the top 10 best-selling products per region.
+17. Which branches have the highest employee attrition rates?
+18. Find customers who have referred other customers.
+19. What is the total number of units sold per product last month?
+20. List all overdue invoices by vendor.
+21. Find the top 5 stores based on customer satisfaction ratings.
+22. Which products have had the most price changes in the past year?
+23. What is the average tenure of all employees?
+24. List all active projects and their current status.
+25. How many unique visitors does each website receive monthly?
+26. Identify products that yield the highest profit margins.
+27. Which customer demographics have the highest purchase frequency?
+28. Determine the average discount rate provided per sales representative.
+29. List all employees eligible for retirement within the next year.
+30. What is the customer retention rate for the last fiscal year?
+31. Show the breakdown of expenses by department for last year.
+32. What inventory items need restocking based on sales trends?
+33. List all clients who have active contracts but no recent interactions.
+34. Find the average response time to customer inquiries.
+35. What are the projected revenues for next quarter per product line?
+36. Identify products that typically sell together.
+37. List departments with the highest overtime hours.
+38. Which marketing campaigns have led to the most new customer acquisitions?
+39. What is the breakdown of sales by salesperson?
+40. List all pending tasks assigned to each employee.
+41. Find all accounts that have been inactive for over six months.
+42. Show the most common product returns by reason.
+43. What are the top 3 best-performing investment portfolios this month?
+44. List all available positions and their respective hiring managers.
+45. What is the historical growth trend of the company's revenue?
+46. Identify discrepancies in financial reporting by department.
+47. What are the month-end inventory levels for each warehouse?
+48. Generate a summary of compliance issues detected this year.
+49. List all vendors with contracts expiring in the next quarter.
+50. What is the annual training budget consumed by department?
+51. Show the frequency of customer support call types.
+52. List the most requested product features by customers.
+53. What are the trends in customer complaints by type?
+54. Identify the suppliers with the longest lead times.
+55. List projects that are over-budget and behind schedule.
+56. What is the debt-to-equity ratio over the past five years?
+57. Find average energy consumption per site monthly.
+58. What is the quarterly variance in marketing expenses?
+59. List all shareholders and their voting percentages.
+60. Show a comparison of actual vs. target sales for last month.
+61. Which cities have the highest number of active customers?
+62. Find the lifetime value of each customer segment.
+63. What is the churn rate for different subscription plans?
+64. List all customer feedback ratings and comments.
+65. What are the most common job titles among employees?
+66. Identify the peak production times for each factory.
+67. List all service requests pending longer than a week.
+68. What are the most common reasons for product defects?
+69. Show the year-end bonus distribution by role.
+70. What are the outcomes of major product launches in the past decade?
+71. Find the expense reports flagged for audit in the last year.
+72. List the percentage growth in social media followers by platform.
+73. What is the current status of portfolio investments?
+74. Identify the top competitors in each market segment.
+75. What is the correlation between advertising spend and sales growth?
+76. List all product lines with declining sales.
+77. What is the historical attendance trend at company events?
+78. Find the average number of days to close a sales deal.
+79. List all Patents set to expire in the next 12 months.
+80. What is the breakdown of payment methods used by customers?
+81. Identify stores with the highest theft reports.
+82. Which new products have outperformed expectations?
+83. List the most common sources of employee grievances.
+84. What is the effectiveness of online versus offline campaigns?
+85. Find projects with the highest risk assessment scores.
+86. What are the seasonal trends in product demand?
+87. List the most important datasets used in the last annual report.
+88. What is the utilization rate of each type of equipment?
+89. Show the retention rates of scholarship recipients by year.
+90. What is the percentage of completed training per employee?
+91. List the demographics of survey respondents.
+92. What is the overall engagement score of each product line?
+93. Find the most-utilized services by customer tier.
+94. List projects completed under budget in the past 5 years.
+95. What is the timeline for upcoming regulatory changes?
+96. Identify email campaigns with the highest click-through rates.
+97. What is the ratio of revenue to employee count over time?
+98. List the most popular holiday destinations booked by customers.
+99. What is the average loan application processing time?
+100. Identify patterns in shipping delays by region.
+101. What is the compliance rate of safety regulations?
+102. List all forecasts of market share changes in the industry.
+103. Which customer reviews are frequently shared on social media?
+104. What is the average cost per click in digital marketing campaigns?
+105. List the top 3 customer loyalty rewards redeemed.
+106. Which branches consistently outperform their quarterly targets?
+107. What are the most common accidents reported by factory?
+108. Find areas with the greatest need for infrastructure upgrades.
+109. What is the demographic breakdown of new hires?
+110. List the expiration dates of all perishable inventory.
+111. What is the most popular feature requested by beta testers?
+112. Identify seasonal hiring needs based on past data.
+113. What is the discount redemption rate during promotions?
+114. List the average number of sick days taken per department.
+115. Find the correlation between customer engagement and sales success.
+116. What are the prevailing themes in consumer sentiment surveys?
+117. List the average lifecycle phase of each product line.
+118. What are the trends in investment returns for this year?
+119. Identify the top locations for future store openings based on data analysis.
+
+These queries leverage the structured nature and relational capabilities of relational databases to perform complex joins, aggregations, and multi-table analyses efficiently.
