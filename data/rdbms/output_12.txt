@@ -1,0 +1,129 @@
+Creating 125 unique natural language queries that are particularly suited for relational databases requires a focus on scenarios where structured, tabular data and complex relationships between entities are involved. Here are 125 examples:
+
+1. Find all employees who report to a manager in a specific department.
+2. Retrieve a list of customers along with the total amount they have spent.
+3. Get a list of all products that have never been ordered.
+4. Find all orders placed in the last month, sorted by order value.
+5. Provide a report of employee salaries categorized by department.
+6. List students who are enrolled in more than three courses.
+7. Get names of authors who have published more than five books.
+8. Retrieve purchases greater than $500 from clients who are also employees.
+9. Find all movies released in the same year as “The Godfather.”
+10. Get a list of all suppliers based in Germany along with supplied products.
+11. Find all flights with connections in more than one country.
+12. List tenants with rental agreements longer than one year.
+13. Provide the average test score for each classroom.
+14. Retrieve customers who made purchases in both January and February.
+15. Get departments with more than ten employees and an average salary above $70,000.
+16. Find all patients with more than two upcoming appointments.
+17. List all products that haven't been sold in the last year.
+18. Retrieve every customer's recent purchase and their last communication.
+19. Get a list of all buildings managed by the same property manager.
+20. Find all sales representatives who exceeded their sales targets.
+21. Provide a breakdown of daily sales per product category.
+22. Retrieve a list of rental cars currently overdue by more than three days.
+23. Get the names of students who failed two or more subjects.
+24. Find all volunteers who participated in both summer and winter programs.
+25. List all software engineers with Python and Java certifications.
+26. Retrieve all events occurring on national holidays.
+27. Get a list of all books borrowed and not returned in the last six months.
+28. Find all members who renewed their membership after expiration.
+29. List all internships completed by students who graduated this year.
+30. Provide the total hours worked by each part-time employee.
+31. Retrieve the top ten customers by total purchase value.
+32. Get a list of all items currently out of stock.
+33. Find all guests with reservations overlapping a major holiday.
+34. List all employees who have received an award in the last year.
+35. Retrieve all projects with a deadline in the next 30 days.
+36. Get companies that have contracts expiring this quarter.
+37. Find all classes scheduled for evenings in the upcoming semester.
+38. List products with more than a 10% increase in price last year.
+39. Provide the numbers of returned items per supplier.
+40. Retrieve a list of all concerts attended by VIP members.
+41. Get authors who collaborated on books written in two languages.
+42. Find all teachers whose classes have an average score above 85%.
+43. List employees with birthdays in the current month.
+44. Retrieve all invoices unpaid for more than 60 days.
+45. Get members who participated in workshops in successive years.
+46. Find all students who have changed courses more than twice.
+47. List libraries that haven't updated their catalog in the past two years.
+48. Provide the average delivery time per shipping company.
+49. Retrieve the most borrowed book categories in the past year.
+50. Get regions with sales growth above 20% in the last quarter.
+51. Find all donors who contributed to multiple causes.
+52. List all alumni who now work at Fortune 500 companies.
+53. Retrieve subscribers with renewal dates within the next month.
+54. Get a list of all courses that haven't been offered recently.
+55. Find all machines undergoing maintenance more than once a year.
+56. List all clients with both a banking and investment account.
+57. Provide details on all shared workspace reservations this month.
+58. Retrieve the quantity sale trends per product over the last five years.
+59. Get all staff members with performance scores above 90%.
+60. Find all authors with more than three distinct publishers.
+61. List musicians banned from venues after the incident.
+62. Retrieve venues with capacity over 1000 and bookings this month.
+63. Get all orders that include items from both major categories.
+64. Find employees who have taken breaks longer than two weeks.
+65. List all software licenses expiring this calendar year.
+66. Provide sales figures above a certain threshold by product and month.
+67. Retrieve a schedule of all recurring appointments for clients.
+68. Get all branches that exceeded quarterly financial goals.
+69. Find restaurants that have not updated their menus this season.
+70. List all transactions processed through a specific payment system.
+71. Retrieve professors who teach both undergrad and graduate classes.
+72. Get real estate properties sold in less than a month.
+73. Find subscribers who use more than one service.
+74. List departments with fewer than five staff members.
+75. Provide records of all audits conducted in the past two years.
+76. Retrieve customer support incidents resolved in a week.
+77. Get all partnerships that have existed longer than a decade.
+78. Find warehouses with inventory below safety levels.
+79. List all communications sent to premium customers this year.
+80. Retrieve parking violations issued near schools.
+81. Get branches operating on reduced hours today.
+82. Find users inactive for more than six months on the platform.
+83. List coaches with national team experience.
+84. Provide the list of all medals won by athletes in two events.
+85. Retrieve contracts signed with a specific legal clause included.
+86. Get beneficiaries receiving more than one scholarship.
+87. Find construction projects postponed more than twice.
+88. List investigators who have not completed an assigned case.
+89. Provide details of purchases during flash sales events.
+90. Retrieve courses that require prerequisites not updated in the system.
+91. Get all drivers with a perfect safety record over ten years.
+92. Find startups with funding rounds exceeding $10 million.
+93. List export orders processed faster than in the previous cycle.
+94. Provide a categorization of artwork by era in the gallery.
+95. Retrieve machine production exceeding set targets last month.
+96. Get a list of all items involved in recalls.
+97. Find all store locations with only part-time employees.
+98. List researchers affiliated with multiple academic institutions.
+99. Retrieve magazine issues with special features on technology.
+100. Get contracts with both international and local partners.
+101. Find classes with more than half the seats filled two months early.
+102. List all items with both online and physical shop promotions.
+103. Provide a breakdown of employee age range in every department.
+104. Retrieve shipments with routes spanning three or more countries.
+105. Get a list of all canceled reservations due to weather.
+106. Find retail locations with weekend-only hours.
+107. List suppliers involved in joint ventures this financial period.
+108. Provide a report on test scores with a deserving award scheme.
+109. Retrieve team members scheduled for promotion this quarter.
+110. Get all customer queries with escalations in the last 24 hours.
+111. Find all hotel rooms booked for consecutive weekends.
+112. List donors with major donations to political campaigns.
+113. Retrieve repair requests pending for household appliances.
+114. Get a list of all guest lecturers invited this academic year.
+115. Find services with price changes affecting ongoing contracts.
+116. List all financial transactions exceeding $1 million.
+117. Provide an overview of participants in a technology summit.
+118. Retrieve rental properties with restrictions on pets.
+119. Get couples who had more than one wedding event overseas.
+120. Find customers with disputed charges on their credit accounts.
+121. List all schools with declining student enrollments.
+122. Provide total expenses claimed by department for last year.
+123. Retrieve on-call schedules for healthcare providers this week.
+124. Get department stores with extended holiday shopping hours.
+125. Find businesses that have violated compliance policies. 
+
+Each of these queries involves tasks that are ideal for relational databases, especially those that require complex joins, precise data integrity constraints, and comprehensive transaction management.

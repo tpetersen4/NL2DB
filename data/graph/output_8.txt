@@ -1,0 +1,99 @@
+Sure, here’s a diverse list of natural language queries that can be executed efficiently on graph databases, focusing on various potential use cases like social networks, knowledge graphs, recommendation systems, and more.
+
+1. Who are the mutual friends between Alice and Bob?
+2. What movies did both Alice and Bob like?
+3. Find the shortest path between New York and Los Angeles.
+4. List all direct connections of the node representing "Python Programming."
+5. Which authors have collaborated on papers with John Doe?
+6. What are the recommended books for someone who liked "To Kill a Mockingbird"?
+7. Find all employees in the Sales department reporting directly or indirectly to Jane Doe.
+8. List all products purchased together with "Laptop."
+9. What common skills do employees in the Marketing department possess?
+10. Find friends of friends of Alice who live in London.
+11. What is the hierarchy path from the CEO to Intern Joe?
+12. List all organizations that have partnerships with Company X.
+13. Which students are enrolled in both Mathematics and Physics courses?
+14. Identify all people who worked at both IBM and Microsoft.
+15. Find all research papers cited by Article X published in 2020.
+16. What are the top 10 music tracks liked by users similar to Alice?
+17. List all blog posts linked under the topic "Machine Learning."
+18. Which people follow both TechCrunch and Wired on Twitter?
+19. Find all cities connected by direct flights from Paris.
+20. What customers bought item X after visiting category Y?
+21. Find all the ancestors of Monarch 12345.
+22. Who are the top influencers in the blockchain discussion forum?
+23. Which employees have changed departments more than twice?
+24. List all conferences attended by Alice in 2022.
+25. Find all nodes in a cycle involving the "Economics" node.
+26. What products are most frequently purchased by Alice?
+27. Identify people who have the same three areas of expertise as Bob.
+28. Find all users who posted using the hashtag "#HealthyLiving."
+29. What are the direct reports of the manager in Department Z?
+30. List all courses that are prerequisites for "Advanced Calculus."
+31. Find nodes that represent both a person and an author.
+32. What are the members of the group "Chess Club"?
+33. List all friends of Bob who work at a tech company.
+34. Find all connections that have been active since 2021.
+35. What paths exist between me and the company I want to work for?
+36. Which products have a higher rating than 4.5 and share the same category as "Smartphone"?
+37. List all technologies involved in Project Y.
+38. How many unique paths exist between Node A and Node B?
+39. Identify all paths where Alice can meet Bob during a multi-stop flight.
+40. What routes involve exactly three stops from City A to City B?
+41. Find all influencers in the travel industry with more than 10k followers.
+42. What conferences have been co-hosted by Institutions X and Y?
+43. List the most common connections between Product A and B.
+44. Identify all employees who joined the company before 2015 and are still active.
+45. What are the common interests between User X and User Y?
+46. Which papers cite Author B's work from 2020 onward?
+47. List all hashtags used by @username in the last month.
+48. What nodes are two steps away from Node X?
+49. Identify the most cited author in the network of academic papers.
+50. Which devices are compatible with Product X?
+51. Find all professors who teach in both Undergraduate and Graduate programs.
+52. What are the most common paths users take on the website?
+53. List the sections within a book following the "Introduction" section.
+54. Who are the oldest followers of @company on Twitter?
+55. Which startups have been invested in by both Investor A and Investor B?
+56. Find nodes that share more than three attributes with Node Y.
+57. What are the direct consequences of implementing Policy X?
+58. List all parts used in Model Z.
+59. Identify all pages linked to the "Climate Change" page.
+60. Find coworkers who hold the same title in different departments.
+61. What are the tasks assigned to Alice within Project Omega?
+62. List all services related to "Cloud Computing."
+63. Identify the direct or indirect influencers on Topic X within the network.
+64. What are the shortest paths connecting Topic A with Topic B?
+65. Find artists who have released collaborations with more than five different musicians.
+66. List all co-working spaces located in San Francisco.
+67. What strategies share nodes with multiple business development strategies?
+68. Find all connections between two specific locations within three degrees.
+69. What transactions took place on March 15 with nodes related to Banking?
+70. List all team members involved in Cross-Functional Team X.
+71. What movies have won both Oscar Awards and Golden Globe Awards?
+72. Identify all clients who have been active for more than ten years.
+73. Find all recipes that use at least three of the same ingredients as Recipe X.
+74. List all books authored or co-authored by Author X.
+75. What entities are associated with more than two financial advisors?
+76. Identify all tasks dependent on Task A across various projects.
+77. Which employees have worked under Manager A and Manager B?
+78. What travel routes are available for a budget traveler between City A and City B?
+79. Find courses offered in both Fall and Spring semesters.
+80. List all nodes directly influenced by Node Z.
+81. What are the common keywords among these three documents?
+82. Identify all fashion items tagged with "Summer Collection."
+83. What companies have collaborated on more than three projects together?
+84. Find the most referenced regulations within Company X.
+85. List all pathways for product development starting from innovation.
+86. Which patients underwent procedures related to Cardiology?
+87. Find the most influential papers in the last decade of the Biology Network.
+88. What events have occurred more than once in Location Y?
+89. List all known variants of the species classified under Genus X.
+90. What social circles does Bob belong to in the network?
+91. Find connections between databases used at both Company X and Company Y.
+92. Identify the historical trade routes connecting City A to City B.
+93. What’s the direct relationship path between Actor X and Director Y?
+94. List all categories under which Product Z is listed.
+95. Find all artworks that were part of exhibitions at Museum X.
+
+These queries reflect the strengths of graph databases, such as handling complex relationships, discovering patterns, and traversing connections efficiently.

@@ -1,0 +1,99 @@
+Creating natural language queries for graph databases is an interesting task that leverages the unique strengths of graph structures, such as finding relationships, patterns, paths, and groups. Below is a list of 95 unique queries that could be efficiently run on graph databases:
+
+1. Find all the direct connections of a specific node.
+2. List the shortest path between two nodes.
+3. Identify all nodes connected via a specific type of relationship.
+4. Discover the longest path between two nodes.
+5. Retrieve all nodes that are within three hops of a given node.
+6. List all nodes with no outgoing edges.
+7. Identify all nodes with no incoming edges.
+8. Find common neighbors of two nodes.
+9. List all paths between two nodes.
+10. Find nodes that form a cycle.
+11. Retrieve all leaf nodes in the graph.
+12. Find all nodes connected by a specific sequence of relationships.
+13. Identify clusters or communities within the graph.
+14. List nodes that are reachable from a given node.
+15. Retrieve all nodes that have a specific label.
+16. Discover all relationships a specific node has.
+17. List all nodes that share a common parent node.
+18. Find all nodes with multiple roles or labels.
+19. Detect all nodes that form a clique or fully connected subgraph.
+20. Retrieve the degree (number of edges) of a specific node.
+21. Find all end-nodes (nodes with no children) starting from a specific node.
+22. Identify all isolated nodes in the graph.
+23. List the subgraph formed by a set of specific nodes.
+24. Find the most central node based on degree centrality.
+25. Identify bridges or critical edges that, if removed, would increase graph fragmentation.
+26. Retrieve nodes based on property key-value pairs.
+27. List all nodes that connect two communities.
+28. Find nodes that are part of at least three distinct paths.
+29. Discover any paths that include a specific node.
+30. Identify the root node of a tree structure.
+31. Find all ancestor nodes of a given node.
+32. Retrieve all descendant nodes of a given node.
+33. List all nodes involved in triangular relationships.
+34. Identify bottleneck nodes or edges that constrain network flow.
+35. Determine all subgraphs isomorphic to a given graph pattern.
+36. Find all sibling nodes of a given node.
+37. List nodes connected to a given node by exactly two types of relationships.
+38. Identify all paths of a given length.
+39. Retrieve the densest subgraph.
+40. Discover all nodes with cyclical relationships.
+41. Identify all pairs of nodes with more than one shortest path.
+42. Find all triadic closures in the graph.
+43. Retrieve the ego-network of a specific node.
+44. List all hub nodes with a high number of connections.
+45. Identify each node's clustering coefficient.
+46. Find nodes that have undergone no changes over a period.
+47. Retrieve all nodes based on a combination of labels and properties.
+48. Discover paths that are disjoint from a given path.
+49. Identify all self-loop nodes.
+50. Find the graph diameter (longest shortest path in the graph).
+51. List all nodes with properties that satisfy a range condition.
+52. Retrieve the graph radius (minimum eccentricity of any node).
+53. Identify articulation points whose removal increases graph disconnectedness.
+54. Find nodes connected to a specific node through a specified relationship type and label.
+55. List all paths from a start node to an end node that don't revisit nodes.
+56. Discover networks where nodes have a specified minimum degree.
+57. Identify all ancestor nodes up to a specific depth from a given node.
+58. Find nodes where a specific sequence of properties holds true.
+59. Retrieve paths that pass through a given set of nodes.
+60. List edge-disjoint paths between two nodes.
+61. Identify all nodes part of cycle paths with length more than four.
+62. Discover the average path length in the graph.
+63. Find nodes that form a majority of connections within a specific area of the graph.
+64. List all isolated subgraphs in a larger graph.
+65. Retrieve nodes with the highest clustering based on attributes.
+66. Identify strong components in a directed graph.
+67. Find weak components where indirect connections exist.
+68. List minimum cut edges between specified nodes.
+69. Identify all reachable nodes under certain edge constraints.
+70. Discover paths that maximize or minimize certain aggregated values.
+71. Retrieve all acyclic paths starting from a specific node.
+72. List communities with specific node characteristics.
+73. Identify pairs of nodes with no direct relationship.
+74. Find nodes that bridge two otherwise disconnected components.
+75. Discover all network motifs in a subgraph.
+76. Retrieve all nodes based on composite property conditions.
+77. List congruent path structures involving specific nodes.
+78. Identify shortest paths that satisfy certain constraints.
+79. Find nodes that evolve their properties over time.
+80. Retrieve paths that include a set of specified edges.
+81. List the number of paths between nodes exceeding a given threshold.
+82. Discover all asymmetric relationships between nodes.
+83. Identify the reach of influence of a specific node.
+84. Find nodes with mutual relationships categorized by label.
+85. Retrieve connections that represent transactional flows exceeding a value.
+86. Identify all paths that include specific nodes, irrespective of direction.
+87. Discover symmetry in the graph based on node structures.
+88. Retrieve all paths traversing a given edge more than once.
+89. List the top k nodes based on betweenness centrality.
+90. Find strongly connected components with a specific size.
+91. Locate boundary nodes transitioning between graph segments.
+92. Retrieve all paths connecting nodes with specific landmarks.
+93. List nodes with the greatest degree difference between in-degree and out-degree.
+94. Identify relationship-heavy areas in the graph.
+95. Find the shortest cycle in the graph.
+
+These queries leverage various graph theory concepts to extract valuable information from graph databases, showcasing their ability to efficiently navigate and analyze complex networks and relationships.

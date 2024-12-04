@@ -1,0 +1,2312 @@
+nl_query,db
+"Retrieve all documents from the ""users"" collection.
+",nosql
+"Find all products that are currently out of stock.
+",nosql
+"List all orders placed within the last 30 days.
+",nosql
+"Get the details of a specific user by their email address.
+",nosql
+"Show all blog posts tagged as ""MongoDB.""
+",nosql
+"Find all movies released in the year 2021.
+",nosql
+"Retrieve customers who have made purchases over $500.
+",nosql
+"List all employees in the ""Engineering"" department.
+",nosql
+"Get the top five most expensive products in the catalog.
+",nosql
+"Find articles authored by ""John Doe.""
+",nosql
+"Show all tasks that are marked as ""complete.""
+",nosql
+"Retrieve the number of unique visitors in the last week.
+",nosql
+"List all songs from the album titled ""Revolution.""
+",nosql
+"Get details of all transactions from a specific store location.
+",nosql
+"Find all reviews with a rating of 4 stars or higher.
+",nosql
+"Retrieve all comments from the last 24 hours.
+",nosql
+"Show all books written by ""Jane Austen.""
+",nosql
+"Find all hotels in ""New York City"" with available rooms.
+",nosql
+"Retrieve the latest news articles sorted by publication date.
+",nosql
+"List all products with a discount greater than 20%.
+",nosql
+"Get all user profiles created after January 1, 2020.
+",nosql
+"Find all courses in the ""Computer Science"" category.
+",nosql
+"Retrieve restaurants open after 10 PM on weekends.
+",nosql
+"Show all movies streaming in ""HD"" quality.
+",nosql
+"Find all cars listed in the ""SUV"" category for sale.
+",nosql
+"Retrieve all photo albums created by ""alice@example.com.""
+",nosql
+"List all events happening in the month of December.
+",nosql
+"Get documents from the ""inventory"" collection with stock less than 10.
+",nosql
+"Find all employees with a title of ""Manager.""
+",nosql
+"Retrieve all flights departing from ""JFK Airport.""
+",nosql
+"List all available job postings in ""San Francisco.""
+",nosql
+"Get the contact information of all suppliers.
+",nosql
+"Find all recipes that are vegan-friendly.
+",nosql
+"Retrieve all locations where ""John"" has checked in.
+",nosql
+"Show all museums located in ""Los Angeles.""
+",nosql
+"Find articles published in ""Science"" magazine.
+",nosql
+"Retrieve all podcasts under 30 minutes in duration.
+",nosql
+"List all artists who have won a ""Grammy Award.""
+",nosql
+"Get all rental properties with monthly rent below $2000.
+",nosql
+"Find all conference sessions scheduled for today.
+",nosql
+"Retrieve all clients with overdue payments.
+",nosql
+"Show all images uploaded in the ""Nature"" category.
+",nosql
+"Find all schools offering ""Spanish"" courses.
+",nosql
+"Retrieve all investment accounts with a balance over $10,000.
+",nosql
+"List all food items in the ""Gluten-Free"" section.
+",nosql
+"Get all mobile applications rated above 4.5 stars.
+",nosql
+"Find all public parks with playground facilities.
+",nosql
+"Retrieve all television shows with more than three seasons.
+",nosql
+"Show all athletes competing in the ""Olympics.""
+",nosql
+"Find articles containing the keyword ""technology.""
+",nosql
+"Retrieve all companies with more than 500 employees.
+",nosql
+"List all water activities available in ""Hawaii.""
+",nosql
+"Get details of all cars with mileage under 50,000 miles.
+",nosql
+"Find all pets available for adoption.
+",nosql
+"Retrieve all job candidates with a degree in ""Engineering.""
+",nosql
+"Show all users who logged in during the last hour.
+",nosql
+"Find all stores open 24 hours.
+",nosql
+"Retrieve all online courses that are free.
+",nosql
+"List all articles with more than 100 likes.
+",nosql
+"Get all cafes with Wi-Fi in ""London.""
+",nosql
+"Find all houses with a swimming pool.
+",nosql
+"Retrieve all customer feedback with positive sentiments.
+",nosql
+"Show all destinations with travel advisories.
+",nosql
+"Find articles published by ""The New York Times.""
+",nosql
+"Retrieve all forms submitted in the month of March.
+",nosql
+"List all musicians featured in ""Rolling Stone.""
+",nosql
+"Get all game releases in the ""Strategy"" genre.
+",nosql
+"Find all conference speakers with ""Ph.D."" in their bio.
+",nosql
+"Retrieve all fashion items in the ""Summer Collection.""
+",nosql
+"Show all grades from the ""Fall Semester.""
+",nosql
+"Find all data entries with status ""pending.""
+",nosql
+"Retrieve comments by users aged under 18.
+",nosql
+"List all available internship opportunities.
+",nosql
+"Get all hospitals with ""Emergency Room"" services.
+",nosql
+"Find all vehicles with hybrid engines.
+",nosql
+"Retrieve all workshop topics from ""Tech Conference 2022.""
+",nosql
+"Show all contracts expiring in the next six months.
+",nosql
+"Find courses designed for ""beginner"" level.
+",nosql
+"Retrieve all tutors teaching ""Math.""
+",nosql
+"List all items priced under $10 in the ""Sale"" section.
+",nosql
+"Get all gyms with 24-hour access.
+",nosql
+"Find all documentaries produced by ""BBC.""
+",nosql
+"Retrieve all contact requests from the website.
+",nosql
+"Show all guests attending the ""Annual Gala.""
+",nosql
+"Find scholarships available for ""International Students.""
+",nosql
+"Retrieve all agencies offering ""graphic design"" services.
+",nosql
+"List all public libraries with auditorium facilities.
+",nosql
+"Get details of all restaurants serving ""Italian Cuisine.""
+",nosql
+"Find movies with a ""PG-13"" rating.
+",nosql
+"Retrieve all photos taken during daylight hours.
+",nosql
+"Show all student enrollments for this semester.
+",nosql
+"Find journals available in the ""Open Access"" format.
+",nosql
+"Retrieve transactions made through ""PayPal.""
+",nosql
+"List all CEOs named ""Smith.""
+",nosql
+"Get details of trains departing within the next hour.
+",nosql
+"Find articles with more than 1000 shares.
+",nosql
+"Retrieve all distributors dealing in ""Organic Products.""
+",nosql
+"Show authors with multiple publications.
+",nosql
+"Find ads targeting ""Millennials.""
+",nosql
+"Retrieve all staff members working on the ""Project X.""
+",nosql
+"List all museums with free entry.
+",nosql
+"Get all tutorials related to ""Data Science.""
+",nosql
+"Find podcasts hosted by ""Lisa Davis.""
+",nosql
+"Retrieve all suppliers located in ""Germany.""
+",nosql
+"Show loan applications approved this week.
+",nosql
+"Find books available in ""ePub"" format.
+",nosql
+"Retrieve all carpools with available seats.
+",nosql
+"List all local events within 10 miles of ""Boston.""
+",nosql
+"Get all paintings by ""Vincent van Gogh.""
+",nosql
+"Find all items marked as ""defective.""
+",nosql
+"Retrieve educational courses for ""adults.""
+",nosql
+"Show all valid promotional codes.
+",nosql
+"Find forums discussing ""climate change.""
+",nosql
+"Retrieve breakfast menus from all hotels.
+",nosql
+"List all coaches deserving an ""Award of Merit.""
+",nosql
+"Get all charity events scheduled for ""June.""
+",nosql
+"Find projects funded over $1 million.
+",nosql
+"Retrieve all sport facilities open to the public.
+",nosql
+"Show all email subscriptions marked as ""daily updates.""
+",nosql
+"Find authors invited to the ""Literary Festival.""
+",nosql
+"Retrieve all swimming classes for ""beginners.""
+",nosql
+"List all plays performed in the ""Globe Theatre.""
+",nosql
+"Get all camping sites available in ""Yellowstone.""
+",nosql
+"Find all customers in New York.
+",nosql
+"Retrieve products priced below $20.
+",nosql
+"List all employees hired after 2020.
+",nosql
+"Show all orders with a status of ""shipped.""
+",nosql
+"Find books authored by ""Jane Doe.""
+",nosql
+"Retrieve all entries updated today.
+",nosql
+"List users with a premium subscription.
+",nosql
+"Find all blog posts tagged ""technology.""
+",nosql
+"Retrieve all active accounts.
+",nosql
+"List all items in stock.
+",nosql
+"Find transactions above $1,000.
+",nosql
+"Show all records with a ""pending"" status.
+",nosql
+"Retrieve reviews with a rating above 4.
+",nosql
+"List all events in December 2023.
+",nosql
+"Find unpublished articles.
+",nosql
+"Retrieve movies directed by ""John Smith.""
+",nosql
+"Show all completed tasks.
+",nosql
+"Find profiles created in the last 30 days.
+",nosql
+"Retrieve comments containing ""excellent.""
+",nosql
+"List all suppliers from China.
+",nosql
+"Find music tracks longer than 5 minutes.
+",nosql
+"Retrieve recipes using ""chicken.""
+",nosql
+"List all messages sent this week.
+",nosql
+"Find invoices that are overdue.
+",nosql
+"Show all courses offered online.
+",nosql
+"Retrieve all non-profit organizations.
+",nosql
+"List all projects due next month.
+",nosql
+"Find photos tagged ""sunset.""
+",nosql
+"Retrieve all vegetarian dishes.
+",nosql
+"Find players with more than 50 goals.
+",nosql
+"Show all unread notifications.
+",nosql
+"Retrieve hotels with a 5-star rating.
+",nosql
+"List all books published by ""Penguin.""
+",nosql
+"Find devices running Android.
+",nosql
+"Retrieve courses with more than 1000 students.
+",nosql
+"List all blogs with more than 10,000 views.
+",nosql
+"Find software with a version below 2.0.
+",nosql
+"Retrieve all movies released in 2022.
+",nosql
+"Show all orders processed today.
+",nosql
+"Find contacts in the healthcare industry.
+",nosql
+"Retrieve photos more than 1MB in size.
+",nosql
+"List all podcasts in the ""science"" category.
+",nosql
+"Find videos shorter than 10 minutes.
+",nosql
+"Retrieve all clothing items in ""medium"" size.
+",nosql
+"Show restaurants open past midnight.
+",nosql
+"Find pilots with over 200 flight hours.
+",nosql
+"Retrieve books translated into Spanish.
+",nosql
+"List all destinations with ""beach"" in the name.
+",nosql
+"Find auctions ending tomorrow.
+",nosql
+"Show all invoices marked as ""paid.""
+",nosql
+"Retrieve actors with at least one Oscar.
+",nosql
+"List all startups in the ""fintech"" sector.
+",nosql
+"Find apps downloaded over 1 million times.
+",nosql
+"Retrieve documents created in 2021.
+",nosql
+"Show all resumes containing ""Python.""
+",nosql
+"Find clubs offering ""yoga"" classes.
+",nosql
+"Retrieve courses that include ""statistics.""
+",nosql
+"List all properties near ""Central Park.""
+",nosql
+"Find tutorials with ""beginner"" in the title.
+",nosql
+"Retrieve jobs posted in Los Angeles.
+",nosql
+"Show courses taught by ""Dr. Emily White.""
+",nosql
+"Find all research papers on ""AI.""
+",nosql
+"Retrieve videos with ""nature"" in the title.
+",nosql
+"List pets available for adoption.
+",nosql
+"Find bank accounts with ""savings"" type.
+",nosql
+"Show reservations for the ""penthouse.""
+",nosql
+"Retrieve vehicles with hybrid engines.
+",nosql
+"Find lectures recorded in 2021.
+",nosql
+"List all apps compatible with iOS.
+",nosql
+"Retrieve ""CFO"" role job listings.
+",nosql
+"Show art pieces from the 19th century.
+",nosql
+"Find podcasts hosted by ""Alice Wright.""
+",nosql
+"Retrieve ""urgent"" priority tickets.
+",nosql
+"List all items ordered by ""John Doe.""
+",nosql
+"Find bicycles under $500.
+",nosql
+"Show theaters playing ""Avengers.""
+",nosql
+"Retrieve tourist attractions in Italy.
+",nosql
+"Find apartments with at least 3 bedrooms.
+",nosql
+"List all companies founded in the 90s.
+",nosql
+"Retrieve wines from ""Napa Valley.""
+",nosql
+"Show deliveries expected tomorrow.
+",nosql
+"Find classes scheduled for weekends.
+",nosql
+"Retrieve gadgets released last year.
+",nosql
+"List all volunteers in ""community service.""
+",nosql
+"Find newsletters with ""discount"" offers.
+",nosql
+"Retrieve culinary schools in Paris.
+",nosql
+"Show all members of the ""New York Club.""
+",nosql
+"Find charities focused on ""education.""
+",nosql
+"Retrieve fashion brands with ""eco-friendly"" labels.
+",nosql
+"List all annual reports from 2020.
+",nosql
+"Find finished products in ""wood"" category.
+",nosql
+"Retrieve user guides for ""Model X.""
+",nosql
+"Show all alerts for ""security breaches.""
+",nosql
+"Find discounts on ""electronics"" category.
+",nosql
+"Retrieve top-rated ""Italian"" chefs.
+",nosql
+"List all transportation bookings for July.
+",nosql
+"Find all webinars on ""machine learning.""
+",nosql
+"Retrieve credits exceeding 40 hours.
+",nosql
+"Show local events in ""San Francisco.""
+",nosql
+"Find hiking trails rated 5 stars.
+",nosql
+"Retrieve details of ""vegan"" meal plans.
+",nosql
+"List all property listings in ""Brooklyn.""
+",nosql
+"Find game releases in ""RPG"" genre.
+",nosql
+"Show courses starting in ""spring semester.""
+",nosql
+"Retrieve artworks by ""Leonardo da Vinci.""
+",nosql
+"List all planned ""summer festivals.""
+",nosql
+"Find partnerships with ""tech giants.""
+",nosql
+"Retrieve email campaigns with CTR over 20%.
+",nosql
+"Show transactions involving cryptocurrency.
+",nosql
+"Find concerts held in the ""amphitheater.""
+",nosql
+"Retrieve flight schedules to ""Tokyo.""
+",nosql
+"List all plantations using ""organic"" methods.
+",nosql
+"Find forensic documents on ""cybercrime.""
+",nosql
+"Retrieve all ""Science Fiction"" magazines.
+",nosql
+"Show completed ""renovation projects.""
+",nosql
+"Find opening hours for ""holiday weekends.""
+",nosql
+"Retrieve licenses for ""professional software.""
+",nosql
+"List all testimonials mentioning ""great service.""
+",nosql
+"Find packages delivered ""overnight.""
+",nosql
+"Retrieve studies published in ""medical journals.""
+",nosql
+"Show gadget reviews from ""tech experts.""
+",nosql
+"Find floral arrangements under ""wedding"" theme.
+",nosql
+"Retrieve workshops on ""personal development.""
+",nosql
+"List all ""flight status"" notifications.
+",nosql
+"Find stationery supplies available ""in bulk.""
+",nosql
+"Show all expeditions in ""Antarctica.""
+",nosql
+"Retrieve case studies on ""business innovation.""
+",nosql
+"List all ""emergency contact"" details updated recently.
+",nosql
+"Find all users who signed up after January 1, 2022.
+",nosql
+"Retrieve products with a price greater than $50.
+",nosql
+"List all orders shipped to Canada.
+",nosql
+"Count the number of active users.
+",nosql
+"Find all books written by ""J.K. Rowling"".
+",nosql
+"Retrieve all movies released in the year 2020.
+",nosql
+"List all customers with more than three orders.
+",nosql
+"Find all employees working in the ""Sales"" department.
+",nosql
+"Get the average price of all electronic products.
+",nosql
+"Retrieve all blog posts containing the keyword ""AI"".
+",nosql
+"List all cities with a population greater than 1 million.
+",nosql
+"Find all events scheduled for the next two weeks.
+",nosql
+"Retrieve all songs longer than 4 minutes.
+",nosql
+"List all restaurants with a five-star rating.
+",nosql
+"Find all cars manufactured by ""Toyota"".
+",nosql
+"Get the total sales for March 2022.
+",nosql
+"Retrieve all messages sent by ""john_doe"".
+",nosql
+"List all books translated into Spanish.
+",nosql
+"Find all students enrolled in ""Math 101"".
+",nosql
+"Retrieve all comments on the article titled ""The Future of Tech"".
+",nosql
+"List all flights departing from ""JFK Airport"".
+",nosql
+"Find all transactions above $1,000.
+",nosql
+"Retrieve all paintings by ""Picasso"".
+",nosql
+"List all phone numbers of users from New York.
+",nosql
+"Find all hotels with an available pool.
+",nosql
+"Retrieve all conferences happening in 2023.
+",nosql
+"List all job postings for ""software engineer"".
+",nosql
+"Find all recipes that include ""chocolate"".
+",nosql
+"Retrieve all user profiles with a completed bio.
+",nosql
+"List all dogs available for adoption.
+",nosql
+"Find all courses with more than 50 enrolled students.
+",nosql
+"Retrieve all usernames that start with ""A"".
+",nosql
+"List all blog posts published last week.
+",nosql
+"Find all articles tagged with ""health"".
+",nosql
+"Retrieve all apartments for rent under $1,200.
+",nosql
+"List all products with a discount greater than 20%.
+",nosql
+"Find all wedding venues in ""San Francisco"".
+",nosql
+"Retrieve all podcasts hosted by ""Jane Doe"".
+",nosql
+"List all tweets mentioning ""climate change"".
+",nosql
+"Find all laptops with at least 8GB RAM.
+",nosql
+"Retrieve the top 10 best-selling books.
+",nosql
+"List all records in the genre ""jazz"".
+",nosql
+"Find all artworks currently on exhibition.
+",nosql
+"Retrieve all user accounts created in 2023.
+",nosql
+"List all properties with at least 3 bedrooms.
+",nosql
+"Find all vegan-friendly restaurants.
+",nosql
+"Retrieve all published research papers on ""quantum physics"".
+",nosql
+"List all current subscribers of the newsletter.
+",nosql
+"Find all gym members whose membership is expired.
+",nosql
+"Retrieve all orders below $100.
+",nosql
+"List all projects with a deadline in December.
+",nosql
+"Find all antiques from the 18th century.
+",nosql
+"Retrieve all transactions processed by ""Paypal"".
+",nosql
+"List all games rated ""E"" for everyone.
+",nosql
+"Find all events sponsored by ""TechCorp"".
+",nosql
+"Retrieve all trains arriving at ""Union Station"".
+",nosql
+"List all freelancers with JavaScript skills.
+",nosql
+"Find all hotels booked in the past month.
+",nosql
+"Retrieve all profiles with a profile picture.
+",nosql
+"List all recipes rated four stars or higher.
+",nosql
+"Find all messages containing the hashtag ""#travel"".
+",nosql
+"Retrieve all iOS apps launched in 2022.
+",nosql
+"List all employees hired after March 15, 2021.
+",nosql
+"Find all laptops with a touchscreen feature.
+",nosql
+"Retrieve all cars with a sunroof option.
+",nosql
+"List all blogs that have ""tutorial"" in the title.
+",nosql
+"Find all issues reported on ""GitHub"".
+",nosql
+"Retrieve all customer reviews for product ""X"".
+",nosql
+"List all episodes of the podcast ""Innovation Today"".
+",nosql
+"Find all shoes available in size 10.
+",nosql
+"Retrieve all surveys completed by ""company Y"".
+",nosql
+"List all users who have admin privileges.
+",nosql
+"Find all blockchain-related research papers.
+",nosql
+"Retrieve all available job positions in ""Finance"".
+",nosql
+"List all orchestral recordings with ""Beethoven"".
+",nosql
+"Find all properties with a garden.
+",nosql
+"Retrieve all Uber rides requested on New Year’s Eve.
+",nosql
+"List all businesses opened after 2020.
+",nosql
+"Find all vacancies in ""San Diego"".
+",nosql
+"Retrieve all music albums released after 2015.
+",nosql
+"List all photos tagged as ""sunset"".
+",nosql
+"Find all freelance jobs paying over $100/hr.
+",nosql
+"Retrieve all courses available online.
+",nosql
+"List all cosmetics free from animal testing.
+",nosql
+"Find all batteries with a capacity over 5000mAh.
+",nosql
+"Retrieve all short stories by ""John Steinbeck"".
+",nosql
+"List all running events happening in June.
+",nosql
+"Find all calculators supporting statistics functions.
+",nosql
+"Retrieve all online orders not yet shipped.
+",nosql
+"List all paintings auctioned at ""Sotheby's"".
+",nosql
+"Find all themes categorized under ""minimalist"".
+",nosql
+"Retrieve all web comics with the character ""Hero-Man"".
+",nosql
+"List all book series with more than 5 parts.
+",nosql
+"Find all chocolate brands made in Switzerland.
+",nosql
+"Retrieve names of all trees located in ""Central Park"".
+",nosql
+"List all game consoles released before 2005.
+",nosql
+"Find all breweries producing more than 1 million barrels yearly.
+",nosql
+"Retrieve all webinar registrations until April 2023.
+",nosql
+"List all spas offering a hot stone massage.
+",nosql
+"Find all stadiums with a retractable roof.
+",nosql
+"Retrieve all authors featured in this month’s magazine.
+",nosql
+"List all cafes open 24 hours.
+",nosql
+"Find all locations offering free COVID-19 testing.
+",nosql
+"Retrieve all investment opportunities tagged as ""green tech"".
+",nosql
+"List all beaches designated as ""safe for swimming"".
+",nosql
+"Find all museums with free entry on Sundays.
+",nosql
+"Retrieve all influencers with over 100k followers.
+",nosql
+"List all orchestras performing ""Mozart Requiem"".
+",nosql
+"Find all exams scheduled for next Friday.
+",nosql
+"Retrieve all references to ""Mars"" in published articles.
+",nosql
+"List all fashion shows scheduled for September.
+",nosql
+"Find all yoga classes with ""outdoor"" in the description.
+",nosql
+"Retrieve all fishing licenses issued this year.
+",nosql
+"List all matchmaking profiles with a compatibility score above 80.
+",nosql
+"Find all cloud storage services offering unlimited backup.
+",nosql
+"Retrieve all car models available in electric variants.
+",nosql
+"List all candy containing more than 50% cocoa.
+",nosql
+"Find all wildlife documentaries categorized as ""endangered species"".
+",nosql
+"Retrieve all foreign exchange rates updated today.
+",nosql
+"List all exclusive collections of jewelry over $5,000.
+",nosql
+"Find all patient records with scheduled surgeries.
+",nosql
+"Retrieve all groups interested in ""sustainability"".
+",nosql
+"List all innovative startups in ""Artificial Intelligence"".
+",nosql
+"Retrieve all user profiles created in the last seven days.
+",nosql
+"Find the total number of orders placed in the last month.
+",nosql
+"Show all products with a price greater than $50.
+",nosql
+"List all documents where the ""status"" field is ""pending"".
+",nosql
+"Count the number of unique users who have logged in today.
+",nosql
+"Fetch all blog posts containing the keyword ""travel"".
+",nosql
+"Get the average rating of a product with ID '12345'.
+",nosql
+"Return all movies released in the year 2020.
+",nosql
+"List the names of students who scored above 90 in math.
+",nosql
+"Find documents where the array field ""tags"" includes ""featured"".
+",nosql
+"Get the list of cities with more than 100,000 residents.
+",nosql
+"Retrieve messages sent by user ""john_doe"" in the last hour.
+",nosql
+"Find products with a stock of less than 10 items.
+",nosql
+"Show all active subscriptions.
+",nosql
+"List usernames of users who have not updated their profile in over a year.
+",nosql
+"Find documents where the nested field ""address.zip"" is ""12345"".
+",nosql
+"Get all transactions made using the payment method ""PayPal"".
+",nosql
+"List all employees in the ""marketing"" department.
+",nosql
+"Retrieve the latest 50 entries from the event log.
+",nosql
+"Count the number of comments on a post with ID '67890'.
+",nosql
+"Fetch all books by author ""Jane Austen"".
+",nosql
+"Find all products with a discount greater than 20%.
+",nosql
+"Get a list of all vehicles registered after 2018.
+",nosql
+"List users whose email addresses end with ""@example.com"".
+",nosql
+"Retrieve all records with a ""date"" field in the future.
+",nosql
+"Find items with a ""category"" field that contains the word ""electronics"".
+",nosql
+"Get the sum of the order totals for today.
+",nosql
+"Show profiles where the ""bio"" contains ""software developer"".
+",nosql
+"Find all documents with a non-null ""profile_pic"" field.
+",nosql
+"List movies with a rating of 4 stars or higher.
+",nosql
+"Retrieve all courses that start next month.
+",nosql
+"Find all records modified in the last 24 hours.
+",nosql
+"Get user reviews with a ""helpful"" score above 10.
+",nosql
+"List all assets with a depreciation rate above 5%.
+",nosql
+"Retrieve songs by artist ""The Beatles"".
+",nosql
+"Find properties in the ""New York"" area.
+",nosql
+"Get usernames who have not logged in for six months.
+",nosql
+"Show all entries with a ""priority"" of ""high"".
+",nosql
+"List names of clients older than 60 years.
+",nosql
+"Retrieve documents with a missing ""last_login"" field.
+",nosql
+"Find all invoices marked as ""paid"".
+",nosql
+"Get messages received by user ""alice@example.com"".
+",nosql
+"Show all files larger than 10MB.
+",nosql
+"List restaurants with 5-star reviews.
+",nosql
+"Retrieve all events scheduled for today.
+",nosql
+"Find sessions where ""duration"" exceeds 2 hours.
+",nosql
+"Get all active projects.
+",nosql
+"Show all devices registered to ""Company XYZ"".
+",nosql
+"List all export shipments for this year.
+",nosql
+"Retrieve contacts in the ""Friends"" group.
+",nosql
+"Find all articles published in August.
+",nosql
+"Get transactions that occurred on weekends.
+",nosql
+"List all available job postings.
+",nosql
+"Show all images uploaded by user ""photosmith"".
+",nosql
+"Retrieve buildings with more than 10 floors.
+",nosql
+"Find all car listings priced below $10,000.
+",nosql
+"Get sales data for the latest quarter.
+",nosql
+"Show all announcements tagged ""urgent"".
+",nosql
+"List training sessions for this week.
+",nosql
+"Retrieve surveys with a ""completed"" status.
+",nosql
+"Find documents where ""type"" is either ""A"" or ""B"".
+",nosql
+"Get students with perfect attendance.
+",nosql
+"Show all messages flagged as ""important"".
+",nosql
+"List all services offered by ""Provider A"".
+",nosql
+"Retrieve ongoing maintenance tasks.
+",nosql
+"Find donations made above $1000.
+",nosql
+"Get software licenses that expire next year.
+",nosql
+"Show all ships docked at ""Port of Miami"".
+",nosql
+"List campaigns scheduled to launch next month.
+",nosql
+"Retrieve user activities from the last 48 hours.
+",nosql
+"Find all completed orders with a refund request.
+",nosql
+"Get restaurants offering ""vegan"" options.
+",nosql
+"Show all courses at ""University B"".
+",nosql
+"List employees with more than 10 years of service.
+",nosql
+"Retrieve applications received in March.
+",nosql
+"Find all membership renewals due this month.
+",nosql
+"Get photographers who specialize in weddings.
+",nosql
+"Show top 10 trending topics today.
+",nosql
+"List all apartments with ""garden"" in their description.
+",nosql
+"Retrieve customer feedback rated 5 stars.
+",nosql
+"Find scheduled appointments for tomorrow.
+",nosql
+"Get cars with ""hybrid"" engines.
+",nosql
+"Show all services booked by ""customerX"".
+",nosql
+"List users who have completed the ""Beginner Level"".
+",nosql
+"Retrieve annual reports for the last three years.
+",nosql
+"Find expeditions to ""Antarctica"".
+",nosql
+"Get loans with interest rates above 5%.
+",nosql
+"Show artworks priced above $2000.
+",nosql
+"List articles with a read time of less than 5 minutes.
+",nosql
+"Retrieve filed patents in the technology sector.
+",nosql
+"Find all pets available for adoption.
+",nosql
+"Get the total number of units in stock.
+",nosql
+"Show properties with swimming pools.
+",nosql
+"List patients with scheduled follow-ups.
+",nosql
+"Retrieve all fashion items branded ""TrendSetter"".
+",nosql
+"Find all notifications marked as ""unread"".
+",nosql
+"Get flights to ""Los Angeles"" with available seats.
+",nosql
+"Show users with pending verification.
+",nosql
+"List all solar panel installations.
+",nosql
+"Retrieve furniture items made of ""oak"".
+",nosql
+"Find all train tickets booked in the last week.
+",nosql
+"Get return requests from the holiday season.
+",nosql
+"Show all customer queries pending response.
+",nosql
+"List every item sold in the last flash sale.
+",nosql
+"Retrieve recipes containing ""chocolate"".
+",nosql
+"Find business meetings held in ""Room A"".
+",nosql
+"Get all high school alumni from ""Class of 2000"".
+",nosql
+"Show recipes marked as ""family favorites"".
+",nosql
+"List vaccinations administered in the school clinic.
+",nosql
+"Retrieve manuscripts submitted for review.
+",nosql
+"Find events hosted by ""community_center"".
+",nosql
+"Get all emails in the ""inbox"" folder.
+",nosql
+"Show property listings in ""downtown"".
+",nosql
+"List movie genres preferred by age group 18-24.
+",nosql
+"Retrieve all user feedback containing ""suggestion"".
+",nosql
+"Find all users with more than 500 followers.
+",nosql
+"List products with a price less than $20.
+",nosql
+"Show all orders made in the last 30 days.
+",nosql
+"Retrieve customer emails who signed up this year.
+",nosql
+"Get details of books written by ""John Doe"".
+",nosql
+"Show posts with more than 100 likes.
+",nosql
+"Find movies released after 2020.
+",nosql
+"List all songs by ""The Beatles"".
+",nosql
+"Get all documents where status is ""active"".
+",nosql
+"Find entries created in the last week.
+",nosql
+"Retrieve users who live in ""New York"".
+",nosql
+"Display events scheduled for today.
+",nosql
+"Get restaurants with a rating above 4.5.
+",nosql
+"Show products back in stock.
+",nosql
+"Find users whose last name is ""Smith"".
+",nosql
+"List articles tagged with ""technology"".
+",nosql
+"Retrieve the latest comments on a blog post.
+",nosql
+"Get all books in the ""Science Fiction"" genre.
+",nosql
+"Show employees who joined after 2019.
+",nosql
+"Find devices registered in ""California"".
+",nosql
+"List stores with ""Summer Sale"" promotion.
+",nosql
+"Retrieve all transactions over $1,000.
+",nosql
+"Get photos taken by ""Jane Doe"".
+",nosql
+"Show videos longer than 10 minutes.
+",nosql
+"Find messages marked as urgent.
+",nosql
+"List recipes without gluten.
+",nosql
+"Retrieve cars manufactured by ""Toyota"".
+",nosql
+"Get users with verified accounts.
+",nosql
+"Show shows airing on ""Netflix"".
+",nosql
+"Find articles published by ""TechCrunch"".
+",nosql
+"List athletes competing in ""Marathon"".
+",nosql
+"Retrieve properties with ocean view.
+",nosql
+"Get hotels with free breakfast.
+",nosql
+"Show campaigns launched this month.
+",nosql
+"Find teachers with over 10 years of experience.
+",nosql
+"List patients enrolled in ""Health Program A"".
+",nosql
+"Retrieve files larger than 5GB.
+",nosql
+"Get projects with ""pending"" status.
+",nosql
+"Show flights departing from ""JFK Airport"".
+",nosql
+"Find gardens with more than 50 types of plants.
+",nosql
+"List phone numbers starting with ""+1"".
+",nosql
+"Retrieve apps developed by ""XYZ Labs"".
+",nosql
+"Get all cities in ""Country A"".
+",nosql
+"Show users who haven't logged in for 6 months.
+",nosql
+"Find properties listed for sale.
+",nosql
+"List donations above $500.
+",nosql
+"Retrieve exhibits opened in 2022.
+",nosql
+"Get items with free shipping.
+",nosql
+"Show authors with a bestseller book.
+",nosql
+"Find clubs with more than 100 members.
+",nosql
+"List films with a rating of 5 stars.
+",nosql
+"Retrieve workshops held online.
+",nosql
+"Get athletes in the ""Hall of Fame"".
+",nosql
+"Show distributors in ""Europe"".
+",nosql
+"Find studies focused on ""Climate Change"".
+",nosql
+"List items eligible for the discount code ""SAVE20"".
+",nosql
+"Retrieve podcasts hosted by ""John Doe"".
+",nosql
+"Get job postings with remote work option.
+",nosql
+"Show playlists curated by ""DJ X"".
+",nosql
+"Find newsletters published weekly.
+",nosql
+"List channels with over 100,000 subscribers.
+",nosql
+"Retrieve sessions available for booking.
+",nosql
+"Get newsletters from the ""Marketing"" category.
+",nosql
+"Show members on the ""Premium"" plan.
+",nosql
+"Find trainers certified in ""Yoga"".
+",nosql
+"List artworks created in 19th century.
+",nosql
+"Retrieve vendors at the local market.
+",nosql
+"Get themes with a dark mode option.
+",nosql
+"Show professors in the ""Physics"" department.
+",nosql
+"Find apartments with more than 3 bedrooms.
+",nosql
+"List hiking trails over 5 miles long.
+",nosql
+"Retrieve organizations part of ""Global Initiative"".
+",nosql
+"Get ingredients required for ""Chocolate Cake"".
+",nosql
+"Show trends in ""Artificial Intelligence"".
+",nosql
+"Find startups founded in 2021.
+",nosql
+"List alerts generated in the security system.
+",nosql
+"Retrieve charts topping the ""Pop"" category.
+",nosql
+"Get albums recorded in ""Abbey Road Studios"".
+",nosql
+"Show brands participating in ""Fashion Week"".
+",nosql
+"Find ingredients sourced locally.
+",nosql
+"List members with a ""Lifetime"" membership.
+",nosql
+"Retrieve FAQs related to ""Account Management"".
+",nosql
+"Get classes with open seats available.
+",nosql
+"Show policies covering ""Travel Insurance"".
+",nosql
+"Find gadgets rated as ""Eco-Friendly"".
+",nosql
+"List partners in ""North America"".
+",nosql
+"Retrieve forecasts predicting rain.
+",nosql
+"Get series available in ""4K"".
+",nosql
+"Show agents licensed in ""Real Estate"".
+",nosql
+"Find instructors for ""Advanced Coding"".
+",nosql
+"List bridges constructed before 1950.
+",nosql
+"Retrieve protocols for data security.
+",nosql
+"Get dishes that are ""Vegan"".
+",nosql
+"Show plans in ""Phase 3"".
+",nosql
+"Find containers currently in transit.
+",nosql
+"List publications reviewed by ""Peer Network"".
+",nosql
+"Retrieve sequences from ""DNA Research"".
+",nosql
+"Get fabrics suitable for ""Summer Wear"".
+",nosql
+"Show facilities open 24/7.
+",nosql
+"Find scripts written by ""Screenwriters Guild"".
+",nosql
+"List formulas used in ""Rocket Science"".
+",nosql
+"Retrieve settings for ""Automatic Updates"".
+",nosql
+"Get paddocks occupied by ""Horses"".
+",nosql
+"Show tests passed with ""A"" grade.
+",nosql
+"Find rounds in the ""Quarterfinal Stage"".
+",nosql
+"List conventions held in ""Las Vegas"".
+",nosql
+"Retrieve logs from ""Server A"".
+",nosql
+"Get algorithms for ""Pattern Recognition"".
+",nosql
+"Show cartoons aired in morning slots.
+",nosql
+"Find currencies accepted in ""International Market"".
+",nosql
+"List novels over 400 pages long.
+",nosql
+"Retrieve pages optimized for ""SEO"".
+",nosql
+"Get cigars from ""Cuban Collection"".
+",nosql
+"Show manifolds compatible with ""Model X"".
+",nosql
+"Find excavations in ""Ancient Sites"".
+",nosql
+"Retrieve all documents where the user's age is greater than 25.
+",nosql
+"Find all products with a price lower than $50.
+",nosql
+"List all orders placed in the last 7 days.
+",nosql
+"Fetch all records where the status is ""active"".
+",nosql
+"Get user profiles with verified email addresses.
+",nosql
+"Show all items with a rating of 4 stars or higher.
+",nosql
+"Find cars manufactured in the year 2020 or later.
+",nosql
+"Retrieve blog posts containing the keyword ""technology"".
+",nosql
+"List customers who have purchased more than 10 items.
+",nosql
+"Get all events happening next month.
+",nosql
+"Fetch documents with a ""priority"" field set to ""high"".
+",nosql
+"Retrieve all cities with a population of over 1 million.
+",nosql
+"Find employees who have joined after January 1, 2023.
+",nosql
+"List all books written by ""J.K. Rowling"".
+",nosql
+"Get records where the ""is_member"" field is true.
+",nosql
+"Fetch all transactions exceeding $1,000.
+",nosql
+"Show all comments made by user ID 12345.
+",nosql
+"Find all movies in the ""comedy"" genre.
+",nosql
+"Retrieve products available in ""green"" color.
+",nosql
+"List all available rooms with a ""sea view"".
+",nosql
+"Get reviews with a five-star rating.
+",nosql
+"Fetch all messages sent in the last 24 hours.
+",nosql
+"Retrieve profiles with a ""premium"" membership.
+",nosql
+"Find all active campaigns ending this week.
+",nosql
+"List employees working in the ""marketing"" department.
+",nosql
+"Get all tasks marked as ""completed"".
+",nosql
+"Fetch books published after the year 2010.
+",nosql
+"Show all videos over 10 minutes long.
+",nosql
+"Find recipes with ""chocolate"" as an ingredient.
+",nosql
+"Retrieve all flights departing from ""JFK"" airport.
+",nosql
+"List projects with a deadline next quarter.
+",nosql
+"Get documents updated in the last 30 days.
+",nosql
+"Fetch songs by artist ""Taylor Swift"".
+",nosql
+"Retrieve all games with multiplayer capabilities.
+",nosql
+"Find schools with an ""A"" rating.
+",nosql
+"List all houses with at least 3 bedrooms.
+",nosql
+"Get all posts tagged with ""health"".
+",nosql
+"Fetch applications submitted after August 1, 2023.
+",nosql
+"Show all lectures available online.
+",nosql
+"Find all hotels in ""New York"".
+",nosql
+"Retrieve all profiles with a profile picture.
+",nosql
+"List sales greater than $5000.
+",nosql
+"Get documents with a specific keyword in the title.
+",nosql
+"Fetch films directed by ""Steven Spielberg"".
+",nosql
+"Retrieve all plants in the ""succulent"" family.
+",nosql
+"Find users who have logged in today.
+",nosql
+"List podcasts longer than 60 minutes.
+",nosql
+"Get all courses starting next semester.
+",nosql
+"Fetch software releases after version 2.0.
+",nosql
+"Show real estate listings under $300,000.
+",nosql
+"Find public groups created this year.
+",nosql
+"Retrieve all donations over $100.
+",nosql
+"List all jobs in the ""tech"" industry.
+",nosql
+"Get books with an available e-book version.
+",nosql
+"Fetch articles with over 1,000 views.
+",nosql
+"Retrieve all cars with automatic transmission.
+",nosql
+"Find stores open on Sundays.
+",nosql
+"List all available internships in ""finance"".
+",nosql
+"Get concerts scheduled for this weekend.
+",nosql
+"Fetch pet adoptions after March 2023.
+",nosql
+"Show classes taught by ""Professor John Doe"".
+",nosql
+"Find community centers offering yoga classes.
+",nosql
+"Retrieve contest entries from the last month.
+",nosql
+"List all gadgets with a warranty.
+",nosql
+"Get photos tagged with ""summer"".
+",nosql
+"Fetch accommodation options in ""Paris"".
+",nosql
+"Retrieve devices manufactured by ""Samsung"".
+",nosql
+"Find active registrations for this seminar.
+",nosql
+"List all items back in stock.
+",nosql
+"Get discounts applicable to student members.
+",nosql
+"Fetch all support tickets marked ""urgent"".
+",nosql
+"Show digital art pieces from 2022.
+",nosql
+"Find books translated into French.
+",nosql
+"Retrieve all hiking trails in ""Colorado"".
+",nosql
+"List scholarships available for undergraduates.
+",nosql
+"Get wines rated above 90 points.
+",nosql
+"Fetch laptops released in the last year.
+",nosql
+"Retrieve all gourmet restaurants in ""Tokyo"".
+",nosql
+"Find corporate training sessions scheduled this year.
+",nosql
+"List artworks exhibited in 2023.
+",nosql
+"Get mobile plans with unlimited data.
+",nosql
+"Fetch rental cars with GPS included.
+",nosql
+"Show recent developments in ""AI"".
+",nosql
+"Retrieve top-selling items last quarter.
+",nosql
+"Find forums with active discussions.
+",nosql
+"List all completed construction projects.
+",nosql
+"Get news articles published today.
+",nosql
+"Fetch user reviews for ""Hotel XYZ"".
+",nosql
+"Retrieve online resources for learning ""Python"".
+",nosql
+"Find newsletters sent in the past week.
+",nosql
+"List clubs with a membership fee under $50.
+",nosql
+"Get presentations by keynote speaker ""Jane Doe"".
+",nosql
+"Fetch insurance policies ending this year.
+",nosql
+"Show all communities focused on sustainability.
+",nosql
+"Find theaters showing ""Oppenheimer"".
+",nosql
+"Retrieve all charity events in December.
+",nosql
+"List health plans covering ""dental"".
+",nosql
+"Get grants awarded to ""non-profits"".
+",nosql
+"Fetch all device settings with ""dark mode"".
+",nosql
+"Retrieve open listings in the ""art"" category.
+",nosql
+"Find all boats available for rent this weekend.
+",nosql
+"List workshops related to ""photography"".
+",nosql
+"Get courses suitable for beginners.
+",nosql
+"Fetch access records in the past two weeks.
+",nosql
+"Show documentaries about wildlife.
+",nosql
+"Find journals with ""peer-reviewed"" status.
+",nosql
+"Retrieve grant applications due in 2024.
+",nosql
+"List all available data analysis tools. 
+",nosql
+"Retrieve all user profiles with active status.
+",nosql
+"Find documents where the order date is within the last 30 days.
+",nosql
+"Get a list of customers who have spent more than $500.
+",nosql
+"Show all products that are out of stock.
+",nosql
+"List all blog posts written by a specific author.
+",nosql
+"Fetch comments that contain the keyword ""urgent.""
+",nosql
+"Retrieve all events happening in the next week.
+",nosql
+"Find documents with a missing email field.
+",nosql
+"Show all orders from the past year.
+",nosql
+"List all locations within a 10-mile radius of a given point.
+",nosql
+"Fetch records sorted by creation date.
+",nosql
+"List employees whose job title is manager.
+",nosql
+"Retrieve all invoices that are unpaid.
+",nosql
+"Find all documents where the age field is greater than 25.
+",nosql
+"Get a list of products priced under $20.
+",nosql
+"Show all transactions using a specific payment method.
+",nosql
+"Retrieve all items purchased by a particular customer this month.
+",nosql
+"List all documents containing a specific tag.
+",nosql
+"Find posts with more than 100 likes.
+",nosql
+"Retrieve products with a rating of 4 stars or higher.
+",nosql
+"Show all users registered today.
+",nosql
+"List all documents where the category is 'electronics.'
+",nosql
+"Find articles written in 2021.
+",nosql
+"Retrieve tasks that are marked as completed.
+",nosql
+"Get a count of customers from a specific city.
+",nosql
+"Show all articles containing the phrase ""climate change.""
+",nosql
+"List all sessions with a duration longer than 1 hour.
+",nosql
+"Retrieve all recipes containing the ingredient ""chicken.""
+",nosql
+"Find projects where the deadline is overdue.
+",nosql
+"Show all documents with a field value that starts with 'A.'
+",nosql
+"Fetch all photos uploaded by a user.
+",nosql
+"Find all documents with nested fields.
+",nosql
+"Retrieve all sales data for the current quarter.
+",nosql
+"List users who have not logged in for the past 30 days.
+",nosql
+"Show all documents referencing image files.
+",nosql
+"Get all reviews with a score less than 3.
+",nosql
+"Retrieve the latest announcements made.
+",nosql
+"List all books authored by a particular writer.
+",nosql
+"Find all documents where the priority is high.
+",nosql
+"Show comments posted before a certain date.
+",nosql
+"Retrieve all job applications with the status 'approved.'
+",nosql
+"Find documents by a specific key-value pair.
+",nosql
+"Get all meeting schedules for the upcoming month.
+",nosql
+"List all invoices with a specific currency type.
+",nosql
+"Show products currently on sale.
+",nosql
+"Retrieve user profiles with specific preferences.
+",nosql
+"Find transactions that were refunded.
+",nosql
+"List all data entries without a timestamp.
+",nosql
+"Fetch all receipts from a certain online store.
+",nosql
+"Show all houses listed for rent in a city.
+",nosql
+"Retrieve all game scores above a certain threshold.
+",nosql
+"List all orders shipped internationally.
+",nosql
+"Find where reviews mention ""customer service.""
+",nosql
+"Retrieve the history of a specific asset.
+",nosql
+"Show all messages sent to a particular group.
+",nosql
+"Fetch events organized by a particular host.
+",nosql
+"Find products with a discount applied.
+",nosql
+"Retrieve all inventory items low in stock.
+",nosql
+"Show all designs submitted by a particular user.
+",nosql
+"List courses available in a specific department.
+",nosql
+"Retrieve images that are high-resolution.
+",nosql
+"Find records with flagged warnings.
+",nosql
+"Show movies released in the last decade.
+",nosql
+"List all customer service inquiries marked urgent.
+",nosql
+"Retrieve holiday packages available.
+",nosql
+"Find sports activities for children.
+",nosql
+"Show all volunteer opportunities in your area.
+",nosql
+"List official announcements from last year.
+",nosql
+"Retrieve all templates designed for flyers.
+",nosql
+"Find all music tracks by a specific artist.
+",nosql
+"Show all documents referencing external links.
+",nosql
+"List recipes that are vegan.
+",nosql
+"Retrieve all scheduled conferences in August.
+",nosql
+"Find all chat logs with attachments.
+",nosql
+"Show all paintings created in the 19th century.
+",nosql
+"Retrieve performance reviews from last cycle.
+",nosql
+"List attendees for an event.
+",nosql
+"Find contracts that are due for renewal.
+",nosql
+"Show all exported data sets.
+",nosql
+"Retrieve user agreements signed within a year.
+",nosql
+"Find promotional emails sent by the marketing team.
+",nosql
+"Show all applications with open status.
+",nosql
+"List job vacancies listed under technology.
+",nosql
+"Retrieve tips for traveling in Asia.
+",nosql
+"Find e-books in the mystery genre.
+",nosql
+"Show films directed by a specific filmmaker.
+",nosql
+"List all businesses launched last quarter.
+",nosql
+"Retrieve patches for a software update.
+",nosql
+"Find all client feedback forms submitted.
+",nosql
+"Show archived news articles from 2010.
+",nosql
+"List network requests timed out.
+",nosql
+"Retrieve logs flagged for review.
+",nosql
+"Find charities focused on education.
+",nosql
+"Show all patent filings by the company.
+",nosql
+"List campaign data from last year.
+",nosql
+"Retrieve patient records updated recently.
+",nosql
+"Find error messages from the log system.
+",nosql
+"Show all accounting entries for 2022 fiscal year.
+",nosql
+"Retrieve all musician bios featuring awards.
+",nosql
+"Find real estate listings for luxury condos.
+",nosql
+"Show DIY projects using only recycled materials.
+",nosql
+"List all programming tutorials on databases.
+",nosql
+"Retrieve sessions with more than 50 participants.
+",nosql
+"Find all plant species native to the region.
+",nosql
+"Show team rosters for the upcoming sports season.
+",nosql
+"List workshop registrations exceeding capacity.
+",nosql
+"Retrieve editorial pieces commenting on policy.
+",nosql
+"Show transactions finalized on weekends.
+",nosql
+"List community events with free entry.
+",nosql
+"Retrieve all tutorials related to crafts.
+",nosql
+"Find lists containing organizational tips.
+",nosql
+"Show all tech support tickets closed this week.
+",nosql
+"List groups for professional development networking.
+",nosql
+"Retrieve trends in renewable energy statistics.
+",nosql
+"Find documentation drafts saved by editors.
+",nosql
+"Retrieve all documents where the user's age is greater than 30.
+",nosql
+"Find all orders placed in December 2022.
+",nosql
+"Get the names of all employees who work in the ""Engineering"" department.
+",nosql
+"List all products with a price less than $50.
+",nosql
+"Count the number of documents in the ""customers"" collection.
+",nosql
+"Find documents with an email domain of ""example.com"".
+",nosql
+"Retrieve all blog posts tagged with ""MongoDB"".
+",nosql
+"List all invoices with a status of ""unpaid"".
+",nosql
+"Find the top 5 most expensive items.
+",nosql
+"Retrieve documents where the ""status"" is either ""active"" or ""pending"".
+",nosql
+"List users who have logged in within the last 7 days.
+",nosql
+"Get all documents that have a ""null"" value in the ""address"" field.
+",nosql
+"Find all books authored by ""John Doe"".
+",nosql
+"Retrieve documents containing a specific word in the ""description"" field.
+",nosql
+"List all comments made on a particular blog post.
+",nosql
+"Find users whose registration date is before January 1, 2023.
+",nosql
+"Retrieve all profiles with more than 1000 followers.
+",nosql
+"List all venues available for a specific date range.
+",nosql
+"Find all movies released in 2021.
+",nosql
+"Get all documents where the ""score"" is in the top 10 percentile.
+",nosql
+"List products that are currently out of stock.
+",nosql
+"Find all documents with an embedded document matching specific criteria.
+",nosql
+"Retrieve documents with array fields containing a specific element.
+",nosql
+"List all employees with more than 5 years of experience.
+",nosql
+"Find the sum of all ""sales"" for a specific product.
+",nosql
+"Retrieve users whose ""last_login"" is after a certain timestamp.
+",nosql
+"List all active users with a verified email address.
+",nosql
+"Get documents where ""rating"" is greater than or equal to 4.
+",nosql
+"Find documents with a ""created_at"" date within the last month.
+",nosql
+"List all transactions above a specific dollar amount.
+",nosql
+"Retrieve documents where any field contains ""urgent"".
+",nosql
+"Find profiles located within 50 miles of a specific geolocation.
+",nosql
+"Get all albums by a specific artist.
+",nosql
+"List documents with fields matching regular expression patterns.
+",nosql
+"Find reservations that overlap with a given time slot.
+",nosql
+"Retrieve all documents without a ""deleted_at"" timestamp.
+",nosql
+"List all messages sent by a user with a specific ID.
+",nosql
+"Get documents with a specific value in the first position of an array.
+",nosql
+"Find profiles where the ""bio"" field is not empty.
+",nosql
+"Retrieve all documents with a ""true"" value for a Boolean field.
+",nosql
+"List employees who joined in the year 2020.
+",nosql
+"Get documents with a specific category and a price range.
+",nosql
+"Find all events happening in a particular city.
+",nosql
+"Retrieve documents that do not contain a certain field.
+",nosql
+"List all posts with more than 100 likes.
+",nosql
+"Find all accounts created within the last year.
+",nosql
+"Retrieve documents with specific nested field criteria.
+",nosql
+"List products sorted by ""release_date"" in descending order.
+",nosql
+"Find documents where the ""author"" matches a given ID.
+",nosql
+"Retrieve all jobs with ""remote"" in their description.
+",nosql
+"List all restaurants serving a specific type of cuisine.
+",nosql
+"Find documents with exactly 3 elements in an array field.
+",nosql
+"Retrieve sessions lasting longer than a specific duration.
+",nosql
+"List all accounts with names starting with ""A"".
+",nosql
+"Find all unpublished articles.
+",nosql
+"Retrieve user profiles created after a specific date.
+",nosql
+"List all devices connected in the last hour.
+",nosql
+"Get documents where a specific field exists.
+",nosql
+"Find all teams having more than 8 members.
+",nosql
+"Retrieve all feedback with a ""negative"" sentiment label.
+",nosql
+"List all courses taught by a certain instructor.
+",nosql
+"Find documents containing numeric values within a range.
+",nosql
+"Retrieve products with discounts greater than 20%.
+",nosql
+"List all contracts expiring in the next 3 months.
+",nosql
+"Find users with incomplete profiles.
+",nosql
+"Retrieve documents with duplicate emails.
+",nosql
+"List all projects with a ""completed"" status.
+",nosql
+"Find all reviews with a 5-star rating.
+",nosql
+"Retrieve all books within a certain ISBN range.
+",nosql
+"List documents grouped by a specific field.
+",nosql
+"Find sessions with no associated user.
+",nosql
+"Retrieve all collections with documents exceeding 1MB size.
+",nosql
+"List users with a specific role or permission.
+",nosql
+"Get documents using a complex query on multiple fields.
+",nosql
+"Find all tickets sold for a specific concert.
+",nosql
+"Retrieve all students enrolled in a specific semester.
+",nosql
+"List all animals with a microchip ID.
+",nosql
+"Find documents modified within the last 24 hours.
+",nosql
+"Retrieve events with more than 100 attendees.
+",nosql
+"List all athletes managed by a specific agent.
+",nosql
+"Get documents where an embedded array matches criteria.
+",nosql
+"Find products made by a specific manufacturer.
+",nosql
+"Retrieve all recipes with ""vegan"" in their title.
+",nosql
+"List users with birthdays in January.
+",nosql
+"Find reports submitted by a specific department.
+",nosql
+"Retrieve all documents without child documents.
+",nosql
+"List all digital products available for download.
+",nosql
+"Find lectures scheduled for the current week.
+",nosql
+"Retrieve discussions with replies from more than 10 users.
+",nosql
+"List all programming languages used in a project.
+",nosql
+"Find all artists with an album count greater than 4.
+",nosql
+"Retrieve documents with additional metadata fields.
+",nosql
+"List all trips booked through a certain travel agency.
+",nosql
+"Find contracts with an auto-renewal clause.
+",nosql
+"Retrieve all subjects taught in a specific school year.
+",nosql
+"List events not categorized under any label.
+",nosql
+"Find all vacant positions in a company.
+",nosql
+"Retrieve documents where the value starts with a number.
+",nosql
+"List all newsletters sent after a given date.
+",nosql
+"Find issues reported with a specific software version.
+",nosql
+"Retrieve all comments flagged as inappropriate.
+",nosql
+"List animals available for adoption.
+",nosql
+"Find orders pending for more than a week.
+",nosql
+"Retrieve all questions with a specific tag.
+",nosql
+"List all assets owned by a particular division.
+",nosql
+"Find all leads generated from a marketing campaign.
+",nosql
+"Retrieve club members joined after a specific event.
+",nosql
+"List all goods exported in 2023.
+",nosql
+"Find documents with field names matching a specific regex.
+",nosql
+"What is the total number of users registered in our database?
+",nosql
+"Find the user's profile with the username ""john_doe"".
+",nosql
+"Retrieve all products that have a stock level below 20 units.
+",nosql
+"List all orders placed in the last 30 days.
+",nosql
+"Show all customers with an email address from the domain ""gmail.com"".
+",nosql
+"Find posts that have more than 100 likes.
+",nosql
+"Search for all movies released in the year 2021.
+",nosql
+"Retrieve all blogs tagged with ""technology"".
+",nosql
+"Find users who have made at least one purchase this year.
+",nosql
+"Show all songs longer than four minutes duration.
+",nosql
+"List all employees who joined in the last six months.
+",nosql
+"Find the highest-priced product in the electronics category.
+",nosql
+"Retrieve details of the latest five articles published.
+",nosql
+"List all cities where the order volume exceeds 50.
+",nosql
+"Find names of all authors with more than five publications.
+",nosql
+"Show all comments containing the keyword ""excellent"".
+",nosql
+"Retrieve all recipes that include ""chocolate"" as an ingredient.
+",nosql
+"Find all books with a rating higher than four stars.
+",nosql
+"List all products with a discount greater than 10%.
+",nosql
+"Find all photos uploaded by user ""alice123"".
+",nosql
+"Retrieve all events scheduled for the month of December.
+",nosql
+"Show all employees who work in the ""marketing"" department.
+",nosql
+"List all vendors located in California.
+",nosql
+"Find all transactions exceeding $1,000.
+",nosql
+"Retrieve all issues reported in the last 24 hours.
+",nosql
+"Show all feedback with a user rating of five stars.
+",nosql
+"Retrieve all students enrolled in the ""data science"" course.
+",nosql
+"Find all video games with an age rating of ""Teen"".
+",nosql
+"List all vehicles manufactured after the year 2015.
+",nosql
+"Show all job postings tagged as ""remote"".
+",nosql
+"Retrieve all properties within a 10-mile radius of New York City.
+",nosql
+"Find all restaurants with a delivery option.
+",nosql
+"List all open tickets in the support system.
+",nosql
+"Retrieve details of the top ten most popular products.
+",nosql
+"Show all flights departing from Los Angeles.
+",nosql
+"List all emails sent to the address ""support@example.com"".
+",nosql
+"Find all messages marked as ""urgent"".
+",nosql
+"Retrieve all notifications sent within the last hour.
+",nosql
+"Show all images labeled as ""nature"".
+",nosql
+"List all languages spoken by more than a million users.
+",nosql
+"Retrieve all applications with a status of ""pending"".
+",nosql
+"Find all books authored by ""Stephen King"".
+",nosql
+"Show all accounts that have been inactive for over 90 days.
+",nosql
+"Retrieve all invoice records from January 2023.
+",nosql
+"Find all pets available for adoption in ""San Francisco"".
+",nosql
+"List all podcasts with a runtime less than 30 minutes.
+",nosql
+"Retrieve all transaction histories for ""account_id_123"".
+",nosql
+"Find all classes that are scheduled on Mondays.
+",nosql
+"Show all promotional offers available currently.
+",nosql
+"List all permits issued in the ""construction"" sector.
+",nosql
+"Retrieve all website visits within the last week.
+",nosql
+"Find all cities with a population over a million.
+",nosql
+"Show all hotels with a star rating of five.
+",nosql
+"Retrieve all chapters under the ""introduction"" section.
+",nosql
+"List all stores open past 9 PM.
+",nosql
+"Find all films directed by ""Christopher Nolan"".
+",nosql
+"Show all tasks assigned to team ""alpha"".
+",nosql
+"Retrieve all notes with the tag ""important"".
+",nosql
+"Find all software updates released this quarter.
+",nosql
+"List all anime series with more than 50 episodes.
+",nosql
+"Show all bank branches located in ""downtown"".
+",nosql
+"Retrieve all newsletters sent in April 2022.
+",nosql
+"Find all datasets categorized under ""environment"".
+",nosql
+"List all virtual reality games compatible with Oculus.
+",nosql
+"Retrieve all calendar events for February 14th.
+",nosql
+"Find all trains arriving at ""Station A"" before noon.
+",nosql
+"Show all tutorials related to ""machine learning"".
+",nosql
+"List all documentaries with ""award-winning"" mentions.
+",nosql
+"Retrieve all ""read"" status notifications.
+",nosql
+"Find all weather reports for the past seven days.
+",nosql
+"Show all real estate listings priced under $500,000.
+",nosql
+"List all business accounts registered since 2020.
+",nosql
+"Retrieve all recipes suitable for ""vegetarian"" diets.
+",nosql
+"Find all runners registered for the ""city marathon"".
+",nosql
+"Show all museums offering free entry.
+",nosql
+"Retrieve all clothing items in the ""summer"" collection.
+",nosql
+"Find all adventure parks near ""Miami"".
+",nosql
+"List all foreign exchange rates between USD and EUR.
+",nosql
+"Retrieve all grant applications submitted this month.
+",nosql
+"Show all faculty members teaching ""biology"".
+",nosql
+"Find all threads with more than 50 comments.
+",nosql
+"List all mobile apps developed by ""TechCorp"".
+",nosql
+"Retrieve all published patents by ""Innovate Inc."".
+",nosql
+"Find all journal entries with ""grateful"" as a keyword.
+",nosql
+"Show all items included in the clearance sale.
+",nosql
+"Retrieve all requests marked as ""high priority"".
+",nosql
+"Find all training modules completed by ""employee_id_456"".
+",nosql
+"List all fantasy books in our inventory.
+",nosql
+"Show all hiking trails open during winter.
+",nosql
+"Retrieve all biographies written in the 20th century.
+",nosql
+"Find all artwork on display in the ""modern art"" section.
+",nosql
+"List all awards won by actor ""Leonardo DiCaprio"".
+",nosql
+"Retrieve all bills with a due date past today's date.
+",nosql
+"Find all libraries offering ""ebook"" loans.
+",nosql
+"Show all tweets with the hashtag ""#InnovationSummit"".
+",nosql
+"Retrieve all workshops related to ""leadership skills"".
+",nosql
+"Find all discounts applicable for ""first-time buyers"".
+",nosql
+"List all playlist titles created by ""dj_smith"".
+",nosql
+"Show all experiences tagged under ""extreme sports"".
+",nosql
+"Retrieve all customer support chats from last Friday.
+",nosql
+"Find all bicycles available for rent in ""Central Park"".
+",nosql
+"List all APIs used in the ""WeatherApp"" project.
+",nosql
+"Retrieve all feature films with subtitles in Spanish.
+",nosql
+"Find all user comments posted on ""RecipeBlog"".
+",nosql
+"Show all band performances at ""Jazz Festival"".
+",nosql
+"List all construction projects completed this summer.
+",nosql
+"Retrieve all personalized recommendations for ""user123"".
+",nosql
+"Find all annual reports archived in 2022.
+",nosql
+"Show all fundraising activities by ""CharityOrg"".
+",nosql
+"Retrieve all interactive tutorials for ""web development"".
+",nosql
+"Find all campus events marked as ""open to public"".",nosql
+"""Retrieve all users who signed up in the last month.""
+",nosql
+"""Find all products with a price greater than $100.""
+",nosql
+"""Get customer reviews with at least four stars.""
+",nosql
+"""List all blog posts tagged with 'technology'.""
+",nosql
+"""Show all orders placed by customer ID 12345.""
+",nosql
+"""Display all items with a quantity less than 10 in stock.""
+",nosql
+"""Fetch all employees working in the 'Sales' department.""
+",nosql
+"""Retrieve articles published after January 1, 2023.""
+",nosql
+"""Find documents where the status is 'pending'.""
+",nosql
+"""Get all events scheduled in August 2023.""
+",nosql
+"""Show all tickets with priority 'high'.""
+",nosql
+"""Retrieve customer records with last names starting with 'S'.""
+",nosql
+"""List all transactions exceeding $1,000.""
+",nosql
+"""Display details of all active projects.""
+",nosql
+"""Find all entries with keywords 'data science'.""
+",nosql
+"""Get all books by the author 'George Orwell'.""
+",nosql
+"""Show all profiles where the age is above 30.""
+",nosql
+"""Retrieve all multimedia files larger than 500MB.""
+",nosql
+"""List all messages containing the word 'urgent'.""
+",nosql
+"""Display all records updated within the last 24 hours.""
+",nosql
+"""Find all products with a discount greater than 20%.""
+",nosql
+"""Get orders with payment status 'completed'.""
+",nosql
+"""Show all employees who joined in the year 2021.""
+",nosql
+"""Retrieve details of movies rated 5 stars.""
+",nosql
+"""List all active members in the database.""
+",nosql
+"""Display all courses offered in the 'Fall' semester.""
+",nosql
+"""Find all inquiries submitted to customer service.""
+",nosql
+"""Get all inventory items that are out of stock.""
+",nosql
+"""Show all app users with verified emails.""
+",nosql
+"""Retrieve all past events from the calendar.""
+",nosql
+"""List all devices registered in the system.""
+",nosql
+"""Display all tasks marked as 'in progress'.""
+",nosql
+"""Find all invoices issued in February 2023.""
+",nosql
+"""Get details of all available promotions.""
+",nosql
+"""Show all feedback forms with a rating of 5.""
+",nosql
+"""Retrieve all donation records over $500.""
+",nosql
+"""List all accounts with premium subscriptions.""
+",nosql
+"""Display all recipes containing 'chocolate'.""
+",nosql
+"""Find all discussions about 'machine learning'.""
+",nosql
+"""Get all playlists created by user 'john_doe'.""
+",nosql
+"""Show all job listings for 'software engineer'.""
+",nosql
+"""Retrieve workshop events happening this year.""
+",nosql
+"""List all active payment gateways.""
+",nosql
+"""Display all records with the tag 'emergency'.""
+",nosql
+"""Find all messages sent by 'admin'.""
+",nosql
+"""Get all complaints regarding 'billing'.""
+",nosql
+"""Show all courses with 'beginner' difficulty.""
+",nosql
+"""Retrieve all high-priority alerts issued.""
+",nosql
+"""List all webinars scheduled for March 2023.""
+",nosql
+"""Display all house listings in 'New York'.""
+",nosql
+"""Find all registered patents of 2022.""
+",nosql
+"""Get all recipes categorized as 'vegan'.""
+",nosql
+"""Show all system logs for user 'alice'.""
+",nosql
+"""Retrieve all book editions from year 2020.""
+",nosql
+"""List all workshops with open registrations.""
+",nosql
+"""Display all posts liked by user 'jane_doe'.""
+",nosql
+"""Find all cars with mileage below 20,000.""
+",nosql
+"""Get details of all music albums released this year.""
+",nosql
+"""Show all branches with the status 'open'.""
+",nosql
+"""Retrieve all loans with due dates in December.""
+",nosql
+"""List all cultural events in 'Los Angeles'.""
+",nosql
+"""Display all notifications marked as 'important'.""
+",nosql
+"""Find all available flights to 'Tokyo'.""
+",nosql
+"""Get all customer inquiries marked as resolved.""
+",nosql
+"""Show all unresolved support tickets.""
+",nosql
+"""Retrieve all export orders for company 'XYZ'.""
+",nosql
+"""List all catalog items categorized as 'electronics'.""
+",nosql
+"""Display all received friend requests by user 'mark'.""
+",nosql
+"""Find all alerts for account '123ABC'.""
+",nosql
+"""Get records login attempts failed from IP '192.168.1.1'.""
+",nosql
+"""Show seminars related to 'healthcare'.""
+",nosql
+"""Retrieve all complaints resolved within 48 hours.""
+",nosql
+"""List all books translated into 'Spanish'.""
+",nosql
+"""Display verified sellers on the platform.""
+",nosql
+"""Find all public events in 'April'.""
+",nosql
+"""Get all ongoing software projects.""
+",nosql
+"""Show agreements signed by the 'Marketing' department.""
+",nosql
+"""Retrieve all payment records for 'Phase 1'.""
+",nosql
+"""List all homes sold in 'California' this year.""
+",nosql
+"""Display upcoming sports tournaments.""
+",nosql
+"""Find potential leads generated from 'Twitter'.""
+",nosql
+"""Get archived newsletters sent in 2021.""
+",nosql
+"""Show all galleries featuring 'impressionist art'.""
+",nosql
+"""Retrieve all server error logs.""
+",nosql
+"""List all investment portfolios of 'John Smith'.""
+",nosql
+"""Display payment transactions for customer 'C910'.""
+",nosql
+"""Find pending friend requests for user 'susan'.""
+",nosql
+"""Get event participants named 'David'.""
+",nosql
+"""Show all incomplete user profiles.""
+",nosql
+"""Retrieve pets available for adoption in 'Florida'.""
+",nosql
+"""List all job vacancies offering 'remote work'.""
+",nosql
+"""Display all clinics with COVID-19 vaccines available.""
+",nosql
+"""Find reviews mentioning 'excellent service'.""
+",nosql
+"""Get movies directed by 'Alfred Hitchcock'.""
+",nosql
+"""Show offers valid till 'March 31, 2023'.""
+",nosql
+"""Retrieve all theme-based newsletters.""
+",nosql
+"""List all property rentals in 'London'.""
+",nosql
+"""Display restaurants with 'vegan' menu options.""
+",nosql
+"""Find all contact entries with missing phone numbers.""
+",nosql
+"""Get all team members involved in 'Project X'.""
+",nosql
+"""Show all employees eligible for promotion.""
+",nosql
+"""Retrieve music tracks with over 1 million plays.""
+",nosql
+"""List all seasonal discounts for 'Summer'.""
+",nosql
+"""Display upcoming book launches.""
+",nosql
+"""Find all blogs posted by 'guest authors'.""
+",nosql
+"""Get system alerts referencing 'out of memory'.""
+",nosql
+"""Show purchase orders from vendor 'ABC Supplies'.""
+",nosql
+"""Retrieve all photo albums with more than 100 likes.""
+",nosql
+"""List companies with ongoing 'ISO' certification.""
+",nosql

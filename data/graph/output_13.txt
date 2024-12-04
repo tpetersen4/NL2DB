@@ -1,0 +1,130 @@
+Creating 126 unique natural language queries for graph databases requires consideration of typical graph database operations like finding paths, determining relationships, aggregating data, and extracting specific nodes or edges based on given criteria. Here’s a list of these queries:
+
+1. Find all direct friends of John.
+2. List the movies directed by Christopher Nolan.
+3. Show all employees who report directly to Mary.
+4. What are the common interests between Alice and Bob?
+5. List all countries connected by a trade agreement with Germany.
+6. Identify the shortest path between node A and node B.
+7. Find all nodes connected to node X within two hops.
+8. Who are the mutual friends of Mike and Sarah?
+9. Which products are frequently purchased together?
+10. List all projects managed by department X.
+11. Who has co-authored papers with Dr. Smith?
+12. Show the hierarchy of the tech department.
+13. Which cities have flight connections with New York?
+14. Find all ancestors of node Z.
+15. Identify influencers in the social network.
+16. What are John's professional connections in London?
+17. List all articles linked to the subject Quantum Computing.
+18. Find all books written by J.K. Rowling.
+19. What are the direct dependencies of package A?
+20. Show all roads leading to Los Angeles.
+21. What databases are related to Big Data?
+22. List all nodes with the label "Customer".
+23. Who purchased product Y in the last month?
+24. Find all issues assigned to user X.
+25. List people who have completed Project Alpha.
+26. Which students are enrolled in both course A and course B?
+27. Identify all paths from source S to destination D.
+28. Show all devices connected to the network.
+29. List all patents held by company X.
+30. Find movies featuring both actor A and actor B.
+31. Who are the main contributors to repository Z?
+32. Identify all events hosted by organization Y.
+33. What are the career paths of alumni from University Z?
+34. List all companies within the same industry as company X.
+35. Find all nodes that are leaf nodes.
+36. Who are node Z's indirect friends?
+37. Show all transactions exceeding $10,000.
+38. List all posts tagged with "Machine Learning".
+39. Find all projects with a status of "Completed".
+40. Show all nodes connected to the "Internet of Things" cluster.
+41. List all communities John is a part of.
+42. Find all products in the electronics category.
+43. Which banks operate in country X?
+44. Identify all conferences attended by employee Y.
+45. What are the upcoming events in location L?
+46. List all suppliers of company Z.
+47. Show the relationship path between person A and company B.
+48. Find all employees with skills in Java.
+49. What are the top ten most followed accounts?
+50. List all friends of friends of person C.
+51. Identify countries bordering country N.
+52. Which authors write in the genre Science Fiction?
+53. Find all tags associated with the user account K.
+54. List all items in the user's shopping cart.
+55. Who has made changes to the document "Project Proposal"?
+56. Find all cities within 100 miles of Paris.
+57. List all users with administrator privileges.
+58. Show all executables in the software release.
+59. What regulations affect the telecommunications industry?
+60. Find all team members of the marketing department.
+61. Which travelers have visited both city A and city B?
+62. List all partners of corporation Y in the last five years.
+63. Show the full tree of dependencies for task T.
+64. Identify all secured connections to server R.
+65. Who are the recipients of the 2022 award?
+66. Show all neighboring nodes of node P.
+67. What are the points of interest in region R?
+68. Find all tournaments won by player X.
+69. List all related technologies to blockchain.
+70. Who are the siblings of character C in the story?
+71. Show all data transactions from January 2022.
+72. Find all books translated to French.
+73. Which cities are connected by high-speed rail?
+74. List all presentations given by team B.
+75. Identify all retailers for brand M.
+76. What are the titles published by the press house H?
+77. Find all direct reports of manager N.
+78. Show all peers of user profile Z.
+79. List all museums located in district D.
+80. Identify all renewable energy sources in location L.
+81. What are the active volcanoes near country J?
+82. Find all open-source projects by developer D.
+83. Show the complete lineage of object O.
+84. List all Linux distributions in use in the organization.
+85. Who are the main organizers of event E?
+86. Identify all cybersecurity compromises reported in 2023.
+87. Show all branches of the retail chain in city B.
+88. Find all election candidates affiliated with party P.
+89. List the top influencers on topic T.
+90. What are the communication channels used by team X?
+91. Identify all historical landmarks in state S.
+92. Show the popularity trend of product Z over time.
+93. List all favorite genres of the user account Y.
+94. Find all connections between investor A and startups.
+95. Show the full employment history of John Doe.
+96. What foods contain the ingredient X?
+97. List all associated accounts with email address E.
+98. Identify all endangered species in ecosystem E.
+99. Show all possible outcomes for decision node D.
+100. Find all graphic designs created by artist A.
+101. List all public APIs provided by platform Q.
+102. What are the symptoms linked to disease D?
+103. Identify all diplomatic missions in country C.
+104. Show the influences of musician M in the genre.
+105. Find all nodes with no in-degrees.
+106. List all recurring events in the community calendar.
+107. Show all elements of national culture for country Z.
+108. What books are frequently cited by professionals in domain D?
+109. Identify sources of articles published by journalist J.
+110. List all endangered languages spoken in region R.
+111. Show all institutions offering scholarships in field F.
+112. What files have been modified in project repository R?
+113. Identify the major export commodities of country U.
+114. Show the crosslinks between chapter C and others.
+115. Find all endangered habitats in the biosphere reserve.
+116. List all water bodies located within city limits of X.
+117. What are the weather patterns observed in area A over the past decade?
+118. Show all travel destinations featured in tour package P.
+119. Identify all musical compositions by composer K.
+120. List all records of activities for member I.
+121. Show all literary works that have won a Pulitzer Prize.
+122. Find all case studies related to artificial intelligence.
+123. What are the possible risk factors analyzed for project Y?
+124. Identify all medications containing the chemical C.
+125. Show the collaboration history between companies A and B.
+126. List all nodes that result from the transformation rule R.
+
+These queries are designed to be practical for various industries and applications, emphasizing the flexibility and efficiency of graph databases in managing complex interrelationships and networks.

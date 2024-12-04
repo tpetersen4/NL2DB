@@ -1,0 +1,119 @@
+Creating 115 unique natural language queries suitable for NoSQL databases like MongoDB involves considering various applications and data structures typical in such databases. Here’s a diverse list that touches on different scenarios a user might encounter:
+
+1. Retrieve all user profiles with active status.
+2. Find documents where the order date is within the last 30 days.
+3. Get a list of customers who have spent more than $500.
+4. Show all products that are out of stock.
+5. List all blog posts written by a specific author.
+6. Fetch comments that contain the keyword "urgent."
+7. Retrieve all events happening in the next week.
+8. Find documents with a missing email field.
+9. Show all orders from the past year.
+10. List all locations within a 10-mile radius of a given point.
+11. Fetch records sorted by creation date.
+12. List employees whose job title is manager.
+13. Retrieve all invoices that are unpaid.
+14. Find all documents where the age field is greater than 25.
+15. Get a list of products priced under $20.
+16. Show all transactions using a specific payment method.
+17. Retrieve all items purchased by a particular customer this month.
+18. List all documents containing a specific tag.
+19. Find posts with more than 100 likes.
+20. Retrieve products with a rating of 4 stars or higher.
+21. Show all users registered today.
+22. List all documents where the category is 'electronics.'
+23. Find articles written in 2021.
+24. Retrieve tasks that are marked as completed.
+25. Get a count of customers from a specific city.
+26. Show all articles containing the phrase "climate change."
+27. List all sessions with a duration longer than 1 hour.
+28. Retrieve all recipes containing the ingredient "chicken."
+29. Find projects where the deadline is overdue.
+30. Show all documents with a field value that starts with 'A.'
+31. Fetch all photos uploaded by a user.
+32. Find all documents with nested fields.
+33. Retrieve all sales data for the current quarter.
+34. List users who have not logged in for the past 30 days.
+35. Show all documents referencing image files.
+36. Get all reviews with a score less than 3.
+37. Retrieve the latest announcements made.
+38. List all books authored by a particular writer.
+39. Find all documents where the priority is high.
+40. Show comments posted before a certain date.
+41. Retrieve all job applications with the status 'approved.'
+42. Find documents by a specific key-value pair.
+43. Get all meeting schedules for the upcoming month.
+44. List all invoices with a specific currency type.
+45. Show products currently on sale.
+46. Retrieve user profiles with specific preferences.
+47. Find transactions that were refunded.
+48. List all data entries without a timestamp.
+49. Fetch all receipts from a certain online store.
+50. Show all houses listed for rent in a city.
+51. Retrieve all game scores above a certain threshold.
+52. List all orders shipped internationally.
+53. Find where reviews mention "customer service."
+54. Retrieve the history of a specific asset.
+55. Show all messages sent to a particular group.
+56. Fetch events organized by a particular host.
+57. Find products with a discount applied.
+58. Retrieve all inventory items low in stock.
+59. Show all designs submitted by a particular user.
+60. List courses available in a specific department.
+61. Retrieve images that are high-resolution.
+62. Find records with flagged warnings.
+63. Show movies released in the last decade.
+64. List all customer service inquiries marked urgent.
+65. Retrieve holiday packages available.
+66. Find sports activities for children.
+67. Show all volunteer opportunities in your area.
+68. List official announcements from last year.
+69. Retrieve all templates designed for flyers.
+70. Find all music tracks by a specific artist.
+71. Show all documents referencing external links.
+72. List recipes that are vegan.
+73. Retrieve all scheduled conferences in August.
+74. Find all chat logs with attachments.
+75. Show all paintings created in the 19th century.
+76. Retrieve performance reviews from last cycle.
+77. List attendees for an event.
+78. Find contracts that are due for renewal.
+79. Show all exported data sets.
+80. Retrieve user agreements signed within a year.
+81. Find promotional emails sent by the marketing team.
+82. Show all applications with open status.
+83. List job vacancies listed under technology.
+84. Retrieve tips for traveling in Asia.
+85. Find e-books in the mystery genre.
+86. Show films directed by a specific filmmaker.
+87. List all businesses launched last quarter.
+88. Retrieve patches for a software update.
+89. Find all client feedback forms submitted.
+90. Show archived news articles from 2010.
+91. List network requests timed out.
+92. Retrieve logs flagged for review.
+93. Find charities focused on education.
+94. Show all patent filings by the company.
+95. List campaign data from last year.
+96. Retrieve patient records updated recently.
+97. Find error messages from the log system.
+98. Show all accounting entries for 2022 fiscal year.
+99. Retrieve all musician bios featuring awards.
+100. Find real estate listings for luxury condos.
+101. Show DIY projects using only recycled materials.
+102. List all programming tutorials on databases.
+103. Retrieve sessions with more than 50 participants.
+104. Find all plant species native to the region.
+105. Show team rosters for the upcoming sports season.
+106. List workshop registrations exceeding capacity.
+107. Retrieve editorial pieces commenting on policy.
+108. Show transactions finalized on weekends.
+109. List community events with free entry.
+110. Retrieve all tutorials related to crafts.
+111. Find lists containing organizational tips.
+112. Show all tech support tickets closed this week.
+113. List groups for professional development networking.
+114. Retrieve trends in renewable energy statistics.
+115. Find documentation drafts saved by editors.
+
+These queries demonstrate the versatility and capability of NoSQL databases in handling diverse datasets efficiently.

@@ -1,0 +1,115 @@
+Creating unique natural language queries for graph databases involves combining various entities, relationships, and conditions that can be represented in a graph structure. Here are 111 unique queries:
+
+1. Find all authors who have written more than three books.
+2. List all cities connected by flights within two hops.
+3. Retrieve the names of employees who report directly to the CEO.
+4. Find all people with a direct connection to the project manager.
+5. List all friends of friends who live in New York.
+6. Identify all movies directed by someone who has also acted.
+7. Find top ten influential nodes in the social network.
+8. Retrieve all products purchased by customers aged between 20 and 30.
+9. List all managers who have more than three direct reports.
+10. Find all participants who attended more than two events.
+11. Retrieve all artists who have collaborated with a specific artist.
+12. List all countries that share a border.
+13. Find all articles cited by a particular research paper.
+14. Retrieve the shortest path between two users in a social network.
+15. List all authors who have collaborated with a Nobel Laureate.
+16. Find all software engineers working in the same project.
+17. Retrieve all families with at least two members in the same organization.
+18. Find all musicians who have released albums between 1990 and 2000.
+19. List all employees in the same location as the headquarters.
+20. Find all universities attended by a particular set of students.
+21. Retrieve all restaurants located within two blocks of a museum.
+22. List all technology partners of the company.
+23. Find all relationships of a specific type in the graph.
+24. Retrieve all transactions between customers and vendors.
+25. List all investors who have invested in more than five startups.
+26. Find all courses taken by students who major in computer science.
+27. Retrieve all flights with a layover of less than two hours.
+28. List all books co-authored by the same set of people.
+29. Find all colleagues who have worked more than five years together.
+30. Retrieve all nodes connected to a specific central node.
+31. List all hackerspaces in cities with a population over a million.
+32. Find all conferences attended by a specific academic.
+33. Retrieve all competitors of the company in the past five years.
+34. List all athletes who have won medals in multiple Olympics.
+35. Find all actors who have starred in more than ten films.
+36. Retrieve all operating systems compatible with given software.
+37. List all firms that have been acquired by the parent company.
+38. Find DJs who have played at least one international festival.
+39. Retrieve all patents citing a specific inventor.
+40. List all transportation routes connecting two specific locations.
+41. Find people who have connections in both New York and London.
+42. Retrieve all journalists contributing to the same newspaper.
+43. List all partnership agreements formed in the past year.
+44. Find all books translated into more than five languages.
+45. Retrieve all predecessors of a particular node in the hierarchy.
+46. List all workshops organized by the educational institution.
+47. Find podcasts with guests from multiple countries.
+48. Retrieve ecological networks of plant and animal species.
+49. List all historical events involving multiple countries.
+50. Find all doctors with specialization in cardiology.
+51. Retrieve all collaborative projects by two particular universities.
+52. List all mutual friends of two specific people.
+53. Find all software versions compatible with multiple platforms.
+54. Retrieve all matches between specific sports teams.
+55. List all tenants in buildings managed by the same company.
+56. Find all papers with shared references.
+57. Retrieve all technicians certified in a specific technology.
+58. List all categories connected to a particular blog post.
+59. Find all gym members who train together regularly.
+60. Retrieve all meetings involving the company’s executives.
+61. List all places within a five-mile radius of a given point.
+62. Find all trains operating on the same network.
+63. Retrieve all related podcasts by topic.
+64. List all parks linked by walking trails.
+65. Find all schools with exchange programs.
+66. Retrieve all service centers authorized by the manufacturer.
+67. List all musicians with more than three Grammy awards.
+68. Find all theaters showing the same movie.
+69. Retrieve all supply chains involving a particular material.
+70. List all employees with two or more skills certifications.
+71. Find all departments collaborating on the same project.
+72. Retrieve all partners who contributed to a joint venture.
+73. List all books in the public domain.
+74. Find all NGOs working in environmental conservation.
+75. Retrieve all translations of a specific document.
+76. List all professional networks connected to a given industry.
+77. Find all animals in a multi-species conservation effort.
+78. Retrieve all surviving members of historical dynasties.
+79. List all software products by a developer group.
+80. Find all residential areas connected by public transport.
+81. Retrieve all products using renewable materials.
+82. List all historical landmarks on a specific map route.
+83. Find all species linked through ecological interactions.
+84. Retrieve all alumni of a university with distinguished careers.
+85. List all projects funded by a particular grant.
+86. Find all startups in the technology innovation sector.
+87. Retrieve all banks involved in the same syndicate loan.
+88. List all dance performances by a specific choreographer.
+89. Find all coding languages used in emerging startups.
+90. Retrieve all public figures with connections to the UN.
+91. List all airlines with a hub in North America.
+92. Find all sculptures linked to a famous artist.
+93. Retrieve all discovered connections between two phenomena.
+94. List all local communities with shared annual events.
+95. Find all landmarks in a UNESCO heritage site.
+96. Retrieve all publishing houses with award-winning titles.
+97. List all government policies involving AI.
+98. Find all libraries with special collections on art.
+99. Retrieve all food recipes shared in cooking networks.
+100. List all tech companies in the same innovation cluster.
+101. Find all cycling routes in a specific urban area.
+102. Retrieve all news articles linking specific events.
+103. List all poets who contributed to a literary magazine.
+104. Find all vineyards from the same wine-making region.
+105. Retrieve all environmental studies with multi-country data.
+106. List all patents related to renewable energy technologies.
+107. Find all professional athletes engaged in multiple sports.
+108. Retrieve all brands endorsed by a particular celebrity.
+109. List all partners in research collaborations.
+110. Find all train lines passing through specific stations.
+111. Retrieve all fashion designers associated with a trend.
+
+These queries should demonstrate the versatile nature of graph databases and different contexts they can be used in.

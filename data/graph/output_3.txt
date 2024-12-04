@@ -1,0 +1,99 @@
+Creating 95 unique natural language queries for graph databases involves considering various common use cases that leverage the power of graph databases in handling relationships and connections. Here is a list of queries spanning multiple domains:
+
+1. Find all direct friends of Alice.
+2. What are the shortest paths between nodes A and B?
+3. Show all employees who report directly or indirectly to John.
+4. Which products are frequently bought together?
+5. List all mutual friends between Bob and Carol.
+6. Identify all the managers in the engineering department.
+7. Find all the movies directed by Christopher Nolan.
+8. Retrieve all nodes connected to node X with at most two degrees of separation.
+9. Show all the companies located in New York.
+10. List all people who have worked at both Company A and Company B.
+11. What recommendations can be made based on user X's purchase history?
+12. Find all documents cited by Document Y.
+13. Locate all airports within a 200-mile radius of Denver.
+14. List all authors who have published more than three books.
+15. Find all influencers connected to brand Z within three hops.
+16. Retrieve all courses that are prerequisites for Course 101.
+17. Show all friends of friends of Emily.
+18. Identify all the projects that involve team Y.
+19. List all cities connected directly by rail to Chicago.
+20. How are Person A and Person B connected?
+21. Find all articles co-authored by Jane Smith.
+22. Locate all victim nodes targeted by hacker X.
+23. List all products that have been marked as premium.
+24. Show all communities with relationships stronger than threshold Z.
+25. Identify all participants in the conference held in 2020.
+26. What paths exist from Source A to Destination B in three steps?
+27. Find all suppliers of component X.
+28. Retrieve nodes that have a higher centrality than average.
+29. List all patients diagnosed with condition Y.
+30. Show relationships between social media posts and user Z.
+31. Find all gig work matches for skill set S in New York City.
+32. Identify common collaborators between Alice and Bob.
+33. Find all job postings related to Python programming.
+34. List all board members of a company.
+35. Retrieve students enrolled in both Math 101 and Physics 201.
+36. Show all cities that host annual cultural festivals.
+37. Find all paths leading to the major node in network N.
+38. What are the common factors across high-performing teams?
+39. List all companies with more than 500 employees.
+40. Identify all services offered by Business B in the last year.
+41. Show all peers in Doctor X's professional network.
+42. Find all transactions involving $1000 or more.
+43. Retrieve all branches of a retail chain in California.
+44. List all shared interests between user pairs.
+45. What collaborations exist between departments A and B?
+46. Show all influencers who have promoted brand X.
+47. Find frequent routes traveled by cross-country trucks.
+48. List all books borrowed in the last month.
+49. Locate every employee who joined after 2015.
+50. Identify all devices connected to Wi-Fi network Y.
+51. Show all the students from the state of Texas.
+52. Find every developer who worked on project Z.
+53. List all courses taught by Professor Y.
+54. Retrieve articles related to climate change.
+55. Locate all data breaches affecting more than 10,000 records.
+56. Identify projects completed under budget last quarter.
+57. Show all connections from Node A within three layers.
+58. List all papers citing Researcher X's work.
+59. How are city A and city B linked economically?
+60. Retrieve all government contracts from 2022.
+61. Find all dependencies of software library L.
+62. List all constellations visible from the Northern Hemisphere.
+63. Show key influencers in the fashion industry.
+64. Identify all characters who appear in both books written by Author Y.
+65. Locate every task due next week.
+66. List all network devices with IP addresses in range R.
+67. Find all children registered for Kindergarten in district D.
+68. Retrieve all businesses with tax incentives in state Z.
+69. Identify relationships among top fintech firms.
+70. Locate every billboard along highway H.
+71. Show all educational institutions in city C.
+72. List all chess games won by Grandmaster Y.
+73. Find every tourist attraction in country X.
+74. Identify all athletes competing in the Winter Olympics 2022.
+75. Show all trademarks held by Corporation A.
+76. List all peer-reviewed journals citing Subject S.
+77. Locate every registered patent by Inventor I.
+78. Identify similar products to Item X.
+79. Retrieve trending conversations in health forums.
+80. List startup founders from Silicon Valley in 2023.
+81. Locate infrastructure projects within metropolitan area M.
+82. Find all guest speakers at Conference 2022.
+83. Show all teachers with more than 10 years of experience.
+84. Identify game titles played by over a million users.
+85. List all properties managed by Realty Company R.
+86. Find every event attended by Celebrity C.
+87. Retrieve cross-border trade agreements in region R.
+88. Show all collaborative university programs.
+89. List all theaters screening Film F.
+90. Identify all courses with online modules available.
+91. Locate all international flights departing daily from JFK.
+92. List retail outlets with holiday discounts.
+93. Show all mutual interactions between users X and Y.
+94. Find every publication authored by Scientist Z in 2021.
+95. Locate all historical landmarks in City C.
+
+These queries are crafted to be usable across different datasets and contexts, leveraging the relationship-focused nature of graph databases.

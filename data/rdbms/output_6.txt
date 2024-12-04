@@ -1,0 +1,116 @@
+Creating 112 unique natural language queries that can run efficiently on relational databases and not so well on non-relational databases involves focusing on queries that rely on structured data, relationships, and the use of SQL-like operations. Here are those queries:
+
+1. What are the top five selling products in each category?
+2. Show me the monthly revenue trends for the last two years.
+3. Retrieve all customers who have made more than three purchases in the last month.
+4. List employees who have not taken any leave in the past year.
+5. Find products with inventory counts below ten.
+6. What are the average sales figures for each region?
+7. Who are the top ten customers by total expenditure?
+8. Get the details of orders made in the last 24 hours.
+9. List suppliers who have not delivered goods in the last six months.
+10. How many orders were delivered late last quarter?
+11. Identify duplicate entries in the customer database.
+12. What is the average processing time for orders this year?
+13. Which employees have the highest number of training hours logged?
+14. Find the most popular payment method among customers.
+15. List all customer feedback received in the last week.
+16. What are the top five countries by number of customers?
+17. Which products have never been returned by customers?
+18. Retrieve complete order details for customer ID 12345.
+19. List products with a profit margin greater than 20%.
+20. What are the top three departments by employee headcount?
+21. Find the average age of employees in the marketing department.
+22. List all current projects exceeding their budget.
+23. How many new accounts were created each month this year?
+24. Retrieve a list of customers along with their last purchase date.
+25. What are the sales figures broken down by product category?
+26. Find employees closer to retirement by age.
+27. Which stores have the highest customer satisfaction ratings?
+28. List all invoices generated this financial year.
+29. Identify all active promotions and their end dates.
+30. Find the most common job title among employees.
+31. List all products with expired warranties.
+32. Retrieve the last five transactions for customer ID 98765.
+33. Which branches have the most outstanding loan amounts?
+34. List all work shifts that are understaffed.
+35. What is the total sales amount for orders above $500?
+36. Find all meetings scheduled for the upcoming week.
+37. Which regions have the most late deliveries?
+38. List all products ordered in bulk quantities.
+39. Identify the longest-tenured employee in each department.
+40. Show me the customer count by membership tier.
+41. What is the average order value by customer segment?
+42. List clients who have not been contacted in the last six months.
+43. Find all transactions over $1000 in the last year.
+44. Which items are frequently bought together?
+45. Retrieve a list of employees with pending appraisals.
+46. List all vehicles with maintenance due dates in the next month.
+47. What are the top three cities by sales volume?
+48. Identify all complaints closed in the last 30 days.
+49. List products that contribute to 80% of sales revenue.
+50. Find employees with no emergency contacts listed.
+51. Which facilities have the highest energy consumption?
+52. Retrieve the inventory restocking frequency by product type.
+53. What is the rate of return for each product category?
+54. List all partners and their contract renewal dates.
+55. Identify the most-used customer service channel.
+56. Which assets are fully depreciated?
+57. Retrieve a list of employees by hire date.
+58. Find the most common reasons for order cancellations.
+59. List orders requiring manual verification.
+60. What is the highest level of education attained by employees?
+61. Which projects are behind schedule by more than 20%?
+62. Retrieve all payment transactions processed this quarter.
+63. Find all customers with multiple shipping addresses.
+64. What is the average shipping cost per order?
+65. List suppliers with multiple outstanding invoices.
+66. Identify courses with the highest enrollment.
+67. How many hours of overtime have been logged this month?
+68. Find all performance reviews scheduled for next week.
+69. Retrieve a list of top-performing sales agents.
+70. What are the average project completion times by department?
+71. List all awards received by the company last year.
+72. Find employees who have completed certification programs.
+73. Which machines require preventive maintenance soon?
+74. List contractors who have not fulfilled their contracts.
+75. Retrieve all travel expenses for executive employees.
+76. What is the average ticket resolution time this year?
+77. Find the total number of unique visitors by month.
+78. List all recurring revenue streams and their frequencies.
+79. Identify the service packages with the highest demand.
+80. Which marketing campaigns had the highest ROI?
+81. Retrieve the list of approved vendors by region.
+82. Find products with zero sales in the last quarter.
+83. What are the customer retention rates by year?
+84. List all outstanding payments over 60 days overdue.
+85. Identify webpages with high bounce rates.
+86. Which job positions have the most applicants?
+87. Retrieve detailed performance metrics for team leaders.
+88. List production lines that are under capacity.
+89. What are the customer acquisition costs by channel?
+90. Find all insurance claims processed this month.
+91. List all active support tickets by priority level.
+92. What is the total compensation for each employee, including bonuses?
+93. Retrieve detailed sales breakdown by hour.
+94. Find vehicles with insurance expirations in the upcoming quarter.
+95. List all restaurant reservations for next weekend.
+96. Identify subscription tiers with the highest churn rates.
+97. What are the top five most-viewed products, last month?
+98. Retrieve audit logs for the past 60 days.
+99. Find patients with follow-up appointments pending.
+100. List all vacant positions and their job descriptions.
+101. What is the average call duration for customer service?
+102. Retrieve gym attendance statistics by hour.
+103. Find top ten most-searched keywords on the website.
+104. List all regions with growth exceeding 10% annually.
+105. Identify underutilized software licenses and their costs.
+106. Which student courses have the highest dropout rates?
+107. Retrieve compliance violations logged this year.
+108. Find the distribution of customer demographics by region.
+109. List alumni employed in leadership positions.
+110. What is the sales forecast for the next quarter?
+111. Retrieve the list of pending purchase requests.
+112. Identify warehouse locations with excess stock levels.
+
+These queries take advantage of the structured and relational nature of SQL databases, where data integrity and complex joins are efficiently managed. In contrast, non-relational databases might struggle with performance or require more complex application-side code to execute similar queries.

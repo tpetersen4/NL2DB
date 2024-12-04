@@ -1,0 +1,3258 @@
+nl_query,db
+"Find all direct employees of a specific manager.
+",graph
+"Retrieve friends of a user within two degrees of separation.
+",graph
+"Discover the shortest path between two locations.
+",graph
+"Identify all products bought by customers in a specific city.
+",graph
+"Get all authors who have collaborated with a specific author.
+",graph
+"List all followers of a user on a social media platform.
+",graph
+"Find the most interconnected user in a network.
+",graph
+"Determine companies that have partnered with more than three others.
+",graph
+"Fetch all employees who work in the same department as a given employee.
+",graph
+"Identify common interests between two users.
+",graph
+"List all people who attended a specific event.
+",graph
+"Retrieve all nodes connected to a given node.
+",graph
+"Find all airlines that operate flights between two airports.
+",graph
+"Get all customers connected to a specific salesperson.
+",graph
+"Locate all mutual friends between two users.
+",graph
+"Retrieve all hierarchical dependencies of a specific task in a project.
+",graph
+"Find all mentors connected to a specific student.
+",graph
+"Identify nodes that form a cycle in the network.
+",graph
+"Fetch all organizations involved in a specific industry.
+",graph
+"List all tags related to a given blog post.
+",graph
+"Discover all transactions involving a particular account.
+",graph
+"Identify users who have interacted with a specific post.
+",graph
+"Retrieve all movies featuring a specific actor.
+",graph
+"Find all direct reports for a particular supervisor.
+",graph
+"Get all related concepts to a specific concept in an ontology.
+",graph
+"List all sequences of collaborations between two researchers.
+",graph
+"Retrieve all nodes with a specific property value.
+",graph
+"Discover all pathways connected to a protein in a biological network.
+",graph
+"Find potential influencers in a social network.
+",graph
+"Identify communities within a social network.
+",graph
+"Fetch all nodes with the highest degree of connection.
+",graph
+"Locate all courses related to a specific topic.
+",graph
+"List all relationships for a given node.
+",graph
+"Retrieve all products similar to a specific product based on attributes.
+",graph
+"Find all paths between two nodes within a maximum number of hops.
+",graph
+"Get all projects a certain team has worked on together.
+",graph
+"Identify the central node in a transportation network.
+",graph
+"Fetch all suppliers of a particular component in a supply chain.
+",graph
+"List all child pages linked from a given webpage.
+",graph
+"Retrieve all ingredients connected to a specific recipe.
+",graph
+"Find all transactions linked to a specific purchase order.
+",graph
+"Identify the most popular user based on the number of followers.
+",graph
+"Get all dependencies of a software package.
+",graph
+"List all songs related to a specific artist in a music graph.
+",graph
+"Retrieve all members of a specific group within a network.
+",graph
+"Find customers who frequently bought a specific category of products.
+",graph
+"Discover all publications citing a particular paper.
+",graph
+"Fetch all content nodes related to a specific keyword.
+",graph
+"Locate all software components compatible with a given framework.
+",graph
+"List all courses that are prerequisites for a specific course.
+",graph
+"Retrieve all alternate routes between two transportation hubs.
+",graph
+"Find relationships where a person is both mentee and mentor.
+",graph
+"Get all speakers who have presented at multiple conferences.
+",graph
+"Identify the longest path in a project dependency graph.
+",graph
+"Locate all similar businesses to a specific business type.
+",graph
+"Retrieve all relationships with a weight above a certain threshold.
+",graph
+"Fetch all movies rated by a specific user.
+",graph
+"Discover actors that have co-starred with a particular star.
+",graph
+"List all modules interacting with a given module in software.
+",graph
+"Retrieve all financial transactions involving a certain currency.
+",graph
+"Find all customers connected to a specific service request.
+",graph
+"Get all social media posts related to a particular hashtag.
+",graph
+"Identify communities based on shared interests.
+",graph
+"Fetch all recommendations based on a user’s purchasing history.
+",graph
+"Locate all influencers who follow a particular brand.
+",graph
+"Retrieve all service calls linked to a particular incident.
+",graph
+"Find all nodes without outgoing edges.
+",graph
+"List all endpoints accessible from a starting node.
+",graph
+"Retrieve all event logs associated with a specific user activity.
+",graph
+"Get all direct ancestor nodes for a particular node.
+",graph
+"Identify the most influential Node in a political network.
+",graph
+"Fetch all issues related to a particular project in a bug tracker.
+",graph
+"Locate all related phrases to a term in a linguistic network.
+",graph
+"List all subprocesses of a specific business process.
+",graph
+"Retrieve all transport options between two geographical points.
+",graph
+"Find all loans associated with a particular branch in a bank.
+",graph
+"Discover all competitors for a specific product.
+",graph
+"Fetch all academic papers related to a certain research field.
+",graph
+"Locate all charitable activities linked to a specific cause.
+",graph
+"List all regulatory entities overseeing a particular business type.
+",graph
+"Retrieve all books recommended for a specific genre.
+",graph
+"Identify potential collaborators in a research network.
+",graph
+"Fetch all error messages associated with a specific component.
+",graph
+"Find all direct flights from a particular airport.
+",graph
+"Get all game levels closely related to a specific level in a game.
+",graph
+"List all support tickets opened by a specific customer.
+",graph
+"Retrieve all news articles linked to a certain topic.
+",graph
+"Locate all influencers who have interacted with a specific campaign.
+",graph
+"Fetch all patents related to a specific technology.
+",graph
+"Identify all dependencies required for a specific deployment.
+",graph
+"Find all tourist attractions near a given location.
+",graph
+"Get all chat conversations involving a specific product complaint.
+",graph
+"Discover all check-ins by users at a particular venue.
+",graph
+"Locate all waterways connecting two bodies of water.
+",graph
+"List all courses enrolled by students in a particular major.
+",graph
+"Retrieve all games connected to a specific gaming tournament.
+",graph
+"Identify the most referenced document in a citation network.
+",graph
+"Fetch all environmental reports linked to a certain policy.
+",graph
+"Get all professional connections of a person within a company LinkedIn network.
+",graph
+"Find all artists whose work was featured at an art exhibition.
+",graph
+"Locate all connections between data nodes in a microservices architecture.
+",graph
+"List all steps in a manufacturing process.
+",graph
+"Retrieve all collaborations between companies in an industry sector.
+",graph
+"Identify all roads with a specific traffic condition in a map database.
+",graph
+"Fetch all research projects funded by a specific grant.
+",graph
+"Find all followers of a prominent figure within an organization.
+",graph
+"Get top-rated reviews for a specific restaurant.
+",graph
+"List all associations between different scientific methods.
+",graph
+"Retrieve all nodes with the least number of connections.
+",graph
+"Identify customer journeys that led to successful purchases.
+",graph
+"Fetch all related legislative bills to a specific act.
+",graph
+"Locate all direct descendants of a specific ancestor in a family tree.
+",graph
+"List all strategic alliances between multinational companies.
+",graph
+"Retrieve all co-authored books in a library database.
+",graph
+"Identify all structural dependencies in a bridge engineering model.
+",graph
+"Find all recipes that share common ingredients with a specific recipe.
+",graph
+"Get all software libraries dependent on a given library.
+",graph
+"Locate all collaboration chains between musicians and producers.
+",graph
+"List all nodes grouped by specific attributes in a cluster.
+",graph
+"Retrieve all tasks assigned to teams under a project manager.
+",graph
+"Find all alternative technologies to a specific solution in a technology network.
+",graph
+"Find all direct friends of John.
+",graph
+"List all employees in the Engineering department.
+",graph
+"Retrieve people who like both Python and JavaScript.
+",graph
+"Show movies directed by Christopher Nolan.
+",graph
+"Identify all cities connected by direct flights to New York.
+",graph
+"Find shortest path between Alice and Bob.
+",graph
+"What projects are managed by Sarah?
+",graph
+"Retrieve all products that are often bought together.
+",graph
+"Who are the authors of books published in 2020?
+",graph
+"List all social media posts tagged with #technology.
+",graph
+"Find all restaurants that serve vegan food.
+",graph
+"Who follows both Elon Musk and Bill Gates on Twitter?
+",graph
+"Retrieve all courses taken by Mathematics majors.
+",graph
+"List all family members of Michael.
+",graph
+"Find all songs by The Beatles.
+",graph
+"What movies star both Brad Pitt and Angelina Jolie?
+",graph
+"List all friends of a friend of John without duplicates.
+",graph
+"Retrieve all blogs written by Jane Doe.
+",graph
+"Which employees report directly to the CEO?
+",graph
+"Find all events occurring in March 2023.
+",graph
+"Who are the collaborators on the project titled ""Apollo""?
+",graph
+"What are the common interests between Emma and Emily?
+",graph
+"Retrieve all devices interacting with server A.
+",graph
+"List all suppliers who provide component X.
+",graph
+"Who are the investors in startup Y?
+",graph
+"Find all patents filed by inventor Z.
+",graph
+"What are the courses prerequisites for Calculus 101?
+",graph
+"List all trains passing through station A.
+",graph
+"Retrieve podcasts featuring Dr. Smith.
+",graph
+"Find users who purchased Product B in the last month.
+",graph
+"What are the top three mutual connections between Alice and Carol?
+",graph
+"List all ingredients used in recipe A.
+",graph
+"Retrieve all articles authored by someone from Harvard.
+",graph
+"How are Alice and David indirectly connected?
+",graph
+"Find companies operating in both Europe and Asia.
+",graph
+"List all works referenced by paper titled ""Quantum Mechanics"".
+",graph
+"Who are the board members of Corporation ABC?
+",graph
+"Retrieve movies with a Rotten Tomatoes score above 90.
+",graph
+"What startups are in the fintech domain?
+",graph
+"Find all followers of influencer X.
+",graph
+"List all books translated into French.
+",graph
+"What are the research areas of professor Y?
+",graph
+"Retrieve all car brands that are German-made.
+",graph
+"List teaching assistants for Psychology 101.
+",graph
+"Who liked both post A and post B on social media?
+",graph
+"Find wine brands originating from Italy.
+",graph
+"List all scenes featuring the main character in Movie Z.
+",graph
+"Retrieve all workshops attended by employee A.
+",graph
+"What firms had a merger in 2022?
+",graph
+"Find all companies founded by the same person.
+",graph
+"List all top-selling items in category B.
+",graph
+"Retrieve all community members active in forum C.
+",graph
+"What books are part of the Sci-Fi genre?
+",graph
+"Find teams participating in the championship.
+",graph
+"List all artworks currently housed in Museum Q.
+",graph
+"Retrieve members of the editorial board for Journal R.
+",graph
+"Who are the top influencers in the fitness industry?
+",graph
+"Find patients with appointments in Clinic T.
+",graph
+"List countries collaborating in space research.
+",graph
+"Retrieve podcasts related to finance.
+",graph
+"What items are in the shopping cart of user X?
+",graph
+"Find all train connections from Berlin.
+",graph
+"List all endangered species.
+",graph
+"What are the active romance writers in the last 5 years?
+",graph
+"Retrieve speakers from TEDx events.
+",graph
+"Find mutual fund portfolios including Energy stocks.
+",graph
+"What are trending topics in the Gaming community?
+",graph
+"List animals featured in National Geographic.
+",graph
+"Retrieve all gym members who enrolled in 2023.
+",graph
+"Who are the political leaders in the European Union?
+",graph
+"Find hospitals conducting research on cancer.
+",graph
+"List startups backed by investor Y.
+",graph
+"What are the prevalent diseases in region A?
+",graph
+"Retrieve all conference proceedings on Artificial Intelligence.
+",graph
+"Find direct business competitors for Brand C.
+",graph
+"List athletes in the Hall of Fame.
+",graph
+"Retrieve all published cookbooks in 2021.
+",graph
+"Who are the members of band Z?
+",graph
+"Find podcasts hosted by a person named Kevin.
+",graph
+"What are the accreditation bodies for universities in Canada?
+",graph
+"List competing brands in the smartphone market.
+",graph
+"Retrieve all episodes of series B.
+",graph
+"What are the differences between Alice's and Bob's playlists?
+",graph
+"List ingredients that are allergens in Menu A.
+",graph
+"Find artists with exhibitions in 2023.
+",graph
+"Retrieve major ports in the Mediterranean Sea.
+",graph
+"Who are the regular contributors to the Open Source project X?
+",graph
+"List software engineers skilled in Go and Rust.
+",graph
+"What are bestselling novels in the 21st century?
+",graph
+"Retrieve university affiliates working on climate change.
+",graph
+"Find historic landmarks within Paris.
+",graph
+"List all events organized by association P.
+",graph
+"What are the credentials of speakers at the upcoming conference?
+",graph
+"Retrieve all trademarks held by Corporation U.
+",graph
+"Find all mentors for the startup accelerator program.
+",graph
+"List cities with the fastest internet connection speeds.
+",graph
+"Retrieve historical figures mentioned alongside Churchill.
+",graph
+"What projects align with the Paris Agreement goals?
+",graph
+"Find computer science graduates employed in Silicon Valley.
+",graph
+"List recipes containing both chocolate and coconut.
+",graph
+"Who attended both conference A and B?
+",graph
+"Retrieve all renewable energy projects in Asia.
+",graph
+"Find members of the Nobel Prize selection committee.
+",graph
+"List known vulnerabilities in software version X.Y.Z.
+",graph
+"What films show Paris during the 1800s?
+",graph
+"Retrieve all feedback for Product O.
+",graph
+"Find customers who churned in Q1 2023.
+",graph
+"List all utilities supplied to building T.
+",graph
+"What are the common travel destinations for Group A?
+",graph
+"Retrieve alumni who donated to the university.
+",graph
+"Find child friendly movies released in the 1990s.
+",graph
+"List destinations accessible by cruise from Miami.
+",graph
+"What are the mandatory vaccinations in country Z?
+",graph
+"Retrieve tech companies with sustainability missions.
+",graph
+"Find job openings in Biotech firms.
+",graph
+"What are the critical dependencies for Project B?
+",graph
+"List technology partners of Corporation H.
+",graph
+"Retrieve brands endorsed by celebrity C.
+",graph
+"Find all women mathematicians in history.
+",graph
+"List joint ventures by companies in 2021.
+",graph
+"What are the core philosophies of movements in the 1960s?
+",graph
+"Retrieve all endorsements authors received in 2022.
+",graph
+"Social Networks
+",graph
+"Who are all the direct friends of John?
+",graph
+"Find mutual friends between Alice and Bob.
+",graph
+"Who has the highest number of connections in the network?
+",graph
+"Suggest potential friends for Charlie based on common interests.
+",graph
+"Which users are influencers in this social network?
+",graph
+"Find the shortest path between Eve and Dave.
+",graph
+"Identify groups of people who frequently interact with each other.
+",graph
+"List all the posts liked by Jane.
+",graph
+"Who are all the friends of Alice from a specific city?
+",graph
+"Find all the users who have joined the platform this month.
+",graph
+"Knowledge Graphs
+",graph
+"What are the direct subcategories of Machine Learning?
+",graph
+"List all the relationships between climate change and renewable energy.
+",graph
+"How are Einstein and quantum physics connected?
+",graph
+"Find all the Nobel laureates in Chemistry.
+",graph
+"What are the components of a healthy diet?
+",graph
+"Identify all the chemical reactions in photosynthesis.
+",graph
+"Trace the lineage of modern computing.
+",graph
+"What are the main factors contributing to global warming?
+",graph
+"How is biodiversity related to ecosystem health?
+",graph
+"What are the fundamental principles of classical mechanics?
+",graph
+"Fraud Detection
+",graph
+"Identify transactions that deviate from typical spending patterns.
+",graph
+"List all connections between flagged accounts.
+",graph
+"How are suspicious entities linked in the network?
+",graph
+"Detect anomalies in recent credit card transactions.
+",graph
+"Which accounts are likely to be involved in money laundering?
+",graph
+"Identify email addresses linked to multiple suspicious accounts.
+",graph
+"What patterns are common among fraudulent transactions?
+",graph
+"How is account A linked to account B through third parties?
+",graph
+"Find all incidents of identity theft in the last year.
+",graph
+"Which IP addresses are frequently associated with breaches?
+",graph
+"Financial Services
+",graph
+"Who are the top investors in the fintech sector?
+",graph
+"Identify all bonds maturing in 2025.
+",graph
+"Trace the ownership history of stock XYZ.
+",graph
+"What are the current interest rates for fixed deposits?
+",graph
+"How are global currencies correlated with each other?
+",graph
+"Identify trends in cryptocurrency trading.
+",graph
+"Which companies have the highest ESG ratings?
+",graph
+"What are the recent mergers in the tech industry?
+",graph
+"Find mutual funds with the best performance last year.
+",graph
+"Who are the key stakeholders in the real estate market?
+",graph
+"Transportation and Logistics
+",graph
+"What is the most efficient route from city A to city B?
+",graph
+"Identify all interconnecting flights from New York to Tokyo.
+",graph
+"Which shipping routes are most prone to delays?
+",graph
+"List all railway stations in the European network.
+",graph
+"How are traffic patterns affected by weather changes?
+",graph
+"Find connections between public transport in London and Paris.
+",graph
+"Identify key logistics hubs in Southeast Asia.
+",graph
+"What are the scheduled maintenance periods for the subway?
+",graph
+"Which cities have the most efficient public transport systems?
+",graph
+"Find all electric vehicle charging stations along Route 66.
+",graph
+"Retail and E-commerce
+",graph
+"List all brand collaborations with retailer X.
+",graph
+"Find customers who frequently buy both product A and B.
+",graph
+"Identify trends in consumer electronics sales.
+",graph
+"What are the most common supply chain issues for apparel?
+",graph
+"Which regions show the highest growth in online shopping?
+",graph
+"Trace product returns for brand Y.
+",graph
+"Identify best-selling products in the last quarter.
+",graph
+"What are the seasonal sales patterns for furniture?
+",graph
+"How does customer engagement relate to product reviews?
+",graph
+"Find all logistics partners for company Z.
+",graph
+"query leverages the graph database's ability to efficiently traverse relationships and provide insights, making them well-suited for applications relying heavily on interconnected data.",graph
+"Find all direct friends of Alice.
+",graph
+"What are the shortest paths between nodes A and B?
+",graph
+"Show all employees who report directly or indirectly to John.
+",graph
+"Which products are frequently bought together?
+",graph
+"List all mutual friends between Bob and Carol.
+",graph
+"Identify all the managers in the engineering department.
+",graph
+"Find all the movies directed by Christopher Nolan.
+",graph
+"Retrieve all nodes connected to node X with at most two degrees of separation.
+",graph
+"Show all the companies located in New York.
+",graph
+"List all people who have worked at both Company A and Company B.
+",graph
+"What recommendations can be made based on user X's purchase history?
+",graph
+"Find all documents cited by Document Y.
+",graph
+"Locate all airports within a 200-mile radius of Denver.
+",graph
+"List all authors who have published more than three books.
+",graph
+"Find all influencers connected to brand Z within three hops.
+",graph
+"Retrieve all courses that are prerequisites for Course 101.
+",graph
+"Show all friends of friends of Emily.
+",graph
+"Identify all the projects that involve team Y.
+",graph
+"List all cities connected directly by rail to Chicago.
+",graph
+"How are Person A and Person B connected?
+",graph
+"Find all articles co-authored by Jane Smith.
+",graph
+"Locate all victim nodes targeted by hacker X.
+",graph
+"List all products that have been marked as premium.
+",graph
+"Show all communities with relationships stronger than threshold Z.
+",graph
+"Identify all participants in the conference held in 2020.
+",graph
+"What paths exist from Source A to Destination B in three steps?
+",graph
+"Find all suppliers of component X.
+",graph
+"Retrieve nodes that have a higher centrality than average.
+",graph
+"List all patients diagnosed with condition Y.
+",graph
+"Show relationships between social media posts and user Z.
+",graph
+"Find all gig work matches for skill set S in New York City.
+",graph
+"Identify common collaborators between Alice and Bob.
+",graph
+"Find all job postings related to Python programming.
+",graph
+"List all board members of a company.
+",graph
+"Retrieve students enrolled in both Math 101 and Physics 201.
+",graph
+"Show all cities that host annual cultural festivals.
+",graph
+"Find all paths leading to the major node in network N.
+",graph
+"What are the common factors across high-performing teams?
+",graph
+"List all companies with more than 500 employees.
+",graph
+"Identify all services offered by Business B in the last year.
+",graph
+"Show all peers in Doctor X's professional network.
+",graph
+"Find all transactions involving $1000 or more.
+",graph
+"Retrieve all branches of a retail chain in California.
+",graph
+"List all shared interests between user pairs.
+",graph
+"What collaborations exist between departments A and B?
+",graph
+"Show all influencers who have promoted brand X.
+",graph
+"Find frequent routes traveled by cross-country trucks.
+",graph
+"List all books borrowed in the last month.
+",graph
+"Locate every employee who joined after 2015.
+",graph
+"Identify all devices connected to Wi-Fi network Y.
+",graph
+"Show all the students from the state of Texas.
+",graph
+"Find every developer who worked on project Z.
+",graph
+"List all courses taught by Professor Y.
+",graph
+"Retrieve articles related to climate change.
+",graph
+"Locate all data breaches affecting more than 10,000 records.
+",graph
+"Identify projects completed under budget last quarter.
+",graph
+"Show all connections from Node A within three layers.
+",graph
+"List all papers citing Researcher X's work.
+",graph
+"How are city A and city B linked economically?
+",graph
+"Retrieve all government contracts from 2022.
+",graph
+"Find all dependencies of software library L.
+",graph
+"List all constellations visible from the Northern Hemisphere.
+",graph
+"Show key influencers in the fashion industry.
+",graph
+"Identify all characters who appear in both books written by Author Y.
+",graph
+"Locate every task due next week.
+",graph
+"List all network devices with IP addresses in range R.
+",graph
+"Find all children registered for Kindergarten in district D.
+",graph
+"Retrieve all businesses with tax incentives in state Z.
+",graph
+"Identify relationships among top fintech firms.
+",graph
+"Locate every billboard along highway H.
+",graph
+"Show all educational institutions in city C.
+",graph
+"List all chess games won by Grandmaster Y.
+",graph
+"Find every tourist attraction in country X.
+",graph
+"Identify all athletes competing in the Winter Olympics 2022.
+",graph
+"Show all trademarks held by Corporation A.
+",graph
+"List all peer-reviewed journals citing Subject S.
+",graph
+"Locate every registered patent by Inventor I.
+",graph
+"Identify similar products to Item X.
+",graph
+"Retrieve trending conversations in health forums.
+",graph
+"List startup founders from Silicon Valley in 2023.
+",graph
+"Locate infrastructure projects within metropolitan area M.
+",graph
+"Find all guest speakers at Conference 2022.
+",graph
+"Show all teachers with more than 10 years of experience.
+",graph
+"Identify game titles played by over a million users.
+",graph
+"List all properties managed by Realty Company R.
+",graph
+"Find every event attended by Celebrity C.
+",graph
+"Retrieve cross-border trade agreements in region R.
+",graph
+"Show all collaborative university programs.
+",graph
+"List all theaters screening Film F.
+",graph
+"Identify all courses with online modules available.
+",graph
+"Locate all international flights departing daily from JFK.
+",graph
+"List retail outlets with holiday discounts.
+",graph
+"Show all mutual interactions between users X and Y.
+",graph
+"Find every publication authored by Scientist Z in 2021.
+",graph
+"Locate all historical landmarks in City C.
+",graph
+"Find all the direct connections of a specific node.
+",graph
+"List the shortest path between two nodes.
+",graph
+"Identify all nodes connected via a specific type of relationship.
+",graph
+"Discover the longest path between two nodes.
+",graph
+"Retrieve all nodes that are within three hops of a given node.
+",graph
+"List all nodes with no outgoing edges.
+",graph
+"Identify all nodes with no incoming edges.
+",graph
+"Find common neighbors of two nodes.
+",graph
+"List all paths between two nodes.
+",graph
+"Find nodes that form a cycle.
+",graph
+"Retrieve all leaf nodes in the graph.
+",graph
+"Find all nodes connected by a specific sequence of relationships.
+",graph
+"Identify clusters or communities within the graph.
+",graph
+"List nodes that are reachable from a given node.
+",graph
+"Retrieve all nodes that have a specific label.
+",graph
+"Discover all relationships a specific node has.
+",graph
+"List all nodes that share a common parent node.
+",graph
+"Find all nodes with multiple roles or labels.
+",graph
+"Detect all nodes that form a clique or fully connected subgraph.
+",graph
+"Retrieve the degree (number of edges) of a specific node.
+",graph
+"Find all end-nodes (nodes with no children) starting from a specific node.
+",graph
+"Identify all isolated nodes in the graph.
+",graph
+"List the subgraph formed by a set of specific nodes.
+",graph
+"Find the most central node based on degree centrality.
+",graph
+"Identify bridges or critical edges that, if removed, would increase graph fragmentation.
+",graph
+"Retrieve nodes based on property key-value pairs.
+",graph
+"List all nodes that connect two communities.
+",graph
+"Find nodes that are part of at least three distinct paths.
+",graph
+"Discover any paths that include a specific node.
+",graph
+"Identify the root node of a tree structure.
+",graph
+"Find all ancestor nodes of a given node.
+",graph
+"Retrieve all descendant nodes of a given node.
+",graph
+"List all nodes involved in triangular relationships.
+",graph
+"Identify bottleneck nodes or edges that constrain network flow.
+",graph
+"Determine all subgraphs isomorphic to a given graph pattern.
+",graph
+"Find all sibling nodes of a given node.
+",graph
+"List nodes connected to a given node by exactly two types of relationships.
+",graph
+"Identify all paths of a given length.
+",graph
+"Retrieve the densest subgraph.
+",graph
+"Discover all nodes with cyclical relationships.
+",graph
+"Identify all pairs of nodes with more than one shortest path.
+",graph
+"Find all triadic closures in the graph.
+",graph
+"Retrieve the ego-network of a specific node.
+",graph
+"List all hub nodes with a high number of connections.
+",graph
+"Identify each node's clustering coefficient.
+",graph
+"Find nodes that have undergone no changes over a period.
+",graph
+"Retrieve all nodes based on a combination of labels and properties.
+",graph
+"Discover paths that are disjoint from a given path.
+",graph
+"Identify all self-loop nodes.
+",graph
+"Find the graph diameter (longest shortest path in the graph).
+",graph
+"List all nodes with properties that satisfy a range condition.
+",graph
+"Retrieve the graph radius (minimum eccentricity of any node).
+",graph
+"Identify articulation points whose removal increases graph disconnectedness.
+",graph
+"Find nodes connected to a specific node through a specified relationship type and label.
+",graph
+"List all paths from a start node to an end node that don't revisit nodes.
+",graph
+"Discover networks where nodes have a specified minimum degree.
+",graph
+"Identify all ancestor nodes up to a specific depth from a given node.
+",graph
+"Find nodes where a specific sequence of properties holds true.
+",graph
+"Retrieve paths that pass through a given set of nodes.
+",graph
+"List edge-disjoint paths between two nodes.
+",graph
+"Identify all nodes part of cycle paths with length more than four.
+",graph
+"Discover the average path length in the graph.
+",graph
+"Find nodes that form a majority of connections within a specific area of the graph.
+",graph
+"List all isolated subgraphs in a larger graph.
+",graph
+"Retrieve nodes with the highest clustering based on attributes.
+",graph
+"Identify strong components in a directed graph.
+",graph
+"Find weak components where indirect connections exist.
+",graph
+"List minimum cut edges between specified nodes.
+",graph
+"Identify all reachable nodes under certain edge constraints.
+",graph
+"Discover paths that maximize or minimize certain aggregated values.
+",graph
+"Retrieve all acyclic paths starting from a specific node.
+",graph
+"List communities with specific node characteristics.
+",graph
+"Identify pairs of nodes with no direct relationship.
+",graph
+"Find nodes that bridge two otherwise disconnected components.
+",graph
+"Discover all network motifs in a subgraph.
+",graph
+"Retrieve all nodes based on composite property conditions.
+",graph
+"List congruent path structures involving specific nodes.
+",graph
+"Identify shortest paths that satisfy certain constraints.
+",graph
+"Find nodes that evolve their properties over time.
+",graph
+"Retrieve paths that include a set of specified edges.
+",graph
+"List the number of paths between nodes exceeding a given threshold.
+",graph
+"Discover all asymmetric relationships between nodes.
+",graph
+"Identify the reach of influence of a specific node.
+",graph
+"Find nodes with mutual relationships categorized by label.
+",graph
+"Retrieve connections that represent transactional flows exceeding a value.
+",graph
+"Identify all paths that include specific nodes, irrespective of direction.
+",graph
+"Discover symmetry in the graph based on node structures.
+",graph
+"Retrieve all paths traversing a given edge more than once.
+",graph
+"List the top k nodes based on betweenness centrality.
+",graph
+"Find strongly connected components with a specific size.
+",graph
+"Locate boundary nodes transitioning between graph segments.
+",graph
+"Retrieve all paths connecting nodes with specific landmarks.
+",graph
+"List nodes with the greatest degree difference between in-degree and out-degree.
+",graph
+"Identify relationship-heavy areas in the graph.
+",graph
+"Find the shortest cycle in the graph.
+",graph
+"What path exists between node A and node B?
+",graph
+"Which nodes are directly connected to node C?
+",graph
+"What is the shortest path from node D to node E?
+",graph
+"Find all nodes within two hops from node F.
+",graph
+"Who are the mutual friends of person X and person Y?
+",graph
+"List all nodes that have a direct relationship with node G.
+",graph
+"How many direct connections does node H have?
+",graph
+"Retrieve all nodes reachable from node I.
+",graph
+"Which nodes form a cycle including node J?
+",graph
+"What is the degree of node K?
+",graph
+"Who are the ancestors of node L?
+",graph
+"Identify the descendants of node M.
+",graph
+"List all leaf nodes in the graph.
+",graph
+"Find the central nodes in the graph.
+",graph
+"Which nodes are part of the cluster containing node N?
+",graph
+"Determine if node O and node P are in the same component.
+",graph
+"What is the density of the graph?
+",graph
+"Who follows both person Q and person R on the network?
+",graph
+"List every pair of nodes with a direct connection.
+",graph
+"How many paths exist between node S and node T?
+",graph
+"What is the longest path from node U to node V?
+",graph
+"Which nodes have no outgoing connections?
+",graph
+"Identify all nodes with no incoming connections.
+",graph
+"List all nodes connected to node W by exactly three hops.
+",graph
+"What nodes are part of the same community as node X?
+",graph
+"Find nodes with the highest connectivity to node Y.
+",graph
+"Which nodes form triads including node Z?
+",graph
+"Determine the betweenness centrality of node A1.
+",graph
+"What is the cluster coefficient of the network?
+",graph
+"Who are the indirect friends of person B1?
+",graph
+"Identify all neighbors of node C1.
+",graph
+"List the hubs in the network.
+",graph
+"Which nodes have similar neighboring profiles to node D1?
+",graph
+"What is the average path length in the graph?
+",graph
+"Find all cross-cluster connections.
+",graph
+"Are there any bridge nodes between node E1 and node F1?
+",graph
+"What is the eigenvector centrality of node G1?
+",graph
+"List all strongly connected components.
+",graph
+"Can node H1 reach node I1 in less than four hops?
+",graph
+"What nodes are structurally equivalent in the graph?
+",graph
+"Identify potential bottlenecks in the network.
+",graph
+"What's the closeness centrality of node J1?
+",graph
+"Which nodes are isolated from the rest of the graph?
+",graph
+"Find nodes involved in feedback loops.
+",graph
+"What is the structural hole score for node K1?
+",graph
+"List all paths with odd length between node L1 and node M1.
+",graph
+"Determine overlapping communities in the network.
+",graph
+"Identify highly influential nodes.
+",graph
+"Locate all articulation points in the graph.
+",graph
+"What is the diameter of the graph?
+",graph
+"Who are the shared connections of person N1 with person O1?
+",graph
+"Which nodes are directly or indirectly connected to node P1?
+",graph
+"Find all disconnected subgraphs.
+",graph
+"Who frequently interacts with node Q1?
+",graph
+"Identify edge-independent paths between R1 and S1.
+",graph
+"Calculate the modularity of identified communities.
+",graph
+"Which relationships exist between node T1 and node U1?
+",graph
+"Determine the strength of ties between node V1 and their neighbors.
+",graph
+"What nodes form the periphery of the graph?
+",graph
+"Analyze the evolution of node W1's connections over time.
+",graph
+"Which nodes are part of a star network?
+",graph
+"List nodes with reciprocal relationships.
+",graph
+"How many triangles exist within the graph?
+",graph
+"Identify the shortest path avoiding node X1.
+",graph
+"Retrieve all loops starting and ending at node Y1.
+",graph
+"What nodes can be directly influenced by node Z1?
+",graph
+"Find all nodes accessible through directed edges from node A2.
+",graph
+"Who have common connections with both node B2 and node C2?
+",graph
+"Discover all potential cliques in the graph.
+",graph
+"What are the load centrality rankings of nodes?
+",graph
+"Which nodes form a bipartite subgraph?
+",graph
+"Who are the top k influencers in the network?
+",graph
+"What's the effect of removing node D2 on graph connectivity?
+",graph
+"Identify all reversible paths between node E2 and node F2.
+",graph
+"Can node G2 be connected to node H2 through peer-to-peer links?
+",graph
+"Which nodes serve as information proxies?
+",graph
+"Detect all transitive relationships starting at node I2.
+",graph
+"Determine the network's robustness metric.
+",graph
+"Locate nodes central to information flow.
+",graph
+"What community does node J2 belong to?
+",graph
+"Find all boundary spanners between two communities.
+",graph
+"What's the clustering tendency of the adjacent nodes?
+",graph
+"Who are the redundant connections in node K2’s network?
+",graph
+"Retrieve all semi-independent subgraphs.
+",graph
+"Detect emerging clusters in real-time.
+",graph
+"Identify backbone connections in the graph.
+",graph
+"What are the hierarchical levels of the nodes?
+",graph
+"Locate key influencers across multiple clusters.
+",graph
+"What's the global efficiency of the network?
+",graph
+"Determine the reachability ratios among components.
+",graph
+"What nodes are part of a dense subgraph?
+",graph
+"Find all nodes with cyclical dependency relationships.
+",graph
+"Identify motifs shared by node L2 and node M2.
+",graph
+"List bridges that can partition the graph.
+",graph
+"Which paths serve as shortcuts in the network?
+",graph
+"How do cycles affect information relay between nodes?
+",graph
+"Who acts as gatekeepers in node N2’s cluster?
+",graph
+"What is the redundancy factor of node O2’s connections?
+",graph
+"Classify nodes based on their connection symmetry.
+",graph
+"Evaluate path diversity between two given nodes.
+",graph
+"Infer trust levels based on transitive edges.
+",graph
+"What’s the Subgraph centrality of partition P?
+",graph
+"Which nodes serve as conduits for cluster-to-cluster exchanges?
+",graph
+"Discover isolated islands within the graph.
+",graph
+"Analyze the influence of node Q2's outgoing connections.
+",graph
+"Which nodes exhibit dynamic centrality?
+",graph
+"Locate bottleneck nodes within the graph.
+",graph
+"What is the weighted degree of node R2?
+",graph
+"Who are frequent collaborators with node S2?
+",graph
+"Identify edge homogeneity between clusters.
+",graph
+"What is the dependent degree count of node T2?
+",graph
+"Which nodes form the backbone of the graph?
+",graph
+"How do multiplex relationships influence node U2's influence?
+",graph
+"Discover time-sensitive connections in evolving networks.
+",graph
+"What roles do core nodes play in graph stability?
+",graph
+"Analyze the onset of fragmentation points within the network.
+",graph
+"Detect ring structures involving node V2.
+",graph
+"What node alignments exist within hyperedges?
+",graph
+"How are elite nodes orchestrating network dynamics?
+",graph
+"Explore all intermediary nodes in paths from node W2 to node X2.
+",graph
+"Find the shortest path between two users in a social network.
+",graph
+"Identify mutual friends between two people.
+",graph
+"List all employees who report directly or indirectly to a specific manager.
+",graph
+"Discover all components of a disconnected graph.
+",graph
+"Retrieve all nodes connected to a given node within three degrees of separation.
+",graph
+"Find all direct and indirect connections of a specific user.
+",graph
+"Determine if two pieces of equipment have a shared maintenance technician.
+",graph
+"Get all books written by authors who have co-authored with a specific author.
+",graph
+"List all airports accessible from a given airport with one or fewer layovers.
+",graph
+"Identify fraudulent transaction chains in a financial network.
+",graph
+"Retrieve all nodes with a specific label.
+",graph
+"Discover all movies featuring a particular actor and director collaboration.
+",graph
+"List all products purchased by customers who also bought a specific product.
+",graph
+"Find all shared interests between two users.
+",graph
+"Get all tweets mentioning a specific hashtag.
+",graph
+"Find the second-degree followers of a specific Twitter user.
+",graph
+"List all related projects that a team member is part of within a company.
+",graph
+"Identify all city pairs with a direct flight connection.
+",graph
+"Retrieve the most influential node in a social network (PageRank).
+",graph
+"Find all family members of a specific individual up to three generations.
+",graph
+"Determine if there is a cycle in a given subgraph.
+",graph
+"List all devices connected through a specific IoT hub.
+",graph
+"Find all software developers who have worked on the same project.
+",graph
+"Retrieve all people with shared educational background.
+",graph
+"List every node connected via a relationship of type ""follows"".
+",graph
+"Identify potential influencers for a brand in a social network.
+",graph
+"Find all proteins interacting with a specific protein in a biological network.
+",graph
+"List all articles citing a specific research paper.
+",graph
+"Get all policyholders connected through shared policies.
+",graph
+"Identify common skills between team members of a project.
+",graph
+"Find the total number of relationships a given entity has.
+",graph
+"Retrieve all nodes at a specific depth from a starting node.
+",graph
+"List all countries that share a border with a given country.
+",graph
+"Get all transactions originating from a specific account.
+",graph
+"Identify routes with less than three transfers between two bus stops.
+",graph
+"Find all computers infected by a certain type of malware.
+",graph
+"List employees who have worked under the same manager at any company.
+",graph
+"Retrieve all courses taken by students with a specific major.
+",graph
+"Identify all actors who have won an award in their lifetime.
+",graph
+"List all users in a social network who like the same page.
+",graph
+"Get all genes related to a specific illness.
+",graph
+"Find the diameter of a social network.
+",graph
+"Retrieve all nodes with more than five outgoing edges.
+",graph
+"List all previous owners of a given car.
+",graph
+"Identify all organizational units within a company’s hierarchy.
+",graph
+"Get all messages that are part of a specific conversation thread.
+",graph
+"Find all ancestors of an individual up to a specified generation.
+",graph
+"List all publications by authors within the same research institution.
+",graph
+"Identify all existing connections based on a specific pattern.
+",graph
+"Get the most common path traversed in a logistics network.
+",graph
+"List all similar products bought together by customers.
+",graph
+"Retrieve all transactions having a specific amount.
+",graph
+"Get the relationship chain between two companies.
+",graph
+"Identify all company branches located in a certain region.
+",graph
+"List all influencers who have mentioned a particular product.
+",graph
+"Find all artists who have collaborated on a song with a specific musician.
+",graph
+"Get all events happened in a certain location.
+",graph
+"Discover all mentees of a given mentor within an organization.
+",graph
+"Find communities with dense intra-connectivity.
+",graph
+"List all skill clusters within an organization.
+",graph
+"Get all patents cited in a specific technology field.
+",graph
+"Identify the social circle of a given user.
+",graph
+"Retrieve all technical support cases for a defective product.
+",graph
+"List all cars involved in more than two traffic incidents.
+",graph
+"Get all movies produced in a specific country.
+",graph
+"Identify common training programs attended by employees.
+",graph
+"List all articles sharing the same keywords.
+",graph
+"Find all business partners of a specific corporation.
+",graph
+"Get the complete food chain starting from a specific species.
+",graph
+"Identify airline routes crossing more than three states.
+",graph
+"List all books featuring a specific character.
+",graph
+"Discover all dependencies of a software library.
+",graph
+"Find all nodes that form a specific cycle.
+",graph
+"Get the impact factor of authors based on citations.
+",graph
+"List administrative hierarchies within governmental organizations.
+",graph
+"Identify all phone numbers called by a specific contact.
+",graph
+"Retrieve all events organized by a specific coordinator.
+",graph
+"List all club members who participated in a specific event.
+",graph
+"Find all pathways connecting two chemicals.
+",graph
+"Get all shipments linked to a specific order.
+",graph
+"Identify all emails exchanged between two people.
+",graph
+"Retrieve nodes representing countries with a trade agreement.
+",graph
+"List all components of a complex product.
+",graph
+"Discover group chats with more than ten participants.
+",graph
+"Find all sequences of tasks in a project dependency graph.
+",graph
+"Retrieve all neighbor nodes within three hops in a network graph.
+",graph
+"List all shared projects between two colleagues.
+",graph
+"Get all people attending the same conferences.
+",graph
+"Identify power-grid nodes that are critically linked.
+",graph
+"List all websites traversed consecutively by a user.
+",graph
+"Find all intersections between two road networks.
+",graph
+"Retrieve all news articles related to a specific subject.
+",graph
+"List all employees with more than three direct reports.
+",graph
+"Get all paths in a transportation network without cycles.
+",graph
+"Identify universal donors in a blood donation network.
+",graph
+"Find potential connections for job opportunities within a network.
+",graph
+"Retrieve nodes involved in a supply chain disruption.
+",graph
+"List all cellular connections of a specific device in a network.
+",graph
+"Identify the most connected individual in a friendship network.
+",graph
+"Discover common paths of wildlife migration.
+",graph
+"Get all places visited by a specific tourist.
+",graph
+"List all public figures associated with a cause.
+",graph
+"Find all nodes forming a star topology in a network.
+",graph
+"Retrieve all account managers handling multiple accounts.
+",graph
+"Identify stations linked by a specific railway line.
+",graph
+"List all registered products under a single patent.
+",graph
+"Find all entities within a specified cluster.
+",graph
+"Get the latest collaborations in a music industry graph.
+",graph
+"Identify conflict areas in a geopolitical network.
+",graph
+"List all participants in a decision-making process.
+",graph
+"Retrieve all processes involved in a manufacturing operation.
+",graph
+"Find all related cases in legal case networks.
+",graph
+"Discover common methodologies between academic papers.
+",graph
+"Identify optimal dissemination paths for information in a network.
+",graph
+"List all alliances within a corporate network.
+",graph
+"What are the shortest paths between Alice and Bob?
+",graph
+"Find all friends of John who live in New York.
+",graph
+"List the movies directed by Christopher Nolan.
+",graph
+"Who are the mutual friends of Sarah and David?
+",graph
+"Count the number of employees in the sales department.
+",graph
+"Which books are authored by J.K. Rowling?
+",graph
+"Who are the direct reports of the manager Jane Smith?
+",graph
+"Find all nodes connected to node ID 42.
+",graph
+"What are the skills of employees in the engineering department?
+",graph
+"List all companies that have partnerships with Tech Corp.
+",graph
+"Identify projects that are active in the last quarter.
+",graph
+"Who follows both user A and user B on social media?
+",graph
+"Fetch all transactions between customer 123 and vendor 456.
+",graph
+"What courses has Professor Brown taught since 2015?
+",graph
+"Who are the top 5 most connected people in the network?
+",graph
+"List all artists whose albums were released in 2020.
+",graph
+"Find the dependencies of software module X.
+",graph
+"Which restaurants are visited by people who live in Chicago?
+",graph
+"What are the common interests of user groups A and B?
+",graph
+"Retrieve all publications co-authored by John Doe.
+",graph
+"What events are linked to both team A and team B?
+",graph
+"Find nodes with the highest centrality values.
+",graph
+"List all flights departing from JFK airport today.
+",graph
+"Who are the influencers in the marketing community?
+",graph
+"What are the genres of songs in the playlist ""Chill Vibes""?
+",graph
+"Identify people who have changed jobs twice in the past year.
+",graph
+"List all tags associated with user-generated content.
+",graph
+"Which doctors are associated with hospital XYZ?
+",graph
+"Find all teams participating in the 2023 championship.
+",graph
+"What are the root causes of issues reported in product Z?
+",graph
+"Retrieve comments made on post ID 789.
+",graph
+"Who attended the annual conference in 2021?
+",graph
+"Load all articles shared by connections of user ID 578.
+",graph
+"What are the direct relationships from node A to node B?
+",graph
+"List the top trending topics this month.
+",graph
+"Find all mentors assigned to employee ID 321.
+",graph
+"Who liked the last three posts published by author X?
+",graph
+"Retrieve network connections formed within the last week.
+",graph
+"What topics are associated with technology and finance?
+",graph
+"Identify which servers are affected by a given bug.
+",graph
+"List all sponsors of the charity event last Saturday.
+",graph
+"Find all common collaborators of researcher A and B.
+",graph
+"What are the roles involved in the project Alpha?
+",graph
+"Fetch entities with missing required attributes.
+",graph
+"Who are the recommended connections for user C?
+",graph
+"List courses with prerequisites in computer science.
+",graph
+"Find events categorized as music festivals.
+",graph
+"Identify influencers with over 10,000 followers.
+",graph
+"Retrieve all products linked to category ""Electronics"".
+",graph
+"Who were the keynote speakers at the 2023 summit?
+",graph
+"What are the primary connections for node category ""Person""?
+",graph
+"Which universities collaborate with industry leaders?
+",graph
+"Find paths between cities A and B with max 3 stops.
+",graph
+"List all tenants renting properties in district 5.
+",graph
+"What are the correlations between products A and B?
+",graph
+"Retrieve sessions related to cybersecurity in the workshop.
+",graph
+"Who are the authors of articles in the journal ""Science""?
+",graph
+"What is the shortest path to reach node ID 99?
+",graph
+"Fetch all comments on issues without a resolution.
+",graph
+"Who bought both product X and product Y?
+",graph
+"List all satellite offices of the company headquarter.
+",graph
+"Find services that support API version 2.0.
+",graph
+"What are the immediate dependencies for task ID 456?
+",graph
+"Identify teams that exceeded quarterly targets.
+",graph
+"Retrieve influencer networks involving sports personalities.
+",graph
+"Who are the users with the highest likes on their posts?
+",graph
+"List all connections between elements in the transport layer.
+",graph
+"Find workshops that focus on data science.
+",graph
+"What are the upcoming competitions in college sports?
+",graph
+"Retrieve reviews for the most recent product release.
+",graph
+"Who shares both hobby X and hobby Y in their profiles?
+",graph
+"List all awards won by artist ID 789.
+",graph
+"Fetch details of all connections between entities A and B.
+",graph
+"Identify research papers published in climate science.
+",graph
+"Retrieve all association rules between items in cart ID 34.
+",graph
+"What webinars have received the highest feedback ratings?
+",graph
+"Find nodes reachable from node type ""Server"".
+",graph
+"List all certifications of employees in department Y.
+",graph
+"Who are the clients of consultant ID 678?
+",graph
+"Fetch comments on blogs tagged with ""Innovation"".
+",graph
+"What are the roles and responsibilities of the HR team?
+",graph
+"Identify all hierarchical levels between manager and staff.
+",graph
+"Retrieve posts by influencers that went viral.
+",graph
+"Who are the alumni currently mentoring students?
+",graph
+"List all communities focused on sustainable development.
+",graph
+"What are the shared assets between business entities X and Y?
+",graph
+"Find the nodes representing major market trends.
+",graph
+"Retrieve all feedback on services provided in 2022.
+",graph
+"List collaborations ongoing between division A and B.
+",graph
+"Identify bottlenecks in the production pipeline.
+",graph
+"Who are the top contributors to open-source project Z?
+",graph
+"Fetch all discussions related to the policy update 2023.
+",graph
+"What are the capabilities required for role ID 345?
+",graph
+"Find competitors of brand X in the financial sector.
+",graph
+"List all documented procedures in the quality assurance unit.
+",graph
+"Retrieve dependencies of microservice Y.
+",graph
+"Identify potential partnerships in region North America.
+",graph
+"Who attended all sessions in the last training program?
+",graph
+"What are the highlights of interactions during conference ID 57?
+",graph
+"Find promotions running this quarter in retail X.
+",graph
+"List points of interest within 5 miles of coordinate (x, y).
+",graph
+"Retrieve user feedback under category ""Usability"".
+",graph
+"What are the popular routes for the transport company?
+",graph
+"Identify risks associated with investment in project Gamma.
+",graph
+"Who are the team leads in the project completing in 2023?
+",graph
+"List product recommendations for user persona Z.
+",graph
+"Find all expert panels moderated by person ID 999.
+",graph
+"Retrieve structured data components held by server ID 10.
+",graph
+"What books are recommended based on reading history?
+",graph
+"Who are the mutual friends between Alice and Bob?
+",graph
+"What movies did both Alice and Bob like?
+",graph
+"Find the shortest path between New York and Los Angeles.
+",graph
+"List all direct connections of the node representing ""Python Programming.""
+",graph
+"Which authors have collaborated on papers with John Doe?
+",graph
+"What are the recommended books for someone who liked ""To Kill a Mockingbird""?
+",graph
+"Find all employees in the Sales department reporting directly or indirectly to Jane Doe.
+",graph
+"List all products purchased together with ""Laptop.""
+",graph
+"What common skills do employees in the Marketing department possess?
+",graph
+"Find friends of friends of Alice who live in London.
+",graph
+"What is the hierarchy path from the CEO to Intern Joe?
+",graph
+"List all organizations that have partnerships with Company X.
+",graph
+"Which students are enrolled in both Mathematics and Physics courses?
+",graph
+"Identify all people who worked at both IBM and Microsoft.
+",graph
+"Find all research papers cited by Article X published in 2020.
+",graph
+"What are the top 10 music tracks liked by users similar to Alice?
+",graph
+"List all blog posts linked under the topic ""Machine Learning.""
+",graph
+"Which people follow both TechCrunch and Wired on Twitter?
+",graph
+"Find all cities connected by direct flights from Paris.
+",graph
+"What customers bought item X after visiting category Y?
+",graph
+"Find all the ancestors of Monarch 12345.
+",graph
+"Who are the top influencers in the blockchain discussion forum?
+",graph
+"Which employees have changed departments more than twice?
+",graph
+"List all conferences attended by Alice in 2022.
+",graph
+"Find all nodes in a cycle involving the ""Economics"" node.
+",graph
+"What products are most frequently purchased by Alice?
+",graph
+"Identify people who have the same three areas of expertise as Bob.
+",graph
+"Find all users who posted using the hashtag ""#HealthyLiving.""
+",graph
+"What are the direct reports of the manager in Department Z?
+",graph
+"List all courses that are prerequisites for ""Advanced Calculus.""
+",graph
+"Find nodes that represent both a person and an author.
+",graph
+"What are the members of the group ""Chess Club""?
+",graph
+"List all friends of Bob who work at a tech company.
+",graph
+"Find all connections that have been active since 2021.
+",graph
+"What paths exist between me and the company I want to work for?
+",graph
+"Which products have a higher rating than 4.5 and share the same category as ""Smartphone""?
+",graph
+"List all technologies involved in Project Y.
+",graph
+"How many unique paths exist between Node A and Node B?
+",graph
+"Identify all paths where Alice can meet Bob during a multi-stop flight.
+",graph
+"What routes involve exactly three stops from City A to City B?
+",graph
+"Find all influencers in the travel industry with more than 10k followers.
+",graph
+"What conferences have been co-hosted by Institutions X and Y?
+",graph
+"List the most common connections between Product A and B.
+",graph
+"Identify all employees who joined the company before 2015 and are still active.
+",graph
+"What are the common interests between User X and User Y?
+",graph
+"Which papers cite Author B's work from 2020 onward?
+",graph
+"List all hashtags used by @username in the last month.
+",graph
+"What nodes are two steps away from Node X?
+",graph
+"Identify the most cited author in the network of academic papers.
+",graph
+"Which devices are compatible with Product X?
+",graph
+"Find all professors who teach in both Undergraduate and Graduate programs.
+",graph
+"What are the most common paths users take on the website?
+",graph
+"List the sections within a book following the ""Introduction"" section.
+",graph
+"Who are the oldest followers of @company on Twitter?
+",graph
+"Which startups have been invested in by both Investor A and Investor B?
+",graph
+"Find nodes that share more than three attributes with Node Y.
+",graph
+"What are the direct consequences of implementing Policy X?
+",graph
+"List all parts used in Model Z.
+",graph
+"Identify all pages linked to the ""Climate Change"" page.
+",graph
+"Find coworkers who hold the same title in different departments.
+",graph
+"What are the tasks assigned to Alice within Project Omega?
+",graph
+"List all services related to ""Cloud Computing.""
+",graph
+"Identify the direct or indirect influencers on Topic X within the network.
+",graph
+"What are the shortest paths connecting Topic A with Topic B?
+",graph
+"Find artists who have released collaborations with more than five different musicians.
+",graph
+"List all co-working spaces located in San Francisco.
+",graph
+"What strategies share nodes with multiple business development strategies?
+",graph
+"Find all connections between two specific locations within three degrees.
+",graph
+"What transactions took place on March 15 with nodes related to Banking?
+",graph
+"List all team members involved in Cross-Functional Team X.
+",graph
+"What movies have won both Oscar Awards and Golden Globe Awards?
+",graph
+"Identify all clients who have been active for more than ten years.
+",graph
+"Find all recipes that use at least three of the same ingredients as Recipe X.
+",graph
+"List all books authored or co-authored by Author X.
+",graph
+"What entities are associated with more than two financial advisors?
+",graph
+"Identify all tasks dependent on Task A across various projects.
+",graph
+"Which employees have worked under Manager A and Manager B?
+",graph
+"What travel routes are available for a budget traveler between City A and City B?
+",graph
+"Find courses offered in both Fall and Spring semesters.
+",graph
+"List all nodes directly influenced by Node Z.
+",graph
+"What are the common keywords among these three documents?
+",graph
+"Identify all fashion items tagged with ""Summer Collection.""
+",graph
+"What companies have collaborated on more than three projects together?
+",graph
+"Find the most referenced regulations within Company X.
+",graph
+"List all pathways for product development starting from innovation.
+",graph
+"Which patients underwent procedures related to Cardiology?
+",graph
+"Find the most influential papers in the last decade of the Biology Network.
+",graph
+"What events have occurred more than once in Location Y?
+",graph
+"List all known variants of the species classified under Genus X.
+",graph
+"What social circles does Bob belong to in the network?
+",graph
+"Find connections between databases used at both Company X and Company Y.
+",graph
+"Identify the historical trade routes connecting City A to City B.
+",graph
+"What’s the direct relationship path between Actor X and Director Y?
+",graph
+"List all categories under which Product Z is listed.
+",graph
+"Find all artworks that were part of exhibitions at Museum X.
+",graph
+"Find all people connected to John within two degrees of separation.
+",graph
+"What are the shortest paths from Alice to Bob?
+",graph
+"Who are the mutual friends between Charlie and Dave?
+",graph
+"List all the products purchased by customers who also bought ""Product X"".
+",graph
+"Identify all the authors who have co-authored a paper with Dr. Smith.
+",graph
+"Which employees report directly or indirectly to Manager Y?
+",graph
+"Find all the cities directly connected to Paris by direct flights.
+",graph
+"What is the most common job title among Susan's first-degree connections?
+",graph
+"Retrieve the top influencers in this social network.
+",graph
+"What are the common interests between members of Group A and Group B?
+",graph
+"Find customers who have purchased items frequently bought together.
+",graph
+"Identify all companies in which Investor Z has investments.
+",graph
+"List all possible paths from Source A to Destination B.
+",graph
+"Who are the key opinion leaders in this discussion forum?
+",graph
+"What films have actor Y starred in with actor Z?
+",graph
+"Find all papers that cite ""Important Paper X"".
+",graph
+"Which nodes have the highest degree centrality in the network?
+",graph
+"Who are the alumni of University X that work at Company Y?
+",graph
+"Discover all the components of the graph that are strongly connected.
+",graph
+"List the top five communities detected within this network.
+",graph
+"What are the shortest paths for package delivery between City A and City B?
+",graph
+"Identify potential frauds by analyzing unusual transaction patterns.
+",graph
+"Retrieve all nodes reachable from Node A within three hops.
+",graph
+"Which products form a dependency chain leading to ""Product X""?
+",graph
+"Find all people in the company who have worked under both Supervisor A and B.
+",graph
+"Which websites are frequently visited by the same users who log into Site X?
+",graph
+"What are the hierarchical levels between Employee X and the CEO?
+",graph
+"Detect possible loops in this supply chain network.
+",graph
+"Find all buildings connected to the main power grid.
+",graph
+"List all family members related to Individual Y up to three generations back.
+",graph
+"How many clusters are there in the customer purchase graph?
+",graph
+"Which paths have the least resistance in this electrical grid?
+",graph
+"Retrieve all security vulnerabilities reported in software ""Product X"".
+",graph
+"Which facilities are directly supplied by Factory Y?
+",graph
+"Identify all nodes affected if Node A fails in this network.
+",graph
+"What are the typical migration patterns observed in the species?
+",graph
+"List the key decision-makers in this organizational chart.
+",graph
+"Find all related legal cases for Case X.
+",graph
+"Who in the network has the strongest connection to the marketing department?
+",graph
+"Retrieve all projects Employee Y has collaborated on across teams.
+",graph
+"Discover all common ancestors of Person A and Person B.
+",graph
+"What alternative routes exist between two traffic points?
+",graph
+"Find influencers who have connections in at least three distinct communities.
+",graph
+"Identify all known aliases of Criminal X in the network.
+",graph
+"Which transactions in this network exceed $1 million?
+",graph
+"List all individuals who attended both Conference A and B.
+",graph
+"Discover which areas in the city are underserved by public transport.
+",graph
+"Find all artists involved in both Art Movement A and B.
+",graph
+"How many redundant connections exist in this telecom network?
+",graph
+"Retrieve all dependencies for library ""Library X"".
+",graph
+"What other sports are played by athletes competing in ""Sport X""?
+",graph
+"Identify companies with shared board members.
+",graph
+"List all nodes in the graph with a degree higher than ten.
+",graph
+"Discover all potential routes for data packets in the network.
+",graph
+"What are the key campaigns influencing public opinion in this year?
+",graph
+"Find all mentors connected to Student X across the program.
+",graph
+"List all online communities Person Y is a member of.
+",graph
+"Identify all government officials with ties to Organization X.
+",graph
+"Retrieve all user's travel histories that include ""City Y"".
+",graph
+"Find all seminars attended by employees from Department X.
+",graph
+"Who are the repeat customers for Product Y?
+",graph
+"Discover all events linked to Participant Z.
+",graph
+"Retrieve all safety incidents reported in Plant A.
+",graph
+"List all satellite connections originating from Ground Station X.
+",graph
+"Identify all software that interoperate with System Y.
+",graph
+"Find the main hubs in this transportation network.
+",graph
+"List all team members in projects led by Leader X.
+",graph
+"Retrieve all the routes in this railway network.
+",graph
+"Which natural resources are shared between Region A and Region B?
+",graph
+"Discover the shortest path to reach Customer X.
+",graph
+"Who are the key suppliers for components in Product Y?
+",graph
+"List all scientists who contributed to Research Project X.
+",graph
+"What are the overlap points in distribution channels A and B?
+",graph
+"Retrieve all events Person Y RSVP'd 'Yes' to but didn't attend.
+",graph
+"Identify all shareholders with stakes in both Company A and B.
+",graph
+"Discover all past and present associations with Club X.
+",graph
+"Find all houses connected to the main water supply system.
+",graph
+"What nodes have direct connections to both Node A and B?
+",graph
+"Retrieve all the countries trading with Country X.
+",graph
+"List all tasks Employee Y manages across different projects.
+",graph
+"Identify all user interactions with the support team.
+",graph
+"Which countries are directly influenced by policies from Organization X?
+",graph
+"Find common pathways used by hackers in system breaches.
+",graph
+"Retrieve all customer complaints related to Feature Y.
+",graph
+"Which team members have collaborated at least three times on projects?
+",graph
+"Discover universities with the highest number of published authors in Field X.
+",graph
+"List all neighboring nodes to Node Z within one degree.
+",graph
+"Identify critical junctions in this network infrastructure.
+",graph
+"Retrieve all connections between Member A and B in this club.
+",graph
+"Find all places Person X has lived in the past decade.
+",graph
+"What are the overlap periods for employees with dual department roles?
+",graph
+"Who are the primary influencers on Topic X in social media platforms?
+",graph
+"Retrieve the history of ownership for Property Y.
+",graph
+"List all the dependencies required for System X updates.
+",graph
+"Identify all pathways disrupted by the removal of Node Z.
+",graph
+"Which politicians have overlapping interests in Policy Y?
+",graph
+"Find all data nodes affected by a recent security breach.
+",graph
+"Who has shared publications with Author Y?
+",graph
+"List all available backups for Data Node X.
+",graph
+"What other projects interact with Project A based on shared resources?
+",graph
+"Find the hierarchy of positions within Department X.
+",graph
+"Identify all cross-functional team collaborations in the company.
+",graph
+"Retrieve interactions between Users A, B, and C during Event X.
+",graph
+"Which researchers have patents co-authored with Inventor Y?
+",graph
+"Discover common themes across different forums discussing Technology X.
+",graph
+"List all authors who simultaneously belong to multiple study groups.
+",graph
+"Find all the junctions in this road network susceptible to bottlenecks.
+",graph
+"Retrieve all the related catalogs for ""Catalog Series Y"".
+",graph
+"Identify hidden influencers within subcategories of this social network.
+",graph
+"What are the most traversed pathways during peak hour in the city?
+",graph
+"List all services provided by Supplier X to Client Y.
+",graph
+"What common points do rival companies share within their supply chains?
+",graph
+"Find all real estate properties linked to Agency Z.
+",graph
+"Which employees are involved in at least two training programs?
+",graph
+"Retrieve all legal entities Person X has a controlling interest in.
+",graph
+"Who are the direct friends of user X?
+",graph
+"Find all employees working under manager Y.
+",graph
+"List all cities connected by flights from city Z.
+",graph
+"Retrieve all articles related to topic A.
+",graph
+"Identify shared interests between users U and V.
+",graph
+"Show all immediate followers of influencer B.
+",graph
+"Find the shortest path between nodes P and Q.
+",graph
+"Get all books authored by writer C.
+",graph
+"Who has the most connections in the network?
+",graph
+"Discover all co-authors of researcher R.
+",graph
+"List all movies starred by actor D.
+",graph
+"Identify all family members of person E.
+",graph
+"Retrieve all courses that student F is enrolled in.
+",graph
+"Find mutual connections between X and Y.
+",graph
+"Show all software dependencies for package G.
+",graph
+"Get all friends of friends for user H.
+",graph
+"Identify the longest supply chain in the network.
+",graph
+"List all companies partnered with business I.
+",graph
+"Who has attended both conference J and K?
+",graph
+"Discover all teams player L has played for.
+",graph
+"Find all direct reports to executive M.
+",graph
+"Retrieve events hosted in venue N.
+",graph
+"Identify all departments within organization O.
+",graph
+"Show all collaborations between musician P and Q.
+",graph
+"List all suppliers for product R.
+",graph
+"Find the nearest hospital to location S.
+",graph
+"Retrieve all podcasts featuring speaker T.
+",graph
+"Who are the top contributors in community U?
+",graph
+"Identify all routes that include station V.
+",graph
+"List all ingredients in recipe W.
+",graph
+"Show all members of committee X.
+",graph
+"Find the largest community in the network.
+",graph
+"Retrieve all projects initiated by team Y.
+",graph
+"Identify all authors in the field of Z.
+",graph
+"Discover all historical events linked to location A1.
+",graph
+"List all podcasts listened by user B1.
+",graph
+"Get all films inspired by book C1.
+",graph
+"Identify mutual memberships between groups D1 and E1.
+",graph
+"Show all buildings designed by architect F1.
+",graph
+"Retrieve all legislative bills proposed by senator G1.
+",graph
+"Find all successors of company H1.
+",graph
+"Discover all promotion paths for role I1.
+",graph
+"List all artworks displayed in museum J1.
+",graph
+"Get all companies acquired by corporation K1.
+",graph
+"Identify all shared resources in the network.
+",graph
+"Show all ancestors of individual L1.
+",graph
+"Find all mountains within range of region M1.
+",graph
+"Retrieve all blog posts tagged with keyword N1.
+",graph
+"Who influences both user O1 and P1?
+",graph
+"List all musical albums produced by producer Q1.
+",graph
+"Show all intersections on the road R1.
+",graph
+"Identify all mentors for employee S1.
+",graph
+"Retrieve all charities supported by celebrity T1.
+",graph
+"Find the major exports of country U1.
+",graph
+"List all planets associated with star system V1.
+",graph
+"Show organizations connected to cause W1.
+",graph
+"Identify all heirlooms passed down in family X1.
+",graph
+"Retrieve all code repositories forked by developer Y1.
+",graph
+"Find all transit lines passing through zone Z1.
+",graph
+"Discover schools attended by leader A2.
+",graph
+"List all methods employed in research paper B2.
+",graph
+"Get all trees planted in park C2.
+",graph
+"Who are the advisors for startup D2?
+",graph
+"Retrieve all laws impacting industry E2.
+",graph
+"Identify links between artist F2 and gallery G2.
+",graph
+"Show all animal species in habitat H2.
+",graph
+"List all insurance policies underwritten by company I2.
+",graph
+"Find the primary contact for project J2.
+",graph
+"Retrieve all sessions in conference K2.
+",graph
+"Identify all known passwords in breach L2.
+",graph
+"Show all citizens with dual nationality M2.
+",graph
+"Discover all tutor-student pairings in school N2.
+",graph
+"Retrieve all donations made to fund O2.
+",graph
+"List all courses offering certification P2.
+",graph
+"Get all workouts recommended for fitness level Q2.
+",graph
+"Identify all genres associated with publisher R2.
+",graph
+"Find the main focus areas of institute S2.
+",graph
+"Show all celebrities with philanthropic activities T2.
+",graph
+"Retrieve all awards won by athlete U2.
+",graph
+"List all intersections on route V2.
+",graph
+"Identify successors to throne W2.
+",graph
+"Discover all links between disease X2 and treatment Y2.
+",graph
+"Show all firms in network Z2.
+",graph
+"Retrieve all online courses available in database A3.
+",graph
+"Find all bridges over river B3.
+",graph
+"List all diplomatic missions between countries C3 and D3.
+",graph
+"Show all joint ventures in industry E3.
+",graph
+"Identify all foundation members for organization F3.
+",graph
+"Get all technology updates in sector G3.
+",graph
+"Discover all emergency contacts in directory H3.
+",graph
+"Retrieve all game versions released by studio I3.
+",graph
+"List all flights departing from airport J3.
+",graph
+"Identify the governance structure of association K3.
+",graph
+"Show all licensing agreements for brand L3.
+",graph
+"Find all abandoned facilities in city M3.
+",graph
+"Retrieve all linguistic translations for dialect N3.
+",graph
+"List all ecological initiatives by NGO O3.
+",graph
+"Discover adoption partners for orphanage P3.
+",graph
+"Show all financial sponsors for festival Q3.
+",graph
+"Retrieve all curriculum modules for class R3.
+",graph
+"Identify all operational nodes in the network S3.
+",graph
+"List known aliases for historic figure T3.
+",graph
+"Find all rare artifacts in collection U3.
+",graph
+"Show all crisis response plans by authority V3.
+",graph
+"Identify co-inventors on patent application W3.
+",graph
+"Retrieve all contracts awarded to vendor X3.
+",graph
+"Find all fusion cuisines in cookbook Y3.
+",graph
+"List all conservation efforts by zoo Z3.
+",graph
+"Show all similar cases to lawsuit A4.
+",graph
+"Identify all convoy routes for fleet B4.
+",graph
+"Retrieve governmental amendments on policy C4.
+",graph
+"List all core subjects in degree program D4.
+",graph
+"Find all dynamic groups in organization E4.
+",graph
+"Show all nuances in legal interpretations of act F4.
+",graph
+"Identify renewable resources in region G4.
+",graph
+"List key influencers in marketing campaign H4.
+",graph
+"Retrieve all loan services by bank I4.
+",graph
+"Discover all sequel games by developer J4.
+",graph
+"Find historical funding patterns for agency K4.
+",graph
+"Show community feedback for service L4.
+",graph
+"Retrieve unique identifiers in DNA sequence M4.
+",graph
+"List assembly processes in manufacturing plant N4.
+",graph
+"Identify unanimous decisions in council O4.
+",graph
+"Get all cross-cultural exchanges in program P4.
+",graph
+"Find ethics compliance records for board Q4.
+",graph
+"Show commonly shared tools in workspace R4.
+",graph
+"Retrieve all urban development plans for district S4.
+",graph
+"Find all authors who have written more than three books.
+",graph
+"List all cities connected by flights within two hops.
+",graph
+"Retrieve the names of employees who report directly to the CEO.
+",graph
+"Find all people with a direct connection to the project manager.
+",graph
+"List all friends of friends who live in New York.
+",graph
+"Identify all movies directed by someone who has also acted.
+",graph
+"Find top ten influential nodes in the social network.
+",graph
+"Retrieve all products purchased by customers aged between 20 and 30.
+",graph
+"List all managers who have more than three direct reports.
+",graph
+"Find all participants who attended more than two events.
+",graph
+"Retrieve all artists who have collaborated with a specific artist.
+",graph
+"List all countries that share a border.
+",graph
+"Find all articles cited by a particular research paper.
+",graph
+"Retrieve the shortest path between two users in a social network.
+",graph
+"List all authors who have collaborated with a Nobel Laureate.
+",graph
+"Find all software engineers working in the same project.
+",graph
+"Retrieve all families with at least two members in the same organization.
+",graph
+"Find all musicians who have released albums between 1990 and 2000.
+",graph
+"List all employees in the same location as the headquarters.
+",graph
+"Find all universities attended by a particular set of students.
+",graph
+"Retrieve all restaurants located within two blocks of a museum.
+",graph
+"List all technology partners of the company.
+",graph
+"Find all relationships of a specific type in the graph.
+",graph
+"Retrieve all transactions between customers and vendors.
+",graph
+"List all investors who have invested in more than five startups.
+",graph
+"Find all courses taken by students who major in computer science.
+",graph
+"Retrieve all flights with a layover of less than two hours.
+",graph
+"List all books co-authored by the same set of people.
+",graph
+"Find all colleagues who have worked more than five years together.
+",graph
+"Retrieve all nodes connected to a specific central node.
+",graph
+"List all hackerspaces in cities with a population over a million.
+",graph
+"Find all conferences attended by a specific academic.
+",graph
+"Retrieve all competitors of the company in the past five years.
+",graph
+"List all athletes who have won medals in multiple Olympics.
+",graph
+"Find all actors who have starred in more than ten films.
+",graph
+"Retrieve all operating systems compatible with given software.
+",graph
+"List all firms that have been acquired by the parent company.
+",graph
+"Find DJs who have played at least one international festival.
+",graph
+"Retrieve all patents citing a specific inventor.
+",graph
+"List all transportation routes connecting two specific locations.
+",graph
+"Find people who have connections in both New York and London.
+",graph
+"Retrieve all journalists contributing to the same newspaper.
+",graph
+"List all partnership agreements formed in the past year.
+",graph
+"Find all books translated into more than five languages.
+",graph
+"Retrieve all predecessors of a particular node in the hierarchy.
+",graph
+"List all workshops organized by the educational institution.
+",graph
+"Find podcasts with guests from multiple countries.
+",graph
+"Retrieve ecological networks of plant and animal species.
+",graph
+"List all historical events involving multiple countries.
+",graph
+"Find all doctors with specialization in cardiology.
+",graph
+"Retrieve all collaborative projects by two particular universities.
+",graph
+"List all mutual friends of two specific people.
+",graph
+"Find all software versions compatible with multiple platforms.
+",graph
+"Retrieve all matches between specific sports teams.
+",graph
+"List all tenants in buildings managed by the same company.
+",graph
+"Find all papers with shared references.
+",graph
+"Retrieve all technicians certified in a specific technology.
+",graph
+"List all categories connected to a particular blog post.
+",graph
+"Find all gym members who train together regularly.
+",graph
+"Retrieve all meetings involving the company’s executives.
+",graph
+"List all places within a five-mile radius of a given point.
+",graph
+"Find all trains operating on the same network.
+",graph
+"Retrieve all related podcasts by topic.
+",graph
+"List all parks linked by walking trails.
+",graph
+"Find all schools with exchange programs.
+",graph
+"Retrieve all service centers authorized by the manufacturer.
+",graph
+"List all musicians with more than three Grammy awards.
+",graph
+"Find all theaters showing the same movie.
+",graph
+"Retrieve all supply chains involving a particular material.
+",graph
+"List all employees with two or more skills certifications.
+",graph
+"Find all departments collaborating on the same project.
+",graph
+"Retrieve all partners who contributed to a joint venture.
+",graph
+"List all books in the public domain.
+",graph
+"Find all NGOs working in environmental conservation.
+",graph
+"Retrieve all translations of a specific document.
+",graph
+"List all professional networks connected to a given industry.
+",graph
+"Find all animals in a multi-species conservation effort.
+",graph
+"Retrieve all surviving members of historical dynasties.
+",graph
+"List all software products by a developer group.
+",graph
+"Find all residential areas connected by public transport.
+",graph
+"Retrieve all products using renewable materials.
+",graph
+"List all historical landmarks on a specific map route.
+",graph
+"Find all species linked through ecological interactions.
+",graph
+"Retrieve all alumni of a university with distinguished careers.
+",graph
+"List all projects funded by a particular grant.
+",graph
+"Find all startups in the technology innovation sector.
+",graph
+"Retrieve all banks involved in the same syndicate loan.
+",graph
+"List all dance performances by a specific choreographer.
+",graph
+"Find all coding languages used in emerging startups.
+",graph
+"Retrieve all public figures with connections to the UN.
+",graph
+"List all airlines with a hub in North America.
+",graph
+"Find all sculptures linked to a famous artist.
+",graph
+"Retrieve all discovered connections between two phenomena.
+",graph
+"List all local communities with shared annual events.
+",graph
+"Find all landmarks in a UNESCO heritage site.
+",graph
+"Retrieve all publishing houses with award-winning titles.
+",graph
+"List all government policies involving AI.
+",graph
+"Find all libraries with special collections on art.
+",graph
+"Retrieve all food recipes shared in cooking networks.
+",graph
+"List all tech companies in the same innovation cluster.
+",graph
+"Find all cycling routes in a specific urban area.
+",graph
+"Retrieve all news articles linking specific events.
+",graph
+"List all poets who contributed to a literary magazine.
+",graph
+"Find all vineyards from the same wine-making region.
+",graph
+"Retrieve all environmental studies with multi-country data.
+",graph
+"List all patents related to renewable energy technologies.
+",graph
+"Find all professional athletes engaged in multiple sports.
+",graph
+"Retrieve all brands endorsed by a particular celebrity.
+",graph
+"List all partners in research collaborations.
+",graph
+"Find all train lines passing through specific stations.
+",graph
+"Retrieve all fashion designers associated with a trend.
+",graph
+"What is the shortest path between node A and node B?
+",graph
+"Find all direct friends of user X.
+",graph
+"Identify all immediate neighbors of node C.
+",graph
+"What are the common connections between user Y and user Z?
+",graph
+"List all nodes connected to node D within two hops.
+",graph
+"Retrieve all routes from city V to city W with a maximum of three stops.
+",graph
+"Which employees are directly supervised by manager E?
+",graph
+"Find all movies directed by director F.
+",graph
+"Who are the mutual friends of user U and user V?
+",graph
+"Which authors have collaborated with author G?
+",graph
+"List all products bought together with product H.
+",graph
+"Identify nodes with no incoming connections.
+",graph
+"What are the most influential nodes in the network?
+",graph
+"Find all flights departing from airport I.
+",graph
+"Retrieve all books by author J published after 2015.
+",graph
+"Which organizations have partnerships with company K?
+",graph
+"Discover all songs by artist L in genre M.
+",graph
+"Who are the top influencers in category N?
+",graph
+"Identify all users who liked post O.
+",graph
+"How many followers does user P have?
+",graph
+"Find employees who have worked in both department Q and department R.
+",graph
+"List all skills endorsed by employee S.
+",graph
+"What projects are team T currently working on?
+",graph
+"Find all recipes that include ingredient U.
+",graph
+"Who has co-starred in movies with actor V?
+",graph
+"Identify the direct reports of employee W.
+",graph
+"List all publications co-authored by scientist X.
+",graph
+"Find all groups joined by member Y.
+",graph
+"Which servers are part of subnet Z?
+",graph
+"Who has cited paper A' in their work?
+",graph
+"List all endpoints reachable from node B'.
+",graph
+"Identify all users with at least three mutual connections with user C'.
+",graph
+"What are the most liked posts in category D'?
+",graph
+"Retrieve all ancestors of node E' up to two generations back.
+",graph
+"Find all subclasses of class F'.
+",graph
+"Which events are related to event G'?
+",graph
+"Identify all competitors of company H'.
+",graph
+"List all followers of influencer I' who have more than 1000 followers themselves.
+",graph
+"What are the interconnected components in the network?
+",graph
+"Retrieve all comments under blog post J'.
+",graph
+"Find all articles referenced in document K'.
+",graph
+"Who are the direct neighbors of vertex L'?
+",graph
+"List all product categories a customer M' has purchased from.
+",graph
+"Identify all projects associated with client N'.
+",graph
+"What languages are spoken by at least two of employee O's connections?
+",graph
+"Retrieve all dependencies for software package P'.
+",graph
+"Find all predecessors of task Q' in the project timeline.
+",graph
+"Which courses are prerequisites for course R'?
+",graph
+"List all departments involved in project S'.
+",graph
+"Who are the primary contacts for node T'?
+",graph
+"Identify the central hub nodes in the transportation network.
+",graph
+"What are the top three most followed topics by user U'?
+",graph
+"Retrieve all nodes reachable from node V' within three degrees of separation.
+",graph
+"Find all mentors for employee W'.
+",graph
+"Which artists have collaborated with artist X' on albums?
+",graph
+"List all components used in assembly Y'.
+",graph
+"Identify all transactions initiated by account Z'.
+",graph
+"What software versions depend on library A''?
+",graph
+"Retrieve all tags associated with image B''.
+",graph
+"Find all job roles reporting to position C''.
+",graph
+"Which research papers are cited the most by document D''?
+",graph
+"List all conferences attended by participant E''.
+",graph
+"Identify all subordinates of supervisor F'' up to two levels down.
+",graph
+"What are the key themes in posts by user G''?
+",graph
+"Retrieve all network devices connected to switch H''.
+",graph
+"Find all destinations reachable from station I'' within five stops.
+",graph
+"Which users have bookmarked article J''?
+",graph
+"List all activities part of the program K''.
+",graph
+"Identify all network outages reported for system L''.
+",graph
+"What are the most common paths leading to node M''?
+",graph
+"Retrieve all endorsements for skill N''.
+",graph
+"Find all involved parties in contract O''.
+",graph
+"Which repositories are forked from project P''?
+",graph
+"List all sessions hosted by speaker Q''.
+",graph
+"Identify all widgets part of dashboard R''.
+",graph
+"Who frequently collaborates with developer S''?
+",graph
+"Retrieve all playlists containing song T''.
+",graph
+"Find all endpoints affected by firewall rule U''.
+",graph
+"Which policies are related to rule V''?
+",graph
+"List all contracts associated with vendor W''.
+",graph
+"Identify all law amendments relevant to statute X''.
+",graph
+"What projects has architect Y'' worked on?
+",graph
+"Retrieve all clients serviced by consultant Z''.
+",graph
+"Find all direct relatives of individual A'''.
+",graph
+"Which resources are tagged under project B'''?
+",graph
+"List all ingredients in menu item C'''.
+",graph
+"Identify all teams involved in initiative D'''.
+",graph
+"What are the primary exports of country E'''?
+",graph
+"Retrieve all child nodes under parent node F'''.
+",graph
+"Find all musicians in band G'''.
+",graph
+"Which scripts are dependencies for application H'''?
+",graph
+"List all faculties offering course I'''.
+",graph
+"Identify all resellers of product J'''.
+",graph
+"What documents are part of archive K'''?
+",graph
+"Retrieve all lessons created by instructor L'''.
+",graph
+"Find all shared interests between user M''' and user N'''.
+",graph
+"Which actors are frequently cast by director O'''?
+",graph
+"List all active tickets assigned to agent P'''.
+",graph
+"Identify all datasets used in research Q'''.
+",graph
+"What are the key findings of study R'''?
+",graph
+"Retrieve all movies starring actor S'''.
+",graph
+"Find all application components affected by bug T'''.
+",graph
+"Which travel packages include destination U'''?
+",graph
+"List all properties managed by realtor V'''.
+",graph
+"Identify all chapters in book W'''.
+",graph
+"What hobbies are listed by user X'''?
+",graph
+"Retrieve all online courses available under category Y'''.
+",graph
+"Find all public repositories owned by user Z'''.
+",graph
+"Which licenses are applicable to software A''''?
+",graph
+"List all active jobs in pipeline B''''.
+",graph
+"Identify all algorithms implemented by engineer C''''.
+",graph
+"What transportation links are connected to hub D''''?
+",graph
+"Retrieve all workshop sessions attended by participant E''''.
+",graph
+"Find all tutorials written by blogger F''''.
+",graph
+"Find all direct friends of John.
+",graph
+"List the movies directed by Christopher Nolan.
+",graph
+"Show all employees who report directly to Mary.
+",graph
+"What are the common interests between Alice and Bob?
+",graph
+"List all countries connected by a trade agreement with Germany.
+",graph
+"Identify the shortest path between node A and node B.
+",graph
+"Find all nodes connected to node X within two hops.
+",graph
+"Who are the mutual friends of Mike and Sarah?
+",graph
+"Which products are frequently purchased together?
+",graph
+"List all projects managed by department X.
+",graph
+"Who has co-authored papers with Dr. Smith?
+",graph
+"Show the hierarchy of the tech department.
+",graph
+"Which cities have flight connections with New York?
+",graph
+"Find all ancestors of node Z.
+",graph
+"Identify influencers in the social network.
+",graph
+"What are John's professional connections in London?
+",graph
+"List all articles linked to the subject Quantum Computing.
+",graph
+"Find all books written by J.K. Rowling.
+",graph
+"What are the direct dependencies of package A?
+",graph
+"Show all roads leading to Los Angeles.
+",graph
+"What databases are related to Big Data?
+",graph
+"List all nodes with the label ""Customer"".
+",graph
+"Who purchased product Y in the last month?
+",graph
+"Find all issues assigned to user X.
+",graph
+"List people who have completed Project Alpha.
+",graph
+"Which students are enrolled in both course A and course B?
+",graph
+"Identify all paths from source S to destination D.
+",graph
+"Show all devices connected to the network.
+",graph
+"List all patents held by company X.
+",graph
+"Find movies featuring both actor A and actor B.
+",graph
+"Who are the main contributors to repository Z?
+",graph
+"Identify all events hosted by organization Y.
+",graph
+"What are the career paths of alumni from University Z?
+",graph
+"List all companies within the same industry as company X.
+",graph
+"Find all nodes that are leaf nodes.
+",graph
+"Who are node Z's indirect friends?
+",graph
+"Show all transactions exceeding $10,000.
+",graph
+"List all posts tagged with ""Machine Learning"".
+",graph
+"Find all projects with a status of ""Completed"".
+",graph
+"Show all nodes connected to the ""Internet of Things"" cluster.
+",graph
+"List all communities John is a part of.
+",graph
+"Find all products in the electronics category.
+",graph
+"Which banks operate in country X?
+",graph
+"Identify all conferences attended by employee Y.
+",graph
+"What are the upcoming events in location L?
+",graph
+"List all suppliers of company Z.
+",graph
+"Show the relationship path between person A and company B.
+",graph
+"Find all employees with skills in Java.
+",graph
+"What are the top ten most followed accounts?
+",graph
+"List all friends of friends of person C.
+",graph
+"Identify countries bordering country N.
+",graph
+"Which authors write in the genre Science Fiction?
+",graph
+"Find all tags associated with the user account K.
+",graph
+"List all items in the user's shopping cart.
+",graph
+"Who has made changes to the document ""Project Proposal""?
+",graph
+"Find all cities within 100 miles of Paris.
+",graph
+"List all users with administrator privileges.
+",graph
+"Show all executables in the software release.
+",graph
+"What regulations affect the telecommunications industry?
+",graph
+"Find all team members of the marketing department.
+",graph
+"Which travelers have visited both city A and city B?
+",graph
+"List all partners of corporation Y in the last five years.
+",graph
+"Show the full tree of dependencies for task T.
+",graph
+"Identify all secured connections to server R.
+",graph
+"Who are the recipients of the 2022 award?
+",graph
+"Show all neighboring nodes of node P.
+",graph
+"What are the points of interest in region R?
+",graph
+"Find all tournaments won by player X.
+",graph
+"List all related technologies to blockchain.
+",graph
+"Who are the siblings of character C in the story?
+",graph
+"Show all data transactions from January 2022.
+",graph
+"Find all books translated to French.
+",graph
+"Which cities are connected by high-speed rail?
+",graph
+"List all presentations given by team B.
+",graph
+"Identify all retailers for brand M.
+",graph
+"What are the titles published by the press house H?
+",graph
+"Find all direct reports of manager N.
+",graph
+"Show all peers of user profile Z.
+",graph
+"List all museums located in district D.
+",graph
+"Identify all renewable energy sources in location L.
+",graph
+"What are the active volcanoes near country J?
+",graph
+"Find all open-source projects by developer D.
+",graph
+"Show the complete lineage of object O.
+",graph
+"List all Linux distributions in use in the organization.
+",graph
+"Who are the main organizers of event E?
+",graph
+"Identify all cybersecurity compromises reported in 2023.
+",graph
+"Show all branches of the retail chain in city B.
+",graph
+"Find all election candidates affiliated with party P.
+",graph
+"List the top influencers on topic T.
+",graph
+"What are the communication channels used by team X?
+",graph
+"Identify all historical landmarks in state S.
+",graph
+"Show the popularity trend of product Z over time.
+",graph
+"List all favorite genres of the user account Y.
+",graph
+"Find all connections between investor A and startups.
+",graph
+"Show the full employment history of John Doe.
+",graph
+"What foods contain the ingredient X?
+",graph
+"List all associated accounts with email address E.
+",graph
+"Identify all endangered species in ecosystem E.
+",graph
+"Show all possible outcomes for decision node D.
+",graph
+"Find all graphic designs created by artist A.
+",graph
+"List all public APIs provided by platform Q.
+",graph
+"What are the symptoms linked to disease D?
+",graph
+"Identify all diplomatic missions in country C.
+",graph
+"Show the influences of musician M in the genre.
+",graph
+"Find all nodes with no in-degrees.
+",graph
+"List all recurring events in the community calendar.
+",graph
+"Show all elements of national culture for country Z.
+",graph
+"What books are frequently cited by professionals in domain D?
+",graph
+"Identify sources of articles published by journalist J.
+",graph
+"List all endangered languages spoken in region R.
+",graph
+"Show all institutions offering scholarships in field F.
+",graph
+"What files have been modified in project repository R?
+",graph
+"Identify the major export commodities of country U.
+",graph
+"Show the crosslinks between chapter C and others.
+",graph
+"Find all endangered habitats in the biosphere reserve.
+",graph
+"List all water bodies located within city limits of X.
+",graph
+"What are the weather patterns observed in area A over the past decade?
+",graph
+"Show all travel destinations featured in tour package P.
+",graph
+"Identify all musical compositions by composer K.
+",graph
+"List all records of activities for member I.
+",graph
+"Show all literary works that have won a Pulitzer Prize.
+",graph
+"Find all case studies related to artificial intelligence.
+",graph
+"What are the possible risk factors analyzed for project Y?
+",graph
+"Identify all medications containing the chemical C.
+",graph
+"Show the collaboration history between companies A and B.
+",graph
+"List all nodes that result from the transformation rule R.
+",graph
+"Who are all the direct and indirect connections of node A?
+",graph
+"What is the shortest path between user X and user Y?
+",graph
+"Find all the friends of friends for user Z.
+",graph
+"Which nodes are connected by more than one type of edge to node B?
+",graph
+"List all the direct reports under manager C in an organizational chart.
+",graph
+"Find all the common friends between user D and user E.
+",graph
+"What are the mutual interests of person F and person G?
+",graph
+"Identify all nodes within three degrees of separation from node H.
+",graph
+"What are the most influential nodes in this network based on centrality?
+",graph
+"Which nodes form a cycle with node I?
+",graph
+"Find all nodes that have no outgoing edges.
+",graph
+"List all nodes that have a specific property key with value greater than X.
+",graph
+"Identify isolated subgraphs in the network.
+",graph
+"Find all sibling nodes of node J in a hierarchy.
+",graph
+"What are the top three most connected nodes?
+",graph
+"Find all nodes that are two edges away from node K in the network.
+",graph
+"Which nodes have the same set of neighbors as node L?
+",graph
+"List all nodes that have a direct friendship relationship with node M.
+",graph
+"Which nodes have received the most incoming relationships labeled 'endorses'?
+",graph
+"Identify the nodes that are frequently co-mentioned with node N.
+",graph
+"Retrieve all movie titles directed by director P featuring actor Q.
+",graph
+"Find all products that are often bought together with product R.
+",graph
+"Identify clusters or communities within the social network.
+",graph
+"Find all employees who have worked under both manager S and manager T.
+",graph
+"Retrieve all the projects that employee U has contributed to.
+",graph
+"What are the top three trending topics in the network based on mentions?
+",graph
+"Identify all nodes that have a symmetrical relationship with node V.
+",graph
+"List all the authors who have co-authored papers with author W.
+",graph
+"Find the longest path between node X and node Y.
+",graph
+"Retrieve all publications that cite both paper A and paper B.
+",graph
+"Which users have attended more than three events in the past month?
+",graph
+"Identify all the nodes connected through a specific sequence of relationships.
+",graph
+"Find nodes with similar connection patterns to node C.
+",graph
+"List all transactions involving both customer Y and product Z.
+",graph
+"Retrieve companies that have partnerships with certain organizations.
+",graph
+"Identify all the influencers in a given topic area.
+",graph
+"Find all the contributors to open source projects starting with 'G'.
+",graph
+"List all employees who have the same job title and manager.
+",graph
+"What are the potential fraud rings based on transaction patterns?
+",graph
+"Identify suppliers who have provided materials for more than five projects.
+",graph
+"Find the top ten nodes with the most care edges.
+",graph
+"List all the hashtags related to a trending event.
+",graph
+"Retrieve all direct flight routes between two airports.
+",graph
+"Identify the geographical regions with the most networked users.
+",graph
+"Find all nodes with both friend and foe relationships.
+",graph
+"Determine which users have the same birthday as user Q.
+",graph
+"Identify all book genres read by more than a hundred readers.
+",graph
+"Retrieve all sports teams that player R has been a part of.
+",graph
+"Find all the nodes sharing more than two communal events.
+",graph
+"What are the recurring motifs in this network of nodes?
+",graph
+"Identify the top collaborators of researcher S.
+",graph
+"Find all influencers whose follower's follower count exceeds a thousand.
+",graph
+"List all cities connected by three hops in this transportation network.
+",graph
+"Find products bought together across more than four transactions.
+",graph
+"List authors published in both journals X and Y.
+",graph
+"Retrieve all paths between customer A and service B with cost limits.
+",graph
+"Identify users viewing the same legal documents.
+",graph
+"Which pages do users with similar reading patterns visit?
+",graph
+"Find all nodes connected through a 'trust' relationship.
+",graph
+"Determine the connection path count between any two nodes.
+",graph
+"Retrieve all subcategories linked to main category M.
+",graph
+"Discover financial connections of interest between company D, E, and F.
+",graph
+"List international students attending sports events.
+",graph
+"Uncover correlation between cooking styles and ingredients.
+",graph
+"Identify frequency shared actions of connected devices.
+",graph
+"Find all architects who've participated in cross-country projects.
+",graph
+"Which travelers visited overlapping tourist locations?
+",graph
+"Identify shared protocols among computer networks.
+",graph
+"List all currencies used in marketing across regions.
+",graph
+"Find occupations networking most in conferences together.
+",graph
+"Reveal co-laboratory associations in scientific research.
+",graph
+"List commonly shared digital assets in creative fields.
+",graph
+"Trace through lineage discrepancies in historical archives.
+",graph
+"Evaluate network bridges forming between ethnic groups.
+",graph
+"Chart all migratory patterns encapsulating specific traits.
+",graph
+"Identify art influences spanning across distinct timelines.
+",graph
+"Find scholars publishing on similar scientific phenomena.
+",graph
+"Explore connections involving emergent business sectors.
+",graph
+"Retrieve any ecological links bridging habitats.
+",graph
+"Identify all cooperative initiatives between non-profits.
+",graph
+"Highlight transitional patterns between citizens and states.
+",graph
+"Track monetary flows encompassing complex economic systems.
+",graph
+"Identify multiple collaborations within a music album.
+",graph
+"List companions sharing housing agreements during travels.
+",graph
+"Reveal hyperreal abstracts exchanged by visual artists.
+",graph
+"Extract timeline deviations in storytelling forms.
+",graph
+"Discover co-developing tech applicable cross-industry.
+",graph
+"Find joint academic publications from tenured faculties.
+",graph
+"Map channel partnerships beyond geographic conglomerates.
+",graph
+"Determine governance protocols aligning across councils.
+",graph
+"Group change-makers rallying behind particular global causes.
+",graph
+"Chart variations in educational approaches by institution.
+",graph
+"Reveal person-to-person exchanges hinting at cultural trends.
+",graph
+"Discover nodes acting as key repositories in information networks.
+",graph
+"List collaboration increases in remote setups post-incident.
+",graph
+"Connect any nonlinear articulations within intellectual compositions.
+",graph
+"Retrieve multi-tiered endorsements involving social advocacy.
+",graph

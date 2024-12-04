@@ -1,0 +1,126 @@
+Certainly! When working with graph databases, queries usually take advantage of the strengths of graph traversal and pattern matching for nodes and relationships. Here are 122 unique natural language queries tailored for graph databases:
+
+1. Find all direct friends of John.
+2. List all employees in the Engineering department.
+3. Retrieve people who like both Python and JavaScript.
+4. Show movies directed by Christopher Nolan.
+5. Identify all cities connected by direct flights to New York.
+6. Find shortest path between Alice and Bob.
+7. What projects are managed by Sarah?
+8. Retrieve all products that are often bought together.
+9. Who are the authors of books published in 2020?
+10. List all social media posts tagged with #technology.
+11. Find all restaurants that serve vegan food.
+12. Who follows both Elon Musk and Bill Gates on Twitter?
+13. Retrieve all courses taken by Mathematics majors.
+14. List all family members of Michael.
+15. Find all songs by The Beatles.
+16. What movies star both Brad Pitt and Angelina Jolie?
+17. List all friends of a friend of John without duplicates.
+18. Retrieve all blogs written by Jane Doe.
+19. Which employees report directly to the CEO?
+20. Find all events occurring in March 2023.
+21. Who are the collaborators on the project titled "Apollo"?
+22. What are the common interests between Emma and Emily?
+23. Retrieve all devices interacting with server A.
+24. List all suppliers who provide component X.
+25. Who are the investors in startup Y?
+26. Find all patents filed by inventor Z.
+27. What are the courses prerequisites for Calculus 101?
+28. List all trains passing through station A.
+29. Retrieve podcasts featuring Dr. Smith.
+30. Find users who purchased Product B in the last month.
+31. What are the top three mutual connections between Alice and Carol?
+32. List all ingredients used in recipe A.
+33. Retrieve all articles authored by someone from Harvard.
+34. How are Alice and David indirectly connected?
+35. Find companies operating in both Europe and Asia.
+36. List all works referenced by paper titled "Quantum Mechanics".
+37. Who are the board members of Corporation ABC?
+38. Retrieve movies with a Rotten Tomatoes score above 90.
+39. What startups are in the fintech domain?
+40. Find all followers of influencer X.
+41. List all books translated into French.
+42. What are the research areas of professor Y?
+43. Retrieve all car brands that are German-made.
+44. List teaching assistants for Psychology 101.
+45. Who liked both post A and post B on social media?
+46. Find wine brands originating from Italy.
+47. List all scenes featuring the main character in Movie Z.
+48. Retrieve all workshops attended by employee A.
+49. What firms had a merger in 2022?
+50. Find all companies founded by the same person.
+51. List all top-selling items in category B.
+52. Retrieve all community members active in forum C.
+53. What books are part of the Sci-Fi genre?
+54. Find teams participating in the championship.
+55. List all artworks currently housed in Museum Q.
+56. Retrieve members of the editorial board for Journal R.
+57. Who are the top influencers in the fitness industry?
+58. Find patients with appointments in Clinic T.
+59. List countries collaborating in space research.
+60. Retrieve podcasts related to finance.
+61. What items are in the shopping cart of user X?
+62. Find all train connections from Berlin.
+63. List all endangered species.
+64. What are the active romance writers in the last 5 years?
+65. Retrieve speakers from TEDx events.
+66. Find mutual fund portfolios including Energy stocks.
+67. What are trending topics in the Gaming community?
+68. List animals featured in National Geographic.
+69. Retrieve all gym members who enrolled in 2023.
+70. Who are the political leaders in the European Union?
+71. Find hospitals conducting research on cancer.
+72. List startups backed by investor Y.
+73. What are the prevalent diseases in region A?
+74. Retrieve all conference proceedings on Artificial Intelligence.
+75. Find direct business competitors for Brand C.
+76. List athletes in the Hall of Fame.
+77. Retrieve all published cookbooks in 2021.
+78. Who are the members of band Z?
+79. Find podcasts hosted by a person named Kevin.
+80. What are the accreditation bodies for universities in Canada?
+81. List competing brands in the smartphone market.
+82. Retrieve all episodes of series B.
+83. What are the differences between Alice's and Bob's playlists?
+84. List ingredients that are allergens in Menu A.
+85. Find artists with exhibitions in 2023.
+86. Retrieve major ports in the Mediterranean Sea.
+87. Who are the regular contributors to the Open Source project X?
+88. List software engineers skilled in Go and Rust.
+89. What are bestselling novels in the 21st century?
+90. Retrieve university affiliates working on climate change.
+91. Find historic landmarks within Paris.
+92. List all events organized by association P.
+93. What are the credentials of speakers at the upcoming conference?
+94. Retrieve all trademarks held by Corporation U.
+95. Find all mentors for the startup accelerator program.
+96. List cities with the fastest internet connection speeds.
+97. Retrieve historical figures mentioned alongside Churchill.
+98. What projects align with the Paris Agreement goals?
+99. Find computer science graduates employed in Silicon Valley.
+100. List recipes containing both chocolate and coconut.
+101. Who attended both conference A and B?
+102. Retrieve all renewable energy projects in Asia.
+103. Find members of the Nobel Prize selection committee.
+104. List known vulnerabilities in software version X.Y.Z.
+105. What films show Paris during the 1800s?
+106. Retrieve all feedback for Product O.
+107. Find customers who churned in Q1 2023.
+108. List all utilities supplied to building T.
+109. What are the common travel destinations for Group A?
+110. Retrieve alumni who donated to the university.
+111. Find child friendly movies released in the 1990s.
+112. List destinations accessible by cruise from Miami.
+113. What are the mandatory vaccinations in country Z?
+114. Retrieve tech companies with sustainability missions.
+115. Find job openings in Biotech firms.
+116. What are the critical dependencies for Project B?
+117. List technology partners of Corporation H.
+118. Retrieve brands endorsed by celebrity C.
+119. Find all women mathematicians in history.
+120. List joint ventures by companies in 2021.
+121. What are the core philosophies of movements in the 1960s?
+122. Retrieve all endorsements authors received in 2022.
+
+These queries can be adjusted slightly to fit specific contexts or graph database schemas, but they generally explore the relationships and connections intrinsic to graph databases.

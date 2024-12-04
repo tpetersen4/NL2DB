@@ -1,0 +1,127 @@
+Creating 123 natural language queries for NoSQL databases like MongoDB involves generating examples that demonstrate common use cases where NoSQL databases excel, such as handling large volumes of data with flexible schemas, supporting hierarchical data structures, and enabling quick ad-hoc queries. Here's a wide variety of natural language queries that can illustrate these capabilities:
+
+1. Retrieve all documents from the "users" collection.
+2. Find all products that are currently out of stock.
+3. List all orders placed within the last 30 days.
+4. Get the details of a specific user by their email address.
+5. Show all blog posts tagged as "MongoDB."
+6. Find all movies released in the year 2021.
+7. Retrieve customers who have made purchases over $500.
+8. List all employees in the "Engineering" department.
+9. Get the top five most expensive products in the catalog.
+10. Find articles authored by "John Doe."
+11. Show all tasks that are marked as "complete."
+12. Retrieve the number of unique visitors in the last week.
+13. List all songs from the album titled "Revolution."
+14. Get details of all transactions from a specific store location.
+15. Find all reviews with a rating of 4 stars or higher.
+16. Retrieve all comments from the last 24 hours.
+17. Show all books written by "Jane Austen."
+18. Find all hotels in "New York City" with available rooms.
+19. Retrieve the latest news articles sorted by publication date.
+20. List all products with a discount greater than 20%.
+21. Get all user profiles created after January 1, 2020.
+22. Find all courses in the "Computer Science" category.
+23. Retrieve restaurants open after 10 PM on weekends.
+24. Show all movies streaming in "HD" quality.
+25. Find all cars listed in the "SUV" category for sale.
+26. Retrieve all photo albums created by "alice@example.com."
+27. List all events happening in the month of December.
+28. Get documents from the "inventory" collection with stock less than 10.
+29. Find all employees with a title of "Manager."
+30. Retrieve all flights departing from "JFK Airport."
+31. List all available job postings in "San Francisco."
+32. Get the contact information of all suppliers.
+33. Find all recipes that are vegan-friendly.
+34. Retrieve all locations where "John" has checked in.
+35. Show all museums located in "Los Angeles."
+36. Find articles published in "Science" magazine.
+37. Retrieve all podcasts under 30 minutes in duration.
+38. List all artists who have won a "Grammy Award."
+39. Get all rental properties with monthly rent below $2000.
+40. Find all conference sessions scheduled for today.
+41. Retrieve all clients with overdue payments.
+42. Show all images uploaded in the "Nature" category.
+43. Find all schools offering "Spanish" courses.
+44. Retrieve all investment accounts with a balance over $10,000.
+45. List all food items in the "Gluten-Free" section.
+46. Get all mobile applications rated above 4.5 stars.
+47. Find all public parks with playground facilities.
+48. Retrieve all television shows with more than three seasons.
+49. Show all athletes competing in the "Olympics."
+50. Find articles containing the keyword "technology."
+51. Retrieve all companies with more than 500 employees.
+52. List all water activities available in "Hawaii."
+53. Get details of all cars with mileage under 50,000 miles.
+54. Find all pets available for adoption.
+55. Retrieve all job candidates with a degree in "Engineering."
+56. Show all users who logged in during the last hour.
+57. Find all stores open 24 hours.
+58. Retrieve all online courses that are free.
+59. List all articles with more than 100 likes.
+60. Get all cafes with Wi-Fi in "London."
+61. Find all houses with a swimming pool.
+62. Retrieve all customer feedback with positive sentiments.
+63. Show all destinations with travel advisories.
+64. Find articles published by "The New York Times."
+65. Retrieve all forms submitted in the month of March.
+66. List all musicians featured in "Rolling Stone."
+67. Get all game releases in the "Strategy" genre.
+68. Find all conference speakers with "Ph.D." in their bio.
+69. Retrieve all fashion items in the "Summer Collection."
+70. Show all grades from the "Fall Semester."
+71. Find all data entries with status "pending."
+72. Retrieve comments by users aged under 18.
+73. List all available internship opportunities.
+74. Get all hospitals with "Emergency Room" services.
+75. Find all vehicles with hybrid engines.
+76. Retrieve all workshop topics from "Tech Conference 2022."
+77. Show all contracts expiring in the next six months.
+78. Find courses designed for "beginner" level.
+79. Retrieve all tutors teaching "Math."
+80. List all items priced under $10 in the "Sale" section.
+81. Get all gyms with 24-hour access.
+82. Find all documentaries produced by "BBC."
+83. Retrieve all contact requests from the website.
+84. Show all guests attending the "Annual Gala."
+85. Find scholarships available for "International Students."
+86. Retrieve all agencies offering "graphic design" services.
+87. List all public libraries with auditorium facilities.
+88. Get details of all restaurants serving "Italian Cuisine."
+89. Find movies with a "PG-13" rating.
+90. Retrieve all photos taken during daylight hours.
+91. Show all student enrollments for this semester.
+92. Find journals available in the "Open Access" format.
+93. Retrieve transactions made through "PayPal."
+94. List all CEOs named "Smith."
+95. Get details of trains departing within the next hour.
+96. Find articles with more than 1000 shares.
+97. Retrieve all distributors dealing in "Organic Products."
+98. Show authors with multiple publications.
+99. Find ads targeting "Millennials."
+100. Retrieve all staff members working on the "Project X."
+101. List all museums with free entry.
+102. Get all tutorials related to "Data Science."
+103. Find podcasts hosted by "Lisa Davis."
+104. Retrieve all suppliers located in "Germany."
+105. Show loan applications approved this week.
+106. Find books available in "ePub" format.
+107. Retrieve all carpools with available seats.
+108. List all local events within 10 miles of "Boston."
+109. Get all paintings by "Vincent van Gogh."
+110. Find all items marked as "defective."
+111. Retrieve educational courses for "adults."
+112. Show all valid promotional codes.
+113. Find forums discussing "climate change."
+114. Retrieve breakfast menus from all hotels.
+115. List all coaches deserving an "Award of Merit."
+116. Get all charity events scheduled for "June."
+117. Find projects funded over $1 million.
+118. Retrieve all sport facilities open to the public.
+119. Show all email subscriptions marked as "daily updates."
+120. Find authors invited to the "Literary Festival."
+121. Retrieve all swimming classes for "beginners."
+122. List all plays performed in the "Globe Theatre."
+123. Get all camping sites available in "Yellowstone."
+
+These queries span a broad array of use cases, demonstrating how NoSQL databases can efficiently manage and retrieve data across diverse application domains.
