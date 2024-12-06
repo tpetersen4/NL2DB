@@ -1,0 +1,299 @@
+Sure! Below are 36 natural language queries suitable for relational databases, along with normalized schemas and summaries explaining why they are efficient:
+
+1. **Query**: "Find all customers who made a purchase in the last month."
+
+   **Schema**:
+   - **Customers** (CustomerID, Name)
+   - **Orders** (OrderID, CustomerID, OrderDate)
+
+   **Summary**: This query is best for relational databases because it requires efficient joining between tables and filtering based on the date, which relational systems handle well with indexed columns.
+
+2. **Query**: "List all products along with their suppliers' names."
+
+   **Schema**:
+   - **Products** (ProductID, ProductName, SupplierID)
+   - **Suppliers** (SupplierID, SupplierName)
+
+   **Summary**: A classic join operation that leverages foreign keys to link related data between normalized tables, providing robust data integrity.
+
+3. **Query**: "Show the total sales for each product category."
+
+   **Schema**:
+   - **Products** (ProductID, ProductName, CategoryID)
+   - **Orders** (OrderID, ProductID, Quantity)
+   - **Categories** (CategoryID, CategoryName)
+
+   **Summary**: Aggregate functions are optimized in relational databases and benefit from indices to quickly execute sum operations over grouped data.
+
+4. **Query**: "Fetch all employees working under a specific manager."
+
+   **Schema**:
+   - **Employees** (EmployeeID, Name, ManagerID)
+
+   **Summary**: A self-join on employee data works well in relational databases, helping to quickly find hierarchical relationships within the same table.
+
+5. **Query**: "Determine the average salary by department."
+
+   **Schema**:
+   - **Employees** (EmployeeID, Name, Salary, DepartmentID)
+   - **Departments** (DepartmentID, DepartmentName)
+
+   **Summary**: Relational databases handle grouping and averaging efficiently, providing fast results with properly normalized and indexed schemas.
+
+6. **Query**: "Identify the top 5 customers based on total spending."
+
+   **Schema**:
+   - **Customers** (CustomerID, Name)
+   - **Orders** (OrderID, CustomerID, Amount)
+
+   **Summary**: Sorting and limiting results for top-n queries are suited for relational databases where efficient indexing speeds up access.
+
+7. **Query**: "Get a list of authors and the respective number of books each has written."
+
+   **Schema**:
+   - **Authors** (AuthorID, Name)
+   - **Books** (BookID, AuthorID, Title)
+
+   **Summary**: Count operations and joining on foreign keys are common tasks in relational systems, leveraging table relationships to deliver accurate counts.
+
+8. **Query**: "Find students enrolled in more than three courses."
+
+   **Schema**:
+   - **Students** (StudentID, Name)
+   - **Enrollments** (EnrollmentID, StudentID, CourseID)
+   - **Courses** (CourseID, CourseName)
+
+   **Summary**: Efficient group by and having clauses are easy to run on normalized schemas to find students based on course counts.
+
+9. **Query**: "List invoices exceeding $1000 along with customer names."
+
+   **Schema**:
+   - **Invoices** (InvoiceID, CustomerID, Amount)
+   - **Customers** (CustomerID, Name)
+
+   **Summary**: Filtering and joining operations are efficiently executed in a relational system to isolate and report specific financial data.
+
+10. **Query**: "Find the number of employees who joined each year."
+
+    **Schema**:
+    - **Employees** (EmployeeID, Name, JoinDate)
+
+    **Summary**: Date-based grouping and counting work well under a relational database's optimized performance for aggregate functions.
+
+11. **Query**: "Show all books checked out by a specific member in the library."
+
+    **Schema**:
+    - **Members** (MemberID, Name)
+    - **Books** (BookID, Title)
+    - **Loans** (LoanID, MemberID, BookID, LoanDate)
+
+    **Summary**: Using joins to cross-reference borrowed books and membership details is a standard relational operation offering precision and integrity.
+
+12. **Query**: "List all employees who have not yet submitted their timesheet for the current month."
+
+    **Schema**:
+    - **Employees** (EmployeeID, Name)
+    - **Timesheets** (TimesheetID, EmployeeID, SubmissionDate)
+
+    **Summary**: Subqueries or outer joins used to filter out non-existent records are handled well in relational databases, aiding completeness in data checks.
+
+13. **Query**: "Retrieve the most popular product in each region."
+
+    **Schema**:
+    - **Regions** (RegionID, RegionName)
+    - **Products** (ProductID, ProductName)
+    - **Sales** (SaleID, ProductID, RegionID, Quantity)
+
+    **Summary**: Identifying maximal records within groups is a task databases can perform efficiently using window functions or nested subqueries.
+
+14. **Query**: "Get a list of all suppliers who provide more than one product category."
+
+    **Schema**:
+    - **Suppliers** (SupplierID, SupplierName)
+    - **Products** (ProductID, CategoryID, SupplierID)
+    - **Categories** (CategoryID, CategoryName)
+
+    **Summary**: Using group by and having clauses, relational databases exploit their structured nature to find entities crossing categorical boundaries.
+
+15. **Query**: "Identify products that have never been sold."
+
+    **Schema**:
+    - **Products** (ProductID, ProductName)
+    - **Orders** (OrderID, ProductID)
+
+    **Summary**: Both non-existence checks and left joins are efficiently managed in relational environments to spot uneventful intersections.
+
+16. **Query**: "Find all courses with no enrolled students."
+
+    **Schema**:
+    - **Courses** (CourseID, CourseName)
+    - **Enrollments** (EnrollmentID, StudentID, CourseID)
+
+    **Summary**: Detecting missing associations through anti-joins is simple and quick with relational databases, offering straightforward zero-count discovery.
+
+17. **Query**: "Display all departments along with the number of employees."
+
+    **Schema**:
+    - **Departments** (DepartmentID, DepartmentName)
+    - **Employees** (EmployeeID, DepartmentID, Name)
+
+    **Summary**: Straightforward counting with joins makes it easy to assess department size in a highly normalized schema structure, leveraging fast count operations.
+
+18. **Query**: "Retrieve a list of all books released after a particular year."
+
+    **Schema**:
+    - **Books** (BookID, Title, ReleaseYear)
+
+    **Summary**: Simplicity and efficiency mark a filtering operation based on indexed year columns within relational systems, suited for temporal conditions.
+
+19. **Query**: "Show which customers placed orders with more than one sales representative."
+
+    **Schema**:
+    - **Customers** (CustomerID, Name)
+    - **Orders** (OrderID, CustomerID, SalesRepID)
+    - **SalesReps** (SalesRepID, Name)
+
+    **Summary**: Exploiting the relational structure to identify multi-representative buying patterns using group by and having clauses.
+
+20. **Query**: "List all the active projects and their assigned manager names."
+
+    **Schema**:
+    - **Projects** (ProjectID, ProjectName, ManagerID, Status)
+    - **Managers** (ManagerID, Name)
+
+    **Summary**: The use of joins to match project data with manager identifiers optimizes the retrieval of relevant, active project information.
+
+21. **Query**: "Get the count of publications by each author."
+
+    **Schema**:
+    - **Authors** (AuthorID, Name)
+    - **Publications** (PublicationID, AuthorID, Title)
+
+    **Summary**: Counting instances per author is made practical and precise with normalization, ensuring reliable results on entity relationships.
+
+22. **Query**: "Find all employees who work in the 'Research' department."
+
+    **Schema**:
+    - **Employees** (EmployeeID, Name, DepartmentID)
+    - **Departments** (DepartmentID, DepartmentName)
+
+    **Summary**: Leveraging well-defined foreign key constraints and indexed name columns makes retrieving employees within specific departments efficient.
+
+23. **Query**: "Identify which employees have not attended any training sessions."
+
+    **Schema**:
+    - **Employees** (EmployeeID, Name)
+    - **TrainingSessions** (SessionID, Title)
+    - **Attendances** (AttendanceID, EmployeeID, SessionID)
+
+    **Summary**: Non-join attendance detection is precisely manageable with relational setups through exclusionary join techniques.
+
+24. **Query**: "Retrieve all orders placed within the last quarter."
+
+    **Schema**:
+    - **Orders** (OrderID, OrderDate, CustomerID)
+
+    **Summary**: Efficient range queries are supported by indexed date columns, allowing quick access to data within time constraints.
+
+25. **Query**: "List products supplied by more than three suppliers."
+
+    **Schema**:
+    - **Products** (ProductID, ProductName)
+    - **ProductSuppliers** (ProductID, SupplierID)
+    - **Suppliers** (SupplierID, SupplierName)
+
+    **Summary**: Optimal for relational setups, where grouping and counting via intermediate tables highlight multi-supplier associations.
+
+26. **Query**: "Show all overdue library loans along with member names."
+
+    **Schema**:
+    - **Members** (MemberID, Name)
+    - **Books** (BookID, Title)
+    - **Loans** (LoanID, BookID, MemberID, DueDate)
+
+    **Summary**: Efficient detection of overdue status and connecting it to borrower data is achieved with join operations in a relational context.
+
+27. **Query**: "Find hospitals that do not have any registered doctors."
+
+    **Schema**:
+    - **Hospitals** (HospitalID, HospitalName)
+    - **Doctors** (DoctorID, HospitalID, Name)
+
+    **Summary**: Relational databases handle unmatched records efficiently, suitable for identifying entities lacking associations via non-equal joins.
+
+28. **Query**: "Identify which instructors do not have any assigned classes."
+
+    **Schema**:
+    - **Instructors** (InstructorID, Name)
+    - **Classes** (ClassID, InstructorID, Title)
+
+    **Summary**: Operations identifying absence of related data are efficiently handled by distinct normalized tables in relational setups.
+
+29. **Query**: "List all items in stock for each warehouse."
+
+    **Schema**:
+    - **Warehouses** (WarehouseID, Location)
+    - **Inventory** (ItemID, WarehouseID, Quantity)
+
+    **Summary**: Inventory summaries leveraging regional associations through joins demonstrate a classical relational database strength.
+
+30. **Query**: "Get all events attended by more than 50 participants."
+
+    **Schema**:
+    - **Events** (EventID, EventName)
+    - **Registrations** (RegistrationID, EventID, ParticipantID)
+
+    **Summary**: Filtering by attendance counts utilizes group by clauses for precise execution within relational database operations.
+
+31. **Query**: "List all managers who supervise more than 10 employees."
+
+    **Schema**:
+    - **Employees** (EmployeeID, Name, ManagerID)
+    - **Managers** (ManagerID, Name)
+
+    **Summary**: Hierarchical counting and filtering, typical in management analysis, are efficiently executed with normalized relational tables.
+
+32. **Query**: "Retrieve authors who have published books in multiple genres."
+
+    **Schema**:
+    - **Authors** (AuthorID, Name)
+    - **Books** (BookID, AuthorID, GenreID)
+    - **Genres** (GenreID, GenreName)
+
+    **Summary**: Complex multi-category relationship discoveries leverage joins and group bys effectively in a relational environment.
+
+33. **Query**: "Identify branches with no registered transactions."
+
+    **Schema**:
+    - **Branches** (BranchID, Location)
+    - **Transactions** (TransactionID, BranchID, Amount)
+
+    **Summary**: Detecting inactivity requires simple outer joins and null checks, which are handled seamlessly in relational databases.
+
+34. **Query**: "List clients who have booked appointments in both the current and previous month."
+
+    **Schema**:
+    - **Clients** (ClientID, Name)
+    - **Appointments** (AppointmentID, ClientID, AppointmentDate)
+
+    **Summary**: Efficiently handled by subqueries that check for presence across temporal conditions, leveraging indices on time-based data.
+
+35. **Query**: "Show sales representatives who serve customers in more than one region."
+
+    **Schema**:
+    - **SalesReps** (SalesRepID, Name)
+    - **CustomerRegions** (CustomerID, RegionID)
+    - **Regions** (RegionID, RegionName)
+    - **Customers** (CustomerID, SalesRepID)
+
+    **Summary**: Using joins among multiple datasets highlights relational database capabilities for complex entity affiliations.
+
+36. **Query**: "Get a list of films that are not available in any stores."
+
+    **Schema**:
+    - **Films** (FilmID, Title)
+    - **StoreInventory** (StoreID, FilmID, Availability)
+
+    **Summary**: Detecting unavailability through anti-join applications exemplifies the power of structured exclusion operations in relational databases.
+
+These queries are examples where relational databases excel due to their structured nature, efficient indexing capabilities, robust handling of joins, and optimized aggregate functions.

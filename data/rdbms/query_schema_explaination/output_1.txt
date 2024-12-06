@@ -1,0 +1,172 @@
+Certainly! Below are 32 natural language queries that would run efficiently on relational databases (RDBMS). Each query includes a brief explanation of why it's suitable for an RDBMS and a suggested schema in a normalized form.
+
+### 1-8: Customer and Order Management
+
+1. **Query**: "Find the total sales for each customer in the current year."
+   - **Schema**: 
+     - Customers (CustomerID, Name, Email)
+     - Orders (OrderID, CustomerID, OrderDate, Amount)
+   - **Summary**: RDBMS efficiently handles JOIN and aggregation queries.
+
+2. **Query**: "List customers who have placed orders in the last 30 days."
+   - **Schema**: As above.
+   - **Summary**: DATE functions and filtering are well-optimized in RDBMS.
+
+3. **Query**: "Show the top 5 products by sales volume this month."
+   - **Schema**:
+     - Products (ProductID, Name, Price)
+     - OrderItems (OrderItemID, OrderID, ProductID, Quantity)
+   - **Summary**: Aggregation and sorting work efficiently in RDBMS.
+
+4. **Query**: "Retrieve customer details who have never placed any orders."
+   - **Schema**: As above.
+   - **Summary**: Utilizing OUTER JOINs is efficient for finding non-matches.
+
+5. **Query**: "Get the order details for orders with a total value above $500."
+   - **Schema**: As above.
+   - **Summary**: SQL allows complex condition-based filtering.
+
+6. **Query**: "Find all orders, including date, for a specific customer."
+   - **Schema**: As above.
+   - **Summary**: Simple JOIN and selection are quick operations.
+
+7. **Query**: "How many orders does each customer have in the database?"
+   - **Schema**: As above.
+   - **Summary**: COUNT with GROUP BY is highly optimized.
+
+8. **Query**: "List all products purchased by returning customers."
+   - **Schema**: As above.
+   - **Summary**: Complex JOINS are efficiently handled.
+
+### 9-16: Inventory and Shipping
+
+9. **Query**: "What products are below the reorder level?"
+   - **Schema**:
+     - Inventory (ProductID, StockLevel, ReorderLevel)
+   - **Summary**: Simple comparisons and filtering are efficient in RDBMS.
+
+10. **Query**: "Show inventory transactions for the last month."
+    - **Schema**:
+      - InventoryTransactions (TransactionID, ProductID, Date, Quantity)
+    - **Summary**: Date-based filtering is efficient.
+
+11. **Query**: "Get all pending shipment orders."
+    - **Schema**:
+      - Shipments (ShipmentID, OrderID, Status)
+    - **Summary**: Simple condition filtering is a strength of RDBMS.
+
+12. **Query**: "Find the most shipped item last year."
+    - **Schema**: As above.
+    - **Summary**: Aggregation functions handle large datasets well.
+
+13. **Query**: "List products shipped to more than 3 different locations."
+    - **Schema**:
+      - Locations (LocationID, Address)
+      - ShipmentItems (ShipmentID, ProductID, LocationID)
+    - **Summary**: RDBMS efficiently handles GROUP BY with HAVING.
+
+14. **Query**: "Which suppliers provided products that are currently out of stock?"
+    - **Schema**:
+      - Suppliers (SupplierID, Name)
+      - SupplierProduct (SupplierID, ProductID)
+    - **Summary**: Multi-table JOIN and filtering execute efficiently.
+
+15. **Query**: "Get the projected restock dates for out-of-stock items."
+    - **Schema**:
+      - RestockSchedules (ProductID, RestockDate)
+    - **Summary**: Simple selection is efficient.
+
+16. **Query**: "List all overdue shipments with their respective dates."
+    - **Schema**: 
+      - Shipments (ShipmentID, OrderID, ExpectedDate, ActualDate)
+    - **Summary**: Efficient handling of date comparisons and conditionals.
+
+### 17-24: Financial and Employee Records
+
+17. **Query**: "Calculate the average salary in each department."
+    - **Schema**:
+      - Employees (EmployeeID, Name, DepartmentID, Salary)
+      - Departments (DepartmentID, Name)
+    - **Summary**: GROUP BY with aggregation functions performs well in SQL.
+
+18. **Query**: "Identify departments with more than 50 employees."
+    - **Schema**: As above.
+    - **Summary**: Efficiently managed with GROUP BY and HAVING.
+
+19. **Query**: "Get a list of employees who haven't received a raise in the past year."
+    - **Schema**:
+      - SalaryHistory (EmployeeID, ChangeDate, NewSalary)
+    - **Summary**: RDBMS manages complex filtering efficiently.
+
+20. **Query**: "List top 10 highest-paid employees."
+    - **Schema**: As above.
+    - **Summary**: Sorting and LIMIT are efficient operations.
+
+21. **Query**: "Find all employees who manage more than 5 people."
+    - **Schema**:
+      - Management (ManagerID, SubordinateID)
+    - **Summary**: RDBMS efficiently handles self-joins and aggregates.
+
+22. **Query**: "What payments were made to a specific vendor this year?"
+    - **Schema**:
+      - Payments (PaymentID, VendorID, Date, Amount)
+      - Vendors (VendorID, Name)
+    - **Summary**: Selection and filtering are efficient.
+
+23. **Query**: "Show vendors with average payment amounts above $5000."
+    - **Schema**: As above.
+    - **Summary**: Aggregation and conditionals are executed effectively.
+
+24. **Query**: "Identify transactions processed by each employee."
+    - **Schema**:
+      - Transactions (TransactionID, EmployeeID, Date, Amount)
+    - **Summary**: JOIN operations run efficiently in relational databases.
+
+### 25-32: Miscellaneous
+
+25. **Query**: "Which countries have more than 100 clients?"
+    - **Schema**:
+      - Clients (ClientID, CountryID)
+      - Countries (CountryID, Name)
+    - **Summary**: GROUP BY with aggregates works well in SQL.
+
+26. **Query**: "Find all project managers who work on more than 3 projects."
+    - **Schema**:
+      - Projects (ProjectID, ManagerID)
+    - **Summary**: Complex JOINs with aggregation are efficient.
+
+27. **Query**: "Get the names of clients who have overdue invoices."
+    - **Schema**:
+      - Invoices (InvoiceID, ClientID, DueDate, PaidStatus)
+    - **Summary**: Efficient handling of logical operations and filtering.
+
+28. **Query**: "List all active projects in departments with budgets over $1M."
+    - **Schema**:
+      - Projects (ProjectID, DepartmentID, Status)
+      - Departments (DepartmentID, Budget)
+    - **Summary**: Efficient filtering of related tables with conditions.
+
+29. **Query**: "Find products that cost more than the average price."
+    - **Schema**: 
+      - Products (ProductID, Name, Price)
+    - **Summary**: Subqueries are handled efficiently by SQL.
+
+30. **Query**: "Select the latest version of all documents modified this year."
+    - **Schema**:
+      - Documents (DocumentID, Version, ModifiedDate)
+    - **Summary**: Filtering and max aggregation are effective.
+
+31. **Query**: "Determine which books have never been checked out."
+    - **Schema**:
+      - Books (BookID, Title)
+      - Checkouts (CheckoutID, BookID)
+    - **Summary**: Efficient use of LEFT JOIN for finding non-existent links.
+
+32. **Query**: "How many customers have purchased from each category?"
+    - **Schema**:
+      - Categories (CategoryID, Name)
+      - ProductCategories (ProductID, CategoryID)
+      - Orders (OrderID, ProductID, CustomerID)
+    - **Summary**: Multi-table JOIN with aggregation works well.
+
+These queries leverage the traditional strengths of RDBMS technology, including support for complex JOIN operations, structured data, and efficient query execution for known data types, making them ideal for structured and relational data needs.

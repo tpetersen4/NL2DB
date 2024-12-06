@@ -1,0 +1,81 @@
+When designing queries that are efficiently executed on relational databases but might present challenges for other types of databases, we are typically leveraging the strengths of SQL query optimization, complex joins, aggregations, and indexing capabilities that RDBMSs offer. Complex queries often involve multiple conditions, aggregations, or joins, which can be less efficient on non-relational databases, particularly those that struggle with advanced querying or lack SQL optimizations.
+
+Here are 38 natural language queries that fit this criterion:
+
+1. Retrieve the top 50 movies released in the last five years with an average audience score of above 85%, focusing on dramas and thrillers, produced by more than three studios.
+
+2. Identify the top 25 employees with sales exceeding $500,000 annually, aged 25 to 40, and living in cities with populations over 1 million.
+
+3. List the top 15 universities with graduates who have an average starting salary above $70,000, in technology and engineering fields, for graduates within the last five years, considering only institutions with at least 10,000 students.
+
+4. Find the 30 most downloaded apps with a user satisfaction rate above 90%, launched after 2018, in both the iOS and Android marketplaces, and developed by companies with at least three other successful apps.
+
+5. Extract details of the 20 most-active open-source projects in the fields of AI and data science, with community approval rating above 85%, maintained consistently over the past five years.
+
+6. Identify the top 12 luxury hotels in major cities across Europe with customer ratings above 4.8 stars, based on visitors aged 25 to 60, for stays verified in the last two years.
+
+7. List the top 10 retail chains in North America with the fastest year-over-year increase in customer satisfaction scores and revenue growth, with each having at least 50 stores.
+
+8. Extract the 15 most successful product launches in the consumer electronics industry from the last decade, with average customer reviews above 4.7 and sales exceeding $10 million in the first quarter post-launch.
+
+9. Retrieve the top 20 musicians across pop and rock genres with chart-topping singles and album sales above 500,000 units annually, for performers aged 18 to 40, since 2012.
+
+10. List the 18 multinational corporations with the highest employee retention rate in IT and finance sectors, focusing on companies with a workforce of over 5,000, in the last three years.
+
+11. Identify the top 25 tourist destinations with an increase in visitors by at least 20% year-over-year, averaging visitor ratings above 4.5 stars, for travel completed by family tourists in the ages 25-50.
+
+12. Extract the 20 most innovative medical devices developed in the past five years with approval ratings above 95% from regulatory bodies, produced by companies with an international presence.
+
+13. List the 30 most frequently viewed educational courses with a completion rate above 85% and student satisfaction over 90%, focusing on online learning platforms with at least 100,000 active students annually.
+
+14. Find the 15 largest cities with public transportation systems holding a customer satisfaction score over 4.6, serving populations over 2 million, with increased ridership growth by at least 10% annually.
+
+15. Identify the top 10 car manufacturers with the best average fuel efficiency across new models released in the last five years, in regions with green energy incentives, with market shares above 8%.
+
+16. List the 40 most popular travel destinations among retirees in the last two decades, based on visitor polls that involve travelers aged 60 and above, with ratings not lower than four stars.
+
+17. Retrieve the top 35 fastest-growing software companies with products gaining more than 100,000 users each month, focusing on B2B markets, within the last five years.
+
+18. Extract 50 cities globally with the highest growth rates in urban infrastructure development and improvements in city livability indices, based on global standards from 2015 to 2025.
+
+19. Identify the top 12 beverage brands with a user satisfaction score above 90% and annual growth in sales by at least 15% over the last decade, within the non-alcoholic segment.
+
+20. List the 20 best-performing political parties with successful election campaigns in the last decade, with candidate approval rates above 75%, in democratic nations with populations over 50 million.
+
+21. Find top 28 global retail chains recognized for sustainability and eco-friendly practices with public acknowledgment of above 85% consumer satisfaction, based on reviews from the past five years.
+
+22. Extract the top 33 health and wellness companies with product effectiveness ratings above 4.8 out of 5, offering services in diets and physical training, focused on clientele aged 18-35, for the five-year period ending now.
+
+23. Identify the most significant 14 renewable energy projects launched globally in the past ten years, with production capabilities exceeding 100 MW, backed by public or private international funding.
+
+24. Retrieve the top 25 architectural firms known for innovative design in commercial and residential sectors with client satisfaction exceeding 95% approval, globally recognized in projects delivered in the last seven years.
+
+25. List the 16 major financial districts with banking and asset companies that reported above $10B in net profits annually, based on quarterly reports over the last five years.
+
+26. Find the 15 most-viewed streaming series with critical acclaim higher than 8 out of 10, and user engagement beyond 1 million hours viewed, under dual genres of action and drama, since 2017.
+
+27. Extract the top 50 digital marketing campaigns with engagement metrics above industry standard across social platforms, valid for campaigns executed in diversified industries over five continual years.
+
+28. Identify the 12 most impactful philanthropic organizations ranked by transparent operations, approval ratings above 80%, aiding global causes, in consistent operation for a decade.
+
+29. List the top 15 smart city initiatives improving urban living conditions with project completion rates above 90%, supported by governmental collaboration, within high tech regions, since 2015.
+
+30. Retrieve the top 22 cybersecurity firms with products receiving a security clearance above 95% by verified international agencies, providing services mostly to corporate sectors, established within the past seven years.
+
+31. Extract the top 45 tech devices in consumer markets standing out for innovation and consumer demand, with turnover rates over 500,000 annually, introduced since the year 2015.
+
+32. Identify the 26 most influential books on economic trends authored by experts in the field, with a readership rating of at least four stars, focusing on editions published within the past 15 years.
+
+33. List the top 11 venture capital firms with portfolios supporting tech startups which demonstrate average annual growth of 150%, having funds exceeding $1 billion.
+
+34. Find the 38 community health projects with outcomes improving regional health statistics by over 20%, funded by or in partnership with intergovernmental bodies, over the past decade.
+
+35. Extract the top 17 food and beverage festivals known for international participation and satisfaction ratings higher than 90%, held annually in countries with dynamic cultural diversity, over the last five years.
+
+36. Identify the 30 most innovative agricultural technologies recognized by international bodies, achieving energy efficiency beyond 85%, launched within the past decade.
+
+37. Retrieve the top 20 publishing houses with the most critically acclaimed literature, scoring high reader satisfaction and gaining awards since 2010, managing books primarily in fiction genres.
+
+38. List the top 15 fashion events with changing trends and gatherings totaling at least 50,000 attendees per event, recognized globally within fashion week exhibitions, regularly hosted in key metropolitan areas.
+
+These queries would particularly run efficiently on relational databases due to their ability to handle complex joins, leverage tuned indexing strategies, apply powerful aggregations, and optimize performance through sophisticated query planning. Other databases might struggle due to limitations in handling multiple related datasets, lack of comparable indexing capabilities, or difficulty in optimizing complex logical operations and conditional query constructs.

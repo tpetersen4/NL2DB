@@ -1,0 +1,163 @@
+Relational databases (RDBMS) are typically optimized for structured data and support SQL queries that efficiently handle complex relationships and transactional operations. They excel in environments that require ACID (Atomicity, Consistency, Isolation, Durability) properties. Here are 40 queries that would run efficiently on relational databases, often less so on non-relational databases, due to the inherent design and optimization of RDBMS:
+
+1. **Join Operations**:
+   - "List all customer orders along with the respective customer details."
+   - Explanation: Relational databases efficiently handle JOIN operations across multiple tables using optimized indexes and query planners.
+
+2. **Transactional Queries**:
+   - "Transfer funds between two accounts and ensure that neither account ends up with a negative balance."
+   - Explanation: ACID transaction support in RDBMS ensures data integrity and consistency, which is less robust in many non-relational databases.
+
+3. **Aggregation Queries**:
+   - "Calculate the total sales for each product category for the last quarter."
+   - Explanation: RDBMS are optimized for aggregations with GROUP BY and have fast execution plans using indexed columns.
+
+4. **Complex Subqueries**:
+   - "Find all employees who earn more than the average salary of their department."
+   - Explanation: Subqueries can be efficiently managed by relational databases through optimized execution plans.
+
+5. **Recursive Queries**:
+   - "List the organizational hierarchy for a specific employee."
+   - Explanation: Recursive common table expressions (CTEs) in SQL are efficiently handled in RDBMS.
+
+6. **Window Functions**:
+   - "Find the rank of each product based on sales volume within its category."
+   - Explanation: SQL window functions provide powerful analytical operations that are difficult to replicate with the same performance in non-relational systems.
+
+7. **Data Integrity Constraints**:
+   - "Ensure orders cannot be placed for non-existent products."
+   - Explanation: Foreign key constraints in RDBMS enforce referential integrity efficiently.
+
+8. **Schema Evolution**:
+   - "Add a new column to an existing large table with minimal downtime."
+   - Explanation: Relational databases often handle schema updates more efficiently through well-optimized internal mechanisms.
+
+9. **Date and Time Operations**:
+   - "Calculate the age of customers based on their birthdate."
+   - Explanation: RDBMS often provide efficient built-in functions for date and time manipulations.
+
+10. **Complex Filtering**:
+    - "Retrieve orders where the order total is above the cost but below the product's price times quantity."
+    - Explanation: Complex WHERE clause filtering is optimized using indexes in RDBMS.
+
+11. **Batch Updates**:
+    - "Apply a 10% discount to all products in a specified category."
+    - Explanation: Transaction-oriented batch updates are managed efficiently by RDBMS.
+
+12. **Multi-table Validations**:
+    - "Enforce validation rules that span across customer, order, and product tables."
+    - Explanation: Relational schemas provide robust support for multi-table constraints.
+
+13. **Data Consistency Checks**:
+    - "Ensure no two customers registered with the same email."
+    - Explanation: Unique constraints are effectively implemented in RDBMS.
+
+14. **Cross-schema Queries**:
+    - "Join customer data from two different schemas owned by different departments."
+    - Explanation: RDBMS are designed to handle queries across schemas while maintaining performance.
+
+15. **Data Rollback Features**:
+    - "Revert a batch import of faulty transaction records."
+    - Explanation: Transaction rollback features are feature-rich in RDBMS, preserving data integrity.
+
+16. **Advanced Searching**:
+    - "Search for products based on complex filters like price range, ratings, and brand."
+    - Explanation: RDBMS can leverage indexed searches using LIKE, BETWEEN, or similar SQL operators.
+
+17. **Data Partitioning**:
+    - "Work efficiently with large datasets by partitioning data."
+    - Explanation: RDBMS support table partitioning for enhanced performance on large datasets.
+
+18. **Statistical Analysis**:
+    - "Perform statistical calculations like standard deviation and variance on sales data."
+    - Explanation: Built-in functions for statistical analysis are often optimized in RDBMS.
+
+19. **Decision Support Queries**:
+    - "Generate cross-tab reports showing monthly sales for each region."
+    - Explanation: RDBMS efficiently handle pivot and aggregation operations needed for decision support.
+
+20. **Hierarchical Data Handling**:
+    - "Manage and query hierarchical product categories."
+    - Explanation: Recursive CTEs effectively manage hierarchical data.
+
+21. **Pattern Matching**:
+    - "Find all orders where the product description matches a specific pattern."
+    - Explanation: SQL's pattern matching capabilities (LIKE, REGEXP) are fast with proper indexing.
+
+22. **Data Integrity with Triggers**:
+    - "Automatically adjust inventory when an order is processed."
+    - Explanation: Triggers allow automatic actions on data changes, efficiently managed in RDBMS.
+
+23. **Custom Indexes**:
+    - "Create an index on multiple columns to optimize complex query filters."
+    - Explanation: Indexing strategies in RDBMS enhance query performance significantly.
+
+24. **Computed Columns**:
+    - "Create a view showing customer names combined with their ID."
+    - Explanation: Virtual columns or computed fields are efficiently managed.
+
+25. **Constraint Handling**:
+    - "Ensure product prices cannot be negative."
+    - Explanation: Check constraints ensure data validity efficiently.
+
+26. **Multi-table Data Sync**:
+    - "Synchronize data updates between central and regional tables."
+    - Explanation: Relational design supports complex sync operations maintaining integrity.
+
+27. **Bulk Data Loading**:
+    - "Bulk load millions of records with tracking progress."
+    - Explanation: Bulk load tools in RDBMS are highly optimized.
+
+28. **User Access Control**:
+    - "Restrict data access based on user roles in the sales department."
+    - Explanation: Fine-grained access control is a robust feature of RDBMS.
+
+29. **Advanced Sorting and Pagination**:
+    - "Sort products by ratings with pagination support."
+    - Explanation: Optimized query planners handle ORDER BY and LIMIT efficiently.
+
+30. **Data Archiving**:
+    - "Archive old transaction data while maintaining access performance."
+    - Explanation: Archiving strategies are supported through partitioning and indexing.
+
+31. **Data Replication**:
+    - "Implement data replication with minimal lag."
+    - Explanation: Advanced replication features in RDBMS ensure data consistency and availability.
+
+32. **On-the-fly Data Transformations**:
+    - "Convert currency values on-the-fly during a query."
+    - Explanation: Transformations using SQL functions are optimized for performance.
+
+33. **Temporary Data Handling**:
+    - "Work with temporary datasets efficiently during complex operations."
+    - Explanation: Temporary tables and variables are efficiently managed in RDBMS.
+
+34. **Real-time Data Integration**:
+    - "Integrate real-time customer feedback into the sales analysis dashboard."
+    - Explanation: Relational databases handle concurrent processing efficiently for real-time updates.
+
+35. **Complex Updates with Conditions**:
+    - "Update product records conditionally based on stock levels."
+    - Explanation: Conditional updates based on JOINs or subqueries are well-optimized.
+
+36. **Secure Data Transactions**:
+    - "Execute secure, confidential financial transactions with audit trails."
+    - Explanation: Transaction logs and auditing features ensure secure operations.
+
+37. **Data Duplication Management**:
+    - "Detect and merge duplicate customer records efficiently."
+    - Explanation: Duplicate detection using complex criteria is efficiently handled.
+
+38. **Cross-database Queries**:
+    - "Query customer orders across two different databases with a unified interface."
+    - Explanation: RDBMS can efficiently manage cross-database queries while maintaining performance and data integrity.
+
+39. **Dynamic Schema Queries**:
+    - "Query across dynamically-created tables with consistent performance."
+    - Explanation: Relational databases structure schema changes with predictable impact on query performance.
+
+40. **Long-running Queries**:
+    - "Execute complex analytical queries that run for extended periods without degradation."
+    - Explanation: Query optimizers in RDBMS can handle optimization for extended query execution times.
+
+These examples leverage the robust feature set of relational databases, which are optimized for relational operations, complex transactional workflows, and provide strong consistency and integrity guarantees through ACID properties. Non-relational databases often excel with unstructured data, schema-less flexibility, and horizontal scaling, but may not offer the same efficiency for complex, relational queries due to their design focus.

@@ -1,0 +1,423 @@
+Creating natural language queries that are well-suited to running efficiently on relational databases involves leveraging structured data and the strengths of SQL for querying. I'll provide an array of queries across various domains, along with a suitable schema in normal form and a summary for each query.
+
+### 1. Domain: E-commerce
+
+1. **Query**: "List all products with a price greater than $100."
+   - **Schema**: 
+     - Product(ProductID, Name, Price)
+   - **Summary**: This query efficiently retrieves products based on a price filter using an indexed column.
+
+2. **Query**: "Find the top 10 best-selling products."
+   - **Schema**: 
+     - Product(ProductID, Name)
+     - OrderDetail(OrderID, ProductID, Quantity)
+   - **Summary**: Aggregates sales data to identify bestsellers using group by and sort operations.
+
+3. **Query**: "Show all customers who have made a purchase in the last month."
+   - **Schema**: 
+     - Customer(CustomerID, Name, Email)
+     - Order(OrderID, CustomerID, OrderDate)
+   - **Summary**: Uses date filtering to extract recent purchasing activity.
+
+4. **Query**: "List all orders with more than three items."
+   - **Schema**: 
+     - Order(OrderID, CustomerID, OrderDate)
+     - OrderDetail(OrderID, ProductID, Quantity)
+   - **Summary**: Aggregates order details to filter based on item count.
+
+5. **Query**: "Find customers who spent more than $500 in total."
+   - **Schema**: 
+     - Customer(CustomerID, Name)
+     - Order(OrderID, CustomerID)
+     - OrderDetail(OrderID, ProductID, Quantity, Price)
+   - **Summary**: Sum up order values to identify high-spending customers.
+
+6. **Query**: "Get the average rating for each product."
+   - **Schema**: 
+     - Product(ProductID, Name)
+     - Review(ReviewID, ProductID, Rating)
+   - **Summary**: Aggregates review data for averages using group by.
+
+7. **Query**: "List suppliers based in ‘New York’."
+   - **Schema**: 
+     - Supplier(SupplierID, Name, City)
+   - **Summary**: Simple filter on location, leveraging index on city column.
+
+8. **Query**: "Find all products supplied by a specific supplier."
+   - **Schema**: 
+     - Product(ProductID, Name, SupplierID)
+     - Supplier(SupplierID, Name)
+   - **Summary**: Uses a join to link suppliers with their products.
+
+9. **Query**: "Show the reorder level for each product."
+   - **Schema**: 
+     - Product(ProductID, Name, ReorderLevel)
+   - **Summary**: Retrieves static inventory data efficiently.
+
+10. **Query**: "List all customers along with the total number of orders they have made."
+    - **Schema**: 
+      - Customer(CustomerID, Name)
+      - Order(OrderID, CustomerID)
+    - **Summary**: Uses count and group by to summarize customer order activity.
+
+### 2. Domain: Human Resources
+
+11. **Query**: "List all employees who joined in the last year."
+    - **Schema**: 
+      - Employee(EmployeeID, Name, JoinDate)
+    - **Summary**: Extracts recent joiners using a date filter on JoinDate.
+
+12. **Query**: "Find all departments with more than 50 employees."
+    - **Schema**: 
+      - Department(DepartmentID, Name)
+      - Employee(EmployeeID, DepartmentID)
+    - **Summary**: Counts employees per department to filter large ones.
+
+13. **Query**: "Show the average salary in each department."
+    - **Schema**: 
+      - Employee(EmployeeID, Salary, DepartmentID)
+    - **Summary**: Uses group by and avg to summarize salary data.
+
+14. **Query**: "List employees with salaries above $70,000."
+    - **Schema**: 
+      - Employee(EmployeeID, Name, Salary)
+    - **Summary**: Simple salary filter using indexed column for efficiency.
+
+15. **Query**: "Find employees with more than 5 years of service."
+    - **Schema**: 
+      - Employee(EmployeeID, Name, JoinDate)
+    - **Summary**: Calculates tenure to filter experienced employees.
+
+16. **Query**: "Show all managers and the number of subordinates they have."
+    - **Schema**: 
+      - Employee(EmployeeID, Name, ManagerID)
+    - **Summary**: Uses self-join to count subordinates under each manager.
+
+17. **Query**: "List all employees eligible for retirement within 2 years."
+    - **Schema**: 
+      - Employee(EmployeeID, Name, BirthDate)
+    - **Summary**: Calculates age to find employees nearing retirement.
+
+18. **Query**: "Get a list of employees who are working remotely."
+    - **Schema**: 
+      - Employee(EmployeeID, Name, RemoteStatus)
+    - **Summary**: Direct filter on the RemoteStatus column.
+
+19. **Query**: "Show a list of employees on probation."
+    - **Schema**: 
+      - Employee(EmployeeID, Name, EmploymentStatus)
+    - **Summary**: Uses a status filter for quick retrieval.
+
+20. **Query**: "Find all employees who have not taken any leave this year."
+    - **Schema**: 
+      - Employee(EmployeeID, Name)
+      - Leave(EmployeeID, LeaveDate)
+    - **Summary**: Uses anti-join to identify employees with no leave record.
+
+### 3. Domain: Banking
+
+21. **Query**: "List all accounts with a balance below $100."
+    - **Schema**: 
+      - Account(AccountID, CustomerID, Balance)
+    - **Summary**: Simple threshold filter on the Balance column.
+
+22. **Query**: "Find customers with more than one account."
+    - **Schema**: 
+      - Customer(CustomerID, Name)
+      - Account(AccountID, CustomerID)
+    - **Summary**: Aggregates accounts by customer for filtering.
+
+23. **Query**: "Show all transactions from last month."
+    - **Schema**: 
+      - Transaction(TransactionID, AccountID, Date, Amount)
+    - **Summary**: Date filtering to extract recent transaction data.
+
+24. **Query**: "List all customers who have taken a loan."
+    - **Schema**: 
+      - Customer(CustomerID, Name)
+      - Loan(LoanID, CustomerID)
+    - **Summary**: Joins customers with loan records for filtering.
+
+25. **Query**: "Find all loans with an interest rate above 5%."
+    - **Schema**: 
+      - Loan(LoanID, CustomerID, InterestRate)
+    - **Summary**: Direct filter on the InterestRate column.
+
+26. **Query**: "Show the total amount of deposits for each branch."
+    - **Schema**: 
+      - Branch(BranchID, Name)
+      - Account(AccountID, BranchID, Balance)
+    - **Summary**: Sums balances grouped by branch.
+
+27. **Query**: "Get a list of all overdraft accounts."
+    - **Schema**: 
+      - Account(AccountID, Balance, OverdraftLimit)
+    - **Summary**: Compares balance against overdraft limit for filtering.
+
+28. **Query**: "List all customers who have a fixed deposit."
+    - **Schema**: 
+      - Customer(CustomerID, Name)
+      - FixedDeposit(FDID, CustomerID, Amount)
+    - **Summary**: Simple join retrieves relevant customer records.
+
+29. **Query**: "Show the total loan amount for each customer."
+    - **Schema**: 
+      - Customer(CustomerID, Name)
+      - Loan(LoanID, CustomerID, Amount)
+    - **Summary**: Sums loan amounts grouped by customer.
+
+30. **Query**: "Find all transactions above $10,000."
+    - **Schema**: 
+      - Transaction(TransactionID, AccountID, Amount)
+    - **Summary**: Large transaction filter for compliance/regulation checks.
+
+### 4. Domain: Healthcare
+
+31. **Query**: "List all patients with appointments today."
+    - **Schema**: 
+      - Patient(PatientID, Name)
+      - Appointment(AppointmentID, PatientID, Date)
+    - **Summary**: Date filter retrieves today's appointments efficiently.
+
+32. **Query**: "Find patients with more than 3 visits."
+    - **Schema**: 
+      - Patient(PatientID, Name)
+      - Visit(VisitID, PatientID)
+    - **Summary**: Counts visits grouped by patient for filtering.
+
+33. **Query**: "Show all doctors in the cardiology department."
+    - **Schema**: 
+      - Doctor(DoctorID, Name, Department)
+    - **Summary**: Department filter optimally retrieves specialists.
+
+34. **Query**: "List all prescriptions given in the last week."
+    - **Schema**: 
+      - Prescription(PrescriptionID, PatientID, Date)
+    - **Summary**: Date range filter for recent prescriptions.
+
+35. **Query**: "Find patients who have a chronic condition."
+    - **Schema**: 
+      - Patient(PatientID, Name)
+      - Condition(ConditionID, PatientID, Chronic)
+    - **Summary**: Joins patient records with conditions for filtering.
+
+36. **Query**: "Show the average number of patients seen by each doctor."
+    - **Schema**: 
+      - Doctor(DoctorID, Name)
+      - Visit(VisitID, DoctorID, PatientID)
+    - **Summary**: Uses count and group by to generate averages.
+
+37. **Query**: "List all available rooms."
+    - **Schema**: 
+      - Room(RoomID, Status)
+    - **Summary**: Simple status filter for availability check.
+
+38. **Query**: "Get patients with pending lab results."
+    - **Schema**: 
+      - Patient(PatientID, Name)
+      - LabResult(LabResultID, PatientID, Status)
+    - **Summary**: Status filter retrieves pending lab result records.
+
+39. **Query**: "Show all patients who have been admitted for more than 5 days."
+    - **Schema**: 
+      - Patient(PatientID, Name)
+      - Admission(PatientID, AdmissionDate)
+    - **Summary**: Calculates duration of stay for filtering.
+
+40. **Query**: "Find all appointments scheduled after office hours."
+    - **Schema**: 
+      - Appointment(AppointmentID, DateTime)
+    - **Summary**: Time filter for appointments scheduled outside regular hours.
+
+### 5. Domain: Education
+
+41. **Query**: "List all students enrolled in the 'Computer Science' department."
+    - **Schema**: 
+      - Student(StudentID, Name, Department)
+    - **Summary**: Department filter retrieves students efficiently.
+
+42. **Query**: "Find all courses with more than 100 students."
+    - **Schema**: 
+      - Course(CourseID, Name)
+      - Enrollment(StudentID, CourseID)
+    - **Summary**: Counts enrollments grouped by course for filtering.
+
+43. **Query**: "Show students with a GPA above 3.5."
+    - **Schema**: 
+      - Student(StudentID, Name, GPA)
+    - **Summary**: GPA filter identifies high-performing students.
+
+44. **Query**: "List all professors teaching more than 3 courses."
+    - **Schema**: 
+      - Professor(ProfessorID, Name)
+      - Teaches(ProfessorID, CourseID)
+    - **Summary**: Counts courses taught by professors for filtering.
+
+45. **Query**: "Find students who graduated in 2022."
+    - **Schema**: 
+      - Student(StudentID, Name, GraduationYear)
+    - **Summary**: Year filter extracts recent graduates.
+
+46. **Query**: "Show average grades for each course."
+    - **Schema**: 
+      - Course(CourseID, Name)
+      - Grade(StudentID, CourseID, Grade)
+    - **Summary**: Uses avg and group by to calculate course averages.
+
+47. **Query**: "List all courses not offered this semester."
+    - **Schema**: 
+      - Course(CourseID, Name, Offered)
+    - **Summary**: Semester offering status filter for course availability.
+
+48. **Query**: "Get students with outstanding fees."
+    - **Schema**: 
+      - Student(StudentID, Name, FeesStatus)
+    - **Summary**: Direct filter on FeesStatus column for retrieval.
+
+49. **Query**: "Show all students who have not registered for any course this semester."
+    - **Schema**: 
+      - Student(StudentID, Name)
+      - Enrollment(StudentID, CourseID, Semester)
+    - **Summary**: Anti-join to find students with no current semester enrollments.
+
+50. **Query**: "Find all extra-curricular activities with less than 10 participants."
+    - **Schema**: 
+      - Activity(ActivityID, Name)
+      - Participation(StudentID, ActivityID)
+    - **Summary**: Counts participants in activities for filtering.
+
+### 6. Domain: Real Estate
+
+51. **Query**: "List all properties for sale in 'Los Angeles'."
+    - **Schema**: 
+      - Property(PropertyID, City, Status)
+    - **Summary**: City and status filter for available properties.
+
+52. **Query**: "Find properties priced above $500,000."
+    - **Schema**: 
+      - Property(PropertyID, Price)
+    - **Summary**: Price filter retrieves high-value properties.
+
+53. **Query**: "Show agents with more than 5 active listings."
+    - **Schema**: 
+      - Agent(AgentID, Name)
+      - Listing(ListingID, AgentID, Status)
+    - **Summary**: Counts active listings per agent for filtering.
+
+54. **Query**: "List properties rented in the last 6 months."
+    - **Schema**: 
+      - Rental(RentalID, PropertyID, StartDate)
+    - **Summary**: Date range filter for recent rental activity.
+
+55. **Query**: "Find properties with at least 3 bedrooms."
+    - **Schema**: 
+      - Property(PropertyID, Bedrooms)
+    - **Summary**: Bedroom filter for property features.
+
+56. **Query**: "Show the average rent for each neighborhood."
+    - **Schema**: 
+      - Property(PropertyID, Neighborhood, Rent)
+    - **Summary**: Uses avg and group by to summarize rent data.
+
+57. **Query**: "List all vacant properties."
+    - **Schema**: 
+      - Property(PropertyID, Status)
+    - **Summary**: Status filter for vacancy check.
+
+58. **Query**: "Get a list of all tenants with pending payments."
+    - **Schema**: 
+      - Tenant(TenantID, Name, PaymentStatus)
+    - **Summary**: Payment status filter for financial checks.
+
+59. **Query**: "Show all properties with parking facilities."
+    - **Schema**: 
+      - Property(PropertyID, ParkingAvailable)
+    - **Summary**: Boolean filter for facilities.
+
+60. **Query**: "Find agents who have closed more than 10 deals this year."
+    - **Schema**: 
+      - Agent(AgentID, Name)
+      - Deal(DealID, AgentID, Year)
+    - **Summary**: Counts closed deals within the current year.
+
+### 7. Domain: Manufacturing
+
+61. **Query**: "List all products with low stock."
+    - **Schema**: 
+      - Product(ProductID, Name, StockLevel)
+    - **Summary**: StockLevel filter for inventory management.
+
+62. **Query**: "Find suppliers with more than 5 active contracts."
+    - **Schema**: 
+      - Supplier(SupplierID, Name)
+      - Contract(ContractID, SupplierID, Status)
+    - **Summary**: Counts active contracts per supplier.
+
+63. **Query**: "Show all orders placed last week."
+    - **Schema**: 
+      - Order(OrderID, Date)
+    - **Summary**: Date filter for recent order retrieval.
+
+64. **Query**: "List all machines due for maintenance."
+    - **Schema**: 
+      - Machine(MachineID, MaintenanceDueDate)
+    - **Summary**: Date-based maintenance schedule filter.
+
+65. **Query**: "Find employees assigned to more than 3 projects."
+    - **Schema**: 
+      - Employee(EmployeeID, Name)
+      - ProjectAssignment(EmployeeID, ProjectID)
+    - **Summary**: Counts project assignments per employee.
+
+66. **Query**: "Show the average production cost per unit for each product."
+    - **Schema**: 
+      - Product(ProductID, Name)
+      - ProductionCost(ProductID, Cost)
+    - **Summary**: Uses avg and group by to calculate cost averages.
+
+67. **Query**: "List all defective products reported in the last quarter."
+    - **Schema**: 
+      - Product(ProductID, Name)
+      - DefectReport(ReportID, ProductID, Date)
+    - **Summary**: Date range filter for defect reporting.
+
+68. **Query**: "Get products with the highest return rates."
+    - **Schema**: 
+      - Product(ProductID, Name)
+      - Return(ReturnID, ProductID)
+    - **Summary**: Calculates return rates for filtering.
+
+69. **Query**: "Show all suppliers based outside the US."
+    - **Schema**: 
+      - Supplier(SupplierID, Name, Country)
+    - **Summary**: Country filter for geographic sourcing analysis.
+
+70. **Query**: "Find all employee shifts scheduled for the weekend."
+    - **Schema**: 
+      - Shift(ShiftID, EmployeeID, Date)
+    - **Summary**: Date filter for weekend scheduling.
+
+### 8. Domain: Transportation
+
+71. **Query**: "List all vehicles due for inspection."
+    - **Schema**: 
+      - Vehicle(VehicleID, InspectionDueDate)
+    - **Summary**: Date filter for maintenance compliance.
+
+72. **Query**: "Find drivers with more than 5 years of experience."
+    - **Schema**: 
+      - Driver(DriverID, Name, StartDate)
+    - **Summary**: Calculates tenure for experience filtering.
+
+73. **Query**: "Show all routes with more than 10 stops."
+    - **Schema**: 
+      - Route(RouteID, Name)
+      - Stop(StopID, RouteID)
+    - **Summary**: Counts stops per route for density analysis.
+
+74. **Query**: "List all trips completed last month."
+    - **Schema**: 
+      - Trip(TripID, Date)
+    - **Summary**: Date filter for trip history analysis.
+
+Each of these queries takes advantage of relational database features such as indexing, joins, and aggregations to ensure that data retrieval and analysis are efficient and scalable. The schemas provided are in at least the Third Normal Form (3NF), which eliminates data redundancy and ensures referential integrity, thereby optimizing query performance.

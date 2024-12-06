@@ -1,0 +1,148 @@
+Creating and executing efficient queries on relational databases involves both understanding the nature of relational databases and writing optimized SQL queries. Below are 40 natural language queries, each accompanied by a suitable data schema in normal form and a short summary explaining its suitability for relational databases:
+
+### Queries and Schema Design:
+
+1. **Query:** Find all customers who have placed orders in the last month.
+   - **Schema:** 
+     - `Customer(CustomerID, Name, Email)`
+     - `Order(OrderID, CustomerID, OrderDate, TotalAmount)`
+   - **Summary:** This query retrieves data from the `Customer` and `Order` tables and is optimized using indexed keys, taking advantage of relational joins.
+
+2. **Query:** List all employees who have not been assigned a project in the current year.
+   - **Schema:**
+     - `Employee(EmployeeID, Name, Department)`
+     - `ProjectAssignment(EmployeeID, ProjectID, AssignmentDate)`
+   - **Summary:** The query uses a LEFT JOIN to find employees without current year assignments, showcasing relational database strengths in handling NULL values.
+
+3. **Query:** Retrieve a list of suppliers along with the products they supply.
+   - **Schema:**
+     - `Supplier(SupplierID, SupplierName, Contact)`
+     - `Product(ProductID, ProductName, SupplierID)`
+   - **Summary:** This involves a straightforward join operation between the `Supplier` and `Product` tables, demonstrating efficient many-to-one relationships.
+
+4. **Query:** Calculate the total sales for each product category.
+   - **Schema:**
+     - `Product(ProductID, ProductName, CategoryID)`
+     - `Category(CategoryID, CategoryName)`
+     - `OrderDetail(OrderID, ProductID, Quantity, Price)`
+   - **Summary:** Aggregation and grouping operations make this query efficient in relational databases, particularly due to indexed foreign keys.
+
+5. **Query:** List all books borrowed in the last quarter from the library.
+   - **Schema:**
+     - `Book(BookID, Title, AuthorID)`
+     - `Borrowing(MemberID, BookID, BorrowDate)`
+   - **Summary:** Relational databases excel at range queries like this one, as they can quickly scan indexed date fields.
+
+6. **Query:** Show all doctors who are specialists in 'Cardiology'.
+   - **Schema:**
+     - `Doctor(DoctorID, Name, Specialty)`
+   - **Summary:** Using a filtered search on indexed columns exploits the relational database's ability to perform quick lookups.
+
+7. **Query:** Find members who have not paid their membership fees for the current year.
+   - **Schema:**
+     - `Member(MemberID, Name, JoinDate)`
+     - `MembershipFee(MemberID, Year, Status)`
+   - **Summary:** This query efficiently uses database functions to identify unpaid statuses utilizing primary/foreign key checks.
+
+8. **Query:** Retrieve a list of products with stock levels below the reorder threshold.
+   - **Schema:**
+     - `Product(ProductID, Name, StockLevel, ReorderThreshold)`
+   - **Summary:** Best suited for straightforward comparison operations on efficiently indexed numeric fields.
+
+9. **Query:** List all students enrolled in 'History 101' this semester.
+   - **Schema:**
+     - `Student(StudentID, Name, Major)`
+     - `Enrollment(StudentID, CourseID, Semester)`
+     - `Course(CourseID, CourseName)`
+   - **Summary:** The many-to-many relationship efficiently handles association tables like `Enrollment`.
+
+10. **Query:** Find all transactions above $500 made by customers from California.
+    - **Schema:**
+      - `Transaction(TransactionID, CustomerID, Amount)`
+      - `Customer(CustomerID, Name, State)`
+    - **Summary:** Relational operations across different columns leverage indexes on both customer location and transaction amount.
+
+11. **Query:** Retrieve the birthday list of employees for the upcoming month.
+    - **Schema:**
+      - `Employee(EmployeeID, Name, BirthDate)`
+    - **Summary:** Date operations are handled optimally with the use of relational databases’ date functions.
+
+12. **Query:** Show all courses that do not have any enrolled students.
+    - **Schema:**
+      - `Course(CourseID, CourseName)`
+      - `Enrollment(StudentID, CourseID)`
+    - **Summary:** Employs a `NOT IN` or `LEFT JOIN` to find non-enforced entries, a strength of relational logic.
+
+13. **Query:** Get the average rating of all movies directed by 'Steven Spielberg'.
+    - **Schema:**
+      - `Director(DirectorID, Name)`
+      - `Movie(MovieID, Title, DirectorID, Rating)`
+    - **Summary:** Designed for efficient aggregation and filtering, indexing on director names can reduce computational overhead.
+
+14. **Query:** List customers who have placed more than 50 orders.
+    - **Schema:**
+      - `Customer(CustomerID, Name)`
+      - `Order(OrderID, CustomerID)`
+    - **Summary:** A combination of aggregation and having clause capitalizes on relational databases’ deft handling of summarization tasks.
+
+15. **Query:** Display all active employees sorted by their hire date.
+    - **Schema:**
+      - `Employee(EmployeeID, Name, HireDate, Status)`
+    - **Summary:** Sorting operations are efficiently managed on indexed columns, particularly when combined with `WHERE` clauses.
+
+16. **Query:** Get the count of products that belong to each supplier.
+    - **Schema:**
+      - `Supplier(SupplierID, SupplierName)`
+      - `Product(ProductID, SupplierID)`
+    - **Summary:** Grouping by supplier takes advantage of indexed keys, making this aggregate operation efficient.
+
+17. **Query:** Retrieve order details for orders shipped to 'New York'.
+    - **Schema:**
+      - `Order(OrderID, Destination, ShippingDate)`
+      - `OrderDetail(OrderID, ProductID, Quantity)`
+    - **Summary:** Join conditions, coupled with straightforward filtering based on region, are easily optimized in relational schemas.
+
+18. **Query:** Display authors who have published more than 5 books.
+    - **Schema:**
+      - `Author(AuthorID, Name)`
+      - `Book(BookID, AuthorID)`
+    - **Summary:** Count and filter conditions allow for relational databases to efficiently tally related records.
+
+19. **Query:** List products and their pricing history.
+    - **Schema:**
+      - `Product(ProductID, ProductName)`
+      - `PriceHistory(ProductID, Price, StartDate)`
+    - **Summary:** Handling of temporal data changes and associated multiple entries is a notable strength of relational models.
+
+20. **Query:** Find all members who participated in more than three events last year.
+    - **Schema:**
+      - `Member(MemberID, Name)`
+      - `EventParticipation(EventID, MemberID, EventDate)`
+    - **Summary:** Aggregating based on conditions while maintaining record referential integrity is a potent application for relational databases.
+
+### Additional Queries:
+
+21. Get sales data for top three products this month.
+22. Identify users who logged in more than 10 times last week.
+23. Retrieve the list of restaurants offering more than five vegan options.
+24. Show the number of rentals per month for the past year.
+25. Find all open tickets assigned to 'Team A'.
+26. List all employees eligible for the Employee of the Month award.
+27. Show expenses exceeding $1,000 and associated categories.
+28. Retrieve all vehicles available for rent today.
+29. Display all discount coupons that expired last month.
+30. List vendors with outstanding payments over $5,000.
+31. Get all completed projects for 'Department X'.
+32. Find all stores that have reordered the 'Gizmo' product.
+33. List hire dates and positions for all new employees in June.
+34. Retrieve data on orders over 100 items.
+35. Show time allocation for all tasks in Project 123.
+36. Display car models launched after 2020.
+37. Find articles written by 'John Doe' in the last five years.
+38. List transaction records above $10,000 within the year.
+39. Get album release dates for rock genre by 'Artist Y'.
+40. Retrieve contact information for all suppliers in Europe.
+
+### Conclusion:
+
+Each query and corresponding relational database schema exemplify the efficient execution possibilities inherent in well-designed relational databases. By organizing tables into normalized structures, indexing critical fields, and utilizing relational joins, databases can execute complex queries quickly and accurately. The ability to utilize aggregate functions, refined filters, and efficient searching techniques further enhances the database's capability to process a broad array of query types effectively. This architecture makes relational databases a robust choice for businesses and applications requiring structured data organization and prompt data retrieval methods.

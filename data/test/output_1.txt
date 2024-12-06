@@ -1,0 +1,456 @@
+Certainly! Below are 78 natural language queries suitable for relational databases, accompanied by efficient database schemas in normal form and explanations for each query. Notably, these queries are designed to leverage the characteristics of relational databases, such as structured data, relationships, and normalization.
+
+1. **Query**: Retrieve all customers who have placed orders in the last month.
+   - **Schema**: 
+     - `Customers(CustomerID, Name, Email)`
+     - `Orders(OrderID, CustomerID, OrderDate)`
+   - **Explanation**: This query efficiently leverages the foreign key relationship between `Customers` and `Orders` to filter based on order dates.
+
+2. **Query**: List all products with their categories.
+   - **Schema**: 
+     - `Products(ProductID, ProductName, CategoryID)`
+     - `Categories(CategoryID, CategoryName)`
+   - **Explanation**: A simple join operation can retrieve product-category pairs, showcasing relational databases' strength in handling normalized data.
+
+3. **Query**: Find the total sales amount for each product.
+   - **Schema**: 
+     - `Products(ProductID, ProductName)`
+     - `OrderDetails(OrderDetailID, OrderID, ProductID, Quantity, Price)`
+   - **Explanation**: Aggregation functions are efficiently executed in relational databases, and normalization helps avoid redundancy.
+
+4. **Query**: Get all employees who work in the 'HR' department.
+   - **Schema**: 
+     - `Employees(EmployeeID, Name, DepartmentID)`
+     - `Departments(DepartmentID, DepartmentName)`
+   - **Explanation**: The query uses a join to match employees with their respective departments, illustrating relational databases' capacity for handling structured data relationships.
+
+5. **Query**: Show the list of employees and their managers.
+   - **Schema**: 
+     - `Employees(EmployeeID, Name, ManagerID)`
+   - **Explanation**: Self-joins are a powerful feature of relational databases, enabling hierarchical data representation.
+
+6. **Query**: Retrieve all books written by a specific author.
+   - **Schema**: 
+     - `Books(BookID, Title, AuthorID)`
+     - `Authors(AuthorID, AuthorName)`
+   - **Explanation**: The query demonstrates relational databases' ability to connect data across tables using foreign keys.
+
+7. **Query**: Find all flights on a particular date.
+   - **Schema**: 
+     - `Flights(FlightID, FlightDate, Departure, Arrival)`
+   - **Explanation**: Filtering on indexed fields like dates is efficiently managed in relational databases.
+
+8. **Query**: List all students enrolled in a particular course.
+   - **Schema**: 
+     - `Students(StudentID, Name)`
+     - `Enrollments(EnrollmentID, StudentID, CourseID)`
+     - `Courses(CourseID, CourseName)`
+   - **Explanation**: Many-to-many relationships are well-represented in relational schemas through junction tables.
+
+9. **Query**: Count the number of orders each customer has made.
+   - **Schema**: 
+     - `Customers(CustomerID, Name)`
+     - `Orders(OrderID, CustomerID)`
+   - **Explanation**: Relational databases efficiently perform group-by operations, which are beneficial in such count queries.
+
+10. **Query**: Retrieve all active projects and their associated tasks.
+    - **Schema**: 
+      - `Projects(ProjectID, ProjectName, Status)`
+      - `Tasks(TaskID, TaskName, ProjectID)`
+    - **Explanation**: This query takes advantage of normalized data and the parent-child relationship between projects and tasks.
+
+11. **Query**: List all movies with their directors.
+    - **Schema**: 
+      - `Movies(MovieID, Title, DirectorID)`
+      - `Directors(DirectorID, Name)`
+    - **Explanation**: A straightforward join can efficiently retrieve related data across tables.
+
+12. **Query**: Find all employees with a salary above a specific threshold.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name, Salary)`
+    - **Explanation**: Relational databases handle range queries efficiently, especially with indexed columns.
+
+13. **Query**: Show the inventory level for each product.
+    - **Schema**: 
+      - `Products(ProductID, ProductName)`
+      - `Inventory(ProductID, Quantity)`
+    - **Explanation**: A natural join operation efficiently combines product data with inventory levels.
+
+14. **Query**: Retrieve all concerts happening in a specific city.
+    - **Schema**: 
+      - `Concerts(ConcertID, City, Date)`
+    - **Explanation**: Filtering operations are optimal when targeting specific attributes in a relational database.
+
+15. **Query**: List all suppliers and the products they supply.
+    - **Schema**: 
+      - `Suppliers(SupplierID, SupplierName)`
+      - `SuppliedProducts(SupplierID, ProductID)`
+      - `Products(ProductID, ProductName)`
+    - **Explanation**: Many-to-many relationships are efficiently managed using join tables.
+
+16. **Query**: Find all customers who have never placed an order.
+    - **Schema**: 
+      - `Customers(CustomerID, Name)`
+      - `Orders(OrderID, CustomerID)`
+    - **Explanation**: Subqueries and outer joins are powerful tools in relational databases to identify unmatched records.
+
+17. **Query**: Retrieve all authors and the number of books they've written.
+    - **Schema**: 
+      - `Authors(AuthorID, AuthorName)`
+      - `Books(BookID, AuthorID)`
+    - **Explanation**: Aggregation and group-by operations are efficiently handled in relational databases.
+
+18. **Query**: List all rooms and their current bookings.
+    - **Schema**: 
+      - `Rooms(RoomID, RoomNumber)`
+      - `Bookings(BookingID, RoomID, BookingDate)`
+    - **Explanation**: Relational databases efficiently manage date-based queries and foreign key relationships.
+
+19. **Query**: Find all courses without any enrolled students.
+    - **Schema**: 
+      - `Courses(CourseID, CourseName)`
+      - `Enrollments(EnrollmentID, CourseID, StudentID)`
+    - **Explanation**: Anti-join operations identify records without matches in relational systems.
+
+20. **Query**: Get the total number of hours worked by each employee.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name)`
+      - `WorkLogs(LogID, EmployeeID, HoursWorked)`
+    - **Explanation**: Aggregations like summing are efficiently executed using group-by operations.
+
+21. **Query**: Find all overdue invoices for a particular client.
+    - **Schema**: 
+      - `Invoices(InvoiceID, ClientID, DueDate, Status)`
+      - `Clients(ClientID, Name)`
+    - **Explanation**: Conditional filtering with dates is handled optimally in relational databases.
+
+22. **Query**: List all majors offered by the university.
+    - **Schema**: 
+      - `Majors(MajorID, MajorName)`
+    - **Explanation**: Simple select statements efficiently retrieve non-relational data.
+
+23. **Query**: Retrieve all items with their suppliers.
+    - **Schema**: 
+      - `Items(ItemID, ItemName)`
+      - `SupplierItems(SupplierID, ItemID)`
+      - `Suppliers(SupplierID, SupplierName)`
+    - **Explanation**: Join operations efficiently provide cross-table data retrieval.
+
+24. **Query**: Find the average rating for each product.
+    - **Schema**: 
+      - `Products(ProductID, ProductName)`
+      - `ProductReviews(ReviewID, ProductID, Rating)`
+    - **Explanation**: Relational databases efficiently calculate averages using group-by and aggregate functions.
+
+25. **Query**: List all employees and their respective departments.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name, DepartmentID)`
+      - `Departments(DepartmentID, DepartmentName)`
+    - **Explanation**: Joins effectively utilize foreign key relationships in relational schemas.
+
+26. **Query**: Retrieve all events scheduled for the current week.
+    - **Schema**: 
+      - `Events(EventID, EventName, EventDate)`
+    - **Explanation**: Date-based filtering is efficiently handled in relational databases.
+
+27. **Query**: Find all students who have not borrowed any books.
+    - **Schema**: 
+      - `Students(StudentID, Name)`
+      - `BorrowedBooks(BorrowID, StudentID, BookID)`
+    - **Explanation**: The query showcases the utility of outer joins or subqueries in identifying unmatched records.
+
+28. **Query**: List all projects along with their budgets.
+    - **Schema**: 
+      - `Projects(ProjectID, ProjectName, Budget)`
+    - **Explanation**: Direct retrieval of data attributes is efficiently executed on structured tables.
+
+29. **Query**: Get all employees who have worked in more than one department.
+    - **Schema**: 
+      - `EmployeeDepartments(EmployeeID, DepartmentID)`
+    - **Explanation**: Aggregation with having clauses is adeptly managed in relational systems.
+
+30. **Query**: Find all customers with orders exceeding $1,000.
+    - **Schema**: 
+      - `Customers(CustomerID, Name)`
+      - `Orders(OrderID, CustomerID, TotalAmount)`
+    - **Explanation**: Relational databases efficiently perform conditional joins and filtering.
+
+31. **Query**: Retrieve all teachers and their assigned courses.
+    - **Schema**: 
+      - `Teachers(TeacherID, Name)`
+      - `CourseAssignments(AssignmentID, TeacherID, CourseID)`
+      - `Courses(CourseID, CourseName)`
+    - **Explanation**: Cross-table relationships are efficiently managed using joins in a normalized schema.
+
+32. **Query**: List all users and their roles in the system.
+    - **Schema**: 
+      - `Users(UserID, UserName)`
+      - `UserRoles(UserID, RoleID)`
+      - `Roles(RoleID, RoleName)`
+    - **Explanation**: Efficiently utilizes foreign keys to associate users with their roles.
+
+33. **Query**: Find all employees hired in the last year.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name, HireDate)`
+    - **Explanation**: Date-range queries are optimized in relational databases using indexed fields.
+
+34. **Query**: Show all invoices and their payment status.
+    - **Schema**: 
+      - `Invoices(InvoiceID, ClientID, Status)`
+    - **Explanation**: Simple retrieval of invoice data is efficiently handled within a structured schema.
+
+35. **Query**: Retrieve all students with grades above 90.
+    - **Schema**: 
+      - `Students(StudentID, Name)`
+      - `Grades(GradeID, StudentID, CourseID, Grade)`
+    - **Explanation**: The query demonstrates efficient use of filtering conditions on numeric data.
+
+36. **Query**: List all departments and the number of employees in each.
+    - **Schema**: 
+      - `Departments(DepartmentID, DepartmentName)`
+      - `Employees(EmployeeID, DepartmentID)`
+    - **Explanation**: Aggregation queries, like counts grouped by an attribute, are efficiently conducted.
+
+37. **Query**: Find all products with no sales recorded.
+    - **Schema**: 
+      - `Products(ProductID, ProductName)`
+      - `Sales(SaleID, ProductID)`
+    - **Explanation**: Outer joins or subqueries efficiently identify products without corresponding sales records.
+
+38. **Query**: Retrieve all vehicles and their maintenance records.
+    - **Schema**: 
+      - `Vehicles(VehicleID, VehicleName)`
+      - `MaintenanceRecords(RecordID, VehicleID, Date)`
+    - **Explanation**: Join operations efficiently retrieve related records across tables.
+
+39. **Query**: List all authors and their published books.
+    - **Schema**: 
+      - `Authors(AuthorID, AuthorName)`
+      - `Books(BookID, AuthorID)`
+    - **Explanation**: Relational joins are used to efficiently pair authors with their published books.
+
+40. **Query**: Find all orders shipped to a particular region.
+    - **Schema**: 
+      - `Orders(OrderID, ShipRegion)`
+    - **Explanation**: Relational databases efficiently execute filtering operations on specified attributes.
+
+41. **Query**: Retrieve all employees with a specific job title.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name, JobTitle)`
+    - **Explanation**: Filtering based on text attributes is handled efficiently in structured databases.
+
+42. **Query**: List all rooms available for booking next month.
+    - **Schema**: 
+      - `Rooms(RoomID, AvailableFrom)`
+    - **Explanation**: Date-based comparisons are efficiently conducted on indexed date fields.
+
+43. **Query**: Find all students enrolled in multiple courses.
+    - **Schema**: 
+      - `Enrollments(EnrollmentID, StudentID, CourseID)`
+    - **Explanation**: Aggregation combined with having clauses efficiently finds such multi-enrollments.
+
+44. **Query**: Retrieve all courses along with student counts.
+    - **Schema**: 
+      - `Courses(CourseID, CourseName)`
+      - `Enrollments(CourseID, StudentID)`
+    - **Explanation**: Efficient use of counts and group-by operations in a normalized schema.
+
+45. **Query**: List all employees who have not logged any hours this month.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name)`
+      - `WorkLogs(LogID, EmployeeID, LogDate)`
+    - **Explanation**: Outer joins or subqueries efficiently identify such unmatched records.
+
+46. **Query**: Find all suppliers and the categories of products they supply.
+    - **Schema**: 
+      - `Suppliers(SupplierID, SupplierName)`
+      - `SuppliedProducts(SupplierID, ProductID)`
+      - `Products(ProductID, CategoryID)`
+      - `Categories(CategoryID, CategoryName)`
+    - **Explanation**: Multi-table joins efficiently associate suppliers with product categories.
+
+47. **Query**: Retrieve all employees with pending vacation requests.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name)`
+      - `VacationRequests(RequestID, EmployeeID, Status)`
+    - **Explanation**: Conditional filtering on status fields is effectively executed in relational databases.
+
+48. **Query**: List all concert venues and their seating capacities.
+    - **Schema**: 
+      - `Venues(VenueID, VenueName, SeatingCapacity)`
+    - **Explanation**: Direct retrieval of non-relational data within a structured table is efficient.
+
+49. **Query**: Find all active members of a sports club.
+    - **Schema**: 
+      - `Members(MemberID, Name, MembershipStatus)`
+    - **Explanation**: Filtering on enumerated fields is optimally managed within relational systems.
+
+50. **Query**: Retrieve all customers and the total value of their orders.
+    - **Schema**: 
+      - `Customers(CustomerID, Name)`
+      - `Orders(OrderID, CustomerID, TotalAmount)`
+    - **Explanation**: Aggregation and summation operations are efficiently conducted using group-by.
+
+51. **Query**: List all products and their average review scores.
+    - **Schema**: 
+      - `Products(ProductID, ProductName)`
+      - `Reviews(ReviewID, ProductID, Score)`
+    - **Explanation**: Relational databases efficiently handle aggregation and join operations.
+
+52. **Query**: Find all employees with overdue tasks.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name)`
+      - `Tasks(TaskID, EmployeeID, DueDate, Status)`
+    - **Explanation**: Conditional queries on date fields are efficiently executed using indexed columns.
+
+53. **Query**: Retrieve all courses offered in the spring semester.
+    - **Schema**: 
+      - `Courses(CourseID, CourseName, Semester)`
+    - **Explanation**: Efficient filtering on specific attributes like semester values is optimal in structured databases.
+
+54. **Query**: List all events and their participating teams.
+    - **Schema**: 
+      - `Events(EventID, EventName)`
+      - `EventTeams(EventID, TeamID)`
+      - `Teams(TeamID, TeamName)`
+    - **Explanation**: Many-to-many relationships are efficiently managed using join tables.
+
+55. **Query**: Find all movies released after 2010.
+    - **Schema**: 
+      - `Movies(MovieID, Title, ReleaseYear)`
+    - **Explanation**: Relational databases are well-suited for range queries on numeric or date fields.
+
+56. **Query**: Retrieve all departments that have vacancies.
+    - **Schema**: 
+      - `Departments(DepartmentID, DepartmentName, Vacancies)`
+    - **Explanation**: Conditional filtering on numeric fields is efficiently handled in structured schemas.
+
+57. **Query**: List all instructors and their teaching schedules.
+    - **Schema**: 
+      - `Instructors(InstructorID, Name)`
+      - `TeachingSchedules(ScheduleID, InstructorID, CourseID, TimeSlot)`
+    - **Explanation**: Multi-table joins efficiently associate instructors with their schedules.
+
+58. **Query**: Find all orders placed by VIP customers.
+    - **Schema**: 
+      - `Customers(CustomerID, Name, VIPStatus)`
+      - `Orders(OrderID, CustomerID)`
+    - **Explanation**: Conditional filtering on booleans or status flags is optimal within relational systems.
+
+59. **Query**: Retrieve all authors who have won awards.
+    - **Schema**: 
+      - `Authors(AuthorID, Name)`
+      - `Awards(AwardID, AuthorID, AwardName)`
+    - **Explanation**: Association queries are efficiently managed with foreign key relationships.
+
+60. **Query**: List all registered users and the date of their last login.
+    - **Schema**: 
+      - `Users(UserID, UserName)`
+      - `Logins(LoginID, UserID, LoginDate)`
+    - **Explanation**: Date-based queries efficiently retrieve the latest entries through joins.
+
+61. **Query**: Find all books that are currently checked out.
+    - **Schema**: 
+      - `Books(BookID, Title)`
+      - `Checkouts(CheckoutID, BookID, ReturnDate)`
+    - **Explanation**: Relational databases adeptly handle date comparisons and status filtering.
+
+62. **Query**: Retrieve all projects and their completion percentages.
+    - **Schema**: 
+      - `Projects(ProjectID, ProjectName, CompletionPercentage)`
+    - **Explanation**: Simple retrieval of non-relational data is efficiently executed within a structured table.
+
+63. **Query**: List all companies and the industries they belong to.
+    - **Schema**: 
+      - `Companies(CompanyID, CompanyName, IndustryID)`
+      - `Industries(IndustryID, IndustryName)`
+    - **Explanation**: Relational joins efficiently associate companies with their respective industries.
+
+64. **Query**: Find all students who have graduated.
+    - **Schema**: 
+      - `Students(StudentID, Name, GraduationStatus)`
+    - **Explanation**: Filtering on categorical fields is efficiently managed within structured databases.
+
+65. **Query**: Retrieve all flight schedules on a specific route.
+    - **Schema**: 
+      - `Flights(FlightID, RouteID, ScheduleTime)`
+      - `Routes(RouteID, RouteName)`
+    - **Explanation**: Efficient use of joins to associate schedules with specific routes.
+
+66. **Query**: List all published articles and their authors.
+    - **Schema**: 
+      - `Articles(ArticleID, Title)`
+      - `Authors(AuthorID, Name)`
+      - `ArticleAuthors(ArticleID, AuthorID)`
+    - **Explanation**: Many-to-many relationships are adeptly managed using join tables.
+
+67. **Query**: Find all employees with annual leave remaining.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name, LeaveRemaining)`
+    - **Explanation**: Efficient filtering on numerical fields for specific conditions.
+
+68. **Query**: Retrieve all workshops occurring next quarter.
+    - **Schema**: 
+      - `Workshops(WorkshopID, Name, Date)`
+    - **Explanation**: Date-based filtering is efficiently managed using indexed fields.
+
+69. **Query**: List all clients and their outstanding invoices.
+    - **Schema**: 
+      - `Clients(ClientID, Name)`
+      - `Invoices(InvoiceID, ClientID, Amount, Status)`
+    - **Explanation**: Efficient filtering on status fields to identify unpaid invoices.
+
+70. **Query**: Find all products that need restocking.
+    - **Schema**: 
+      - `Products(ProductID, Name, StockLevel, RestockThreshold)`
+    - **Explanation**: Relational databases efficiently handle comparisons between fields.
+
+71. **Query**: Retrieve all employees with a tenure of over five years.
+    - **Schema**: 
+      - `Employees(EmployeeID, Name, StartDate)`
+    - **Explanation**: Date-based calculations are optimally conducted using relational databases.
+
+72. **Query**: List all branches and their corresponding employees.
+    - **Schema**: 
+      - `Branches(BranchID, BranchName)`
+      - `Employees(EmployeeID, BranchID)`
+    - **Explanation**: Efficient joins are utilized to associate branches with their employees.
+
+73. **Query**: Find all tenants with overdue rent payments.
+    - **Schema**: 
+      - `Tenants(TenantID, Name)`
+      - `RentPayments(PaymentID, TenantID, DueDate, Status)`
+    - **Explanation**: Relational databases efficiently execute conditional queries on dates and status fields.
+
+74. **Query**: Retrieve all professors and the courses they teach.
+    - **Schema**: 
+      - `Professors(ProfessorID, Name)`
+      - `Courses(CourseID, CourseName, ProfessorID)`
+    - **Explanation**: Joins efficiently associate professors with their respective courses.
+
+75. **Query**: List all active promotions and their discount rates.
+    - **Schema**: 
+      - `Promotions(PromotionID, PromotionName, DiscountRate, Status)`
+    - **Explanation**: Conditional filtering on status fields is efficiently conducted in relational databases.
+
+76. **Query**: Find all vehicles due for service this month.
+    - **Schema**: 
+      - `Vehicles(VehicleID, VehicleName)`
+      - `ServiceRecords(ServiceID, VehicleID, ServiceDate)`
+    - **Explanation**: Date-based comparisons are optimized, especially with indexed date fields.
+
+77. **Query**: Retrieve all doctors and their assigned patients.
+    - **Schema**: 
+      - `Doctors(DoctorID, Name)`
+      - `Patients(PatientID, DoctorID)`
+    - **Explanation**: Efficient use of foreign keys and joins to associate doctors with their patients.
+
+78. **Query**: List all orders and delivery dates for a product category.
+    - **Schema**: 
+      - `Orders(OrderID, DeliveryDate)`
+      - `OrderDetails(OrderDetailID, OrderID, ProductID)`
+      - `Products(ProductID, CategoryID)`
+      - `Categories(CategoryID, CategoryName)`
+    - **Explanation**: Multi-table joins efficiently associate orders with product categories and delivery dates.
+
+These queries and schemas demonstrate the strengths of relational databases in managing structured and normalized data through efficient use of joins, aggregations, filtering, and conditional operations. Each query is designed to capitalize on the relational model's ability to handle large volumes of interconnected data with high performance.

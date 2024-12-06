@@ -1,0 +1,147 @@
+Creating efficient queries and a suitable schema for a relational database involves understanding the type of data, the relationships between entities, and how users will interact with the database. Here's a selection of 36 natural language queries, each paired with a schema suggestion and explanation for why the query is best suited for a relational database:
+
+1. **Query:** "Find all customers who have purchased more than $500 in the last month."
+   - **Schema:** Tables for `Customers`, `Purchases`, with foreign keys referencing customer ID.
+   - **Summary:** This query utilizes joins and aggregation to analyze transactional data, best suited for relational databases due to their structure and capability for complex queries across relationships.
+
+2. **Query:** "List employees and their respective departments."
+   - **Schema:** Tables for `Employees`, `Departments`, with a foreign key in `Employees` referencing department ID.
+   - **Summary:** Ideal for relational databases where a consistent and normalized data structure (3NF) facilitates joins and queries over structured data.
+
+3. **Query:** "Get the average salary by department."
+   - **Schema:** Tables for `Employees`, with a salary field, and `Departments`.
+   - **Summary:** Supports aggregate functions over related entities, making it suitable for SQL's capabilities to process grouped data.
+
+4. **Query:** "Find products that have been out of stock for more than a week."
+   - **Schema:** Tables for `Products`, `InventoryLogs`.
+   - **Summary:** Utilizes temporal data and historical records to derive insights, efficiently managed in a relational database.
+
+5. **Query:** "Retrieve total sales per product category for the past year."
+   - **Schema:** Tables for `Sales`, `Products`, and `Categories`.
+   - **Summary:** Execution of aggregate functions across related tables is a core strength of relational databases.
+
+6. **Query:** "Show users who have not logged in during the last six months."
+   - **Schema:** Tables for `Users`, `LoginHistory`.
+   - **Summary:** Temporal and relational data queries that require efficient filtering and joins are suited for relational databases.
+
+7. **Query:** "List all orders placed by VIP customers."
+   - **Schema:** Tables for `Orders`, `Customers`, and `CustomerStatus`.
+   - **Summary:** Relational databases easily handle queries involving multiple entity types and condition checks.
+
+8. **Query:** "What is the total number of hours logged by developers on project X?"
+   - **Schema:** Tables for `Projects`, `TimeTracking`, `Employees`.
+   - **Summary:** Complex many-to-one relationship queries (employees to projects) are well-optimized in relational systems.
+
+9. **Query:** "Who are the top three highest earning clients?"
+   - **Schema:** Tables for `Clients` and `Earnings`.
+   - **Summary:** Relational databases efficiently support sorting and limiting query results for ranked data retrieval.
+
+10. **Query:** "Find all suppliers based in New York."
+    - **Schema:** Tables for `Suppliers`.
+    - **Summary:** Single table queries with filtering conditions benefit from relational database indexing and querying.
+
+11. **Query:** "Identify items that need reordering (stock < threshold) from the inventory."
+    - **Schema:** Tables for `Inventory`.
+    - **Summary:** Supports conditions and retrieval within table structures, suitable for relational indexing.
+
+12. **Query:** "Show all managers who have more than five direct reports."
+    - **Schema:** Tables for `Employees` with self-referencing foreign keys for manager relations.
+    - **Summary:** Recursive and deep relationship queries are well-suited to relational data structures.
+
+13. **Query:** "List all pending invoices sorted by due date."
+    - **Schema:** Tables for `Invoices`.
+    - **Summary:** Handling ordered data retrieval is optimized with indexing capabilities of relational databases.
+
+14. **Query:** "Get the number of interactions each customer service representative had last month."
+    - **Schema:** Tables for `Interactions`, `Representatives`.
+    - **Summary:** Aggregate functions on relationship-derived attributes are efficiently executed in relational setups.
+
+15. **Query:** "Show the top 10 bestselling books this year."
+    - **Schema:** Tables for `Books`, `Sales`.
+    - **Summary:** Aggregate and ranked queries over transaction data highlight relational strength in processing.
+
+16. **Query:** "Find flights with available first-class seats."
+    - **Schema:** Tables for `Flights`, `Seating`.
+    - **Summary:** Joins and condition checks in detailed datasets are hallmark capabilities of relational databases.
+
+17. **Query:** "Fetch all orders that include at least three different items."
+    - **Schema:** Tables for `Orders`, `OrderItems`.
+    - **Summary:** Aggregate functions and conditional logic over related entities show relational database's utility.
+
+18. **Query:** "Retrieve employee records along with their latest performance evaluations."
+    - **Schema:** Tables for `Employees`, `PerformanceEvaluations`.
+    - **Summary:** Recent data extraction queries from historical logs fit relational database strengths.
+
+19. **Query:** "What are the average ratings for each tour package?"
+    - **Schema:** Tables for `TourPackages`, `Ratings`.
+    - **Summary:** Aggregation of data over normalized datasets benefits from relational DBMS.
+
+20. **Query:** "Show details of all cars rented more than ten times last month."
+    - **Schema:** Tables for `Rentals`, `Cars`.
+    - **Summary:** Data aggregation and condition checks across relationships are efficiently handled in RDBMS.
+
+21. **Query:** "Identify which departments spent the most on travel last quarter."
+    - **Schema:** Tables for `Expenses`, `Departments`.
+    - **Summary:** Aggregate queries over structured data, leveraging relational capabilities for financial tracking.
+
+22. **Query:** "List all unique destinations booked this summer."
+    - **Schema:** Tables for `Bookings`, `Destinations`.
+    - **Summary:** Queries involving uniqueness and filtering highlight relational database effectiveness.
+
+23. **Query:** "Find doctors with the highest patient satisfaction ratings."
+    - **Schema:** Tables for `Doctors`, `Ratings`.
+    - **Summary:** Aggregated rankings over related entities are efficiently supported by relational databases.
+
+24. **Query:** "Retrieve member details who borrowed books not returned past due date."
+    - **Schema:** Tables for `Members`, `BorrowedBooks`.
+    - **Summary:** Temporal condition checks in interconnected datasets fit well within relational databases.
+
+25. **Query:** "What percentage of users have premium subscriptions?"
+    - **Schema:** Tables for `Users`, `Subscriptions`.
+    - **Summary:** Percentage computations over data subsets efficiently utilize relational databases' aggregation functions.
+
+26. **Query:** "List all products that have a higher return rate than average."
+    - **Schema:** Tables for `Products`, `Returns`.
+    - **Summary:** Relational databases efficiently execute conditional aggregation on normalized data.
+
+27. **Query:** "Who are teaching assistant students for the professor with the largest class size?"
+    - **Schema:** Tables for `Professors`, `Classes`, `Students`.
+    - **Summary:** Complex relationship and condition checks fully leverage relational database capabilities.
+
+28. **Query:** "What events had more than 50 participants last year?"
+    - **Schema:** Tables for `Events`, `Participants`.
+    - **Summary:** Aggregation over relationships, efficiently executed in relational frameworks.
+
+29. **Query:** "Find the cities serviced by exactly one branch."
+    - **Schema:** Tables for `Branches`, `Cities`.
+    - **Summary:** Queries involving uniqueness and count conditions highlight the unique strengths of RDBMS.
+
+30. **Query:** "Get the details of all houses sold for more than the average price in the neighborhood."
+    - **Schema:** Tables for `Houses`, `Sales`.
+    - **Summary:** Conditional arithmetic calculations over related datasets benefit from structured queries.
+
+31. **Query:** "List all assignments due within the next month."
+    - **Schema:** Tables for `Assignments`.
+    - **Summary:** Efficient temporal queries on structured timespan data make RDBMS ideal.
+
+32. **Query:** "Identify sellers who have at least five positive feedbacks."
+    - **Schema:** Tables for `Sellers`, `Feedback`.
+    - **Summary:** Aggregating relational attributes showcases relational databases' query performance.
+
+33. **Query:** "What are the most common diagnosis codes for age group 30-40?"
+    - **Schema:** Tables for `Patients`, `Diagnoses`.
+    - **Summary:** Complex conditions and aggregations on demographic-based data are suited to relational schemas.
+
+34. **Query:** "List all rooms booked longer than two weeks consecutively."
+    - **Schema:** Tables for `Rooms`, `Bookings`.
+    - **Summary:** Relational structures support conditions over temporal sequence data.
+
+35. **Query:** "Find inventory items with discrepancies between counted and recorded quantities."
+    - **Schema:** Tables for `InventoryRecords`, `InventoryCounts`.
+    - **Summary:** Data verification and condition checks in inventory management benefit from RDBMS features.
+
+36. **Query:** "List all employees whose anniversary is this month."
+    - **Schema:** Tables for `Employees`.
+    - **Summary:** Efficient filtering and date-based querying are well-supported in relational databases.
+
+These queries demonstrate relational databases' efficiency and strength in managing structured data with complex relational queries, aggregations, and temporal queries, leveraging indexing, normalization, and SQL's expressive power.

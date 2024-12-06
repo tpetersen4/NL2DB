@@ -1,0 +1,186 @@
+Certainly! Relational databases are well-suited for structured queries where relationships between data can be efficiently managed using tables. Each query below is followed by an efficient normalized schema design (using up to Third Normal Form (3NF)) and a brief explanation of its suitability.
+
+### 1. Query: "Find all customers who have made a purchase in the last 30 days."
+- **Schema:**
+  - **Customers** (CustomerID, Name, Contact)
+  - **Orders** (OrderID, CustomerID, OrderDate)
+- **Summary:** Relational databases are ideal for this query because they efficiently handle join operations between tables, enabling easy retrieval of customer data based on recent order records.
+
+### 2. Query: "List all products that have never been purchased."
+- **Schema:**
+  - **Products** (ProductID, ProductName, Price)
+  - **OrderDetails** (OrderID, ProductID, Quantity)
+- **Summary:** This query leverages the ability of relational databases to perform subqueries or left joins to find unmatched records, which is efficient due to indexed ProductIDs.
+
+### 3. Query: "Get the total sales value for each product category."
+- **Schema:**
+  - **Products** (ProductID, ProductName, CategoryID, Price)
+  - **OrderDetails** (OrderID, ProductID, Quantity)
+  - **Categories** (CategoryID, CategoryName)
+- **Summary:** Aggregation functions in SQL allow for efficient computation of grouped data, making it suitable for summing sales per category.
+
+### 4. Query: "Retrieve employee details who earn above the average salary."
+- **Schema:**
+  - **Employees** (EmployeeID, Name, Position, Salary)
+- **Summary:** Relational databases efficiently perform calculations and comparisons, making it suitable for finding employees with salaries above the computed average.
+
+### 5. Query: "Find the top 5 most ordered products by quantity."
+- **Schema:**
+  - **Products** (ProductID, ProductName, Price)
+  - **OrderDetails** (OrderID, ProductID, Quantity)
+- **Summary:** Sorting and limiting results in SQL allow for efficient retrieval of top N records, supported by indexing on ProductID for quick aggregation.
+
+### 6. Query: "List all customers who have not placed an order since last year."
+- **Schema:**
+  - **Customers** (CustomerID, Name, Contact)
+  - **Orders** (OrderID, CustomerID, OrderDate)
+- **Summary:** Efficient date comparisons and join operations help quickly identify inactive customers, leveraging indexed OrderDate fields.
+
+### 7. Query: "Show the number of orders placed by each customer."
+- **Schema:**
+  - **Customers** (CustomerID, Name, Contact)
+  - **Orders** (OrderID, CustomerID, OrderDate)
+- **Summary:** Grouping operations in SQL allow for efficient counting of related records, suitable for summarizing customer order counts.
+
+### 8. Query: "Find all suppliers who provide more than 10 different products."
+- **Schema:**
+  - **Suppliers** (SupplierID, SupplierName, Contact)
+  - **Products** (ProductID, ProductName, SupplierID)
+- **Summary:** SQL's grouping and having clauses enable efficient filtering of records that meet specific criteria, like product diversity per supplier.
+
+### 9. Query: "List employees who have not taken any leave this year."
+- **Schema:**
+  - **Employees** (EmployeeID, Name, Position)
+  - **Leaves** (LeaveID, EmployeeID, LeaveDate)
+- **Summary:** Left joins and null checking in SQL help efficiently find employees with no related leave records for the current year.
+
+### 10. Query: "Retrieve the average rating for each product."
+- **Schema:**
+  - **Products** (ProductID, ProductName)
+  - **Reviews** (ReviewID, ProductID, Rating)
+- **Summary:** Aggregation functions in SQL provide efficient means to calculate averages over grouped data sets.
+
+### 11. Query: "Find all customers who have ordered more than 5 different products."
+- **Schema:**
+  - **Customers** (CustomerID, Name, Contact)
+  - **Orders** (OrderID, CustomerID)
+  - **OrderDetails** (OrderID, ProductID)
+- **Summary:** SQL's ability to efficiently group and filter data allows for complex queries involving unique counts per customer.
+
+### 12. Query: "List all products that have a higher price than the average."
+- **Schema:**
+  - **Products** (ProductID, ProductName, Price)
+- **Summary:** Calculations and comparisons in SQL allow efficient retrieval of records meeting relative criteria, useful for pricing analysis.
+
+### 13. Query: "Get the total number of employees in each department."
+- **Schema:**
+  - **Employees** (EmployeeID, Name, DepartmentID)
+  - **Departments** (DepartmentID, DepartmentName)
+- **Summary:** SQL excels at aggregation tasks, such as counting records per department, utilizing indexing for efficiency.
+
+### 14. Query: "Identify which customers are also suppliers."
+- **Schema:**
+  - **Customers** (CustomerID, Name)
+  - **Suppliers** (SupplierID, Name)
+- **Summary:** Self-join operations or intersection queries in SQL efficiently find common entities across tables, like customers who are also suppliers.
+
+### 15. Query: "Retrieve all customer orders along with the total quantity of items ordered."
+- **Schema:**
+  - **Customers** (CustomerID, Name)
+  - **Orders** (OrderID, CustomerID)
+  - **OrderDetails** (OrderID, ProductID, Quantity)
+- **Summary:** Join operations and aggregation allow for efficient compilation of detailed order summaries in relational databases.
+
+### 16. Query: "Find the most recent hire in each department."
+- **Schema:**
+  - **Employees** (EmployeeID, Name, HireDate, DepartmentID)
+  - **Departments** (DepartmentID, DepartmentName)
+- **Summary:** Subqueries and ranking functions in SQL allow for efficient retrieval of specific records, like the latest hire per department.
+
+### 17. Query: "List all products with their suppliers located in a specific city."
+- **Schema:**
+  - **Products** (ProductID, ProductName, SupplierID)
+  - **Suppliers** (SupplierID, SupplierName, City)
+- **Summary:** Relational databases efficiently handle join conditions and filtering, ideal for location-based queries.
+
+### 18. Query: "Get the average order value for each customer."
+- **Schema:**
+  - **Customers** (CustomerID, Name)
+  - **Orders** (OrderID, CustomerID, TotalAmount)
+- **Summary:** Aggregation and division in SQL enable efficient calculation of average values per customer, leveraging indexing for performance.
+
+### 19. Query: "Find employees who report directly to a specific manager."
+- **Schema:**
+  - **Employees** (EmployeeID, Name, ManagerID)
+- **Summary:** Self-referential joins in SQL efficiently retrieve hierarchical relationships within a table, such as management structures.
+
+### 20. Query: "List all categories with more than 50 products."
+- **Schema:**
+  - **Categories** (CategoryID, CategoryName)
+  - **Products** (ProductID, CategoryID)
+- **Summary:** Grouping and filtering in SQL enable efficient identification of categories exceeding product count thresholds.
+
+### 21. Query: "Retrieve all orders along with the names of customers who placed them."
+- **Schema:**
+  - **Customers** (CustomerID, Name)
+  - **Orders** (OrderID, CustomerID)
+- **Summary:** SQL joins are designed for efficiently combining data across related tables, ideal for comprehensive order listings.
+
+### 22. Query: "Find all employees who have never participated in a project."
+- **Schema:**
+  - **Employees** (EmployeeID, Name)
+  - **Projects** (ProjectID, ProjectName)
+  - **EmployeeProjects** (EmployeeID, ProjectID)
+- **Summary:** Left joins and absence checking in SQL help identify records without related entries, such as project participation.
+
+### 23. Query: "Get the total number of products supplied by each supplier."
+- **Schema:**
+  - **Suppliers** (SupplierID, Name)
+  - **Products** (ProductID, SupplierID)
+- **Summary:** Grouping and counting in SQL efficiently summarize product counts per supplier, supported by indexing.
+
+### 24. Query: "List all employees along with their department names."
+- **Schema:**
+  - **Employees** (EmployeeID, Name, DepartmentID)
+  - **Departments** (DepartmentID, DepartmentName)
+- **Summary:** Join operations in SQL easily combine employee and department data for complete listings, optimizing relational integrity.
+
+### 25. Query: "Find all customers who have placed more than 20 orders."
+- **Schema:**
+  - **Customers** (CustomerID, Name)
+  - **Orders** (OrderID, CustomerID)
+- **Summary:** Grouping and filtering in SQL enable efficient identification of high-frequency customers, leveraging indexed relationships.
+
+### 26. Query: "Retrieve the highest-rated product in each category."
+- **Schema:**
+  - **Products** (ProductID, ProductName, CategoryID)
+  - **Reviews** (ReviewID, ProductID, Rating)
+- **Summary:** Relational databases efficiently handle aggregation and ranking tasks, like finding top-rated products per category.
+
+### 27. Query: "List all supplier names and their average product prices."
+- **Schema:**
+  - **Suppliers** (SupplierID, SupplierName)
+  - **Products** (ProductID, SupplierID, Price)
+- **Summary:** Aggregation functions in SQL allow for the efficient calculation of averages, suitable for supplier price analysis.
+
+### 28. Query: "Find all employees who have worked in more than one department."
+- **Schema:**
+  - **Employees** (EmployeeID, Name)
+  - **EmployeeDepartments** (EmployeeID, DepartmentID)
+- **Summary:** Grouping and filtering efficiently reveal multi-department employees, utilizing index-supported joins.
+
+### 29. Query: "Retrieve the total revenue generated by each supplier."
+- **Schema:**
+  - **Suppliers** (SupplierID, SupplierName)
+  - **Products** (ProductID, SupplierID)
+  - **OrderDetails** (OrderID, ProductID, Price, Quantity)
+- **Summary:** Aggregation and joins in SQL efficiently calculate revenue by combining product sales data with supplier information.
+
+### 30. Query: "List all customers with their most frequently ordered product."
+- **Schema:**
+  - **Customers** (CustomerID, Name)
+  - **Orders** (OrderID, CustomerID)
+  - **OrderDetails** (OrderID, ProductID)
+- **Summary:** Ranking and aggregation functions in SQL help identify frequent patterns in customer orders, optimizing relational database use.
+
+These queries demonstrate the strength of relational databases in handling structured, related data with operations such as joins, aggregations, and filtering, while maintaining data integrity through normalization.

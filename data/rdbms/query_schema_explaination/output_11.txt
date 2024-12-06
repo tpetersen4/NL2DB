@@ -1,0 +1,199 @@
+Creating the right schema and formulating queries that perform efficiently on relational databases is crucial for data management and retrieval tasks. Below, I have generated 33 natural language queries, including corresponding database schemas in a normalized form, and explanations on why they are suited for a relational database.
+
+### Natural Language Queries, Schemas, and Summaries:
+
+1. **Query**: List the names and salaries of employees who earn more than $70,000.
+   - **Schema**: 
+     - `Employees(EmpID, Name, DepartmentID, Salary)`
+     - `Department(DepartmentID, DepartmentName)`
+   - **Summary**: This query utilizes the indexing capabilities of relational databases on numeric fields to efficiently filter employees by salary.
+
+2. **Query**: Retrieve the names of students who have not enrolled in any courses.
+   - **Schema**: 
+     - `Students(StudentID, Name)`
+     - `Enrollments(StudentID, CourseID)`
+     - `Courses(CourseID, CourseName)`
+   - **Summary**: The query leverages the JOIN operation, specifically an anti-join using subqueries or LEFT JOIN with NULL checks.
+
+3. **Query**: Provide a list of all product names and their suppliers.
+   - **Schema**: 
+     - `Products(ProductID, ProductName, SupplierID)`
+     - `Suppliers(SupplierID, SupplierName, ContactInfo)`
+   - **Summary**: Relational databases efficiently handle foreign keys, making it ideal for joining tables like Products and Suppliers.
+
+4. **Query**: Identify the top 5 customers based on the total value of their orders.
+   - **Schema**: 
+     - `Customers(CustomerID, Name)`
+     - `Orders(OrderID, CustomerID, OrderValue, Date)`
+   - **Summary**: The query uses aggregate functions and sorting, which are well-optimized in relational databases.
+
+5. **Query**: Fetch the names of all projects and the names of team members involved.
+   - **Schema**: 
+     - `Projects(ProjectID, ProjectName)`
+     - `TeamMembers(MemberID, Name)`
+     - `ProjectTeams(ProjectID, MemberID)`
+   - **Summary**: Handles many-to-many relationships efficiently with join tables.
+
+6. **Query**: Count the number of support tickets resolved by each technician.
+   - **Schema**: 
+     - `Technicians(TechID, Name)`
+     - `Tickets(TicketID, TechID, Status)`
+   - **Summary**: Group by and aggregate functions are database strengths, particularly for counting and summarizing data.
+
+7. **Query**: Find the average grade of students per course.
+   - **Schema**: 
+     - `Students(StudentID, Name)`
+     - `Enrollments(StudentID, CourseID, Grade)`
+   - **Summary**: Aggregations and grouping operations are efficiently performed on numeric and categorical data.
+
+8. **Query**: Show all orders that were shipped in the last month.
+   - **Schema**: 
+     - `Orders(OrderID, OrderDate, ShipmentDate)`
+   - **Summary**: Date manipulation and filtering based on time ranges are straightforward and performant in SQL.
+
+9. **Query**: Get the total number of new customers this year.
+   - **Schema**: 
+     - `Customers(CustomerID, RegistrationDate)`
+   - **Summary**: Utilizes date fields and basic selection operations for efficient querying.
+
+10. **Query**: Retrieve the contact information for authors who have published more than 5 books.
+    - **Schema**: 
+      - `Authors(AuthorID, Name, ContactInfo)`
+      - `Books(BookID, AuthorID, Title)`
+    - **Summary**: Aggregation and having clauses efficiently filter and aggregate data for such conditions.
+
+11. **Query**: Give a report of the inventory that needs restocking.
+    - **Schema**: 
+      - `Products(ProductID, Name, StockLevel, ReorderLevel)`
+    - **Summary**: Simple comparison operations and indexing can quickly identify needed restocks.
+
+12. **Query**: List all employees who have worked for more than 10 years.
+    - **Schema**: 
+      - `Employees(EmpID, Name, HireDate)`
+    - **Summary**: Effective use of date calculations and straightforward comparisons are optimized in relational systems.
+
+13. **Query**: Display the last login time for each user.
+    - **Schema**: 
+      - `Users(UserID, Name)`
+      - `UserLogins(UserID, LoginTime)`
+    - **Summary**: Finding the latest entry in a set is done efficiently with indexing and sorting.
+
+14. **Query**: Show all vendors and their contracted product lines.
+    - **Schema**: 
+      - `Vendors(VendorID, VendorName)`
+      - `ProductLines(ProductLineID, ProductName, VendorID)`
+    - **Summary**: Referential integrity and foreign key-based joins are highly efficient for these lookups.
+
+15. **Query**: Identify which regions have the highest sales.
+    - **Schema**: 
+      - `Sales(RegionID, SalesAmount)`
+      - `Regions(RegionID, RegionName)`
+    - **Summary**: Leverages grouping, aggregation, and sorting functionalities.
+
+16. **Query**: Retrieve products never sold in any order.
+    - **Schema**: 
+      - `Products(ProductID, ProductName)`
+      - `OrderDetails(OrderDetailID, ProductID, OrderID)`
+    - **Summary**: Efficient use of anti-joins or subqueries is a database strength.
+
+17. **Query**: List members who have borrowed more than 3 books at once.
+    - **Schema**: 
+      - `Members(MemberID, Name)`
+      - `Borrowings(BorrowID, MemberID, BookID)`
+    - **Summary**: Handles aggregate conditional counts, aided by indexing.
+
+18. **Query**: Fetch total hours worked by an employee in a week.
+    - **Schema**: 
+      - `Employees(EmpID, Name)`
+      - `TimeSheets(EmpID, WorkDate, HoursWorked)`
+    - **Summary**: Databases effectively manage sum operations with conditions over time dimensions.
+
+19. **Query**: List the courses that are prerequisites for other courses.
+    - **Schema**: 
+      - `Courses(CourseID, CourseName)`
+      - `Prerequisites(CourseID, PrereqCourseID)`
+    - **Summary**: Recursive and self-joins are handled efficiently in a relational setup.
+
+20. **Query**: Get all transactions above a certain financial threshold.
+    - **Schema**: 
+      - `Transactions(TransactionID, Amount, Date)`
+    - **Summary**: Index scanning and comparison make financial threshold filtering efficient.
+
+21. **Query**: Find all customers who have never returned a purchased product.
+    - **Schema**: 
+      - `Customers(CustomerID, Name)`
+      - `Sales(CustomerID, ProductID, ReturnStatus)`
+    - **Summary**: Utilizes joins and NULL value checks for efficient filtering.
+
+22. **Query**: Display all rented properties that have rents expiring next month.
+    - **Schema**: 
+      - `Properties(PropertyID, RenterID, RentExpiryDate)`
+      - `Renters(RenterID, Name)`
+    - **Summary**: Date-based selections can leverage the database indexing for quick retrieval.
+
+23. **Query**: Provide statistics on the number of products in each category.
+    - **Schema**: 
+      - `Products(ProductID, CategoryID)`
+      - `Categories(CategoryID, CategoryName)`
+    - **Summary**: GroupBy and Count are fundamental operations in SQL, handled efficiently.
+
+24. **Query**: List all departments along with the count of employees in each.
+    - **Schema**: 
+      - `Departments(DeptID, DeptName)`
+      - `Employees(EmpID, DeptID)`
+    - **Summary**: Foreign key joins and aggregations handle departmental employee counts efficiently.
+
+25. **Query**: Get all teachers and the subjects they are qualified to teach.
+    - **Schema**: 
+      - `Teachers(TeacherID, Name)`
+      - `Qualifications(TeacherID, SubjectID)`
+      - `Subjects(SubjectID, SubjectName)`
+    - **Summary**: Multiple joins across tables efficiently map the relational aspects.
+
+26. **Query**: Find salespersons whose quarterly sales exceeded $100,000.
+    - **Schema**: 
+      - `Salespersons(SalespersonID, Name)`
+      - `QuarterlySales(SalespersonID, Quarter, SalesAmount)`
+    - **Summary**: Aggregation with conditions per group is a strong suit of relational databases.
+
+27. **Query**: List top-selling products for the past year.
+    - **Schema**: 
+      - `ProductSales(ProductID, SalesDate, QuantitySold)`
+      - `Products(ProductID, ProductName)`
+    - **Summary**: Uses time-based filters with summing and ranking functionalities.
+
+28. **Query**: Retrieve details of flights departing after 6 PM.
+    - **Schema**: 
+      - `Flights(FlightID, DepartureTime, Destination)`
+    - **Summary**: Handling time-based queries efficiently with comparisons is a typical capability.
+
+29. **Query**: Detail all tasks not yet completed by due date.
+    - **Schema**: 
+      - `Tasks(TaskID, EmployeeID, DueDate, Status)`
+    - **Summary**: Relational databases handle conditional logic on time and status fields adeptly.
+
+30. **Query**: List authors who have books in multiple genres.
+    - **Schema**: 
+      - `Authors(AuthorID, Name)`
+      - `Books(BookID, AuthorID)`
+      - `BookGenres(BookID, GenreID)`
+    - **Summary**: Capable of handling many-to-many relationships through joins and distinct operations.
+
+31. **Query**: Identify employees who report more than 10 overtime hours a month.
+    - **Schema**: 
+      - `Hours(EmpID, Date, OvertimeHours)`
+    - **Summary**: Aggregate queries over time are efficiently executed in relational databases.
+
+32. **Query**: Fetch accounts that have been inactive for over a year.
+    - **Schema**: 
+      - `Accounts(AccountID, LastActiveDate)`
+    - **Summary**: Efficient with filtering based on age or inactivity with indexed date fields.
+
+33. **Query**: Provide a list of countries with their maximum and minimum temperatures recorded.
+    - **Schema**: 
+      - `WeatherData(RecordID, Country, Date, Temperature)`
+    - **Summary**: Aggregate statistics within categorized groups, efficiently using MIN and MAX functions.
+
+### Conclusion
+
+These queries demonstrate the strengths of relational databases in handling structured data: using normalized schemas for efficient storage, leveraging foreign keys and indices for quick access, performing complex joins and aggregations, and efficiently filtering records based on various criteria. This makes relational databases well-suited for applications requiring multi-faceted data retrieval and manipulation on large datasets.

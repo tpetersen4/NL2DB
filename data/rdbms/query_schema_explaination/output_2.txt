@@ -1,0 +1,679 @@
+Below are 40 natural language queries appropriate for relational databases, along with a data schema in normal form and a brief summary for each query. 
+
+### 1. Query: 
+**"Find all customers who have placed an order in the last month."**
+
+#### Schema: 
+**Customers** 
+- CustomerID (PK)
+- Name
+- Email
+
+**Orders** 
+- OrderID (PK)
+- CustomerID (FK)
+- OrderDate
+
+#### Summary:
+Relational databases efficiently handle the many-to-one relationships between customers and orders, allowing quick retrieval of customer data with order dates using indexes.
+
+---
+
+### 2. Query: 
+**"List all products that are out of stock."**
+
+#### Schema:
+**Products** 
+- ProductID (PK)
+- ProductName 
+- StockQuantity
+
+#### Summary:
+This query benefits from indexed search capabilities to efficiently scan for products where the stock quantity is zero.
+
+---
+
+### 3. Query: 
+**"Get the average salary of employees working in the 'Engineering' department."**
+
+#### Schema:
+**Employees** 
+- EmployeeID (PK)
+- Name
+- Salary
+- DepartmentID (FK)
+
+**Departments**
+- DepartmentID (PK)
+- DepartmentName
+
+#### Summary:
+Relational databases handle aggregations and group-by operations well with proper indexing, making it easy to compute averages over filtered datasets.
+
+---
+
+### 4. Query: 
+**"Retrieve all orders with a total price greater than $1000."**
+
+#### Schema:
+**Orders**
+- OrderID (PK)
+- CustomerID (FK)
+- TotalPrice
+
+#### Summary:
+This query leverages the relational database’s ability to efficiently handle numeric comparison operations on indexed fields.
+
+---
+
+### 5. Query: 
+**"Find the top 5 highest-selling products."**
+
+#### Schema:
+**Products**
+- ProductID (PK)
+- ProductName 
+- TotalSales
+
+#### Summary:
+Relational databases can quickly sort and limit result sets when indexes are used on numeric or frequently sorted columns.
+
+---
+
+### 6. Query: 
+**"Get the number of employees in each department."**
+
+#### Schema:
+**Employees** 
+- EmployeeID (PK)
+- Name
+- DepartmentID (FK)
+
+**Departments**
+- DepartmentID (PK)
+- DepartmentName
+
+#### Summary:
+Grouping and counting operations are optimized in relational databases with proper index usage and normalized schema design.
+
+---
+
+### 7. Query: 
+**"Find all students enrolled in the 'Data Science' course."**
+
+#### Schema:
+**Students**
+- StudentID (PK)
+- Name
+
+**Courses** 
+- CourseID (PK)
+- CourseName
+
+**Enrollments**
+- EnrollmentID (PK)
+- StudentID (FK)
+- CourseID (FK)
+
+#### Summary:
+Relational databases are ideal for managing many-to-many relationships, like students and courses, using join tables.
+
+---
+
+### 8. Query: 
+**"List all authors who have not published any books in the last 5 years."**
+
+#### Schema:
+**Authors**
+- AuthorID (PK)
+- Name
+
+**Books**
+- BookID (PK)
+- AuthorID (FK)
+- PublicationDate
+
+#### Summary:
+Detecting unmatched records in parent-child relationships is efficiently handled through outer join operations in a relational database.
+
+---
+
+### 9. Query: 
+**"Retrieve the latest 10 customer reviews for a specific product."**
+
+#### Schema:
+**Reviews**
+- ReviewID (PK)
+- ProductID (FK)
+- ReviewDate
+
+#### Summary:
+Relational databases quickly sort results by date and limit output, which is suitable for retrieving the most recent records.
+
+---
+
+### 10. Query: 
+**"Calculate the total revenue generated from sales this quarter."**
+
+#### Schema:
+**Sales**
+- SaleID (PK)
+- SaleDate
+- Amount
+
+#### Summary:
+Relational databases are tailored for summing values over certain periods, with date-based indexes making quarter-specific aggregation efficient.
+
+---
+
+### 11. Query: 
+**"Find employees earning above the company average salary."**
+
+#### Schema:
+**Employees**
+- EmployeeID (PK)
+- Name
+- Salary
+
+#### Summary:
+The querying language in relational databases efficiently supports subqueries to calculate, compare, and filter based on aggregate functions.
+
+---
+
+### 12. Query: 
+**"Identify the most loyal customers based on frequent purchases."**
+
+#### Schema:
+**Customers**
+- CustomerID (PK)
+- Name
+
+**Purchases**
+- PurchaseID (PK)
+- CustomerID (FK)
+- PurchaseDate
+
+#### Summary:
+Relational databases handle complex join and group-by operations, aiding in segmenting customer data based on frequency metrics.
+
+---
+
+### 13. Query: 
+**"Determine the employee with the highest number of projects."**
+
+#### Schema:
+**Employees**
+- EmployeeID (PK)
+- Name
+
+**Projects**
+- ProjectID (PK)
+- EmployeeID (FK)
+
+#### Summary:
+Relational management systems efficiently count relational attributes to discover statistics like project assignments per employee.
+
+---
+
+### 14. Query: 
+**"List all suppliers providing more than 10 different products."**
+
+#### Schema:
+**Suppliers**
+- SupplierID (PK)
+- Name
+
+**SupplierProducts**
+- SupplierProductID (PK)
+- SupplierID (FK)
+- ProductID (FK)
+
+#### Summary:
+This query utilizes relational operations to tally distinct relational links, benefiting from database join and indexing features.
+
+---
+
+### 15. Query: 
+**"Retrieve all departments with no employees."**
+
+#### Schema:
+**Departments**
+- DepartmentID (PK)
+- DepartmentName
+
+**Employees**
+- EmployeeID (PK)
+- DepartmentID (FK)
+
+#### Summary:
+Outer joins and null tests in relational databases efficiently determine records lacking relational ties, like unstaffed departments.
+
+---
+
+### 16. Query: 
+**"Find all orders delivered to 'New York'."**
+
+#### Schema:
+**Orders**
+- OrderID (PK)
+- CustomerID (FK)
+- DeliveryCity
+
+#### Summary:
+Relational databases efficiently filter and retrieve indexed text-based columns for city-specific delivery data.
+
+---
+
+### 17. Query: 
+**"Get the first 10 users who signed up in the year 2023."**
+
+#### Schema:
+**Users**
+- UserID (PK)
+- SignupDate
+
+#### Summary:
+Comparing and sorting dates with indexes allows relational databases to efficiently pull earliest records from specific timeframes.
+
+---
+
+### 18. Query: 
+**"Determine the sales representative with the highest sales for the year."**
+
+#### Schema:
+**SalesReps**
+- SalesRepID (PK)
+- Name
+
+**Sales**
+- SaleID (PK)
+- SalesRepID (FK)
+- SaleDate
+- Amount
+
+#### Summary:
+Relational databases perform well under complex aggregations and grouping operations across relationship links, like sales per rep.
+
+---
+
+### 19. Query: 
+**"Identify all projects that have not been assigned any resources."**
+
+#### Schema:
+**Projects**
+- ProjectID (PK)
+- ProjectName
+
+**ProjectResources**
+- ProjectResourceID (PK)
+- ProjectID (FK)
+- ResourceID (FK)
+
+#### Summary:
+With outer joins, relational databases help pinpoint records missing their intended linked entries, such as projects without resources.
+
+---
+
+### 20. Query: 
+**"List customers with their most recent order date."**
+
+#### Schema:
+**Customers**
+- CustomerID (PK)
+
+**Orders**
+- OrderID (PK)
+- CustomerID (FK)
+- OrderDate
+
+#### Summary:
+Nested queries and grouping functions efficiently discover and present recent associations, e.g., latest orders per customer.
+
+---
+
+### 21. Query: 
+**"Find all books with an average rating above 4.5."**
+
+#### Schema:
+**Books**
+- BookID (PK)
+- Title
+
+**Ratings**
+- RatingID (PK)
+- BookID (FK)
+- Score
+
+#### Summary:
+Relational databases support efficient aggregation and averaging of scores, enabling discovery of highly-rated entities.
+
+---
+
+### 22. Query: 
+**"Get total sales amount for each month in 2023."**
+
+#### Schema:
+**Sales**
+- SaleID (PK)
+- SaleDate
+- Amount
+
+#### Summary:
+Date functions and pre-indexed columns in databases allow rapid summation, sorted by temporal groupings like months.
+
+---
+
+### 23. Query: 
+**"Identify customers who have not made any purchases this year."**
+
+#### Schema:
+**Customers**
+- CustomerID (PK)
+
+**Purchases**
+- PurchaseID (PK)
+- CustomerID (FK)
+- PurchaseDate
+
+#### Summary:
+Relational databases with their support for tone-based queries ably spot missing participations or activities over time.
+
+---
+
+### 24. Query: 
+**"Find employees celebrating birthdays this month."**
+
+#### Schema:
+**Employees**
+- EmployeeID (PK)
+- Name
+- BirthDate
+
+#### Summary:
+The use of interval-based date functions in relational databases helps efficiently find records matching the current period's criterion.
+
+---
+
+### 25. Query: 
+**"List all venues hosting more than five events."**
+
+#### Schema:
+**Venues**
+- VenueID (PK)
+- Name
+
+**Events**
+- EventID (PK)
+- VenueID (FK)
+
+#### Summary:
+Database joins and group filtered queries enable easy assessment of utilization like venue occupancy assessments.
+
+---
+
+### 26. Query: 
+**"Retrieve library members who have borrowed more than 10 books."**
+
+#### Schema:
+**Members**
+- MemberID (PK)
+
+**BorrowedBooks**
+- BorrowID (PK)
+- MemberID (FK)
+- BookID (FK)
+
+#### Summary:
+Relational databases facilitate quick tally and condition checks through normalized structure and join operations.
+
+---
+
+### 27. Query: 
+**"Determine the product category with the highest turnover."**
+
+#### Schema:
+**Products**
+- ProductID (PK)
+- CategoryID (FK)
+- Price
+- QuantitySold
+
+**Categories**
+- CategoryID (PK)
+- Name
+
+#### Summary:
+Relational databases efficiently handle product categorization and linked aggregations like total turnover using indexed data.
+
+---
+
+### 28. Query: 
+**"Find orders associated with the top 3 customers based on purchase frequency."**
+
+#### Schema:
+**Customers**
+- CustomerID (PK)
+
+**Orders**
+- OrderID (PK)
+- CustomerID (FK)
+
+#### Summary:
+The natural linkage and grouping functions of relational databases make them ideal for frequency and rank-based retrieval.
+
+---
+
+### 29. Query: 
+**"Identify employees who report to more than one manager."**
+
+#### Schema:
+**Employees**
+- EmployeeID (PK)
+- ManagerID (FK)
+
+#### Summary:
+Relational databases benefited with join and normalization afford themselves to hierarchical relationship detections, like managerial overlaps.
+
+---
+
+### 30. Query: 
+**"Retrieve courses with no students enrolled."**
+
+#### Schema:
+**Courses**
+- CourseID (PK)
+
+**Enrollments**
+- EnrollmentID (PK)
+- CourseID (FK)
+- StudentID (FK)
+
+#### Summary:
+Outer join capabilities in relational databases swiftly flag non-linked states such as unenrolled courses.
+
+---
+
+### 31. Query: 
+**"Find products sold but never reordered."**
+
+#### Schema:
+**Products**
+- ProductID (PK)
+
+**Sales**
+- SaleID (PK)
+- ProductID (FK)
+
+**Reorders**
+- ReorderID (PK)
+- ProductID (FK)
+
+#### Summary:
+Relational databases allow for effective differentiation through join exclusions, suitable for inventory checks against reorder logs.
+
+---
+
+### 32. Query:
+**"Retrieve the contact details of customers who have complained more than twice."**
+
+#### Schema:
+**Customers**
+- CustomerID (PK)
+- ContactDetails
+
+**Complaints**
+- ComplaintID (PK)
+- CustomerID (FK)
+
+#### Summary:
+Relational databases swiftly count linked records using joins, aiding in service-related insights such as frequent complaints retrieval.
+
+---
+
+### 33. Query:
+**"List the names of managers who manage a team of more than 5 employees."**
+
+#### Schema:
+**Managers**
+- ManagerID (PK)
+- Name
+
+**EmpManagers**
+- EmpManagerID (PK)
+- EmployeeID
+- ManagerID (FK)
+
+#### Summary:
+Thanks to structured relationships, relational databases efficiently handle associations and aggregate based filters for records like team sizes.
+
+---
+
+### 34. Query:
+**"Find projects delayed beyond their planned deadline."**
+
+#### Schema:
+**Projects**
+- ProjectID (PK)
+- Name
+- PlannedDeadline
+- ActualDeadline
+
+#### Summary:
+Relational databases are adept at conditional analyses, crucial for status checks like project delay detection using date comparisons.
+
+---
+
+### 35. Query:
+**"Identify suppliers with inconsistent delivery schedules."**
+
+#### Schema:
+**Suppliers**
+- SupplierID (PK)
+- Name
+
+**Deliveries**
+- DeliveryID (PK)
+- SupplierID (FK)
+- DeliveryDate
+
+#### Summary:
+Relational databases use indexed columns to efficiently analyze ordering in temporal data to identify inconsistencies efficiently.
+
+---
+
+### 36. Query:
+**"Get employees with the longest tenure."**
+
+#### Schema:
+**Employees**
+- EmployeeID (PK)
+- Name
+- JoinDate
+
+#### Summary:
+Relational databases efficiently calculate durations and order sequences to derive longest working terms from date fields.
+
+---
+
+### 37. Query:
+**"List products with more than two different suppliers."**
+
+#### Schema:
+**Products**
+- ProductID (PK)
+
+**Suppliers**
+- SupplierID (PK)
+
+**ProductSuppliers**
+- ProductSupplierID (PK)
+- ProductID (FK)
+- SupplierID (FK)
+
+#### Summary:
+Through indexing and normalized linking tables, relational databases efficiently tally and differentiate supplier inventories.
+
+---
+
+### 38. Query:
+**"Discover inactive users who last logged in over a year ago."**
+
+#### Schema:
+**Users**
+- UserID (PK)
+- LastLogin
+
+#### Summary:
+Efficient temporal comparison capabilities in relational databases identify inactivity patterns through indexed timestamp records.
+
+---
+
+### 39. Query:
+**"Find candidates with matching skills for open job positions."**
+
+#### Schema:
+**Candidates**
+- CandidateID (PK)
+- Name
+
+**Skills**
+- SkillID (PK)
+- SkillName
+
+**CandidateSkills**
+- CandidateSkillID (PK)
+- CandidateID (FK)
+- SkillID (FK)
+
+**Jobs**
+- JobID (PK)
+- Title
+
+**JobSkills**
+- JobSkillID (PK)
+- JobID (FK)
+- SkillID (FK)
+
+#### Summary:
+Many-to-many matching queries, like skill-job fits, are performed efficiently using join tables in relational databases.
+
+---
+
+### 40. Query:
+**"Get the complete list of transactions handled by each account manager."**
+
+#### Schema:
+**AccountManagers**
+- AccountManagerID (PK)
+- Name
+
+**Transactions**
+- TransactionID (PK)
+- AccountManagerID (FK)
+
+#### Summary:
+Normalized schemas and straightforward join operations streamline querying per assigned transactions in relational databases.
+
+---
+
+Each of these scenarios exemplifies how relational databases use their design—indexes, keys, normalization—to perform efficiently on queries requiring aggregation, complicated joins, sorting, and filtering tasks, thereby ensuring performance even as data scales.

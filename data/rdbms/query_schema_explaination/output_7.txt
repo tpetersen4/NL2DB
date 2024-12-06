@@ -1,0 +1,306 @@
+Sure, here's a list of 34 natural language queries that are well-suited for relational databases, along with brief summaries and a normalized schema for each. Relational databases are particularly efficient for structured, consistent data with well-defined relationships, making them ideal for complex queries that involve multiple tables.
+
+### 1. Query: 
+**"Find all customers from California who made purchases over $1000."**
+
+**Summary:** Relational databases excel at querying large datasets with specific conditions.
+
+**Schema:**  
+- Customers: CustomerID (PK), Name, State  
+- Purchases: PurchaseID (PK), CustomerID (FK), Amount  
+
+### 2. Query: 
+**"List all employees working in the 'Sales' department along with their managers."**
+
+**Summary:** The structured data and relations are easily navigated in a relational database.
+
+**Schema:**  
+- Employees: EmployeeID (PK), Name, DepartmentID (FK), ManagerID (FK)
+- Departments: DepartmentID (PK), DepartmentName  
+
+### 3. Query: 
+**"Get the total sales for each product category for the last quarter."**
+
+**Summary:** Joining and aggregating over specific time frames is efficient in relational databases.
+
+**Schema:**  
+- Products: ProductID (PK), CategoryID (FK), Price  
+- Sales: SaleID (PK), ProductID (FK), Date, Amount
+
+### 4. Query: 
+**"Retrieve the contact information of students enrolled in 'Biology 101.'"**
+
+**Summary:** Relational databases handle many-to-many relationships well, like those between students and courses.
+
+**Schema:**  
+- Students: StudentID (PK), Name, ContactInfo  
+- Courses: CourseID (PK), CourseName  
+- Enrollment: StudentID (FK), CourseID (FK)
+
+### 5. Query: 
+**"Find all suppliers who supplied more than 100 units of any product last month."**
+
+**Summary:** Efficient for grouping and filtering data based on conditions.
+
+**Schema:**  
+- Suppliers: SupplierID (PK), Name  
+- SupplyOrders: OrderID (PK), SupplierID (FK), ProductID (FK), Date, Quantity
+
+### 6. Query: 
+**"List the titles of all books published after 2015 along with their authors."**
+
+**Summary:** Well-suited for managing and joining hierarchical data structures.
+
+**Schema:**  
+- Books: BookID (PK), Title, PublishedYear  
+- Authors: AuthorID (PK), Name  
+- BookAuthors: BookID (FK), AuthorID (FK)
+
+### 7. Query: 
+**"Identify customers who have not made a purchase in the last year."**
+
+**Summary:** Efficient join and exclusion capabilities make this easy in relational databases.
+
+**Schema:**  
+- Customers: CustomerID (PK), Name  
+- Purchases: PurchaseID (PK), CustomerID (FK), PurchaseDate
+
+### 8. Query: 
+**"Show the average rating given to each product category."**
+
+**Summary:** Aggregation operations like averages are very efficient.
+
+**Schema:**  
+- Products: ProductID (PK), CategoryID (FK)  
+- Reviews: ReviewID (PK), ProductID (FK), Rating  
+
+### 9. Query: 
+**"Find all employees who have never taken a sick day leave."**
+
+**Summary:** Can easily resolve not-in type conditions.
+
+**Schema:**  
+- Employees: EmployeeID (PK), Name  
+- Leaves: LeaveID (PK), EmployeeID (FK), LeaveType, Date  
+
+### 10. Query: 
+**"Retrieve the details of the highest scoring student in each class."**
+
+**Summary:** Supports grouped retrieval and ordering efficiently.
+
+**Schema:**  
+- Students: StudentID (PK), Name  
+- Classes: ClassID (PK), ClassName  
+- Scores: ScoreID (PK), StudentID (FK), ClassID (FK), Score  
+
+### 11. Query: 
+**"List all departments along with the number of employees in each department."**
+
+**Summary:** Ideal for summarizing data across related tables.
+
+**Schema:**  
+- Departments: DepartmentID (PK), DepartmentName  
+- Employees: EmployeeID (PK), DepartmentID (FK)  
+
+### 12. Query: 
+**"Identify products that are out of stock."**
+
+**Summary:** Enables straightforward filtering based on inventories.
+
+**Schema:**  
+- Products: ProductID (PK), Name  
+- Inventory: InventoryID (PK), ProductID (FK), StockLevel 
+
+### 13. Query: 
+**"Get a list of movies directed by directors with more than 3 movies in the database."**
+
+**Summary:** Efficient at handling selection followed by join operations.
+
+**Schema:**  
+- Movies: MovieID (PK), Title, DirectorID (FK)  
+- Directors: DirectorID (PK), Name  
+
+### 14. Query: 
+**"List the top 5 most expensive items purchased by each customer."**
+
+**Summary:** Filtering and ranking capabilities are very efficient.
+
+**Schema:**  
+- Customers: CustomerID (PK), Name  
+- Purchases: PurchaseID (PK), CustomerID (FK), ProductID (FK), Price 
+
+### 15. Query: 
+**"Find the employees who joined this year."**
+
+**Summary:** Handling dates and filtering operations in relational types.
+
+**Schema:**  
+- Employees: EmployeeID (PK), Name, JoiningDate  
+
+### 16. Query: 
+**"Retrieve the total number of classes each student is enrolled in."**
+
+**Summary:** Relational databases handle count operations well.
+
+**Schema:**  
+- Students: StudentID (PK), Name  
+- Enrollment: StudentID (FK), CourseID (FK)  
+
+### 17. Query: 
+**"Identify authors with a specific keyword in their biography."**
+
+**Summary:** Supports complex text-based queries on structured data.
+
+**Schema:**  
+- Authors: AuthorID (PK), Name, Biography  
+
+### 18. Query: 
+**"Get sales details of products that were not on discount."**
+
+**Summary:** Filtering based on multiple conditions is straightforward.
+
+**Schema:**  
+- Sales: SaleID (PK), ProductID (FK), Discount, Amount  
+
+### 19. Query: 
+**"Show the history of price changes for each product."**
+
+**Summary:** Enables tracking changes over time efficiently.
+
+**Schema:**  
+- Products: ProductID (PK), Name  
+- PriceHistory: ChangeID (PK), ProductID (FK), Date, OldPrice, NewPrice
+
+### 20. Query: 
+**"List all events scheduled for next month."**
+
+**Summary:** Efficient date operations and retrievals.
+
+**Schema:**  
+- Events: EventID (PK), Name, Date  
+
+### 21. Query: 
+**"Find all accounts that have been inactive for more than a year."**
+
+**Summary:** Allows filtering based on time-based conditions.
+
+**Schema:**  
+- Accounts: AccountID (PK), LastActiveDate  
+
+### 22. Query: 
+**"Identify all users who updated their profile information this week."**
+
+**Summary:** Efficient at filtering by recent activity.
+
+**Schema:**  
+- Users: UserID (PK), Name  
+- UserUpdates: UpdateID (PK), UserID (FK), UpdateDate  
+
+### 23. Query: 
+**"Show inventory details for all products sourced from a particular supplier."**
+
+**Summary:** Joins between suppliers and products are easily handled.
+
+**Schema:**  
+- Products: ProductID (PK), SupplierID (FK)  
+- Inventory: InventoryID (PK), ProductID (FK), StockLevel
+
+### 24. Query: 
+**"Get the details of courses taught by instructors with tenure."**
+
+**Summary:** Efficient exploration of nested conditional relationships.
+
+**Schema:**  
+- Courses: CourseID (PK), InstructorID (FK)  
+- Instructors: InstructorID (PK), Name, Tenure
+
+### 25. Query: 
+**"Identify locations with more than 5 events in the last year."**
+
+**Summary:** Grouping data based on location and aggregation supports efficiency.
+
+**Schema:**  
+- Events: EventID (PK), LocationID (FK), Date  
+- Locations: LocationID (PK), Name  
+
+### 26. Query: 
+**"List all patents filed by a company in the year 2020."**
+
+**Summary:** Time-based filtering is optimal for querying.
+
+**Schema:**  
+- Patents: PatentID (PK), CompanyID (FK), FilingYear  
+
+### 27. Query: 
+**"Find all parts supplied by suppliers who are based in Japan."**
+
+**Summary:** Efficient join and condition-based filter operations.
+
+**Schema:**  
+- Parts: PartID (PK), SupplierID (FK)  
+- Suppliers: SupplierID (PK), Country  
+
+### 28. Query: 
+**"Get all songs by artists who have released fewer than 3 albums."**
+
+**Summary:** Efficient for counting and conditional retrieval combinations.
+
+**Schema:**  
+- Songs: SongID (PK), AlbumID (FK), ArtistID (FK)  
+- Albums: AlbumID (PK), ReleaseYear  
+- Artists: ArtistID (PK), Name  
+
+### 29. Query: 
+**"Identify each employee's highest education degree."**
+
+**Summary:** Favorable for retrieving top-ranked records within groups.
+
+**Schema:**  
+- Employees: EmployeeID (PK), Name  
+- Education: EducationID (PK), EmployeeID (FK), Degree, CompletedYear
+
+### 30. Query: 
+**"Find all canceled orders from last quarter."**
+
+**Summary:** Straightforward retrieval based on specific conditions.
+
+**Schema:**  
+- Orders: OrderID (PK), Status, OrderDate  
+
+### 31. Query: 
+**"Get all movies released between 2010 and 2020 with a rating above 8."**
+
+**Summary:** Well-suited for handling complex date and numerical conditions.
+
+**Schema:**  
+- Movies: MovieID (PK), Title, ReleaseYear, Rating  
+
+### 32. Query: 
+**"Retrieve employee details working on more than three projects."**
+
+**Summary:** Suitable for counting and filtering across related tables.
+
+**Schema:**  
+- Employees: EmployeeID (PK), Name  
+- Projects: ProjectID (PK)  
+- EmployeeProjects: EmployeeID (FK), ProjectID (FK)  
+
+### 33. Query: 
+**"Identify all branches that did not meet their sales target last month."**
+
+**Summary:** Handles exclusions and condition-based filtering efficiently.
+
+**Schema:**  
+- Branches: BranchID (PK), TargetSales  
+- MonthlySales: MonthID (PK), BranchID (FK), Sales  
+
+### 34. Query: 
+**"Find customers who have placed more than 5 orders in the last year."**
+
+**Summary:** Relational databases can easily handle aggregation and filtering.
+
+**Schema:**  
+- Customers: CustomerID (PK), Name  
+- Orders: OrderID (PK), CustomerID (FK), OrderDate
+
+In each case, the relational database shines due to its structured schema and efficiency in performing complex queries involving joins, conditions, aggregates, and timestamps over large datasets. The emphasis on normalization in the schema design ensures data integrity and minimizes redundancy, which are key benefits in using relational databases.

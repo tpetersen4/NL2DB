@@ -1,0 +1,169 @@
+Creating natural language queries suitable for relational databases requires understanding both the data structure and the operations typically supported by such databases. Here's an example of such queries, along with schema design suggestions and explanations for their suitability:
+
+1. **Query**: "Find the total sales per product for the last month."
+   - **Schema**: `Sales(ProductID, Date, Amount)`
+   - **Summary**: Aggregation queries, like summing sales over a time period, are efficiently handled by relational databases due to indexing and data retrieval optimizations.
+
+2. **Query**: "What are the names of customers who have made purchases over $1000?"
+   - **Schema**: `Customers(CustomerID, Name)`, `Purchases(CustomerID, Amount)`
+   - **Summary**: Joins between tables using keys are optimal for relational databases, allowing for efficient retrieval of related data.
+
+3. **Query**: "List all employees in the HR department."
+   - **Schema**: `Employees(EmployeeID, Name, Department)`
+   - **Summary**: Simple selection queries work well with relational databases' capacity for quick filtering using indexes.
+
+4. **Query**: "How many products are in stock?"
+   - **Schema**: `Inventory(ProductID, Quantity)`
+   - **Summary**: Counting or summing operations over a single attribute fit well with relational databases' aggregation functions.
+
+5. **Query**: "What is the average order value?"
+   - **Schema**: `Orders(OrderID, CustomerID, TotalAmount)`
+   - **Summary**: Relational databases excel at calculations like averages using built-in aggregate functions.
+
+6. **Query**: "Which suppliers provide more than 10 products?"
+   - **Schema**: `Suppliers(SupplierID, Name)`, `Products(SupplierID, ProductID)`
+   - **Summary**: Grouping and filtering based on counts are ideal for relational databases, using GROUP BY and HAVING clauses.
+
+7. **Query**: "Get the list of books published in the last 5 years."
+   - **Schema**: `Books(ISBN, Title, PublishedYear)`
+   - **Summary**: Relational databases are suited for range queries, benefiting from time-based indexing.
+
+8. **Query**: "What is the customer feedback score distribution?"
+   - **Schema**: `Feedback(CustomerID, Score)`
+   - **Summary**: GROUP BY with aggregate functions for analyzing data distributions work well in relational contexts.
+
+Repeat the previous structure for the next sets:
+
+9. **Query**: "List all orders placed by customer John Doe."
+   - **Schema**: `Customers(CustomerID, Name)`, `Orders(CustomerID, OrderID)`
+   - **Summary**: Database joins allow tracking entity relations, direct customer orders association.
+
+10. **Query**: "Show top 5 best-selling products."
+    - **Schema**: `Sales(ProductID, Quantity)`
+    - **Summary**: Relational databases handle ORDER BY and LIMIT for quick top-k queries efficiently.
+
+11. **Query**: "What are the unique job titles in the company?"
+    - **Schema**: `Employees(EmployeeID, JobTitle)`
+    - **Summary**: DISTINCT queries to find unique values are optimized by relational databases.
+
+12. **Query**: "Who are the employees hired in the past year?"
+    - **Schema**: `Employees(EmployeeID, HireDate)`
+    - **Summary**: Date range queries to filter records fit neatly in relational databases' indexing strategies.
+
+13. **Query**: "Count of occurrences of each stock ticker in the transactions table."
+    - **Schema**: `Transactions(Ticker, TransactionDate)`
+    - **Summary**: COUNT with GROUP BY allows for aggregation in relation-tracking databases.
+
+14. **Query**: "Retrieve the email addresses of members who have not logged in the past 6 months."
+    - **Schema**: `Members(MemberID, LastLogin, Email)`
+    - **Summary**: Ensuring non-logged queries with dates are ideal for quick date comparison operations.
+
+15. **Query**: "List all active projects including team leaders' names."
+    - **Schema**: `Projects(ProjectID, Status)`, `TeamLeaders(ProjectID, LeaderName)`
+    - **Summary**: JOIN operation to connect complementary data sets maintains normalized efficiency.
+
+16. **Query**: "What's the relation between product categories and sales amount?"
+    - **Schema**: `Products(ProductID, CategoryID)`, `Sales(ProductID, Amount)`
+    - **Summary**: Category-based aggregation provides analytical insights efficiently using JOIN and SUM.
+
+17. **Query**: "Which events have more than 50 attendees?"
+    - **Schema**: `Events(EventID, AttendeesCount)`
+    - **Summary**: Using relational databases' filtering capability for quick comparisons.
+
+18. **Query**: "Find customers with the same postal code."
+    - **Schema**: `Customers(CustomerID, Name, PostalCode)`
+    - **Summary**: Grouping by postal code assists in discovering relational similarities.
+
+19. **Query**: "What are the ratings for all suppliers sorted from highest to lowest?"
+    - **Schema**: `Suppliers(SupplierID, Rating)`
+    - **Summary**: ORDER BY supports efficient ordering of results for comparison.
+
+20. **Query**: "Identify unprocessed orders."
+    - **Schema**: `Orders(OrderID, Status)`
+    - **Summary**: Simple status-based filtering takes full advantage of stored attributes.
+
+Continue with another set:
+
+21. **Query**: "Show the total hours worked by each employee."
+    - **Schema**: `WorkLog(EmployeeID, HoursWorked)`
+    - **Summary**: Aggregating hours by employees leverages GROUP BY and SUM functionality.
+
+22. **Query**: "List all courses with a prerequisite."
+    - **Schema**: `Courses(CourseID, PrerequisiteCourseID)`
+    - **Summary**: JOIN operations to find linked course data are effective in relational schemas.
+
+23. **Query**: "What payment methods are most commonly used?"
+    - **Schema**: `Payments(PaymentID, Method)`
+    - **Summary**: Relational databases easily handle count and sort operations for categorical data.
+
+24. **Query**: "Which software is installed on more than 100 computers?"
+    - **Schema**: `Installations(SoftwareID, ComputerID)`
+    - **Summary**: COUNT with HAVING for multiplicative-relation counts are highly optimized.
+
+25. **Query**: "Find the number of complaints filed by each customer."
+    - **Schema**: `Complaints(ComplaintID, CustomerID)`
+    - **Summary**: Relational databases efficiently group and count complaint occurrences.
+
+26. **Query**: "List branches with above-average profits."
+    - **Schema**: `Branches(BranchID, Profit)`
+    - **Summary**: AVG with comparison searches are highly suited in well-structured tables.
+
+27. **Query**: "What are the product names and stock levels?"
+    - **Schema**: `Products(ProductID, Name)`, `Inventory(ProductID, StockLevel)`
+    - **Summary**: Simple row selection queries utilizing JOINs let relational databases excel.
+
+28. **Query**: "Who are the artists with albums in all genres?"
+    - **Schema**: `Artists(ArtistID, Name)`, `Albums(ArtistID, GenreID)`
+    - **Summary**: Relating multiple sets of categorizations demonstrates relational database strength.
+
+29. **Query**: "Identify the managers of each department."
+    - **Schema**: `Departments(DepartmentID, ManagerID)`, `Managers(ManagerID, Name)`
+    - **Summary**: Retrieving related leadership structures uses beneficial JOIN operations.
+
+30. **Query**: "How many students enrolled in both Math and Science courses?"
+    - **Schema**: `Enrollments(StudentID, CourseID)`
+    - **Summary**: Use EXISTS or intersecting JOINs for membership queries that relational databases efficiently support.
+
+And another batch:
+
+31. **Query**: "Which products have not been ordered?"
+    - **Schema**: `Products(ProductID)`, `Orders(ProductID)`
+    - **Summary**: LEFT JOIN with absence checking is fast, particularly with indexed relationships.
+
+32. **Query**: "Get the contact information for vendors supplying electronics."
+    - **Schema**: `Vendors(VendorID, ContactInfo)`, `Supplies(VendorID, Category)`
+    - **Summary**: Combining supplier and category data leverages relationships managed by databases.
+
+33. **Query**: "What are the monthly sales trends for the current year?"
+    - **Schema**: `Sales(Date, Amount)`
+    - **Summary**: Temporal aggregations efficiently utilize time-indexed queries in databases.
+
+34. **Query**: "List employees who don't report to any manager."
+    - **Schema**: `Employees(EmployeeID, ManagerID)`
+    - **Summary**: Relational databases manage NULLs effectively to identify such conditions.
+
+35. **Query**: "How many customers have placed orders across multiple cities?"
+    - **Schema**: `Orders(CustomerID, City)`
+    - **Summary**: Aggregating with COUNT DISTINCT is directly supported, offering analysis benefits.
+
+36. **Query**: "What are the forecasted vs. actual sales for each product?"
+    - **Schema**: `Forecasts(ProductID, ForecastedAmount)`, `ActualSales(ProductID, ActualAmount)`
+    - **Summary**: Relational databases execute relation comparisons and differential calculations optimally.
+
+37. **Query**: "Show top contributors to the repository."
+    - **Schema**: `Contributions(UserID, RepoID, ContributionCount)`
+    - **Summary**: Allowing for numerical sorts of contributions shows relational efficiency in numerical aggregates.
+
+38. **Query**: "What is the average response time for support tickets?"
+    - **Schema**: `Tickets(TicketID, ResponseTime)`
+    - **Summary**: Efficient handling of averages through SQL aggregation focuses on suitable use of relational functions.
+
+39. **Query**: "Which authors have published in multiple languages?"
+    - **Schema**: `Authors(AuthorID, Name)`, `Books(AuthorID, Language)`
+    - **Summary**: Intersection and set-based logic is perfectly managed through relational queries.
+
+40. **Query**: "What are the simultaneously active rental agreements?"
+    - **Schema**: `Rentals(RentalID, StartDate, EndDate)`
+    - **Summary**: Date range overlap queries, are streamlined in indexed relational tables due to efficient use of JOINs and comparisons.
+
+This set of queries illustrates how relational databases optimize key database operations involving joins, aggregations, selections, filtering and sorting, all underpinned by a well-structurally designed schema that preserves relationships and reduces redundancy through normal forms from 1NF to 3NF or even BCNF where applicable.

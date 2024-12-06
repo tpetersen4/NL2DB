@@ -1,0 +1,291 @@
+Creating natural language queries that can efficiently run on relational databases requires a well-designed schema that normalizes data to avoid redundancy and maintain data integrity. Below are 39 example queries along with a brief explanation of each and a proposed database schema in normal form:
+
+### Query 1: Customer Order Information
+**Query:** "Retrieve all orders placed by customer John Smith in the last 30 days."
+**Schema:**
+- **Customers** (CustomerID, Name, Email, Phone)
+- **Orders** (OrderID, CustomerID, OrderDate, TotalAmount)
+
+**Explanation:** Relational databases efficiently handle join operations between the Customers and Orders tables, allowing quick retrieval of order information based on customer name and date.
+
+### Query 2: Product Inventory Levels
+**Query:** "List all products with inventory less than 10 units."
+**Schema:**
+- **Products** (ProductID, Name, Description, Price, StockQuantity)
+
+**Explanation:** Relational databases can quickly filter records based on specific attributes, such as stock levels, using simple SQL queries.
+
+### Query 3: Employee Department Assignments
+**Query:** "Find all employees working in the Sales department."
+**Schema:**
+- **Employees** (EmployeeID, Name, Position, DepartmentID)
+- **Departments** (DepartmentID, DepartmentName)
+
+**Explanation:** A normalized schema allows for efficient searches within the Employees table using the DepartmentID foreign key to match department names.
+
+### Query 4: Sales by Region
+**Query:** "Calculate total sales for each region."
+**Schema:**
+- **Sales** (SaleID, ProductID, RegionID, SaleAmount)
+- **Regions** (RegionID, RegionName)
+
+**Explanation:** Aggregate functions in relational databases allow for efficient computation of totals across regions.
+
+### Query 5: Recent User Activity
+**Query:** "Show activities of user Alice in the last 7 days."
+**Schema:**
+- **Users** (UserID, UserName, Email)
+- **Activities** (ActivityID, UserID, ActivityType, ActivityDate)
+
+**Explanation:** Date range queries are efficiently handled in relational databases through indexed columns and predicates.
+
+### Query 6: Supplier Contacts
+**Query:** "Get contact details of all suppliers."
+**Schema:**
+- **Suppliers** (SupplierID, SupplierName, ContactEmail, ContactPhone)
+
+**Explanation:** Relational databases can quickly return selected columns for all entries, ideal for contact detail queries.
+
+### Query 7: Employee Performance Reports
+**Query:** "Find all employees with performance reviews in the top 10%."
+**Schema:**
+- **PerformanceReviews** (ReviewID, EmployeeID, ReviewDate, Score)
+
+**Explanation:** Aggregation and percentile calculation can be efficiently executed using SQL, particularly in performance-related datasets.
+
+### Query 8: Orders Needing Fulfillment
+**Query:** "Identify all pending orders that need shipment."
+**Schema:**
+- **Orders** (OrderID, CustomerID, OrderStatus, ShipDate)
+
+**Explanation:** Filtering by OrderStatus can be done efficiently in relational databases with proper indexing.
+
+### Query 9: Annual Customer Spends
+**Query:** "Calculate the annual spend of each customer."
+**Schema:**
+- **Transactions** (TransactionID, CustomerID, Amount, TransactionDate)
+
+**Explanation:** Sum functions and group-by clauses leverage the relational database’s capacity for aggregation.
+
+### Query 10: Product Supplier Information
+**Query:** "List suppliers for each product."
+**Schema:**
+- **ProductSuppliers** (ProductSupplierID, ProductID, SupplierID)
+
+**Explanation:** The many-to-many relationship between products and suppliers is normalized for efficient query performance.
+
+### Query 11: Library Book Availability
+**Query:** "Check the availability of books by author J.K. Rowling."
+**Schema:**
+- **Books** (BookID, Title, Author, AvailableCopies)
+
+**Explanation:** Author filtering and availability can be quickly verified in a relational setup.
+
+### Query 12: Pending Invoice Details
+**Query:** "Get details of all pending invoices."
+**Schema:**
+- **Invoices** (InvoiceID, InvoiceDate, DueDate, Status)
+
+**Explanation:** Filtering on Status with a condition like 'pending' demonstrates the power of SQL for efficient data retrieval.
+
+### Query 13: Lease Agreements by Tenant
+**Query:** "List all lease agreements belonging to tenant Richard Roe."
+**Schema:**
+- **Tenants** (TenantID, Name, ContactInfo)
+- **LeaseAgreements** (LeaseID, TenantID, StartDate, EndDate)
+
+**Explanation:** Foreign key relationships ensure quick and secure access to related tenant and lease data.
+
+### Query 14: Restaurant Menu Items
+**Query:** "Compile a list of all vegetarian menu items."
+**Schema:**
+- **MenuItems** (MenuItemID, ItemName, Description, Vegetarian)
+
+**Explanation:** Simple attribute filtering like checking for vegetarian flag can be effectively done in relational databases.
+
+### Query 15: Insurance Claim Status
+**Query:** "Show all insurance claims still open."
+**Schema:**
+- **InsuranceClaims** (ClaimID, PolicyHolderID, ClaimDate, Status)
+
+**Explanation:** Status checks and filtering are efficiently performed under a normalized schema.
+
+### Query 16: Conference Room Bookings
+**Query:** "List room bookings for the upcoming month."
+**Schema:**
+- **RoomBookings** (BookingID, RoomID, BookerID, StartDate, EndDate)
+
+**Explanation:** Time-based filtering for events, such as bookings, can be efficiently retrieved with indexed date fields.
+
+### Query 17: Historical Customer Engagement
+**Query:** "Find engagement activities with the customer over the past year."
+**Schema:**
+- **Engagements** (EngagementID, CustomerID, EngagementType, EngagementDate)
+
+**Explanation:** Historical data retrieval for specific customers showcases the relational database's capability of storing voluminous data and filtering using date constraints.
+
+### Query 18: Travel Reservation Details
+**Query:** "Retrieve details of all travel itineraries booked by client XYZ Corp."
+**Schema:**
+- **TravelItineraries** (ItineraryID, ClientID, TravelDate, Destination)
+
+**Explanation:** The relationship between clients and itineraries is well-managed within a relational schema, facilitating efficient retrieval.
+
+### Query 19: Student Enrollment Statistics
+**Query:** "Determine the number of students enrolled in each course."
+**Schema:**
+- **Courses** (CourseID, CourseName)
+- **Enrollments** (EnrollmentID, StudentID, CourseID)
+
+**Explanation:** Group-by operations for counting enrollments across courses are well-suited to relational databases.
+
+### Query 20: Vendor Payment Histories
+**Query:** "Get payment history for vendor ABC Ltd."
+**Schema:**
+- **Payments** (PaymentID, VendorID, PaymentDate, Amount)
+
+**Explanation:** Vendor payment histories can be aggregated and retrieved efficiently using native database operations.
+
+### Query 21: Hospital Patient Records
+**Query:** "Show records for all patients admitted in January 2022."
+**Schema:**
+- **Patients** (PatientID, Name, AdmissionDate, DischargeDate)
+
+**Explanation:** Filtering patients based on admission dates utilizes relational databases' inherent capability for date and range queries.
+
+### Query 22: E-commerce Transaction Records
+**Query:** "List all transactions processed last quarter."
+**Schema:**
+- **Transactions** (TransactionID, ProductID, UserID, TransactionDate)
+
+**Explanation:** Temporal queries like filtering by date help demonstrate the efficiency of relational databases for financial data handling.
+
+### Query 23: Library Author Records
+**Query:** "Find books authored by Charles Dickens."
+**Schema:**
+- **Authors** (AuthorID, Name)
+- **Books** (BookID, Title, AuthorID)
+
+**Explanation:** Joins on foreign key relationships between books and authors ensure quick access for specific author’s works.
+
+### Query 24: Cycling Event Participants
+**Query:** "Identify participants in the annual cycling event."
+**Schema:**
+- **Events** (EventID, EventName, EventDate)
+- **Participants** (ParticipantID, EventID, Name)
+
+**Explanation:** The relationship between events and participants is efficiently managed via foreign keys in a normalized schema.
+
+### Query 25: Customer Feedback Analysis
+**Query:** "Show all feedback provided for product 123."
+**Schema:**
+- **Feedback** (FeedbackID, ProductID, CustomerID, FeedbackText)
+
+**Explanation:** The ability to filter feedback based on product identifiers demonstrates relational databases' filtering efficiencies.
+
+### Query 26: Property Listings by Neighborhood
+**Query:** "List properties available for rent in Downtown."
+**Schema:**
+- **Properties** (PropertyID, Address, Neighborhood, RentAmount)
+
+**Explanation:** Property listing queries based on geographic subdivisions fit well with relational data filtering capabilities.
+
+### Query 27: Session Registrants
+**Query:** "Show all registrants for the upcoming seminar."
+**Schema:**
+- **Sessions** (SessionID, SeminarID, Date)
+- **Registrants** (RegistrantID, SessionID, Name)
+
+**Explanation:** Relationships between sessions and registrants can be efficiently queried with a properly normalized schema.
+
+### Query 28: Airline Ticket Details
+**Query:** "Retrieve ticket details for passenger John Doe."
+**Schema:**
+- **Tickets** (TicketID, PassengerID, FlightID, PurchaseDate)
+
+**Explanation:** Passenger information tied to ticket details through relational database joins proves efficient for travel data.
+
+### Query 29: Publisher Book Listings
+**Query:** "List all books published by Penguin Random House."
+**Schema:**
+- **Publishers** (PublisherID, Name)
+- **Books** (BookID, Title, PublisherID)
+
+**Explanation:** Joins on publisher and book records preserve integrity and speed in retrieving publisher-specific data.
+
+### Query 30: Historic Price Trends
+**Query:** "Analyze price trends for the last 5 years of product SKU 789."
+**Schema:**
+- **PriceHistory** (PriceHistoryID, ProductID, Date, Price)
+
+**Explanation:** Time-series analysis of prices is efficiently handled within a relational model through indexed dates and product joins.
+
+### Query 31: Medical Appointment Schedules
+**Query:** "Display all appointments scheduled for Dr. Emily Jones next week."
+**Schema:**
+- **Doctors** (DoctorID, Name)
+- **Appointments** (AppointmentID, DoctorID, PatientID, AppointmentDate)
+
+**Explanation:** Date-specific filtering in relational databases helps easily manage and view appointment data.
+
+### Query 32: User Transaction History
+**Query:** "Get a complete transaction history for user Thomas."
+**Schema:**
+- **Users** (UserID, Name)
+- **Transactions** (TransactionID, UserID, Date, Amount)
+
+**Explanation:** Joins between users and transactions provide a comprehensive view of user-specific financial activity.
+
+### Query 33: Car Rental History
+**Query:** "List all cars rented by customer Jane Doe."
+**Schema:**
+- **Customers** (CustomerID, Name)
+- **Rentals** (RentalID, CarID, CustomerID, RentalDate)
+
+**Explanation:** Joins between customers and rentals capitalize on the efficiency of relational models for reservation data.
+
+### Query 34: Academic Course Offering
+**Query:** "Identify courses offered in the Fall semester."
+**Schema:**
+- **Courses** (CourseID, CourseName, Semester)
+
+**Explanation:** Attribute-based filtering optimizes course queries through straightforward dataset traversal.
+
+### Query 35: Guest Check-in Records
+**Query:** "Retrieve check-in records for all guests named Alexander."
+**Schema:**
+- **Guests** (GuestID, Name, CheckInDate)
+
+**Explanation:** Name-based selection and date records allow for efficient data retrieval in accommodations settings.
+
+### Query 36: Webinar Attendance
+**Query:** "Get a list of all attendees for the August 2023 webinar."
+**Schema:**
+- **Webinars** (WebinarID, Date)
+- **Attendees** (AttendeeID, WebinarID, Name)
+
+**Explanation:** Compliance with foreign keys allows for effective attendance tracking in educational realms.
+
+### Query 37: Payment Transactions by Date
+**Query:** "Find all transactions made on April 10, 2023."
+**Schema:**
+- **Payments** (PaymentID, UserID, Amount, TransactionDate)
+
+**Explanation:** Day-specific transactions showcase the relational database's capability to quickly segment data by date.
+
+### Query 38: Store Opening Hours
+**Query:** "What are the business hours for all New York locations?"
+**Schema:**
+- **Stores** (StoreID, Location, OpeningHour, ClosingHour)
+
+**Explanation:** Location-based queries leverage indexing and simple searching for efficient access.
+
+### Query 39: Event Schedule by Venue
+**Query:** "List all scheduled events at the Downtown Convention Center."
+**Schema:**
+- **Venues** (VenueID, Name)
+- **Events** (EventID, VenueID, Name, EventDate)
+
+**Explanation:** The connection between venues and their events simplifies schedule creation and retrieval through foreign key structures.
+
+Each of these queries leverages the strengths of relational databases in maintaining structured, accessible datasets through the use of foreign keys, indexing, and normalization into common normal forms to promote data integrity and reduce redundancy, making query execution efficient and effective.

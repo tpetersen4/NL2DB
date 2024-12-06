@@ -1,0 +1,154 @@
+Creating a set of 34 natural language queries along with database schemas and explanations for relational databases involves understanding the benefits and limitations of relational systems. Relational databases are particularly efficient for structured data with clear relationships, typified by tables where data rows adhere to a fixed schema and integrity is maintained through normalization and foreign keys. Below are 34 example queries:
+
+### Schema Definitions
+1. **Customer(CustomerID, FirstName, LastName, Email)**
+2. **Order(OrderID, OrderDate, CustomerID, TotalAmount)**
+3. **Product(ProductID, ProductName, Price)**
+4. **OrderItem(OrderItemID, OrderID, ProductID, Quantity)**
+5. **Supplier(SupplierID, SupplierName, ContactEmail)**
+6. **ProductSupplier(ProductID, SupplierID)**
+7. **Employee(EmployeeID, FirstName, LastName, Department)**
+8. **Department(DepartmentID, DepartmentName, ManagerID)**
+9. **Inventory(ProductID, StockLevel)**
+10. **Shipment(ShipmentID, OrderID, ShipDate, TrackingNumber)**
+
+### Natural Language Queries
+
+1. **Query:** "Find all orders placed by a specific customer."
+   - **SQL:** `SELECT * FROM Order WHERE CustomerID = ?;`
+   - **Explanation:** Relational databases efficiently manage customer-order relationships with foreign keys.
+
+2. **Query:** "List all products with their respective suppliers."
+   - **SQL:** `SELECT ProductName, SupplierName FROM Product JOIN ProductSupplier ON Product.ProductID = ProductSupplier.ProductID JOIN Supplier ON ProductSupplier.SupplierID = Supplier.SupplierID;`
+   - **Explanation:** This leverages joins, which are well-optimized in relational databases for such linkages.
+
+3. **Query:** "Get all employees in a specific department."
+   - **SQL:** `SELECT * FROM Employee WHERE Department = ?;`
+   - **Explanation:** Relational databases utilize indexed searches on structured data.
+
+4. **Query:** "List the inventory status of all products."
+   - **SQL:** `SELECT ProductName, StockLevel FROM Product JOIN Inventory ON Product.ProductID = Inventory.ProductID;`
+   - **Explanation:** Using joins and primary keys provides quick access to inventory data per product.
+
+5. **Query:** "What are the total sales for each product?"
+   - **SQL:** `SELECT ProductName, SUM(Quantity * Price) AS TotalSales FROM OrderItem JOIN Product ON OrderItem.ProductID = Product.ProductID GROUP BY ProductName;`
+   - **Explanation:** Relational databases excel at aggregation functions like `SUM` combined with grouping.
+
+6. **Query:** "Find the latest order date for a given customer."
+   - **SQL:** `SELECT MAX(OrderDate) FROM Order WHERE CustomerID = ?;`
+   - **Explanation:** Optimized use of indexed and date queries in relational databases.
+
+7. **Query:** "Which department does a specific employee work in?"
+   - **SQL:** `SELECT DepartmentName FROM Employee JOIN Department ON Employee.Department = Department.DepartmentID WHERE EmployeeID = ?;`
+   - **Explanation:** Structured queries link employee records to department data seamlessly.
+
+8. **Query:** "List all shipments for an order."
+   - **SQL:** `SELECT * FROM Shipment WHERE OrderID = ?;`
+   - **Explanation:** Shipment data linked through OrderID is efficiently queried in relational databases.
+
+9. **Query:** "Which customers placed orders in a certain date range?"
+   - **SQL:** `SELECT DISTINCT CustomerID FROM Order WHERE OrderDate BETWEEN ? AND ?;`
+   - **Explanation:** Relational databases efficiently handle date range queries.
+
+10. **Query:** "Find out if a specific product is out of stock."
+    - **SQL:** `SELECT StockLevel FROM Inventory WHERE ProductID = ?;`
+    - **Explanation:** Simple lookup through primary key indexing.
+
+11. **Query:** "How many products does each supplier provide?"
+    - **SQL:** `SELECT SupplierName, COUNT(ProductID) FROM ProductSupplier JOIN Supplier ON ProductSupplier.SupplierID = Supplier.SupplierID GROUP BY SupplierName;`
+    - **Explanation:** Aggregation over relationships is quick in relational systems.
+
+12. **Query:** "Identify orders exceeding a certain amount."
+    - **SQL:** `SELECT * FROM Order WHERE TotalAmount > ?;`
+    - **Explanation:** Allows for efficient filtering using cost thresholds.
+
+13. **Query:** "Retrieve all orders and their items."
+    - **SQL:** `SELECT * FROM Order JOIN OrderItem ON Order.OrderID = OrderItem.OrderID;`
+    - **Explanation:** Use of joins to link orders with their items highlights relational strength.
+
+14. **Query:** "List employees with their manager names."
+    - **SQL:** `SELECT Employee.FirstName, Employee.LastName, Manager.FirstName AS ManagerFirstName, Manager.LastName AS ManagerLastName FROM Employee JOIN Department ON Employee.Department = Department.DepartmentID JOIN Employee AS Manager ON Department.ManagerID = Manager.EmployeeID;`
+    - **Explanation:** Self-joins efficiently resolve hierarchical data queries.
+
+15. **Query:** "Find all orders that contain a specific product."
+    - **SQL:** `SELECT OrderID FROM OrderItem WHERE ProductID = ?;`
+    - **Explanation:** Indexed lookups for specific product-related orders are direct and efficient.
+
+16. **Query:** "What is the total number of orders per customer?"
+    - **SQL:** `SELECT CustomerID, COUNT(OrderID) FROM Order GROUP BY CustomerID;`
+    - **Explanation:** GROUP BY functionality organizes data neatly, making it a natural fit for relational structures.
+
+17. **Query:** "Which products are supplied by at least two suppliers?"
+    - **SQL:** `SELECT ProductID, COUNT(DISTINCT SupplierID) FROM ProductSupplier GROUP BY ProductID HAVING COUNT(DISTINCT SupplierID) >= 2;`
+    - **Explanation:** Aggregating and filtering across relationships showcases relational optimization.
+
+18. **Query:** "List departments with the count of employees."
+    - **SQL:** `SELECT DepartmentName, COUNT(EmployeeID) FROM Employee JOIN Department ON Employee.Department = Department.DepartmentID GROUP BY DepartmentName;`
+    - **Explanation:** Efficiently aggregates hierarchical data through joins and counting.
+
+19. **Query:** "Get orders with total quantity of at least 100."
+    - **SQL:** `SELECT OrderID, SUM(Quantity) AS TotalQuantity FROM OrderItem GROUP BY OrderID HAVING SUM(Quantity) >= 100;`
+    - **Explanation:** Aggregate filtering over subsets is optimized in relational databases.
+
+20. **Query:** "Retrieve products and their current stock levels."
+    - **SQL:** `SELECT ProductName, StockLevel FROM Product LEFT JOIN Inventory ON Product.ProductID = Inventory.ProductID;`
+    - **Explanation:** Left joins are used to associate products with stock levels, including those out of stock.
+
+21. **Query:** "What are the last shipment dates for all orders?"
+    - **SQL:** `SELECT OrderID, MAX(ShipDate) FROM Shipment GROUP BY OrderID;`
+    - **Explanation:** Aggregating over dates benefits from optimized date operations in relational systems.
+
+22. **Query:** "Find customers who have never placed an order."
+    - **SQL:** `SELECT * FROM Customer WHERE CustomerID NOT IN (SELECT CustomerID FROM Order);`
+    - **Explanation:** Effectively uses subqueries to filter out linked records.
+
+23. **Query:** "List all employees who work under a certain manager."
+    - **SQL:** `SELECT Employee.FirstName, Employee.LastName FROM Employee JOIN Department ON Employee.Department = Department.DepartmentID WHERE Department.ManagerID = ?;`
+    - **Explanation:** Direct querying through department-manager relationships.
+
+24. **Query:** "Find duplicate email addresses in the customer list."
+    - **SQL:** `SELECT Email, COUNT(*) FROM Customer GROUP BY Email HAVING COUNT(*) > 1;`
+    - **Explanation:** GROUP BY and HAVING clauses easily identify duplicates.
+
+25. **Query:** "Which products have not been ordered yet?"
+    - **SQL:** `SELECT ProductName FROM Product WHERE ProductID NOT IN (SELECT DISTINCT ProductID FROM OrderItem);`
+    - **Explanation:** Leveraging NOT IN with subqueries to identify unlinked records.
+
+26. **Query:** "Summarize sales by year."
+    - **SQL:** `SELECT YEAR(OrderDate) AS OrderYear, SUM(TotalAmount) AS TotalSales FROM Order GROUP BY YEAR(OrderDate);`
+    - **Explanation:** Efficient date-based aggregation.
+
+27. **Query:** "Get the average stock level for products."
+    - **SQL:** `SELECT AVG(StockLevel) FROM Inventory;`
+    - **Explanation:** Directly computes aggregate metrics like averages.
+
+28. **Query:** "Find the most expensive product supplied by each supplier."
+    - **SQL:** `SELECT SupplierName, MAX(Price) FROM Product JOIN ProductSupplier ON Product.ProductID = ProductSupplier.ProductID JOIN Supplier ON ProductSupplier.SupplierID = Supplier.SupplierID GROUP BY SupplierName;`
+    - **Explanation:** Utilizes grouped maximum operations efficiently.
+
+29. **Query:** "Identify orders that have been shipped and returns the respective tracking numbers."
+    - **SQL:** `SELECT OrderID, TrackingNumber FROM Shipment WHERE TrackingNumber IS NOT NULL;`
+    - **Explanation:** Easily filters based on shipment status.
+
+30. **Query:** "Count the number of shipments per order."
+    - **SQL:** `SELECT OrderID, COUNT(ShipmentID) FROM Shipment GROUP BY OrderID;`
+    - **Explanation:** Straightforward use of counting and grouping in relational schemas.
+
+31. **Query:** "How many employees are there in each department?"
+    - **SQL:** `SELECT DepartmentName, COUNT(EmployeeID) FROM Employee JOIN Department ON Employee.Department = Department.DepartmentID GROUP BY DepartmentName;`
+    - **Explanation:** Simple aggregation and counting through structured relations.
+
+32. **Query:** "Find the earliest shipment date for any order."
+    - **SQL:** `SELECT MIN(ShipDate) FROM Shipment;`
+    - **Explanation:** Fast retrieval of extremal date values through indexing.
+
+33. **Query:** "List the suppliers who supply the most number of products."
+    - **SQL:** `SELECT SupplierName, COUNT(ProductID) FROM ProductSupplier JOIN Supplier ON ProductSupplier.SupplierID = Supplier.SupplierID GROUP BY SupplierName ORDER BY COUNT(ProductID) DESC LIMIT 1;`
+    - **Explanation:** Efficient ranking and filtering for top records using ORDER BY and LIMIT.
+
+34. **Query:** "Retrieve all distinct product names in an order."
+    - **SQL:** `SELECT DISTINCT ProductName FROM OrderItem JOIN Product ON OrderItem.ProductID = Product.ProductID WHERE OrderID = ?;`
+    - **Explanation:** Utilizes efficient DISTINCT operations to list unique items related to an order.
+
+### Summary
+These queries leverage key features of relational databases: normalized data models, indexing, integrity constraints, and optimized join/aggregate operations. They highlight why structured data with predictable relationships and constraints makes relational databases the perfect choice for efficient data retrieval and analysis.

@@ -1,0 +1,253 @@
+Certainly! Relational databases are designed to store structured data and enable efficient retrieval using structured query language (SQL). Here are 40 natural language queries along with schemas designed for efficiency in a relational database context, as well as a short summary justifying their suitability:
+
+---
+
+1. **Query**: "Retrieve the total sales amount for each product sold last month."
+   - **Schema**: 
+     - Table: `Sales` (SaleID, ProductID, Amount, SaleDate)
+     - Table: `Products` (ProductID, ProductName)
+   - **Summary**: This query involves aggregating data, which RDBMS handles well through indexes and optimized query execution paths.
+
+2. **Query**: "Find all customers who have placed more than five orders."
+   - **Schema**:
+     - Table: `Customers` (CustomerID, CustomerName)
+     - Table: `Orders` (OrderID, CustomerID, OrderDate)
+   - **Summary**: Counting and filtering operations are highly efficient in relational databases through indexes and optimized querying.
+
+3. **Query**: "List the top 10 best selling products of the year."
+   - **Schema**:
+     - Table: `Products` (ProductID, ProductName, Category)
+     - Table: `Sales` (SaleID, ProductID, Quantity, SaleDate)
+   - **Summary**: RDBMS supports complex queries like ordering and limiting results effectively.
+   
+4. **Query**: "Get the average attendance for all classes per department."
+   - **Schema**:
+     - Table: `Classes` (ClassID, DepartmentID, Attendance)
+     - Table: `Departments` (DepartmentID, DepartmentName)
+   - **Summary**: Relational databases efficiently process group-by operations with aggregation.
+
+5. **Query**: "Retrieve employee names and their respective managers."
+   - **Schema**:
+     - Table: `Employees` (EmployeeID, EmployeeName, ManagerID)
+   - **Summary**: Self-joins are efficiently handled by relational databases, making this query type fast and reliable.
+
+6. **Query**: "Find all products with no sales recorded last quarter."
+   - **Schema**:
+     - Table: `Products` (ProductID, ProductName)
+     - Table: `Sales` (SaleID, ProductID, SaleDate)
+   - **Summary**: Relational databases handle joins and subqueries effectively, crucial for queries like this involving outer joins.
+
+7. **Query**: "List all employees who did not take any leave last year."
+   - **Schema**:
+     - Table: `Employees` (EmployeeID, EmployeeName)
+     - Table: `Leaves` (LeaveID, EmployeeID, LeaveDate)
+   - **Summary**: RDBMS efficiently processes set operations and negation with indexed columns.
+
+8. **Query**: "Show the monthly revenue trends for the current year."
+   - **Schema**:
+     - Table: `Sales` (SaleID, ProductID, Amount, SaleDate)
+   - **Summary**: Temporal data management and aggregations are well optimized in relational databases.
+
+9. **Query**: "Find customers who purchased products from more than three different categories."
+   - **Schema**:
+     - Table: `Customers` (CustomerID, CustomerName)
+     - Table: `Orders` (OrderID, CustomerID)
+     - Table: `OrderDetails` (OrderID, ProductID)
+     - Table: `Products` (ProductID, CategoryID)
+   - **Summary**: RDBMS can handle complex multi-table queries efficiently using inner joins and grouping.
+
+10. **Query**: "Identify the regions with the highest network traffic last month."
+    - **Schema**:
+      - Table: `NetworkLogs` (LogID, RegionID, TrafficAmount, LogDate)
+      - Table: `Regions` (RegionID, RegionName)
+    - **Summary**: Aggregation on large datasets is rapidly processed by relational databases with proper indexing.
+
+11. **Query**: "List the stock levels for all products across all warehouses."
+    - **Schema**:
+      - Table: `Warehouses` (WarehouseID, WarehouseLocation)
+      - Table: `Products` (ProductID, ProductName)
+      - Table: `Inventory` (WarehouseID, ProductID, StockLevel)
+    - **Summary**: This query leverages relational database strengths in handling multi-column joins.
+
+12. **Query**: "Get the number of students enrolled in each course."
+    - **Schema**:
+      - Table: `Students` (StudentID, StudentName)
+      - Table: `Enrollments` (EnrollmentID, StudentID, CourseID)
+      - Table: `Courses` (CourseID, CourseName)
+    - **Summary**: Counting related records is a staple query type in RDBMS, optimized through its indexing system.
+
+13. **Query**: "Retrieve the list of overdue invoices for each client."
+    - **Schema**:
+      - Table: `Clients` (ClientID, ClientName)
+      - Table: `Invoices` (InvoiceID, ClientID, Amount, DueDate, Status)
+    - **Summary**: Relational databases excel in querying conditions, especially temporal ones.
+
+14. **Query**: "Find employees in each department who have the highest salary."
+    - **Schema**:
+      - Table: `Employees` (EmployeeID, EmployeeName, Salary, DepartmentID)
+      - Table: `Departments` (DepartmentID, DepartmentName)
+    - **Summary**: Subqueries and max functions are handled effectively in SQL optimization processes.
+
+15. **Query**: "List the suppliers who have provided products in high demand."
+    - **Schema**:
+      - Table: `Suppliers` (SupplierID, SupplierName)
+      - Table: `Products` (ProductID, SupplierID, DemandScore)
+    - **Summary**: Filtering and joining datasets are fundamental operations that relational databases are optimized for.
+
+16. **Query**: "Find all books loaned out more than twice this month from the library."
+    - **Schema**:
+      - Table: `Books` (BookID, Title)
+      - Table: `Loans` (LoanID, BookID, LoanDate)
+    - **Summary**: Aggregation and filtering within a date range are efficiently processed on indexed columns.
+
+17. **Query**: "Check the approval status of all pending loan applications."
+    - **Schema**:
+      - Table: `Applications` (ApplicationID, ApplicantID, Status)
+      - Table: `Applicants` (ApplicantID, ApplicantName)
+    - **Summary**: Use of indexes on status columns enables rapid filtering and retrieval of specific records.
+
+18. **Query**: "Retrieve the product names and total orders for products that are out of stock."
+    - **Schema**:
+      - Table: `Products` (ProductID, ProductName, StockLevel)
+      - Table: `Orders` (OrderID, ProductID)
+    - **Summary**: Efficient joining and filtering capabilities make RDBMS ideal for answering this query.
+
+19. **Query**: "Identify employees working on multiple projects and their current tasks."
+    - **Schema**:
+      - Table: `Employees` (EmployeeID, EmployeeName)
+      - Table: `Projects` (ProjectID, ProjectName)
+      - Table: `Assignments` (AssignmentID, EmployeeID, ProjectID, TaskDescription)
+    - **Summary**: Handling many-to-many relationships is a core capability in relational databases through join operations.
+
+20. **Query**: "Calculate the average order value for each customer."
+    - **Schema**:
+      - Table: `Customers` (CustomerID, CustomerName)
+      - Table: `Orders` (OrderID, CustomerID, TotalAmount)
+    - **Summary**: Average computation and group-by are quick with RDBMS when applied on properly indexed tables.
+
+21. **Query**: "List all rooms available for booking in the hotel next week."
+    - **Schema**:
+      - Table: `Rooms` (RoomID, RoomNumber, RoomType)
+      - Table: `Bookings` (BookingID, RoomID, StartDate, EndDate)
+    - **Summary**: Temporal queries like availability checks are efficiently handled with range-overlapping queries in RDBMS.
+
+22. **Query**: "Show the annual profit per region from product sales."
+    - **Schema**:
+      - Table: `Sales` (SaleID, Amount, RegionID, SaleDate)
+      - Table: `Regions` (RegionID, RegionName)
+    - **Summary**: Summation and grouping operations leverage the full strength of RDBMS optimizations.
+
+23. **Query**: "Find all teams that have won more than eight matches this season."
+    - **Schema**:
+      - Table: `Teams` (TeamID, TeamName)
+      - Table: `Matches` (MatchID, WinningTeamID, Season)
+    - **Summary**: Counting and condition-checking queries are standard for SQL, well-optimized with indexes.
+
+24. **Query**: "Get contact details of suppliers who provided more than five unique products this year."
+    - **Schema**:
+      - Table: `Suppliers` (SupplierID, ContactDetails)
+      - Table: `Products` (ProductID, SupplierID, ProductName, SupplyDate)
+    - **Summary**: Grouping and filtering on indexed attributes reduce query execution time significantly.
+
+25. **Query**: "Display today's schedule for all doctors in the hospital."
+    - **Schema**:
+      - Table: `Doctors` (DoctorID, DoctorName)
+      - Table: `Appointments` (AppointmentID, DoctorID, AppointmentDate, PatientID)
+    - **Summary**: Fixed-date filtering combined with joining are handled rapidly by relational databases.
+
+26. **Query**: "List all items currently low in stock across all store locations."
+    - **Schema**:
+      - Table: `Items` (ItemID, ItemName)
+      - Table: `Stores` (StoreID, Location)
+      - Table: `Inventory` (StoreID, ItemID, Quantity)
+    - **Summary**: Comparison filtering on indexed fields and multi-table joins are optimized in RDBMS.
+
+27. **Query**: "Find which authors have published more than ten books."
+    - **Schema**:
+      - Table: `Authors` (AuthorID, AuthorName)
+      - Table: `Books` (BookID, AuthorID, Title)
+    - **Summary**: Aggregation counts and condition filters are quickly resolved, thanks to indexing strategies.
+
+28. **Query**: "Identify training courses with the highest attendee dropout rate."
+    - **Schema**:
+      - Table: `Courses` (CourseID, CourseName)
+      - Table: `Enrollments` (EnrollmentID, CourseID, AttendeeID, Status)
+    - **Summary**: Calculating relative rates involves subtractive operations which RDBMS executes efficiently.
+
+29. **Query**: "Get the list of all flights departing today and their current status."
+    - **Schema**:
+      - Table: `Flights` (FlightID, DepartureDate, Status, AirlineID)
+      - Table: `Airlines` (AirlineID, AirlineName)
+    - **Summary**: Temporal and status queries are core competencies for RDBMS, especially on time-indexed tables.
+
+30. **Query**: "Show the list of books that haven't been returned to the library."
+    - **Schema**:
+      - Table: `Books` (BookID, Title)
+      - Table: `Loans` (LoanID, BookID, ReturnDate)
+    - **Summary**: Checking conditions on potentially NULL fields are efficiently performed using SQL queries.
+
+31. **Query**: "Identify all vehicles due for their annual checkup this month."
+    - **Schema**:
+      - Table: `Vehicles` (VehicleID, LicensePlate, LastCheckupDate)
+    - **Summary**: Date filtering becomes swift through RDBMS's indexing and period-specific optimizations.
+
+32. **Query**: "List all upcoming events on campus and their organizers."
+    - **Schema**:
+      - Table: `Events` (EventID, EventName, EventDate)
+      - Table: `Organizers` (OrganizerID, OrganizerName)
+      - Table: `EventDetails` (EventID, OrganizerID)
+    - **Summary**: Linking and filtering future-based data are efficiently performed via SQL with indexed joins.
+
+33. **Query**: "Get a list of user IDs with failed attempts at logging in over the past 48 hours."
+    - **Schema**:
+      - Table: `Users` (UserID, Username)
+      - Table: `LoginAttempts` (AttemptID, UserID, AttemptDate, Success)
+    - **Summary**: Temporal and conditional filtering is a forte of RDBMS indexed and optimized processing.
+
+34. **Query**: "Find all coworking spaces with a vacancy rate above 20%."
+    - **Schema**:
+      - Table: `Spaces` (SpaceID, Location, TotalCapacity)
+      - Table: `Occupancy` (SpaceID, OccupiedUnits)
+    - **Summary**: Evaluation of mathematical expressions using relational data is efficiently realized with SQL.
+
+35. **Query**: "Retrieve a list of alumni who graduated with honors from specific departments."
+    - **Schema**:
+      - Table: `Alumni` (AlumniID, AlumniName, GraduationYear)
+      - Table: `Departments` (DepartmentID, DepartmentName)
+      - Table: `GraduationDetails` (AlumniID, DepartmentID, Honors)
+    - **Summary**: Cross-examining multi-dimensional data is a suitable task for relational database systems.
+
+36. **Query**: "Identify users currently signed up for more than three newsletters."
+    - **Schema**:
+      - Table: `Users` (UserID, UserName)
+      - Table: `Subscriptions` (SubscriptionID, UserID, NewsletterID)
+      - Table: `Newsletters` (NewsletterID, NewsletterName)
+    - **Summary**: Counting and filtering operations based on many-to-many relationships is handled with ease.
+
+37. **Query**: "Determine the average feedback score for recent sessions in each department."
+    - **Schema**:
+      - Table: `Sessions` (SessionID, DepartmentID, SessionDate)
+      - Table: `Feedback` (FeedbackID, SessionID, Score)
+    - **Summary**: Relational databases efficiently process aggregate queries with conditions on time-series data.
+
+38. **Query**: "List products that are offered at discounts in more than two stores."
+    - **Schema**:
+      - Table: `Products` (ProductID, ProductName)
+      - Table: `Discounts` (DiscountID, ProductID, StoreID)
+    - **Summary**: RDBMS are optimized for finding and handling intersections across multiple data relationships.
+
+39. **Query**: "Find movies that are screening this week and have more than 80% seat occupancy."
+    - **Schema**:
+      - Table: `Movies` (MovieID, MovieName, ScreeningDate)
+      - Table: `Occupancy` (ScreeningID, MovieID, OccupiedSeats, TotalSeats)
+    - **Summary**: Proficient handling of subquery-based filtering with complex conditionals is an advantage in RDBMS.
+
+40. **Query**: "Retrieve customer support requests that have not been updated for over a week."
+    - **Schema**:
+      - Table: `SupportRequests` (RequestID, CustomerID, LastUpdated)
+      - Table: `Customers` (CustomerID, CustomerName)
+    - **Summary**: Temporal queries requiring stale data detection are efficiently managed in RDBMS using indexing.
+
+---
+
+Each of these queries showcases a fundamental operation or combination of operations that relational databases are specifically optimized to handle, leveraging efficient storage, indexing, and query execution plans to deliver quick and accurate results even on large and complex datasets.

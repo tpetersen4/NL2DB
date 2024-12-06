@@ -1,0 +1,89 @@
+When dealing with non-relational (NoSQL) databases, the type of queries that generally run more efficiently compared to SQL relational databases are those that involve:
+
+1. **Nested Hierarchical Data**: NoSQL databases handle nested documents and hierarchical structures natively, which can be cumbersome in SQL due to the necessity to join multiple tables.
+
+2. **Distributed Scalability**: Queries that benefit from horizontal scaling, where read and write operations are spread across many servers, which NoSQL databases handle inherently.
+
+3. **Unstructured or Semi-Structured Data**: Data that does not require a fixed schema is more suited to NoSQL, offering flexibility that relational databases with their fixed schemas struggle with.
+
+4. **Large Volume of Data**: Queries that interact with vast datasets can be optimized for NoSQL due to its ability to scale horizontally.
+
+Here are 38 complex natural language queries that illustrate these scenarios:
+
+1. Retrieve customer order histories where each order contains a nested array of products that includes attribute data like color and size.
+
+2. Aggregate the total number of page views and unique visitors for a high-traffic website across multiple distributed servers.
+
+3. Extract user interaction data across various platforms (social media, web) without a predetermined schema.
+
+4. Query for catalogs that have dynamic fields added over time as products vary significantly in attributes.
+
+5. Retrieve all user profiles with nested documents of social media posts and comments they have written, structured hierarchically.
+
+6. Generate a report on sensor data collected from IoT devices, with each device having unique sets of data points.
+
+7. Query a database storing records of DNA sequences, where each record can contain a variable number of nested gene expressions.
+
+8. Retrieve nested customer feedback documents, where each feedback contains multimedia content and its metadata.
+
+9. Extract deeply nested JSON objects containing multiple layers of configuration data for an application.
+
+10. Analyze user behavior logs capturing clickstreams with variable-length nested arrays of individual session data.
+
+11. Find all cars in a dynamically growing database where each car record can have entirely different sets of optional features.
+
+12. Query interrelated objects storing different types of locations (offices, homes) each with variable metadata and relationships.
+
+13. Retrieve a database of books where each book might have a varying number of nested authors, reviewers, and pricing attributes.
+
+14. Retrieve chat histories from a messaging app where each conversation can have different properties and media files.
+
+15. Run complex aggregation on variable-length telemetry data from a fleet of vehicles over time.
+
+16. Query product catalogs spanning categories that have entirely different sets of attributes and hierarchical relationships.
+
+17. Extract complex documents of project management files where each project may have a different set of nested task structures.
+
+18. Retrieve usage logs of cloud applications where the logs contain variable nested metadata about API calls and responses.
+
+19. Analyze datasets where each record could be a different version of an event schema in an event sourcing architecture.
+
+20. Query a website's transaction log that captures varied structures of orders depending on promotions and user-specific discounts.
+
+21. Analyze a document store of mixed media content, containing images, videos, and metadata with various levels of hierarchy.
+
+22. Retrieve user access patterns stored as nested logs with variable attributes from multiple sources.
+
+23. Fetch hierarchical knowledge graph data linking entities that have diverse and dynamic relationship structures.
+
+24. Perform multi-level aggregation on a time-series database capturing high-frequency financial tick data.
+
+25. Query a system logging heterogeneous events in a microservices architecture with each service defining its own event structure.
+
+26. Extract metadata and content from a distributed filesystem where file attributes vary widely.
+
+27. Generate user activity summaries over a distributed social media platform incorporating varied content types.
+
+28. Retrieve collections of documents in a gaming application where game states include deeply hierarchical structures.
+
+29. Retrieve analytics on unstructured ecommerce data, dynamically handling changes in product description schemas.
+
+30. Extract travel itineraries including nested location data, flights, and booking details stored without a defined schema.
+
+31. Retrieve and aggregate server logs that have been structured in varying formats as new features were added.
+
+32. Extract data from a dynamically structured database storing patient records and medical history with nested treatment plans.
+
+33. Query a distributed graph database that manages relationships and interactions between objects with dynamic changes.
+
+34. Retrieve nested documents from a virtual classroom platform with variable sets of assignments, grades, and course materials.
+
+35. Perform data mining on massive archives of scientific data, where each dataset has unique attributes and metadata.
+
+36. Analyze customer service interaction logs stored with different levels of hierarchy and nested metadata across various platforms.
+
+37. Query blockchain transactions stored as documents with complex and varying structures depending on the transaction type.
+
+38. Extract summarized insights from video streaming data that includes nested attributes for views, likes, and comments.
+
+The common characteristic of these queries is their suitability for handling nested, unstructured, and scalable data, which matches the strengths of NoSQL databases. Traditional SQL databases can struggle with these scenarios due to fixed schemas, limited support for nested or hierarchical data without complex joins, and challenges in scaling horizontally.
