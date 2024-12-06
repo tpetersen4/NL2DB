@@ -1,0 +1,120 @@
+Certainly! Relational databases are well-suited for certain types of queries due to their structured data format, use of SQL, and ability to efficiently handle complex joins and transactions. Here are 39 natural language queries that tend to run efficiently on relational databases, along with explanations of why they perform better on these systems compared to others like NoSQL databases:
+
+1. **Find all customers who made a purchase last month.**
+   - Relational databases can efficiently filter and join tables based on timestamps.
+
+2. **List all employees living in New York and earning over $100,000.**
+   - They handle complex filtering and conditions well.
+
+3. **Show the total sales by region.**
+   - Aggregation functions, such as SUM, perform efficiently with indexed tables.
+
+4. **Get the average order value for each customer.**
+   - Grouping and averaging data is optimized in relational systems.
+
+5. **Identify all products that have never been sold.**
+   - Relational databases can perform anti-joins efficiently.
+
+6. **Find duplicate entries in the user table based on email.**
+   - They can efficiently identify duplicates with GROUP BY clauses.
+
+7. **List students enrolled in more than 3 courses.**
+   - They support efficient queries on multiple many-to-many relationships.
+
+8. **Get a list of vendors who supply more than 5 products.**
+   - Relational databases handle JOIN and COUNT operations well.
+
+9. **Find the 3 most expensive items in each category.**
+   - They support window functions and complex subqueries.
+
+10. **Retrieve all orders that include a specific product.**
+    - Indexes can drastically speed up such search operations.
+
+11. **List all books published by a specific author after 2015.**
+    - They manage date comparisons efficiently.
+
+12. **Get the most recent transaction for each account.**
+    - Subqueries and ORDER BY with LIMIT are optimized.
+
+13. **Show a list of users who have never logged in.**
+    - Efficiently use of LEFT JOIN or NOT EXISTS.
+
+14. **Find common customers between two sales channels.**
+    - INTERSECT operations are faster due to inherent table structure.
+
+15. **Identify employees whose salary is below the company average.**
+    - Subqueries with aggregations are straight-forward.
+
+16. **List departments with at least 10 employees.**
+    - Indexed group counting is standard in relational databases.
+
+17. **Find the top 5 most returned products.**
+    - Perform quick calculations with aggregate functions.
+
+18. **Generate a report of monthly sales growth.**
+    - Temporal data queries are well within SQL’s capabilities.
+
+19. **Get a list of clients who haven’t placed an order in the last year.**
+    - Slow-changing dimensions are handled effectively.
+
+20. **List courses with no prerequisites.**
+    - Efficient use of anti-join logic.
+
+21. **Identify the employee with the most sales.**
+    - Ranking and aggregating can be optimized with indexes.
+
+22. **Find all flights delayed by more than an hour.**
+    - Relational databases process range queries efficiently.
+
+23. **Retrieve the number of students by course sorted by largest enrollment.**
+    - Sorting post-aggregation works well with SQL.
+
+24. **Find all shipments scheduled after a certain date.**
+    - Handling future dates and conditions is efficient.
+
+25. **List the longest-serving employees.**
+    - Calculating durations using date functions is straight-forward.
+
+26. **Retrieve all users who are friends with both Alice and Bob.**
+    - Capable of handling multiple join conditions.
+
+27. **Find customers with orders in consecutive months.**
+    - Sequence pattern recognition is handled well.
+
+28. **Identify all managers who manage more than 5 projects.**
+    - Capabilities in aggregation and filtering.
+
+29. **Get all transactions that include a discount code.**
+    - Optimize boolean-based searches.
+
+30. **List universities attended by more than 10 alumni.**
+    - Perform excellently in indexed group queries.
+
+31. **Get the count of posts by users with less than 100 followers.**
+    - Filtering post-aggregation is highly efficient.
+
+32. **Find all cars with a service record in the last month.**
+    - Efficient processing with date joins.
+
+33. **List employees who have worked in 3 different departments.**
+    - Flexibility in handling multiple roles.
+
+34. **Show orders that were delivered late.**
+    - Efficiently manage date conditions and status filters.
+
+35. **Find all branches without a single account signed up.**
+    - Use of efficient anti-joins for non-existence queries.
+
+36. **Retrieve the latest job position for each employee.**
+    - Efficient use of subqueries and partitioning.
+
+37. **List members not active in any community.**
+    - Quick handling of exclusion joins.
+
+38. **Show products with increasing sales volume month-over-month.**
+    - Handle temporal pattern queries efficiently.
+
+39. **Find sales reps with a monthly sales drop.**
+    - Utilizing SQL's window functions for trend analysis.
+
+These queries tend to run less efficiently on some NoSQL databases as they often lack the same indexing capabilities, join optimizations, and comprehensive support for SQL-based aggregation or filtering functions. SQL databases are designed to support complex queries across normalized data sets, making these types of operations more efficient on relational databases.

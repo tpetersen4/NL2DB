@@ -1,0 +1,305 @@
+Certainly! Below are 33 natural language queries that run efficiently on relational databases, each accompanied by an efficient schema and a brief explanation of why they are well-suited for relational databases. 
+
+### Query 1
+**Query:** "Show me all products in the electronics category with a price under $100."
+- **Schema:**
+  - Table: `Products`
+  - Fields: `ProductID`, `ProductName`, `Category`, `Price`
+  - Normal Form: 3NF
+- **Summary:** This query involves straightforward filtering based on multiple attributes, making it efficient due to relational indexing capabilities.
+
+### Query 2
+**Query:** "List all customers who have purchased from our store in the last month."
+- **Schema:**
+  - Table: `Customers`
+  - Fields: `CustomerID`, `FirstName`, `LastName`, `Email`
+  - Table: `Orders`
+  - Fields: `OrderID`, `CustomerID`, `OrderDate`
+  - Normal Form: 3NF
+- **Summary:** Relational databases handle joins efficiently, allowing quick identification of records meeting time-based conditions.
+
+### Query 3
+**Query:** "Retrieve the top 10 employees with the highest sales last quarter."
+- **Schema:**
+  - Table: `Employees`
+  - Fields: `EmployeeID`, `FirstName`, `LastName`, `Sales`
+  - Normal Form: 3NF
+- **Summary:** Aggregation and sorting queries, such as calculating total sales, are efficiently processed by relational systems.
+
+### Query 4
+**Query:** "What are the average, maximum, and minimum salaries in the Finance department?"
+- **Schema:**
+  - Table: `Employees`
+  - Fields: `EmployeeID`, `Name`, `Department`, `Salary`
+  - Normal Form: 3NF
+- **Summary:** Relational databases perform aggregations, like min, max, and avg, efficiently due to built-in function support.
+
+### Query 5
+**Query:** "Find all suppliers located in Germany."
+- **Schema:**
+  - Table: `Suppliers`
+  - Fields: `SupplierID`, `SupplierName`, `Country`, `ContactEmail`
+  - Normal Form: 3NF
+- **Summary:** Efficient filtering through indexing makes searches by specific attributes in relational databases exceptionally fast.
+
+### Query 6
+**Query:** "Count the total number of orders placed in the first quarter of 2023."
+- **Schema:**
+  - Table: `Orders`
+  - Fields: `OrderID`, `OrderDate`, `Quantity`
+  - Normal Form: 3NF
+- **Summary:** Counting records across specific timeframes is efficient due to relational databases' optimization engines.
+
+### Query 7
+**Query:** "List all employees who joined the company after 2020."
+- **Schema:**
+  - Table: `Employees`
+  - Fields: `EmployeeID`, `Name`, `JoinDate`
+  - Normal Form: 3NF
+- **Summary:** Simple date comparisons and filtering operations are ideal use cases for relational databases.
+
+### Query 8
+**Query:** "Display all orders along with customer names placed in January 2023."
+- **Schema:**
+  - Table: `Orders`
+  - Fields: `OrderID`, `CustomerID`, `OrderDate`
+  - Table: `Customers`
+  - Fields: `CustomerID`, `Name`
+  - Normal Form: 3NF
+- **Summary:** Relational databases efficiently handle joins and filtering to combine data from multiple related tables.
+
+### Query 9
+**Query:** "Which products have been returned at least once?"
+- **Schema:**
+  - Table: `Products`
+  - Fields: `ProductID`, `Name`
+  - Table: `Returns`
+  - Fields: `ReturnID`, `ProductID`
+  - Normal Form: 3NF
+- **Summary:** Identifying relationships (products and returns) and applying constraints are efficiently managed in relational databases.
+
+### Query 10
+**Query:** "Identify customers who bought both 'Laptop' and 'Mouse'."
+- **Schema:**
+  - Table: `Orders`
+  - Fields: `OrderID`, `CustomerID`, `ProductName`
+  - Normal Form: 3NF
+- **Summary:** Relational databases use relationship checks to handle cross-referencing differences efficiently.
+
+### Query 11
+**Query:** "List authors with more than three published books."
+- **Schema:**
+  - Table: `Authors`
+  - Fields: `AuthorID`, `Name`
+  - Table: `Books`
+  - Fields: `BookID`, `AuthorID`
+  - Normal Form: 3NF
+- **Summary:** Uses aggregation (counting books) to determine relationships (author to books) efficiently.
+
+### Query 12
+**Query:** "Find the most popular product in terms of sales."
+- **Schema:**
+  - Table: `Sales`
+  - Fields: `SaleID`, `ProductID`, `Quantity`
+  - Table: `Products`
+  - Fields: `ProductID`, `ProductName`
+  - Normal Form: 3NF
+- **Summary:** Aggregation and sorting operations are very efficient when finding max or top records in sales data.
+
+### Query 13
+**Query:** "Retrieve order details and total amounts for February 2023."
+- **Schema:**
+  - Table: `OrderDetails`
+  - Fields: `OrderDetailID`, `OrderID`, `Quantity`, `Price`
+  - Table: `Orders`
+  - Fields: `OrderID`, `OrderDate`
+  - Normal Form: 3NF
+- **Summary:** Summations and joins over defined keys excel in relational systems, optimizing calculations and relationships.
+
+### Query 14
+**Query:** "Determine which employees have not completed any projects."
+- **Schema:**
+  - Table: `Employees`
+  - Fields: `EmployeeID`, `Name`
+  - Table: `Projects`
+  - Fields: `ProjectID`, `EmployeeID`
+  - Normal Form: 3NF
+- **Summary:** Leveraging joins and negations to find non-existent relationships, i.e., employees without projects.
+
+### Query 15
+**Query:** "List all departments with exactly ten employees."
+- **Schema:**
+  - Table: `Departments`
+  - Fields: `DepartmentID`, `DepartmentName`
+  - Table: `Employees`
+  - Fields: `EmployeeID`, `DepartmentID`
+  - Normal Form: 3NF
+- **Summary:** Grouping and counting operations in SQL enable efficient checking of group sizes by defined conditions.
+
+### Query 16
+**Query:** "Which products are out of stock?"
+- **Schema:**
+  - Table: `Products`
+  - Fields: `ProductID`, `ProductName`, `Stock`
+  - Normal Form: 3NF
+- **Summary:** Simple filtering over a quantitative field excels in efficiency, such as checking stock levels.
+
+### Query 17
+**Query:** "Get the total revenue generated from all sales."
+- **Schema:**
+  - Table: `Sales`
+  - Fields: `SaleID`, `ProductID`, `Quantity`, `Price`
+  - Normal Form: 3NF
+- **Summary:** Summation and aggregation are core strengths of SQL in relational databases.
+
+### Query 18
+**Query:** "List branches that have not met their quarterly targets."
+- **Schema:**
+  - Table: `Branches`
+  - Fields: `BranchID`, `Target`, `Achieved`
+  - Normal Form: 3NF
+- **Summary:** Relational databases are efficient for filtering the constraints (achieved vs. target) and boolean evaluations.
+
+### Query 19
+**Query:** "Show all employees with anniversaries this month."
+- **Schema:**
+  - Table: `Employees`
+  - Fields: `EmployeeID`, `Name`, `JoinDate`
+  - Normal Form: 3NF
+- **Summary:** Date manipulation and filtering tasks work seamlessly, especially when indexed appropriately.
+
+### Query 20
+**Query:** "Identify all active projects and their managers."
+- **Schema:**
+  - Table: `Projects`
+  - Fields: `ProjectID`, `Name`, `Status`, `ManagerID`
+  - Table: `Managers`
+  - Fields: `ManagerID`, `Name`
+  - Normal Form: 3NF
+- **Summary:** Joins help correlate and extract necessary data across related tables efficiently.
+
+### Query 21
+**Query:** "What are the total sales figures by region?"
+- **Schema:**
+  - Table: `Sales`
+  - Fields: `SaleID`, `Region`, `Amount`
+  - Normal Form: 3NF
+- **Summary:** Grouping and summing over fields allow efficient handling via aggregate functions in SQL.
+
+### Query 22
+**Query:** "Show all open support tickets older than two weeks."
+- **Schema:**
+  - Table: `SupportTickets`
+  - Fields: `TicketID`, `OpenDate`, `Status`
+  - Normal Form: 3NF
+- **Summary:** Date comparison and status filtering are operations that capitalize on relational query efficiencies.
+
+### Query 23
+**Query:** "List all customers who have visited more than three times last year."
+- **Schema:**
+  - Table: `Visits`
+  - Fields: `VisitID`, `CustomerID`, `VisitDate`
+  - Table: `Customers`
+  - Fields: `CustomerID`, `Name`
+  - Normal Form: 3NF
+- **Summary:** Joins and aggregation (visit count) capitalize on the relational database systems ID linking and counting.
+
+### Query 24
+**Query:** "What is the total number of different items sold this year?"
+- **Schema:**
+  - Table: `Sales`
+  - Fields: `SaleID`, `ProductID`, `SaleDate`
+  - Table: `Products`
+  - Fields: `ProductID`
+  - Normal Form: 3NF
+- **Summary:** Counting distinct records through grouping and filtering is optimized in relational environments.
+
+### Query 25
+**Query:** "Identify suppliers with no shipments this quarter."
+- **Schema:**
+  - Table: `Suppliers`
+  - Fields: `SupplierID`, `Name`
+  - Table: `Shipments`
+  - Fields: `ShipmentID`, `SupplierID`, `ShipmentDate`
+  - Normal Form: 3NF
+- **Summary:** Efficiently identifies gaps by negating a relationship (suppliers without shipments).
+
+### Query 26
+**Query:** "Retrieve the list of students with full attendance."
+- **Schema:**
+  - Table: `AttendanceRecords`
+  - Fields: `RecordID`, `StudentID`, `Date`, `Present`
+  - Table: `Students`
+  - Fields: `StudentID`, `Name`
+  - Normal Form: 3NF
+- **Summary:** Data integrity with conditions across multiple entries highlights efficient processing and constraint checks.
+
+### Query 27
+**Query:** "Show all items with zero sales this financial year."
+- **Schema:**
+  - Table: `Items`
+  - Fields: `ItemID`, `ItemName`
+  - Table: `Sales`
+  - Fields: `SaleID`, `ItemID`
+  - Normal Form: 3NF
+- **Summary:** The correlation of item data with sales records aids efficient verification or identification of consumption gaps.
+
+### Query 28
+**Query:** "Find customers who registered but never made a purchase."
+- **Schema:**
+  - Table: `Customers`
+  - Fields: `CustomerID`, `Name`, `RegistrationDate`
+  - Table: `Orders`
+  - Fields: `OrderID`, `CustomerID`
+  - Normal Form: 3NF
+- **Summary:** Focuses on lack of transactional relationships which can reveal insights or opportunities.
+
+### Query 29
+**Query:** "What is the total profit generated per product?"
+- **Schema:**
+  - Table: `Sales`
+  - Fields: `SaleID`, `ProductID`, `SellingPrice`
+  - Table: `Products`
+  - Fields: `ProductID`, `CostPrice`
+  - Normal Form: 3NF
+- **Summary:** Complex calculations involving multiple fields rely on arithmetic operations and efficient indexing.
+
+### Query 30
+**Query:** "Display the complete hierarchy of managers and their team members."
+- **Schema:**
+  - Table: `Employees`
+  - Fields: `EmployeeID`, `Name`, `ManagerID`
+  - Normal Form: 3NF
+- **Summary:** Recursive relationships excel with self-joins, highlighting management hierarchies through clear keys.
+
+### Query 31
+**Query:** "Which books are published by multiple publishers?"
+- **Schema:**
+  - Table: `Books`
+  - Fields: `BookID`, `Title`
+  - Table: `BookPublishers`
+  - Fields: `BookID`, `PublisherID`
+  - Table: `Publishers`
+  - Fields: `PublisherID`, `Name`
+  - Normal Form: 3NF
+- **Summary:** Efficient in handling many-to-many relationships, where multiple entities link uniformly, highlighting adjacencies.
+
+### Query 32
+**Query:** "Find the duration employees have worked in the company."
+- **Schema:**
+  - Table: `Employees`
+  - Fields: `EmployeeID`, `Name`, `JoinDate`
+  - Normal Form: 3NF
+- **Summary:** Date arithmetic to deduce durations underscores the relational databasing strength for computed results.
+
+### Query 33
+**Query:** "Identify which marketing campaigns generated the most leads."
+- **Schema:**
+  - Table: `Campaigns`
+  - Fields: `CampaignID`, `Name`
+  - Table: `Leads`
+  - Fields: `LeadID`, `CampaignID`
+  - Normal Form: 3NF
+- **Summary:** Aggregating and sorting based on linkage between entities utilizes relational databases' optimizations.
+
+In all of the above queries, relational databases are employed effectively due to their structured way to store, query, and join data, with conditions and operations that rely on indexed fields offering optimal performance for routine business tasks.

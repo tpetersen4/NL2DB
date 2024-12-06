@@ -1,0 +1,214 @@
+Certainly! Below are 36 natural language queries suitable for relational databases, each with a short summary explaining their suitability, and an example schema for the related data in an efficient normal form (usually 3NF).
+
+1. **Query:** "Find all customers who placed an order in the last month."
+   - **Schema:** 
+     - Table: `Customers`(CustomerID, Name, Email)
+     - Table: `Orders` (OrderID, CustomerID, OrderDate)
+   - **Summary:** Relational databases can efficiently join tables like `Customers` and `Orders` to filter and query data using join operations and date ranges.
+
+2. **Query:** "List all products with their supplier names."
+   - **Schema:** 
+     - Table: `Products` (ProductID, ProductName, SupplierID)
+     - Table: `Suppliers` (SupplierID, SupplierName)
+   - **Summary:** Perfect for relational databases due to straightforward foreign key joins between `Products` and `Suppliers`.
+
+3. **Query:** "Show total sales revenue per product category."
+   - **Schema:** 
+     - Table: `Products` (ProductID, CategoryID, Price)
+     - Table: `OrderDetails` (OrderDetailID, ProductID, Quantity)
+     - Table: `Categories` (CategoryID, CategoryName)
+   - **Summary:** Aggregations on joined tables can efficiently sum revenues grouped by categories.
+
+4. **Query:** "Retrieve all employees who report directly to a specific manager."
+   - **Schema:** 
+     - Table: `Employees` (EmployeeID, Name, ManagerID)
+   - **Summary:** Hierarchical relations, such as boss-to-employee, are easily navigated with self-joins in relational databases.
+
+5. **Query:** "List all books published by a specific author after 2015."
+   - **Schema:** 
+     - Table: `Books` (BookID, Title, AuthorID, PublishDate)
+     - Table: `Authors` (AuthorID, Name)
+   - **Summary:** Time-based filtering combined with joins efficiently utilize relational structures.
+
+6. **Query:** "Find the average salary of employees in each department."
+   - **Schema:** 
+     - Table: `Employees` (EmployeeID, Name, Salary, DepartmentID)
+     - Table: `Departments` (DepartmentID, DepartmentName)
+   - **Summary:** Grouping and averaging data are straightforward in relational databases with table joins.
+
+7. **Query:** "List all accounts with their related transactions in the current year."
+   - **Schema:** 
+     - Table: `Accounts` (AccountID, AccountName, CustomerID)
+     - Table: `Transactions` (TransactionID, AccountID, TransactionDate, Amount)
+   - **Summary:** Filtering by date within joined tables highlights relational efficiency.
+
+8. **Query:** "Show count of students enrolled in each course."
+   - **Schema:** 
+     - Table: `Students` (StudentID, Name)
+     - Table: `Courses` (CourseID, CourseName)
+     - Table: `Enrollments` (EnrollmentID, StudentID, CourseID)
+   - **Summary:** Counting and grouping features make relational databases powerful for enrollment data.
+
+9. **Query:** "Retrieve all orders above a certain value."
+   - **Schema:** 
+     - Table: `Orders` (OrderID, CustomerID, TotalAmount)
+   - **Summary:** Simple value filtering demonstrates the SQL engine's ability to efficiently scan and return results.
+
+10. **Query:** "List members with overdue library books."
+    - **Schema:** 
+      - Table: `Members` (MemberID, Name)
+      - Table: `Loans` (LoanID, BookID, MemberID, DueDate, ReturnDate)
+    - **Summary:** Date-based querying and joins manage member and loan records effectively.
+
+11. **Query:** "Show the top 10 highest-paid employees."
+    - **Schema:** 
+      - Table: `Employees` (EmployeeID, Name, Salary)
+    - **Summary:** Sorting and limiting results highlight sorting and indexing support in relational databases.
+
+12. **Query:** "List all movies with their director's name."
+    - **Schema:** 
+      - Table: `Movies` (MovieID, Title, DirectorID)
+      - Table: `Directors` (DirectorID, Name)
+    - **Summary:** Efficient joins on foreign keys demonstrate relational advantages.
+
+13. **Query:** "Find employees with the same job title in different departments."
+    - **Schema:** 
+      - Table: `Employees` (EmployeeID, Name, JobTitle, DepartmentID)
+      - Table: `Departments` (DepartmentID, DepartmentName)
+    - **Summary:** Relational databases shine with set operations on the same attribute grouped differently.
+
+14. **Query:** "Retrieve all classes that have not met capacity."
+    - **Schema:** 
+      - Table: `Classes` (ClassID, ClassName, Capacity)
+      - Table: `Enrollments` (EnrollmentID, ClassID, StudentID)
+    - **Summary:** Querying for counts less than a declared capacity benefits from efficient counting.
+
+15. **Query:** "List events happening in the next 30 days."
+    - **Schema:** 
+      - Table: `Events` (EventID, EventName, EventDate)
+    - **Summary:** Relational databases are optimized for date arithmetic querying.
+
+16. **Query:** "Show all orders along with the total number of items."
+    - **Schema:** 
+      - Table: `Orders` (OrderID, CustomerID)
+      - Table: `OrderItems` (OrderItemID, OrderID, Quantity)
+    - **Summary:** Aggregation on joined tables efficiently resolves this query type.
+
+17. **Query:** "Retrieve supplier contact details for products under review."
+    - **Schema:** 
+      - Table: `Products` (ProductID, SupplierID, Status)
+      - Table: `Suppliers` (SupplierID, Name, ContactInfo)
+    - **Summary:** Foreign key dependencies are best handled by RDBMS for joining conditions.
+
+18. **Query:** "Display students with the highest grade in each subject."
+    - **Schema:** 
+      - Table: `Students` (StudentID, Name)
+      - Table: `Grades` (GradeID, StudentID, SubjectID, Grade)
+      - Table: `Subjects` (SubjectID, SubjectName)
+    - **Summary:** Complex SQL subqueries and aggregation make relational databases ideal for retrieving top values.
+
+19. **Query:** "List employees' annual reviews for the past year."
+    - **Schema:** 
+      - Table: `Employees` (EmployeeID, Name)
+      - Table: `Reviews` (ReviewID, EmployeeID, ReviewDate, Score)
+    - **Summary:** Temporal filtering plus relationship joins underscore the relational model's strength.
+
+20. **Query:** "Show daily sales totals for this month."
+    - **Schema:** 
+      - Table: `Sales` (SaleID, Date, Amount)
+    - **Summary:** Date grouping and summation of amounts cater directly to relational structures.
+
+21. **Query:** "Find customers without recent purchases."
+    - **Schema:** 
+      - Table: `Customers` (CustomerID, Name)
+      - Table: `Purchases` (PurchaseID, CustomerID, PurchaseDate)
+    - **Summary:** Anti-joins are efficient for detecting absentee records in RDBMS thanks to their set-theory roots.
+
+22. **Query:** "List all courses with no current enrollments."
+    - **Schema:** 
+      - Table: `Courses` (CourseID, CourseName)
+      - Table: `Enrollments` (EnrollmentID, CourseID, StudentID)
+    - **Summary:** Union and difference operations in SQL handle such queries well.
+
+23. **Query:** "Retrieve all artists with at least two artworks."
+    - **Schema:** 
+      - Table: `Artists` (ArtistID, Name)
+      - Table: `Artworks` (ArtworkID, ArtistID, Title)
+    - **Summary:** Counting operations with conditions are naturally efficient within RDBMS.
+
+24. **Query:** "Show all products that have not been ordered in the last 6 months."
+    - **Schema:** 
+      - Table: `Products` (ProductID, ProductName)
+      - Table: `OrderItems` (OrderItemID, ProductID, OrderDate)
+    - **Summary:** Supports complex joins and exclusion which are strengths of relational databases.
+
+25. **Query:** "Find departments with more than ten employees."
+    - **Schema:** 
+      - Table: `Departments` (DepartmentID, DepartmentName)
+      - Table: `Employees` (EmployeeID, DepartmentID)
+    - **Summary:** Efficient for grouping and evaluating counts within constraints.
+
+26. **Query:** "List all insurance claims above a certain amount in descending order."
+    - **Schema:** 
+      - Table: `Claims` (ClaimID, ClaimAmount, ClaimDate)
+    - **Summary:** Sorting by specific criteria while filtering by condition is a standard and optimized task in SQL.
+
+27. **Query:** "Retrieve all flights departing within two hours."
+    - **Schema:** 
+      - Table: `Flights` (FlightID, DepartureTime)
+    - **Summary:** Date and time functions in RDBMS make such queries quick.
+
+28. **Query:** "Show the latest blog post by each author."
+    - **Schema:** 
+      - Table: `Authors` (AuthorID, Name)
+      - Table: `Posts` (PostID, AuthorID, PostDate)
+    - **Summary:** Finding maximum or most recent values is an area of strength in relational databases.
+
+29. **Query:** "List projects and their overdue task counts."
+    - **Schema:** 
+      - Table: `Projects` (ProjectID, ProjectName)
+      - Table: `Tasks` (TaskID, ProjectID, DueDate, Status)
+    - **Summary:** Grouped summation illustrating due diligence timestamps to find overdues is efficient with SQL.
+
+30. **Query:** "Find active memberships expiring next month."
+    - **Schema:** 
+      - Table: `Memberships` (MembershipID, MemberID, ExpirationDate, Status)
+    - **Summary:** Temporal data management suited to date arithmetic in SQL for precision querying.
+
+31. **Query:** "List top three selling products this quarter."
+    - **Schema:** 
+      - Table: `Products` (ProductID, ProductName)
+      - Table: `Sales` (SaleID, ProductID, SaleDate, Quantity)
+    - **Summary:** Effective at leveraging partitioning and ranking features of SQL.
+
+32. **Query:** "Retrieve vehicles with maintenance scheduled today."
+    - **Schema:** 
+      - Table: `Vehicles` (VehicleID, Make)
+      - Table: `Maintenance` (MaintenanceID, VehicleID, ScheduledDate)
+    - **Summary:** Date matching operations make relational databases well-suited for scheduling queries.
+
+33. **Query:** "Find suppliers supplying more than three products."
+    - **Schema:** 
+      - Table: `Suppliers` (SupplierID, Name)
+      - Table: `Products` (ProductID, SupplierID)
+    - **Summary:** Summing counts with conditions efficiently utilizes aggregate functions.
+
+34. **Query:** "Show all students not enrolled in physics."
+    - **Schema:** 
+      - Table: `Students` (StudentID, Name)
+      - Table: `Enrollments` (EnrollmentID, StudentID, CourseID)
+      - Table: `Courses` (CourseID, CourseName)
+    - **Summary:** Anti-join operations naturally extend to efficiently exclude specific records.
+
+35. **Query:** "List all employees hired in the past year."
+    - **Schema:** 
+      - Table: `Employees` (EmployeeID, Name, HireDate)
+    - **Summary:** Leveraging filtering on hire date fields demonstrates relational database strengths.
+
+36. **Query:** "Find all active accounts without recent transactions."
+    - **Schema:** 
+      - Table: `Accounts` (AccountID, CustomerID, Status)
+      - Table: `Transactions` (TransactionID, AccountID, TransactionDate)
+    - **Summary:** Efficient for solving variations of "recent activity" detection, with indexing often aiding larger datasets.
+
+Relational databases are well-suited for these kinds of queries due to their inherent focus on structured data and relationships between tables. By employing normalized schemas, databases reduce redundancy while maintaining data integrity—allowing efficient data retrieval. Aggregations, filtering, and joins are powerful operations that relational database management systems handle effectively, underpinning their dominance for transactional and analytical workloads in various applications.

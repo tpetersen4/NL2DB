@@ -1,0 +1,126 @@
+Relational databases, such as MySQL, PostgreSQL, and Oracle, are optimized for specific types of queries due to their structured nature and use of SQL (Structured Query Language). Here are 37 natural language queries that tend to run efficiently on relational databases but might not be as efficient on other types of databases, such as NoSQL databases, due to differences in data structure, indexing, and querying capabilities.
+
+1. **"List all customers who have placed an order in the last month."**
+   - Relational databases handle join operations efficiently, especially when tables are indexed.
+
+2. **"Find total sales for each product category."**
+   - Aggregation queries with GROUP BY clauses are highly optimized in relational databases.
+
+3. **"Retrieve the customer name and total order amount where order value is greater than $500."**
+   - Relational databases excel at filtering and aggregating data across related tables.
+
+4. **"Get the list of employees who work in the marketing department."**
+   - Well-suited for relational databases with properly indexed foreign key relationships.
+
+5. **"Count the number of products in each inventory location."**
+   - Efficient handling of COUNT and GROUP BY operations with indexing.
+
+6. **"Show the top 10 products by sales volume this year."**
+   - Use of ranking functions and efficient sorting in SQL can optimize this query.
+
+7. **"Find all orders that have not been shipped yet."**
+   - Easy to perform conditional logic with standard SQL WHERE clauses.
+
+8. **"List all unique suppliers and their contact information."**
+   - Fast deduplication and retrieval of records with DISTINCT keyword.
+
+9. **"Retrieve all overdue invoices and their corresponding customer information."**
+   - Effective at combining data from multiple tables using JOINs.
+
+10. **"Display employees ordered by hire date."**
+    - SQL provides excellent support for ordering results with ORDER BY.
+
+11. **"Which products have a stock level below 10?"**
+    - Simple conditions evaluated efficiently due to indexing capabilities.
+
+12. **"Calculate average salary by department."**
+    - Uses aggregate functions and grouping that are optimized in SQL.
+
+13. **"Get all customers who have not made a purchase in the last year."**
+    - Complex subquery handling and joining work well in relational systems.
+
+14. **"Summarize total revenue by quarter for this fiscal year."**
+    - Relational databases handle date and time functions effectively.
+
+15. **"Identify all employees with a specific skill set."**
+    - Relational databases utilize join and filter capabilities efficiently.
+
+16. **"List all books authored by a specific writer published after 2010."**
+    - Complex filtering and join operations are optimized in SQL.
+
+17. **"Retrieve a list of all active projects and their assigned teams."**
+    - Efficient querying due to relational model's support for complex relationships.
+
+18. **"Show customer order history for those who spent more than $1,000."**
+    - Aggregation and filtering of transactional data are strengths of relational databases.
+
+19. **"Find all employees eligible for a promotion based on tenure and performance."**
+    - Capable of balancing complex querying logic, benefiting from structured SQL.
+
+20. **"Display the list of top-performing sales representatives."**
+    - Strong support for analytical queries with ranking functions in relational databases.
+
+21. **"Get all accounts that have been inactive for over a year."**
+    - Perfect for efficiently checking conditions across potentially large datasets.
+
+22. **"Show the distribution of order amounts using percentiles."**
+    - SQL can efficiently handle statistical operations using analytical functions.
+
+23. **"List the names of customers who ordered the most popular product."**
+    - Relational systems can manage subqueries and joins effectively for this use case.
+
+24. **"Which departments have the highest number of employees?"**
+    - Aggregation and grouping queries perform well in SQL.
+
+25. **"Find products with a discount greater than 20% and available in stock."**
+    - Optimized filtering capabilities make this suitable for relational databases.
+
+26. **"Generate a report of monthly expenses broken down by category."**
+    - Strong support for both aggregation and complex report generation.
+
+27. **"Retrieve orders shipped later than the estimated delivery date."**
+    - Ability to handle complex date calculations efficiently using SQL.
+
+28. **"Show the list of regions with the most sales in the last quarter."**
+    - Relational databases manage summarizations and ordering well.
+
+29. **"Identify top 5 city locations where most services are scheduled."**
+    - SQL provides good performance on ranking and counting operations.
+
+30. **"List all products that have had a price increase this year."**
+    - Efficient comparison and historical data operations in relational databases.
+
+31. **"What are the average ratings of products by customer demographic groups?"**
+    - SQL supports complex grouping and averaging with ease.
+
+32. **"Display inventory items with stock levels reviewed by last.Inventory check date."**
+    - Scheduling and ordering capabilities in SQL enhance this query's performance.
+
+33. **"List transactions within specific financial guidelines and regulatory criteria."**
+    - Flexible to handle extensive filtering criteria efficiently.
+
+34. **"Which users logged in more than ten times last month?"**
+    - Well-suited for counting and filtering over sequential data.
+
+35. **"Generate personnel turnover rate by department for the recent year."**
+    - Detailed analytical and summarization operations are efficient in SQL.
+
+36. **"Retrieve the detailed orders for the customers ranked among the top ten spenders."**
+    - Efficient handling of complex joins and subqueries in SQL.
+
+37. **"List all discontinued products and their last purchase statistics."**
+    - SQL efficiently processes historical data combined with condition checks.
+
+### Why Relational Databases Are Suitable:
+
+1. **Structured Data**: Relational databases are designed for well-defined and structured data, making them ideal for queries that involve complex relationships and integrity constraints.
+   
+2. **Optimized Query Language (SQL)**: SQL offers robust capabilities for joining, filtering, grouping, and aggregating data, which aligns perfectly with the above queries.
+   
+3. **Indexing**: Relational databases support comprehensive indexing, which drastically accelerates the retrieval processes involved in these types of queries.
+   
+4. **Transactionality**: ACID (Atomicity, Consistency, Isolation, Durability) properties ensure reliable and predictable query results, which are essential for financial and critical data queries.
+   
+5. **Complex Query Support**: Relational databases efficiently evaluate complex queries, utilizing techniques like query optimization plans that aren’t available in the same capacity in all non-relational databases.
+
+In contrast, NoSQL databases often sacrifice some of these features for scalability and flexibility, sometimes leading to less efficient querying for the types of tasks mentioned above, which leverage the relational data model's strengths.

@@ -1,0 +1,111 @@
+When considering natural language queries that run efficiently on relational databases but may not be as efficient on other types of databases (e.g., NoSQL databases), it's important to leverage the inherent strengths of relational databases like structured data, standard query language (SQL), and ACID compliance. Here are 36 such queries along with explanations:
+
+1. **Find all customers who purchased product X in the last 30 days.**
+   - **Reason:** Relational databases excel in handling structured data with relational integrity, making it easier to perform complex joins and filter based on time constraints.
+
+2. **List all employees with their respective department and department head.**
+   - **Reason:** The ability to perform joins and subqueries efficiently is a hallmark of relational databases where relationships between tables are explicitly defined.
+
+3. **Generate a monthly sales report grouped by region.**
+   - **Reason:** Aggregation functions like `GROUP BY` are standard SQL operations that are optimized in relational databases.
+
+4. **Retrieve the top 5 selling products for the previous quarter.**
+   - **Reason:** Relational databases support complex queries with ordering and limits efficiently.
+
+5. **Find all orders where the order total exceeds the average order total.**
+   - **Reason:** Relational databases efficiently handle aggregate functions and subqueries to compute averages and compare them with other data.
+
+6. **List suppliers with an overall product rating above 4.5.**
+   - **Reason:** Utilizes relational joins and filtering which are natively handled well by SQL in relational databases.
+
+7. **Identify customers who haven’t ordered in the last year.**
+   - **Reason:** Databases like SQL rely on index scans and subqueries to efficiently identify non-matches.
+
+8. **Calculate the year-over-year sales growth for each product category.**
+   - **Reason:** Relational databases can efficiently handle complex calculations and comparisons over time series data.
+
+9. **Retrieve all students with their respective courses and grades.**
+   - **Reason:** Exploitation of foreign key relationships and joins optimizes performance in relational databases.
+
+10. **Find duplicate entries in the email column of the contacts table.**
+    - **Reason:** SQL’s duplicate finding using `GROUP BY` and `HAVING` clauses is efficient.
+
+11. **Determine the customer with the most number of orders this year.**
+    - **Reason:** Relational databases are adept at aggregation and ranking using `COUNT()` and `ORDER BY`.
+
+12. **Fetch products that are currently out of stock.**
+    - **Reason:** Relational databases use indexing to quickly access status flags in tables.
+
+13. **List employees who report directly to a manager named 'John Doe'.**
+    - **Reason:** Hierarchical relationships are handled well with self-joins and foreign keys.
+
+14. **Who are the new vendors added in the last three months?**
+    - **Reason:** Date comparisons and queries are optimized in relational databases.
+
+15. **Identify all cities having more than 10,000 registered users.**
+    - **Reason:** SQL aggregation and filtering operations are optimal for this structure.
+
+16. **Generate a list of all invoices along with their payment status.**
+    - **Reason:** Complex joins for combining invoice and payment tables are efficiently processed.
+
+17. **What are the most common issues reported in support tickets?**
+    - **Reason:** Text categorization using frequency counts can be efficiently queried in structured tables.
+
+18. **Determine the total revenue generated from each product category.**
+    - **Reason:** Relational databases excel in aggregating and grouping operations.
+
+19. **List overdue tasks from all active projects.**
+    - **Reason:** SQL’s handling of multiple conditions across joined tables is efficient.
+
+20. **Fetch all reviews for a specific product with ratings greater than 4.**
+    - **Reason:** Filtered queries using well-indexed tables are processed quickly.
+
+21. **Identify the projects with deadlines within the next week.**
+    - **Reason:** Date-based filtering is natively supported and optimized.
+
+22. **Show the hierarchy of all employees in a department.**
+    - **Reason:** Recursive queries (CTEs) are well-optimized in relational databases.
+
+23. **Select all items in inventory tagged as perishable.**
+    - **Reason:** Boolean filtering is natively efficient in structured data format.
+
+24. **List the number of employees in each department with a graphical representation.**
+    - **Reason:** Aggregation and count queries are easily manageable in SQL.
+
+25. **Find the average order size per customer.**
+    - **Reason:** Relational databases efficiently handle averages through grouped calculations.
+
+26. **Identify the last purchase date for every active customer.**
+    - **Reason:** Relational databases are effective at retrieving latest records using `MAX()` functions.
+
+27. **Generate a list of all active subscriptions and their renewal dates.**
+    - **Reason:** Combining current status with future dates via filtering is straightforward in SQL.
+
+28. **List products that have never been sold.**
+    - **Reason:** Absence-based queries are efficiently processed via joins and anti-joins.
+
+29. **Compute the utilization rate of a resource across all projects.**
+    - **Reason:** Relational models manage computational operations over collected data effectively.
+
+30. **Explore budget allocations for each department over the last fiscal year.**
+    - **Reason:** SQL’s aggregate and analytical functions handle such historical queries well.
+
+31. **Identify relationships between authors and books they've published.**
+    - **Reason:** Relational databases' strength in managing many-to-many relationships is beneficial for this query.
+
+32. **Fetch user profiles having no linked social media accounts.**
+    - **Reason:** Anti-join operations are efficiently handled in the structured environment of relational databases.
+
+33. **Provide a count of users by gender and age group.**
+    - **Reason:** Aggregation functions on multiple groupings are strengths of relational systems.
+
+34. **Show all transactions that were part of a promotional campaign.**
+    - **Reason:** Explicit relationships and filters are efficiently executed with well-prepared datasets.
+
+35. **Find all students who have not submitted their final project.**
+    - **Reason:** Addressing null or missing entries through joins is a native feature of SQL optimization.
+
+36. **Identify which movies have ratings below a certain threshold in all reviews.**
+    - **Reason:** Relational databases leverage joins and subqueries to effectively compare across datasets.
+
+In essence, relational databases, with their structured schema, ACID properties, and optimized SQL engine, are highly efficient for queries involving complex joins, aggregations, and structured filtering. NoSQL databases, with their emphasis on scalability and flexibility over structured querying, often lack the optimization for such operations in comparison.

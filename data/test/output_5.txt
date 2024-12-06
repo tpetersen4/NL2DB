@@ -1,0 +1,360 @@
+Sure, here are 65 natural language queries, along with efficient data schemas in normal form and a brief explanation of why each query is best suited for a relational database:
+
+1. **Query**: "Find all employees with a salary greater than $50,000."
+   - **Schema**: 
+     - `Employees(EmployeeID, Name, Salary, DepartmentID)`
+   - **Summary**: Relational databases are excellent for handling structured data with clear relationships and constraints, allowing for efficient filtering using SQL queries.
+
+2. **Query**: "List all products in the 'Electronics' category."
+   - **Schema**: 
+     - `Products(ProductID, Name, CategoryID)`
+     - `Categories(CategoryID, CategoryName)`
+   - **Summary**: The relational model makes it easy to join tables and query hierarchical data efficiently.
+
+3. **Query**: "Retrieve all orders placed in the last 30 days."
+   - **Schema**: 
+     - `Orders(OrderID, CustomerID, OrderDate)`
+   - **Summary**: Relational databases support temporal queries efficiently, especially with indexed date fields.
+
+4. **Query**: "Get the total sales for each product."
+   - **Schema**: 
+     - `Sales(SaleID, ProductID, Quantity, Price)`
+   - **Summary**: Aggregation queries are fast and reliable in relational databases due to optimized indexing strategies.
+
+5. **Query**: "Find customers who have not placed any orders."
+   - **Schema**: 
+     - `Customers(CustomerID, Name)`
+     - `Orders(OrderID, CustomerID)`
+   - **Summary**: The relational model supports complex queries involving joins and subqueries.
+
+6. **Query**: "List all students who are enrolled in 'Calculus 101'."
+   - **Schema**: 
+     - `Students(StudentID, Name)`
+     - `Enrollments(StudentID, CourseID)`
+     - `Courses(CourseID, CourseName)`
+   - **Summary**: Relational databases allow for efficient querying across multiple related tables.
+
+7. **Query**: "Find the authors who have written more than one book."
+   - **Schema**: 
+     - `Authors(AuthorID, Name)`
+     - `Books(BookID, AuthorID)`
+   - **Summary**: The relational model excels at querying data with many-to-one relationships.
+
+8. **Query**: "Retrieve the most recent transaction for each account."
+   - **Schema**: 
+     - `Transactions(TransactionID, AccountID, TransactionDate)`
+   - **Summary**: Indexed queries on relational databases make retrieving ordered data efficient.
+
+9. **Query**: "List all departments with more than 10 employees."
+   - **Schema**: 
+     - `Departments(DepartmentID, DepartmentName)`
+     - `Employees(EmployeeID, DepartmentID)`
+   - **Summary**: Aggregated queries are highly optimized in relational databases.
+
+10. **Query**: "Find all suppliers located in 'New York'."
+    - **Schema**: 
+      - `Suppliers(SupplierID, Name, Location)`
+    - **Summary**: Relational databases accommodate indexed filtering, making location-based queries fast.
+
+11. **Query**: "Get the average salary for each department."
+    - **Schema**: 
+      - `Employees(EmployeeID, Salary, DepartmentID)`
+    - **Summary**: Relational databases efficiently handle grouped aggregation queries.
+
+12. **Query**: "List all books published by 'Penguin Random House'."
+    - **Schema**: 
+      - `Books(BookID, Title, PublisherID)`
+      - `Publishers(PublisherID, Name)`
+    - **Summary**: Querying across normalized tables allows for efficient retrieval and filtering by attributes.
+
+13. **Query**: "Retrieve all overdue library books."
+    - **Schema**: 
+      - `BorrowedBooks(BookID, DueDate)`
+    - **Summary**: Relational databases support efficient querying of date-based conditions with indexing.
+
+14. **Query**: "Find all projects with a budget exceeding $1 million."
+    - **Schema**: 
+      - `Projects(ProjectID, Name, Budget)`
+    - **Summary**: Filtering on numerical fields is highly efficient with indexing in relational databases.
+
+15. **Query**: "List all employees who have not been assigned to a project."
+    - **Schema**: 
+      - `Employees(EmployeeID, Name)`
+      - `ProjectAssignments(ProjectID, EmployeeID)`
+    - **Summary**: The relational model allows efficient querying of non-existent relationships with outer joins.
+
+16. **Query**: "Find customers who purchased both 'Product A' and 'Product B'."
+    - **Schema**: 
+      - `Orders(OrderID, CustomerID)`
+      - `OrderDetails(OrderID, ProductID)`
+    - **Summary**: Complex set operations are easily handled by relational databases through subqueries and joins.
+
+17. **Query**: "Get a list of all countries where the company has clients."
+    - **Schema**: 
+      - `Clients(ClientID, Country)`
+    - **Summary**: Relational databases efficiently deduplicate values using grouping or distinct operations.
+
+18. **Query**: "Retrieve the top 5 best-selling products."
+    - **Schema**: 
+      - `Sales(SaleID, ProductID, Quantity)`
+    - **Summary**: Sorting and limiting queries benefit from relational databases' indexing and query optimization.
+
+19. **Query**: "List all instructors who do not teach 'History'."
+    - **Schema**: 
+      - `Instructors(InstructorID, Name)`
+      - `CourseAssignments(InstructorID, CourseID)`
+      - `Courses(CourseID, CourseName)`
+    - **Summary**: The relational model supports flexible querying for exclusion conditions efficiently.
+
+20. **Query**: "Find all employees who were hired in the last year."
+    - **Schema**: 
+      - `Employees(EmployeeID, HireDate)`
+    - **Summary**: Date range queries are highly performant with relational databases due to indexing.
+
+21. **Query**: "Get the total number of products supplied by each supplier."
+    - **Schema**: 
+      - `Products(ProductID, SupplierID)`
+    - **Summary**: Group by and aggregation operations are optimized in relational databases.
+
+22. **Query**: "List all customers who have ordered more than 5 times."
+    - **Schema**: 
+      - `Orders(OrderID, CustomerID)`
+    - **Summary**: Relational databases handle counting and filtering effectively with optimized query plans.
+
+23. **Query**: "Retrieve names of all patients with appointments next week."
+    - **Schema**: 
+      - `Patients(PatientID, Name)`
+      - `Appointments(AppointmentID, PatientID, AppointmentDate)`
+    - **Summary**: Temporal queries, especially on indexed fields, are efficient in relational databases.
+
+24. **Query**: "Find all cars rented more than 3 times last month."
+    - **Schema**: 
+      - `Rentals(RentalID, CarID, RentalDate)`
+    - **Summary**: Relational databases handle complex temporal and aggregative queries efficiently.
+
+25. **Query**: "Get the list of all movies directed by 'Steven Spielberg'."
+    - **Schema**: 
+      - `Movies(MovieID, Title, DirectorID)`
+      - `Directors(DirectorID, Name)`
+    - **Summary**: Schema normalization allows for efficient querying of hierarchical data structures.
+
+26. **Query**: "List all cities with branches of the bank."
+    - **Schema**: 
+      - `Branches(BranchID, City)`
+    - **Summary**: Unique listing queries are straightforward in relational databases using distinct or group by.
+
+27. **Query**: "Find all students who have not submitted their assignments."
+    - **Schema**: 
+      - `Students(StudentID, Name)`
+      - `Assignments(AssignmentID, StudentID, Submitted)`
+    - **Summary**: Relational databases efficiently handle conditional querying and set operations.
+
+28. **Query**: "Get all flights departing from 'JFK' airport today."
+    - **Schema**: 
+      - `Flights(FlightID, DepartureAirport, DepartureDate)`
+    - **Summary**: Filtering and querying based on indexed fields are optimal in relational databases.
+
+29. **Query**: "List all volunteers who participated in the 'Clean City' campaign."
+    - **Schema**: 
+      - `Volunteers(VolunteerID, Name)`
+      - `CampaignParticipation(VolunteerID, CampaignID)`
+      - `Campaigns(CampaignID, CampaignName)`
+    - **Summary**: Relational databases effectively handle multi-table queries with joins.
+
+30. **Query**: "Find all projects that start next month."
+    - **Schema**: 
+      - `Projects(ProjectID, Name, StartDate)`
+    - **Summary**: Date-based queries are efficient with relational databases due to indexing.
+
+31. **Query**: "Retrieve all courses with at least 20 students enrolled."
+    - **Schema**: 
+      - `Courses(CourseID, CourseName)`
+      - `Enrollments(StudentID, CourseID)`
+    - **Summary**: Aggregation queries are optimal in relational databases due to indexing and optimized execution plans.
+
+32. **Query**: "Get all books checked out more than 5 times last year."
+    - **Schema**: 
+      - `Checkouts(CheckoutID, BookID, CheckoutDate)`
+    - **Summary**: Temporal aggregation queries are efficiently handled by relational databases.
+
+33. **Query**: "List all musicians who have released an album in the last decade."
+    - **Schema**: 
+      - `Musicians(MusicianID, Name)`
+      - `Albums(AlbumID, MusicianID, ReleaseYear)`
+    - **Summary**: Relational databases support efficient querying of historical data with appropriate indexing.
+
+34. **Query**: "Find all users who logged in at least once this week."
+    - **Schema**: 
+      - `Users(UserID, Name)`
+      - `LoginRecords(UserID, LoginDate)`
+    - **Summary**: Relational databases efficiently handle historical and temporal queries with indexed fields.
+
+35. **Query**: "Get all articles published by 'Tech Journal'."
+    - **Schema**: 
+      - `Articles(ArticleID, Title, JournalID)`
+      - `Journals(JournalID, Name)`
+    - **Summary**: Relational databases are ideal for joining normalized tables to retrieve specific information.
+
+36. **Query**: "Retrieve all entries with a rating higher than 4.5."
+    - **Schema**: 
+      - `Entries(EntryID, Title, Rating)`
+    - **Summary**: Filtering on indexed fields is optimal in relational databases, providing fast access.
+
+37. **Query**: "List all teachers who do not have a class this semester."
+    - **Schema**: 
+      - `Teachers(TeacherID, Name)`
+      - `ClassAssignments(TeacherID, SemesterID)`
+      - `Semesters(SemesterID, SemesterName)`
+    - **Summary**: Efficient handling of non-existent relationships is a strength of relational databases.
+
+38. **Query**: "Find all vehicles serviced more than twice this year."
+    - **Schema**: 
+      - `ServiceRecords(ServiceID, VehicleID, ServiceDate)`
+    - **Summary**: Aggregative and temporal queries are well-suited to relational databases with proper indexing.
+
+39. **Query**: "Get a list of all customers who bought 'Item X' and 'Item Y'."
+    - **Schema**: 
+      - `Orders(OrderID, CustomerID)`
+      - `OrderDetails(OrderID, ProductID)`
+    - **Summary**: Complex set operations and joins are efficiently handled by relational databases.
+
+40. **Query**: "List all countries where the product is available."
+    - **Schema**: 
+      - `ProductAvailability(ProductID, Country)`
+    - **Summary**: Deduplication and filtering operations are straightforward in relational databases.
+
+41. **Query**: "Retrieve all active subscriptions for 'Service A'."
+    - **Schema**: 
+      - `Subscriptions(SubscriptionID, ServiceID, IsActive)`
+    - **Summary**: Filtering based on boolean attributes is efficiently handled in relational databases.
+
+42. **Query**: "Find all students who received a grade 'A'."
+    - **Schema**: 
+      - `Grades(GradeID, StudentID, Grade)`
+    - **Summary**: Efficient filtering operations are a key advantage of relational databases.
+
+43. **Query**: "Get the total hours worked by each employee last month."
+    - **Schema**: 
+      - `TimeSheet(EmployeeID, WorkDate, HoursWorked)`
+    - **Summary**: Relational databases handle aggregation queries effectively with optimized plans.
+
+44. **Query**: "List all authors who have written for more than 3 different journals."
+    - **Schema**: 
+      - `Authors(AuthorID, Name)`
+      - `ArticleContributions(AuthorID, JournalID)`
+    - **Summary**: Complex aggregation queries are efficiently handled by relational databases.
+
+45. **Query**: "Find all conferences held in 'San Francisco'."
+    - **Schema**: 
+      - `Conferences(ConferenceID, Location)`
+    - **Summary**: Location-based filtering is optimal with relational databases and indexing.
+
+46. **Query**: "Retrieve all alumni who graduated in the last five years."
+    - **Schema**: 
+      - `Alumni(AlumniID, GraduationYear)`
+    - **Summary**: Temporal queries are efficient due to relational databases' indexing capabilities.
+
+47. **Query**: "List all employees who have not taken any leave this year."
+    - **Schema**: 
+      - `Employees(EmployeeID, Name)`
+      - `Leaves(EmployeeID, LeaveDate)`
+    - **Summary**: Handling non-existent relationships through joins is efficient in relational databases.
+
+48. **Query**: "Find all items with a stock count below 10."
+    - **Schema**: 
+      - `Inventory(ItemID, StockCount)`
+    - **Summary**: Filtering on numeric fields is optimal in relational databases due to indexing.
+
+49. **Query**: "Get the list of all donors who contributed last year."
+    - **Schema**: 
+      - `Donations(DonationID, DonorID, DonationDate)`
+    - **Summary**: Temporal queries are efficiently supported by relational databases with indexed fields.
+
+50. **Query**: "List all employees in the 'Engineering' department."
+    - **Schema**: 
+      - `Employees(EmployeeID, Name, DepartmentID)`
+      - `Departments(DepartmentID, DepartmentName)`
+    - **Summary**: Relational databases excel at handling hierarchical relationships and filtering.
+
+51. **Query**: "Retrieve all books by authors who have won a Nobel Prize."
+    - **Schema**: 
+      - `Authors(AuthorID, Name, NobelPrizeWinner)`
+      - `Books(BookID, AuthorID)`
+    - **Summary**: Relational databases effectively handle querying based on complex criteria and joins.
+
+52. **Query**: "Find all flights arriving in 'Los Angeles' today."
+    - **Schema**: 
+      - `Flights(FlightID, ArrivalAirport, ArrivalDate)`
+    - **Summary**: Relational databases support efficient querying on indexed fields.
+
+53. **Query**: "Get all artists who have works in the 'Modern Art' category."
+    - **Schema**: 
+      - `Artists(ArtistID, Name)`
+      - `ArtCategories(ArtistID, CategoryID)`
+      - `Categories(CategoryID, CategoryName)`
+    - **Summary**: The relational model supports querying across multiple related tables efficiently.
+
+54. **Query**: "List all users with more than 3 failed login attempts."
+    - **Schema**: 
+      - `LoginAttempts(UserID, AttemptDate, Success)`
+    - **Summary**: Relational databases handle aggregation and filtering effectively with indexed fields.
+
+55. **Query**: "Find all classes held in room '101'."
+    - **Schema**: 
+      - `Classes(ClassID, RoomNumber)`
+    - **Summary**: Filtering is efficient in relational databases due to indexing and optimized execution plans.
+
+56. **Query**: "Retrieve all customers with overdue payments."
+    - **Schema**: 
+      - `Payments(PaymentID, CustomerID, DueDate, Status)`
+    - **Summary**: Temporal and status-based filtering are optimal in relational databases.
+
+57. **Query**: "List all transactions above $10,000."
+    - **Schema**: 
+      - `Transactions(TransactionID, Amount)`
+    - **Summary**: Numeric filtering is highly efficient in relational databases due to indexing.
+
+58. **Query**: "Find all employees who joined before 2010."
+    - **Schema**: 
+      - `Employees(EmployeeID, JoinDate)`
+    - **Summary**: Temporal queries are efficiently handled by relational databases with indexed fields.
+
+59. **Query**: "Get a list of all active members in the club."
+    - **Schema**: 
+      - `Members(MemberID, IsActive)`
+    - **Summary**: Relational databases handle boolean filtering effectively, especially with indexing.
+
+60. **Query**: "List all doctors specializing in 'Pediatrics'."
+    - **Schema**: 
+      - `Doctors(DoctorID, Name, Specialty)`
+    - **Summary**: Filtering by categorical attributes is optimal in relational databases due to indexing.
+
+61. **Query**: "Retrieve all open tickets in the 'Technical Support' category."
+    - **Schema**: 
+      - `Tickets(TicketID, CategoryID, Status)`
+      - `Categories(CategoryID, CategoryName)`
+    - **Summary**: Relational databases efficiently handle filtering based on status and categories.
+
+62. **Query**: "Find all employees who have completed more than 5 training sessions."
+    - **Schema**: 
+      - `TrainingSessions(EmployeeID, SessionID)`
+    - **Summary**: Relational databases excel in aggregation queries with optimized execution plans.
+
+63. **Query**: "Get all suppliers who have not made any deliveries this month."
+    - **Schema**: 
+      - `Suppliers(SupplierID, Name)`
+      - `Deliveries(SupplierID, DeliveryDate)`
+    - **Summary**: Handling non-existent relationships is efficiently managed using relational databases.
+
+64. **Query**: "List all items on sale in 'Store 1'."
+    - **Schema**: 
+      - `Sales(StoreID, ItemID, IsOnSale)`
+    - **Summary**: Relational databases efficiently handle filtering operations with indexing.
+
+65. **Query**: "Retrieve all courses with exams scheduled next week."
+    - **Schema**: 
+      - `Courses(CourseID, CourseName)`
+      - `Exams(ExamID, CourseID, ExamDate)`
+    - **Summary**: Temporal queries are highly efficient due to the relational database's indexing capabilities.
+
+In summary, relational databases are designed to handle structured data efficiently, especially when it involves complex querying with filtering, joining, aggregation, and temporal conditions. The use of indexing, normalization, and optimized SQL execution makes them particularly well-suited for these types of data interactions.

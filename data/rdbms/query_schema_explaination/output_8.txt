@@ -1,0 +1,198 @@
+Here are 32 natural language queries suitable for running on a relational database, along with explanations for their suitability and example schemas in the third normal form (3NF) where possible.
+
+### Queries and Schemas:
+
+1. **Query:** "Retrieve all customers who signed up in the last 30 days."
+   - **Summary:** Relational databases excel at performing efficient date comparisons and filtering.
+   - **Schema:** 
+     - **Customers:** (CustomerID, Name, Email, SignupDate)
+
+2. **Query:** "List all products with inventory below the reorder level."
+   - **Summary:** Relational databases are ideal for comparing numeric fields and aggregating data.
+   - **Schema:** 
+     - **Products:** (ProductID, Name, InventoryLevel, ReorderLevel)
+
+3. **Query:** "Find the top 10 employees with the highest sales this quarter."
+   - **Summary:** Aggregation and sorting are highly efficient operations in a relational database.
+   - **Schema:** 
+     - **Employees:** (EmployeeID, Name, DepartmentID)
+     - **Sales:** (SaleID, EmployeeID, Amount, SaleDate)
+     - **Departments:** (DepartmentID, Name)
+
+4. **Query:** "Show the order history for a specific customer."
+   - **Summary:** Joining multiple tables to retrieve comprehensive related records is efficient.
+   - **Schema:** 
+     - **Orders:** (OrderID, CustomerID, OrderDate)
+     - **OrderDetails:** (OrderDetailID, OrderID, ProductID, Quantity)
+
+5. **Query:** "Which suppliers provide products that we have never reordered?"
+   - **Summary:** Subqueries and set operations are efficiently handled in relational systems.
+   - **Schema:** 
+     - **Suppliers:** (SupplierID, Name)
+     - **Products:** (ProductID, Name, SupplierID)
+     - **Reorders:** (ReorderID, ProductID, ReorderDate)
+
+6. **Query:** "Get a report of monthly revenue growth."
+   - **Summary:** Relational databases handle time-series data and calculations well.
+   - **Schema:** 
+     - **Transactions:** (TransactionID, Amount, TransactionDate)
+
+7. **Query:** "Identify the departments with the highest employee turnover rate."
+   - **Summary:** Analyzing and summarizing data across various entities is efficient.
+   - **Schema:** 
+     - **Employees:** (EmployeeID, Name, DepartmentID, HireDate, TerminationDate)
+     - **Departments:** (DepartmentID, Name)
+
+8. **Query:** "Which authors have published more than five books with us?"
+   - **Summary:** Relational databases can efficiently count related records.
+   - **Schema:** 
+     - **Authors:** (AuthorID, Name)
+     - **Books:** (BookID, Title, AuthorID)
+
+9. **Query:** "Get the average rating of products by category."
+   - **Summary:** Grouping and averaging operations are naturally suited for relational databases.
+   - **Schema:** 
+     - **Products:** (ProductID, Name, CategoryID)
+     - **Categories:** (CategoryID, Name)
+     - **Ratings:** (RatingID, ProductID, Score)
+
+10. **Query:** "Find all cities with more than one branch of the company."
+    - **Summary:** Relational databases efficiently manage geographical and categorical data.
+    - **Schema:** 
+      - **Branches:** (BranchID, City, State)
+
+11. **Query:** "List all employees who have not submitted their timesheets this month."
+    - **Summary:** Handling missing or incomplete records is straightforward.
+    - **Schema:** 
+      - **Employees:** (EmployeeID, Name)
+      - **Timesheets:** (TimesheetID, EmployeeID, DateSubmitted)
+
+12. **Query:** "What is the average tenure of employees by department?"
+    - **Summary:** Relational databases are suitable for computing intervals and averages.
+    - **Schema:** 
+      - **Employees:** (EmployeeID, Name, DepartmentID, HireDate, TerminationDate)
+      - **Departments:** (DepartmentID, Name)
+
+13. **Query:** "Show all customers who have ordered more than once in the last year."
+    - **Summary:** Efficiently performs date range filtering and joins.
+    - **Schema:**
+      - **Customers:** (CustomerID, Name, Email)
+      - **Orders:** (OrderID, CustomerID, OrderDate)
+
+14. **Query:** "Generate a list of vendors sourced by each store location."
+    - **Summary:** Cross-references between entities, such as stores and vendors, are efficient.
+    - **Schema:**
+      - **Stores:** (StoreID, Location)
+      - **Vendors:** (VendorID, Name)
+      - **SupplierContracts:** (ContractID, VendorID, StoreID)
+
+15. **Query:** "Who are the clients with the largest contracts?"
+    - **Summary:** Ideal for analyzing numerical data and connecting client details.
+    - **Schema:**
+      - **Clients:** (ClientID, Name)
+      - **Contracts:** (ContractID, ClientID, Value)
+
+16. **Query:** "Retrieve book titles grouped by genre and sorted by publication date."
+    - **Summary:** Grouping and sorting operations are particularly efficient.
+    - **Schema:**
+      - **Books:** (BookID, Title, GenreID, PublicationDate)
+      - **Genres:** (GenreID, Name)
+
+17. **Query:** "What are the average grades of students by course?"
+    - **Summary:** Aggregation across related tables is efficiently managed.
+    - **Schema:**
+      - **Students:** (StudentID, Name)
+      - **Courses:** (CourseID, Title)
+      - **Enrollments:** (EnrollmentID, StudentID, CourseID, Grade)
+
+18. **Query:** "Find suppliers who have been inactive for over a year."
+    - **Summary:** Efficient date calculations and filtering for inactive records.
+    - **Schema:**
+      - **Suppliers:** (SupplierID, Name)
+      - **SupplyTransactions:** (TransactionID, SupplierID, LastTransactionDate)
+
+19. **Query:** "List all users who have logged in more than 50 times."
+    - **Summary:** Recognizing patterns and tracking frequent activities.
+    - **Schema:**
+      - **Users:** (UserID, Username)
+      - **Logins:** (LoginID, UserID, LoginDate)
+
+20. **Query:** "What products have never been sold?"
+    - **Summary:** Locating non-existent relationships through joins efficiently.
+    - **Schema:**
+      - **Products:** (ProductID, Name)
+      - **Sales:** (SaleID, ProductID, SaleDate)
+
+21. **Query:** "Find the profit margin for each product."
+    - **Summary:** Relational databases manage calculations across related tables.
+    - **Schema:**
+      - **Products:** (ProductID, Name, CostPrice)
+      - **Sales:** (SaleID, ProductID, SalePrice)
+
+22. **Query:** "Which projects are overdue?"
+    - **Summary:** Date comparisons and managing project timelines.
+    - **Schema:**
+      - **Projects:** (ProjectID, Name, DueDate)
+
+23. **Query:** "List all unassigned tasks in the project management system."
+    - **Summary:** Efficiently identifies records missing specific assignments.
+    - **Schema:**
+      - **Tasks:** (TaskID, Description, AssignedEmployeeID)
+      - **Employees:** (EmployeeID, Name)
+
+24. **Query:** "Show all authors and the publishers they have published with."
+    - **Summary:** Naturally suited to relationships between authors and publishers.
+    - **Schema:**
+      - **Authors:** (AuthorID, Name)
+      - **Books:** (BookID, Title, AuthorID, PublisherID)
+      - **Publishers:** (PublisherID, Name)
+
+25. **Query:** "Get the count of active subscriptions per service package."
+    - **Summary:** Aggregating counts across service packages efficiently.
+    - **Schema:**
+      - **Subscriptions:** (SubscriptionID, UserID, ServicePackageID, IsActive)
+      - **ServicePackages:** (PackageID, Name)
+
+26. **Query:** "Find the longest-serving employee in each department."
+    - **Summary:** Suitable for aggregating hierarchical and temporal data.
+    - **Schema:**
+      - **Employees:** (EmployeeID, Name, DepartmentID, HireDate)
+      - **Departments:** (DepartmentID, Name)
+
+27. **Query:** "Which students have taken all available courses?"
+    - **Summary:** Ensures complete matching across multiple tables.
+    - **Schema:**
+      - **Students:** (StudentID, Name)
+      - **Courses:** (CourseID, Title)
+      - **Enrollments:** (EnrollmentID, StudentID, CourseID)
+
+28. **Query:** "Show all items sold today in each store."
+    - **Summary:** Efficiently handles time-based filtering and group operations.
+    - **Schema:**
+      - **Sales:** (SaleID, ProductID, StoreID, SaleDate)
+      - **Stores:** (StoreID, Location)
+
+29. **Query:** "List all members who have borrowed more than five books in the last month."
+    - **Summary:** Suitable for complex queries combining counts and date filters.
+    - **Schema:**
+      - **Members:** (MemberID, Name)
+      - **BorrowRecords:** (RecordID, MemberID, BookID, BorrowDate)
+
+30. **Query:** "Get the list of all new products added this year."
+    - **Summary:** Efficient for inserting and retrieving records with time attributes.
+    - **Schema:**
+      - **Products:** (ProductID, Name, CategoryID, DateAdded)
+
+31. **Query:** "Which clients have incomplete profiles?"
+    - **Summary:** Efficiently identifies and manages incomplete data entries.
+    - **Schema:**
+      - **Clients:** (ClientID, Name, Email, ProfileCompleteFlag)
+
+32. **Query:** "Show the balance of all customer accounts with outstanding debts."
+    - **Summary:** Efficient reports based on financial data grouped by customer.
+    - **Schema:**
+      - **Customers:** (CustomerID, Name, Balance)
+      - **Debts:** (DebtID, CustomerID, Amount)
+
+### Summary
+Relational databases provide robust capabilities for handling operations like joins, aggregations, sorting, and filtering which are prevalent in the above queries. For each question, an appropriate schema on the 3NF level can make data access and management more efficient, ensuring minimized redundancy and enhanced query performance. Relational databases are particularly effective for managing and querying structured data across diverse relationships, making them an ideal choice for such tasks.
