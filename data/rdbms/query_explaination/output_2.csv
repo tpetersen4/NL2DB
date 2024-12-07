@@ -1,0 +1,39 @@
+nl_query,explanation,db
+Retrieve all customers who have placed more than five orders within the last month.,"    Utilizes indexed columns, aggregate functions, and conditional filtering in a well-structured schema.",rdbms
+List all employees who have been with the company for more than ten years and are working in managerial positions.,    Joins between employee tenure data and position tables benefit from defined relationships and constraints.,rdbms
+"Find the total sales by product category for the past year, sorted by highest to lowest.",    Grouping and sorting are efficiently handled using indexes and B-trees in RDBMS.,rdbms
+"Get a report of all students who have not submitted their assignments, along with their contact information.",    Uses LEFT JOINs to identify missing submissions and retrieves related contact details.,rdbms
+Identify books authored by more than one person within a specific genre.,    Multiple table joins are handled seamlessly due to foreign key relationships.,rdbms
+"Show all suppliers who have a contract worth over $100,000 and supply more than three different products.",    Compound conditions leveraging relational logic across different tables.,rdbms
+"List all open support tickets assigned to teams, including their creation and last updated timestamps.",    Dates and team assignments are indexed and updated transactions are ACID-compliant.,rdbms
+Retrieve all orders containing products in both the electronics and home appliance categories.,    Handling set-based operations requiring EXISTS clauses or INNER JOINs.,rdbms
+Compute the average score per subject for each student in a class.,    Group by and aggregating scores per student-subject relationships with indexes.,rdbms
+Find all projects that require more than three departments and span into the next fiscal year.,     Relational tables model complex interdepartmental requirements; timestamps queried efficiently.,rdbms
+Count the number of active members who joined each month for the past two years.,     Efficient aggregation over time periods using indexes.,rdbms
+"Determine which products are rarely ordered, appearing less than 10 times in last quarter's sales.",     COUNT statements over order details combined with relational constraints.,rdbms
+Extract a list of patients whose appointments were rescheduled more than once in the last six months.,     Employs queries on relational logs with efficient tracking through indexes.,rdbms
+Generate a listing of employees and their managers including only those where the two share the same last name.,     Efficient joins and filtering to create hierarchical datasets.,rdbms
+"Identify all branches that sold more than $500,000 in seasonal promotions this year.",     Efficient use of partitioning and indexing for seasonal period analysis.,rdbms
+"List customers who have not purchased within the past year but spent over $5,000 the year before.",     Complex condition checking with historical transaction records.,rdbms
+Find duplicate entries in a user database for emails registered with slight variations in spelling.,"     Combines LIKE clauses with wildcard matching, possible with efficient text indexes.",rdbms
+Compile inventory details for items that are concurrently low in stock across multiple regions.,     Cross-region stock availability checks leverage relational models.,rdbms
+Retrieve a list of all transactions that failed within a critical application system.,     Transaction integrity and failure logging are strengths of RDBMS.,rdbms
+Find employees who are both in the top 10% salary-wise and have received promotions in the last year.,     SQL queries managing complex aggregations and rankings with window functions.,rdbms
+"Show all courses with prerequisites that students often fail, ranked by fail rate.",     Relational database excels at multi-table joins and failure rate calculations.,rdbms
+"List buildings that are fully occupied, including room-to-room utilization statistics.",     Indexed queries on occupancy metadata and relational statistics.,rdbms
+Identify website users who made more than five wish-list changes in the previous week.,     SQL efficiently analyzes user actions recorded over time.,rdbms
+Compile a report detailing vendor contracts due for renewal in the next 90 days.,     Indexed relational data makes future date projections accurate and fast.,rdbms
+List athletes who participate in more than two sports across different seasons.,     Natural use of JOINs and aggregation over sparsely connected data.,rdbms
+Find all insurance policies that have filed claims in multiple states.,     Relations handling and query across location-based policies.,rdbms
+"List all upcoming project milestones requiring multiple team inputs, with the closest due dates displayed first.",     Sorting and prioritization of deadlines benefits from indexed field queries.,rdbms
+Identify customers who upgraded their subscriptions more than twice last year.,     Efficient processing of subscription logs and upgrade histories.,rdbms
+Extract a list of all active job listings with over 50 applications.,     Applications count and job listing status captured in relational schema.,rdbms
+Detail sessions where speakers received feedback scores below the average threshold of the entire conference.,     Comparisons involving statistical references overframe-specified datasets.,rdbms
+Display items ordered together most frequently with beverages.,     Complex relation queries extracting co-occurrence patterns.,rdbms
+Find top-performing tutors whose students show significant improvement across tested benchmarks.,     Aggregating and analyzing student performance related to tutor assignments.,rdbms
+Count the number of returning buyers who purchased the same model more than once.,     Multiple table joins and duplicates elimination efficiently handled.,rdbms
+List all department heads with departments earning the largest budget increases year over year.,     Historical budget comparisons with year-based filtering.,rdbms
+Identify devices with high incident reports from multiple locations.,     Leveraging relational joins and groupings on identifiers.,rdbms
+Retrieve all membership plans being upgraded within two months of subscription start dates.,     Date-based queries and relational plan hierarchy management.,rdbms
+List all authors with multiple publications that were peer-reviewed in the last decade.,     Review and publication tracking using JOINs.,rdbms
+Generate attendance statistics for events with interactive segments attracting more attendees.,     Relational breakdown of event segments and participant interactions.,rdbms

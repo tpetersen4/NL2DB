@@ -1,102 +1,98 @@
-Certainly! Here are 33 natural language queries that run efficiently on relational databases compared to other database systems, along with explanations as to why they are more optimal for relational databases:
-
 1. **Join multiple tables to find all customers who have purchased a specific product.**
-   - **Explanation:** Relational databases are optimized for executing JOIN operations efficiently due to their structured nature and indexing strategies.
+     Relational databases are optimized for executing JOIN operations efficiently due to their structured nature and indexing strategies.
 
 2. **Retrieve all employees in a department along with their manager’s details.**
-   - **Explanation:** Complex queries involving self-joins and hierarchical data are well-supported in relational databases.
+     Complex queries involving self-joins and hierarchical data are well-supported in relational databases.
 
 3. **Find customers who haven't placed any orders.**
-   - **Explanation:** Relational databases efficiently handle SQL queries such as those involving LEFT JOIN and IS NULL to identify missing relationships.
+     Relational databases efficiently handle SQL queries such as those involving LEFT JOIN and IS NULL to identify missing relationships.
 
 4. **List all orders with more than three items.**
-   - **Explanation:** Grouping and aggregate functions (e.g., COUNT) are optimized in relational databases, making these queries efficient.
+     Grouping and aggregate functions (e.g., COUNT) are optimized in relational databases, making these queries efficient.
 
 5. **Get the top 10 highest-paid employees in the sales department.**
-   - **Explanation:** Relational databases efficiently execute ORDER BY and LIMIT clauses, allowing for quick retrieval of top-ranked results.
+     Relational databases efficiently execute ORDER BY and LIMIT clauses, allowing for quick retrieval of top-ranked results.
 
 6. **Calculate average order value per customer.**
-   - **Explanation:** Using GROUP BY along with aggregate functions like AVG is highly performant in relational database systems.
+     Using GROUP BY along with aggregate functions like AVG is highly performant in relational database systems.
 
 7. **Identify the most frequently ordered product.**
-   - **Explanation:** Aggregate functions and efficient indexing support make finding most frequent items fast in relational databases.
+     Aggregate functions and efficient indexing support make finding most frequent items fast in relational databases.
 
 8. **Retrieve all books published by a particular publisher in the last 5 years.**
-   - **Explanation:** Combining conditions with WHERE clauses is a strong suit of relational databases.
+     Combining conditions with WHERE clauses is a strong suit of relational databases.
 
 9. **Find the total sales amount per region this year.**
-   - **Explanation:** Relational databases are designed to perform scalable aggregations and summarizations.
+     Relational databases are designed to perform scalable aggregations and summarizations.
 
 10. **List all employees who joined in the last quarter.**
-    - **Explanation:** Relational databases can efficiently evaluate date conditions and manipulate dates.
+      Relational databases can efficiently evaluate date conditions and manipulate dates.
 
 11. **Get the distinct list of all suppliers serving at least two products.**
-    - **Explanation:** Subqueries and DISTINCT operations are executed efficiently in the relational model.
+      Subqueries and DISTINCT operations are executed efficiently in the relational model.
 
 12. **Retrieve customer emails who have not logged in over a year.**
-    - **Explanation:** Handling date comparisons and large datasets is efficient with relational database indexing.
+      Handling date comparisons and large datasets is efficient with relational database indexing.
 
 13. **Insert a batch of new sales records efficiently.**
-    - **Explanation:** ACID properties ensure efficient batch processing of inserts in environments requiring transactional integrity.
+      ACID properties ensure efficient batch processing of inserts in environments requiring transactional integrity.
 
 14. **List products with no sales in the past month.**
-    - **Explanation:** Relational databases efficiently process left outer joins and subqueries to filter on non-existent relationships.
+      Relational databases efficiently process left outer joins and subqueries to filter on non-existent relationships.
 
 15. **Update prices for products based on category-specific rules.**
-    - **Explanation:** The structured schema allows for efficient batch updates and conditional expressions.
+      The structured schema allows for efficient batch updates and conditional expressions.
 
 16. **Identify orders with discrepancies between requested and shipped quantities.**
-    - **Explanation:** Relational schemas allow for efficient comparison operations across related tables.
+      Relational schemas allow for efficient comparison operations across related tables.
 
 17. **Retrieve all authors who have collaborated on books with more than three other authors.**
-    - **Explanation:** Handles complex joins and many-to-many relationships effectively.
+      Handles complex joins and many-to-many relationships effectively.
 
 18. **Find top 5 customers by total order value.**
-    - **Explanation:** Indexed lookups and sorting are highly efficient in relational databases.
+      Indexed lookups and sorting are highly efficient in relational databases.
 
 19. **Show students with grades in the top 10 percentile.**
-    - **Explanation:** Handling ranking functions and precise filters is efficiently supported.
+      Handling ranking functions and precise filters is efficiently supported.
 
 20. **Calculate the compound annual growth rate of sales over the last 5 years.**
-    - **Explanation:** Advanced numeric processing and data retrieval optimizations facilitate efficiency.
+      Advanced numeric processing and data retrieval optimizations facilitate efficiency.
 
 21. **Identify all stores that sell exclusively electronics.**
-    - **Explanation:** Complex filtering and set-based logic are ideal for relational databases.
+      Complex filtering and set-based logic are ideal for relational databases.
 
 22. **Find all employees with the same last name.**
-    - **Explanation:** Efficient execution of queries based on pattern matching or conditions due to indexing.
+      Efficient execution of queries based on pattern matching or conditions due to indexing.
 
 23. **Get a list of all overdue invoices including customer contact information.**
-    - **Explanation:** Multi-table queries with WHERE constraints on dates are efficiently managed.
+      Multi-table queries with WHERE constraints on dates are efficiently managed.
 
 24. **Generate a monthly report summarizing transactions per branch.**
-    - **Explanation:** Aggregation by group and partitioned calculations are optimized in relational systems.
+      Aggregation by group and partitioned calculations are optimized in relational systems.
 
 25. **Count the number of active vs. inactive users.**
-    - **Explanation:** Efficiently processed using aggregates and conditional counting.
+      Efficiently processed using aggregates and conditional counting.
 
 26. **List all customers having the same address to identify potential duplicates.**
-    - **Explanation:** Supports expression-based deduplication and validation.
+      Supports expression-based deduplication and validation.
 
 27. **Show all cities with more than 5,000 registered users.**
-    - **Explanation:** Aggregate functions and WHERE filters efficiently manage large datasets.
+      Aggregate functions and WHERE filters efficiently manage large datasets.
 
 28. **Determine average customer order frequency.**
-    - **Explanation:** Relational databases efficiently handle queries involving calculations over time-related data.
+      Relational databases efficiently handle queries involving calculations over time-related data.
 
 29. **Find users who have been inactive since registration.**
-    - **Explanation:** Conditional joins and filters on related time-sensitive data are optimized.
+      Conditional joins and filters on related time-sensitive data are optimized.
 
 30. **List all pending shipments that are delayed by more than two weeks.**
-    - **Explanation:** Efficient evaluation of time series and date-based conditions.
+      Efficient evaluation of time series and date-based conditions.
 
 31. **Retrieve products where the supply is lower than demand forecasts.**
-    - **Explanation:** Handles complex comparison and analytical operations smoothly.
+      Handles complex comparison and analytical operations smoothly.
 
 32. **Identify duplicate product entries by name and category.**
-    - **Explanation:** Efficient detection of duplicates using GROUP BY and HAVING clauses.
+      Efficient detection of duplicates using GROUP BY and HAVING clauses.
 
 33. **Match customers to their preferred payment methods based on past usage trends.**
-    - **Explanation:** Adept at handling intricate join conditions and trend analysis through subqueries and aggregates.
-
-These queries are optimized for relational databases thanks to their underlying architecture that prioritizes structured data organization, indexing, aggregation functions, and efficient execution of complex JOIN operations—all aspects that can become challenging and less optimal in databases not designed for relational operations, such as NoSQL databases.
+      Adept at handling intricate join conditions and trend analysis through subqueries and aggregates.

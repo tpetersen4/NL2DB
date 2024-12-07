@@ -1,0 +1,41 @@
+nl_query,explanation,db
+Find all customers who have made a purchase in the last year.,     Relational databases can efficiently use indexes and structured queries (SQL) to handle complex WHERE clauses.,rdbms
+List all employees in the sales department sorted by hire date.,     Relational databases can quickly sort data using indexed columns such as dates.,rdbms
+Get the top 5 products with the highest sales.,     Aggregate functions like COUNT and SUM can be efficiently used with ORDER BY and LIMIT in SQL.,rdbms
+Find the average order value for each customer.,     GROUP BY functions work seamlessly with JOINs and aggregates in relational databases.,rdbms
+Determine which suppliers provide more than 50% of our raw materials.,     Complex joins and subqueries are efficiently handled by the SQL engine.,rdbms
+Identify customers who have purchased both product A and product B.,     Relational databases can manage complex joins and subqueries to find intersecting records.,rdbms
+Calculate the total revenue after applying discounts for a given period.,     Relational databases efficiently handle arithmetic and scaled calculations across large datasets.,rdbms
+Find all products that have never been ordered.,     Anti joins or LEFT JOIN with NULL checks are well optimized in SQL.,rdbms
+List each employee who reports directly to the CEO.,     Self referential JOINs are well suited to relational databases with hierarchical data.,rdbms
+Identify duplicate records in the customer database based on email address.,      GROUP BY and HAVING clauses allow efficient duplicate detection.,rdbms
+Get the monthly growth rate of new users over the past 2 years.,      Complex date functions and aggregation are efficiently processed in SQL.,rdbms
+"Find customers whose total purchase value exceeds $10,000.","      Relational databases excel at using GROUP BY, HAVING, and JOIN together to prune large datasets.",rdbms
+List all products with their suppliers and prices in ascending order.,      Multi table joins with ORDER BY are straightforward in SQL.,rdbms
+Show a list of employees and their managers in a flat structure.,      Self joins are well handled to produce hierarchical data in tabular form.,rdbms
+Find all books borrowed more than 10 times in the past year for a library database.,      Aggregates with conditions are efficient with indexed data.,rdbms
+Determine the product with the highest sales in each region.,      GROUP BY functions on multiple columns efficiently process complex data relationships.,rdbms
+List all vehicles that have been serviced more than five times.,      Inner joins with aggregated conditions work efficiently.,rdbms
+Find all reservations that overlap a specific date range.,      Relational databases handle range queries well due to their indexing capabilities.,rdbms
+"Get the last three comments for each blog post, ordered by date.",      Window functions can efficiently extract ordered subsets in relational databases.,rdbms
+List each product along with its top three customer reviews by rating.,      Relational databases can handle complex queries involving LIMIT in subqueries efficiently.,rdbms
+Find all transactions where the same item was purchased with different prices.,      RELational queries can use GROUP BY and HAVING to efficiently detect anomalies.,rdbms
+List all departments with average employee salaries below the company average.,      Nested queries with aggregates are aptly processed in relational environments.,rdbms
+Identify customers with no postal address recorded.,      Efficient NULL checks and queries spanning multiple related datasets work well.,rdbms
+Find every manager with more than five direct reports.,      Multi level data joins and aggregations are SQL strengths.,rdbms
+Determine overall customer satisfaction with average ratings per category.,      Grouped calculations allow clear insights into aggregated data.,rdbms
+List all clients and their most recent transaction details.,      Subqueries or window functions in relational databases efficiently pinpoint latest records.,rdbms
+Find products that have both online and in store sales.,      Joining across different data sources can efficiently reveal dual presence data.,rdbms
+Find the supplier with the fastest average delivery time.,      Aggregated joins with ORDER operations are efficiently executed.,rdbms
+Identify monthly sales trends for a specific product category.,"      Relational databases natively provide analytic capabilities for complex queries with ORDER BY, GROUP BY, etc.",rdbms
+List all employees who earn more than the average salary of their department.,      Relational databases handle correlated subqueries efficiently.,rdbms
+Find all items bought by both new and returning customers within a month.,      Complex joins and temporal queries benefit from structured relational schema.,rdbms
+List all job titles with their corresponding department name and manager in text format.,      Multi table queries efficiently map interrelated data points.,rdbms
+Find users who have never logged in after registration.,      Negative matching with LEFT JOINs efficiently highlight missing related records.,rdbms
+Retrieve the top 3 performing salespersons each quarter.,      Partitioning data using window functions efficiently reveals top performers.,rdbms
+Show each student's best and worst grade in college records.,"      Aggregation, min/max functions, and partitioning yield efficient results.",rdbms
+Identify books in a library that have been checked out over 50 times but not in the last year.,      Compound conditions through efficient join and filter mechanisms.,rdbms
+Find which employees report to multiple managers.,      Self join queries efficiently spot cross linked hierarchical relationships.,rdbms
+Generate a quarterly finance report summing expenses by category.,      Relational databases handle arithmetic operations and aggregates on rich data types efficiently.,rdbms
+List all users whose orders include both a refund and a non refund item.,      Subqueries with intersecting sets are effectively managed in SQL.,rdbms
+Identify authors who have books translated into multiple languages but not all books translated.,      Complex conditions and multiple self joins are well suited to relational databases.,rdbms

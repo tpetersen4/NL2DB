@@ -1,0 +1,101 @@
+1. **Find all customers who are within three levels of social connections from a VIP customer, have purchased more than five products, and find the shortest path to recommend a new product to them.**
+     Efficiently traverses connections within a specified depth while filtering by purchase history.
+
+2. **Identify all employees who have collaborated on projects with others in different countries over the last year, and retrieve their shortest collaboration paths.**
+     Traversing international collaboration links, leveraging graph's ability to handle complex relationship patterns.
+
+3. **Find all articles cited by a research paper, including indirect citations up to the third degree, and identify co-authors who have also been cited indirectly.**
+     Efficient in navigating and querying citation networks and co-authorship connections.
+
+4. **List all people who have attended at least two conferences where keynote speakers have authored over ten influential publications, and map their networking connections.**
+     Excellent for mapping relationships in multi-layered conference and publication data.
+
+5. **Discover all musicians connected to a specific genre through collaborations with artists from at least five different continents.**
+     Navigates transcontinental collaboration paths, leveraging dynamic genre relationships.
+
+6. **Find all investors who have indirectly invested in enterprises started by an entrepreneur known for three unicorn startups, and outline their investment paths.**
+     Handles indirect investment and entrepreneurial network paths efficiently.
+
+7. **Identify computer breaches traced back to insiders within three levels of separation from key cybersecurity personnel, and map the network of these breaches.**
+     Excels in identifying complex and layered insider threat connections.
+
+8. **Locate all users who have shared a post related to a trending topic and interacted with users from three distinct ideological groups, along with the connection strength.**
+     Navigates socio-political cluster influences in social networks.
+
+9. **Find all educators who have participated in global workshops led by distinguished mentors and collaborated on educational innovations, showing mentorship chains.**
+     Tracks mentorship relationships across dynamic educational networks.
+
+10. **Identify all authors whose works have been translated into at least four languages, citing translation networks and original publication connections.**
+      Traverses translation and multilingual publication networks efficiently.
+
+11. **List movie directors connected through three or more joint films sharing cast or crew, and visualize their collaborative paths through different genres.**
+      Excellent for modeling complex collaboration networks within creative industries.
+
+12. **Find all tech companies influenced by three tiered partnerships with industry leaders and illustrate how innovations flow through these partnerships.**
+      Captures indirect influence and partnership dynamics in technology networks.
+
+13. **Identify gamers who have played multiplayer games with developers, forming paths through at least five different gaming communities.**
+      Optimal for investigating cross-community gaming and development relationships.
+
+14. **Discover all documentaries sharing production teams with recent award-winning feature films, and illustrate influence paths of production styles.**
+      Models influence and production team connections seamlessly.
+
+15. **Locate all politicians linked to policy advisors through three or more degrees of lobbying relationships regarding recent legislation.**
+      Efficiently traces complex political and advisory influence networks.
+
+16. **Find all ecosystems collaborating on climate change efforts through shared resources or personnel within global environmental groups.**
+      Models complex, interconnected efforts across environmental domains.
+
+17. **Identify marketing influencers who have indirectly promoted brands that also work with top-tier agencies, and highlight their promotional networks.**
+      Excels in identifying and traversing multi-layered marketing influence networks.
+
+18. **List all historical events connected by common figures and show the shortest paths of influence these individuals have had across events.**
+      Effectively models historical influence pathways and interconnected events.
+
+19. **Identify buyers who are within three referrals of major marketplace influencers and connected to sellers across two distinct product categories.**
+      Ideal for traversing complex referral networks and cross-category interconnections.
+
+20. **Find alumni connecting back to a university through professional networks and philanthropic activities, showing their influence paths.**
+      Tracks dynamic alumni-network relationships and philanthropic connections effectively.
+
+21. **Locate all scientists collaborating on projects with shared funding sources, navigating through international research committees.**
+      Handles the complexity of shared funding and international research collaboration effortlessly.
+
+22. **Discover all patients linked by familial or social connections to healthcare providers participating in rare disease studies.**
+      Ideal for investigating complex social and familial connections within medical research networks.
+
+23. **Identify all sports teams forming direct or indirect mentor-coach-player relationships through at least three competitive seasons.**
+      Captures multi-seasonal mentorship and competitive relationship dynamics.
+
+24. **Find businesses sharing advisors or board members directly influencing market entries into five distinct regions.**
+      Models influence and advisory networks across distinct geographical market entry strategies.
+
+25. **Locate software developers whose innovations have been enhanced through three or more open-source contributions in diverse project categories.**
+      Navigates multi-layered development and contribution networks effectively.
+
+26. **List startups within four degrees of investment networks connected to angel investors with successful IPO histories.**
+      Models complex investment and startup relationship networks efficiently.
+
+27. **Identify authors whose works influenced or were influenced by three or more academic fields through cross-disciplinary citations.**
+      Excellent for modeling citation influences across multidisciplinary academic landscapes.
+
+28. **Discover all cities sharing civic initiatives and connected via shared policies or personnel in urban development projects.**
+      Models dynamic inter-city civic initiatives and shared resources relationships well.
+
+29. **Locate technology patterns shared by enterprises through consulting firms engaged in at least three different industries.**
+      Tracks consulting influence across diverse industry technology patterns dynamically.
+
+30. **Find all apprentices who gained expertise through second-degree mentorship in crafts that are part of cultural heritage preservation.**
+      Excels in tracking complex mentorship paths within cultural and traditional crafts.
+
+31. **Identify gastronomic trends by tracing recipes and culinary influences across multinational chef exchanges.**
+      Traverses complex culinary influence networks and multinational chef collaborations seamlessly.
+
+32. **Find transportation networks influenced by three levels of strategic partnerships impacting zone developments in urban landscapes.**
+      Efficient for exploring strategic partnership impacts on urban transportation networks.
+
+33. **Locate patents sharing indirect innovation links with technologies adopted by industry-standard bodies, mapping influence chains.**
+      Models complex patent influence and technology adoption networks with ease.
+
+34. **List all fashion designers connected to global fashion houses through collaborative collections or shared design inspirations.**
+      Handles modeling collaborative influences and trend-setting dynamics in the fashion industry efficiently.

@@ -1,105 +1,101 @@
-Certainly! Relational databases are particularly efficient at handling structured data with well-defined relationships and complex queries involving multiple tables. Here are 34 natural language queries that would run efficiently on relational databases, along with explanations:
-
 1. **Find all customers who made more than three purchases in the past month.**
-   - Relational databases are optimized for handling joins and aggregations quickly.
+     Relational databases are optimized for handling joins and aggregations quickly.
 
 2. **Get all employees who have been with the company for more than five years and work in the sales department.**
-   - SQL allows filtering and searching on specific columns with indexed queries.
+     SQL allows filtering and searching on specific columns with indexed queries.
 
 3. **List all products with stock levels below the reorder threshold.**
-   - Relational databases efficiently handle querying with conditional operators.
+     Relational databases efficiently handle querying with conditional operators.
 
-4. **Retrieve the top 10 highest-grossing movies from the past decade.**
-   - Sorting and limiting results are efficiently handled by SQL queries.
+4. **Retrieve the top 10 highest grossing movies from the past decade.**
+     Sorting and limiting results are efficiently handled by SQL queries.
 
-5. **Find pairings of customers and their highest-paid jobs completed this year.**
-   - Complex joins and subqueries are efficiently processed by SQL.
+5. **Find pairings of customers and their highest paid jobs completed this year.**
+     Complex joins and subqueries are efficiently processed by SQL.
 
 6. **Get a list of suppliers with their average delivery times.**
-   - Aggregation functions are optimized in relational databases for performance.
+     Aggregation functions are optimized in relational databases for performance.
 
 7. **Identify all students who scored above 90 in math and are enrolled this semester.**
-   - Relational databases excel in searching and filtering based on multiple criteria.
+     Relational databases excel in searching and filtering based on multiple criteria.
 
 8. **Fetch all blog posts with more than 100 comments.**
-   - Databases efficiently manage indexed searches on related tables.
+     Databases efficiently manage indexed searches on related tables.
 
 9. **List all orders that include a specific product with their total cost.**
-   - Multiple joins across tables are handled well in relational operations.
+     Multiple joins across tables are handled well in relational operations.
 
 10. **Find all transactions involving customers in the top 10% spending bracket.**
-    - Subqueries and ranking using functions like `RANK()` or `NTILE()` are efficient in SQL.
+      Subqueries and ranking using functions like `RANK()` or `NTILE()` are efficient in SQL.
 
 11. **Get all items sold in the last year grouped by category and summed by revenue.**
-    - Grouping and summarizing data is naturally suited to SQL queries.
+      Grouping and summarizing data is naturally suited to SQL queries.
 
 12. **Retrieve a list of employees and their managers, showing department hierarchies.**
-    - Hierarchical queries involving self-joins are efficiently supported.
+      Hierarchical queries involving self joins are efficiently supported.
 
 13. **Show all active subscriptions and their payment histories for the past year.**
-    - Efficient handling of time-based queries and related data retrieval.
+      Efficient handling of time based queries and related data retrieval.
 
 14. **List projects with deadlines in the next month and their assigned team members.**
-    - Combining time conditions with joins is efficient on relational databases.
+      Combining time conditions with joins is efficient on relational databases.
 
 15. **Find all doctors who have conducted more than 50 surgeries this year.**
-    - Capability for quick calculations and condition checks.
+      Capability for quick calculations and condition checks.
 
 16. **Fetch a report of total sales grouped by month and region.**
-    - Group by and aggregate functions provide efficient reporting capabilities.
+      Group by and aggregate functions provide efficient reporting capabilities.
 
 17. **Identify all flights with more than 80% occupancy in the past three months.**
-    - Relational databases efficiently evaluate conditions across large datasets.
+      Relational databases efficiently evaluate conditions across large datasets.
 
 18. **List top 5 customers by total lifetime value.**
-    - SQL supports sorting and ranking across potentially large data volumes.
+      SQL supports sorting and ranking across potentially large data volumes.
 
 19. **Get details of all loans approved with amounts greater than $50,000.**
-    - Efficiently manages selection criteria with index-based searches.
+      Efficiently manages selection criteria with index based searches.
 
 20. **Find all authors who have published more than three bestsellers.**
-    - Joins and filters over multiple tables benefit from relational database optimization.
+      Joins and filters over multiple tables benefit from relational database optimization.
 
 21. **Retrieve all insurance claims filed in the last quarter with their approval status.**
-    - Temporal queries and status filtering are straightforward.
+      Temporal queries and status filtering are straightforward.
 
 22. **Show all hotels in the database with average ratings above 4.5.**
-    - Aggregating ratings is easily managed with optimizations.
+      Aggregating ratings is easily managed with optimizations.
 
 23. **List customer feedback responses received in the last 30 days.**
-    - Efficiency in sorting and fetching time-based records.
+      Efficiency in sorting and fetching time based records.
 
 24. **Generate a list of all employees eligible for a performance bonus this year.**
-    - Complex conditions involving multiple criteria are efficiently processed.
+      Complex conditions involving multiple criteria are efficiently processed.
 
-25. **Identify top-performing salespersons with sales above a certain target.**
-    - Rank and filter data over multiple criteria using built-in SQL capabilities.
+25. **Identify top performing salespersons with sales above a certain target.**
+      Rank and filter data over multiple criteria using built in SQL capabilities.
 
 26. **Retrieve all marketing campaigns active in the current quarter.**
-    - Date-based filtering is efficiently executed.
+      Date based filtering is efficiently executed.
 
 27. **Get a list of products along with their suppliers and latest price updates.**
-    - Multi-table joins and date-based selections perform well on indexed columns.
+      Multi table joins and date based selections perform well on indexed columns.
 
 28. **Find all classes with enrollment quotas exceeded.**
-    - Simple but efficient queries around limits and constraints.
+      Simple but efficient queries around limits and constraints.
 
 29. **List all new product launches planned for the next six months.**
-    - Forecasting queries are well-suited for relational time-based search.
+      Forecasting queries are well suited for relational time based search.
 
 30. **Fetch customer rental history and flag overdue accounts.**
-    - Combining customer and transaction data with conditions is efficient.
+      Combining customer and transaction data with conditions is efficient.
 
 31. **Get a detailed report of all vehicles serviced with parts used and costs incurred.**
-    - Complex relationships and joins processed effectively.
+      Complex relationships and joins processed effectively.
 
 32. **Identify all online orders with an express delivery option chosen.**
-    - Filtering and selection based on specific attributes work well.
+      Filtering and selection based on specific attributes work well.
 
 33. **Retrieve a ranking of articles based on views in the last month.**
-    - SQL's ranking functions work efficiently on properly indexed tables.
+      SQL's ranking functions work efficiently on properly indexed tables.
 
 34. **List all open support tickets from customers, categorized by priority level.**
-    - Efficient categorization and prioritization through filtering and sorting.
-
-In these scenarios, relational databases shine due to their capacity for complex queries, robust indexing, efficient handling of joins, and ability to perform rich aggregations and filtering quickly. Other databases, like NoSQL, might not handle these as efficiently because they may require more computation at the application level or involve less predictable access patterns.
+      Efficient categorization and prioritization through filtering and sorting.

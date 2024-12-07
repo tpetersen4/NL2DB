@@ -1,0 +1,36 @@
+nl_query,explanation,db
+Find all friends of friends of John.,"     Graph databases excel at traversing nodes, and this type of multi hop relationship is highly optimized.",graph
+Discover all paths between Node A and Node B with a maximum of four hops.,"     Pathfinding is a strong suit of graph databases, especially when limits on path length are applied.",graph
+Retrieve everyone who has borrowed a book that has also been read by Alice.,     Identifying shared connections or relationships is efficient in a graph through adjacency lists.,graph
+Show the top 5 most connected users in a social network.,     Graph databases can quickly calculate node degrees to identify highly connected nodes.,graph
+Detect all cyclical relationships within this group of nodes.,     Detecting cycles is a native and optimized operation in graph databases.,graph
+Find the shortest path from city A to city B considering nodes and edges as cities and roads.,     Algorithms like Dijkstra's or A* are well integrated into graph databases for such tasks.,graph
+Identify all employees directly or indirectly managed by Manager X.,     Hierarchical queries involving recursive relationships are efficient in graphs.,graph
+List all articles and the authors who co authored with Alice.,     Co author and collaboration queries map naturally onto graph structures.,graph
+Recommend products that were purchased by similar customers to those who bought product X.,     Collaborative filtering involves complex relationships that graphs handle efficiently.,graph
+Find all actors who have appeared in more than three movies with actor Y.,      Complex many to many relationships among entities are ideal for graphs.,graph
+Show all mutual friendships between a group of users.,      Slicing through interconnections to show mutual links is inherently supported.,graph
+Uncover communities within the social network.,      Community detection leverages graph algorithms to find clusters.,graph
+List suppliers who provide the same materials as Supplier Z.,      Shared attributes or relationships among multiple entities are quickly resolved through graphs.,graph
+Identify influencers in this network based on centrality measures.,      Centrality calculations (like PageRank) are built into graph analytic tools.,graph
+Find common ancestors of two given family members.,      Ancestry or genealogy queries involve traversing up the graph tree efficiently.,graph
+Locate all machines that a particular command sequence passed through in the network.,      Tracing through logs or flows in a network occurs seamlessly in graphs.,graph
+Discover all direct and indirect dependencies of a software package.,"      Dependency resolution involves relationship traversal, making it graph friendly.",graph
+Trace the supply chain path of a product from manufacturer to retailer.,      Supply chain networks are best represented as graphs for traversal and analysis.,graph
+Generate recommendations based on user behavior patterns.,      Behavior based recommendation systems thrive on the rich relationship data in graphs.,graph
+Map the spread of information in a network over time.,      Temporal relationship queries can track propagation paths effectively in graphs.,graph
+Identify points of failure in a network that increase the shortest path distance significantly.,      Analysis of network robustness and vulnerability relies on path analytics.,graph
+Analyze employee communication patterns to discover informal teams.,      Informal networks and team dynamics analysis exploits inherent structural properties.,graph
+List all customers who have transactions that passed through a specific sequence of intermediary banks.,      Transaction journey tracking involves detailed path traversals.,graph
+Detect fraud rings in transactional data by finding tightly knit groups.,      Graphs can effectively reveal hidden structures indicative of fraud through community detection.,graph
+Identify the influence chain in a marketing campaign,      Influence is often best modeled through relationships which graphs can traverse easily.,graph
+Find all computers two hops away from a compromised machine in a network topology.,      Security oriented queries involving hop counts are graph optimized.,graph
+Locate redundancies in knowledge graphs connecting concepts within three hops.,      Exploring semantic relationships between concepts aligns perfectly with graph capabilities.,graph
+Spot patterns of collaboration in academic publications.,      Collaboration networks benefit from graph based pattern recognition.,graph
+Track mentorship lineage among employees over their careers.,      Career and mentorship networks provide insights when modeled as graphs.,graph
+Determine all cross referenced articles citing each other within a bibliographic database.,      Citing and cited relationships are inherently graph focused tasks.,graph
+Identify bottleneck nodes in an organizational flowchart.,"      Finding bottlenecks relies on understanding connectivity, impacting efficiency metrics.",graph
+Map the evolution of an open source project's contributor network over time.,      Evolution and temporal analysis of networks utilize graph based strategies.,graph
+Describe the peer review process flow of a manuscript in academic circles.,      Peer review paths can be outlined as sequences of relationships in a graph.,graph
+Analyze the diffusion of innovation through professional networks.,      Innovation diffusion analysis leverages interconnected structures and adoption paths.,graph
+Predict future connections in a social network based on current trends.,      Predictive link analysis is naturally supported by graph algorithms focused on emerging patterns.,graph

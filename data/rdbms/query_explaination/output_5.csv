@@ -1,0 +1,40 @@
+nl_query,explanation,db
+Find all customers who made a purchase last month.,     Relational databases can efficiently filter and join tables based on timestamps.,rdbms
+"List all employees living in New York and earning over $100,000.",     They handle complex filtering and conditions well.,rdbms
+Show the total sales by region.,"     Aggregation functions, such as SUM, perform efficiently with indexed tables.",rdbms
+Get the average order value for each customer.,     Grouping and averaging data is optimized in relational systems.,rdbms
+Identify all products that have never been sold.,     Relational databases can perform anti joins efficiently.,rdbms
+Find duplicate entries in the user table based on email.,     They can efficiently identify duplicates with GROUP BY clauses.,rdbms
+List students enrolled in more than 3 courses.,     They support efficient queries on multiple many to many relationships.,rdbms
+Get a list of vendors who supply more than 5 products.,     Relational databases handle JOIN and COUNT operations well.,rdbms
+Find the 3 most expensive items in each category.,     They support window functions and complex subqueries.,rdbms
+Retrieve all orders that include a specific product.,      Indexes can drastically speed up such search operations.,rdbms
+List all books published by a specific author after 2015.,      They manage date comparisons efficiently.,rdbms
+Get the most recent transaction for each account.,      Subqueries and ORDER BY with LIMIT are optimized.,rdbms
+Show a list of users who have never logged in.,      Efficiently use of LEFT JOIN or NOT EXISTS.,rdbms
+Find common customers between two sales channels.,      INTERSECT operations are faster due to inherent table structure.,rdbms
+Identify employees whose salary is below the company average.,      Subqueries with aggregations are straight forward.,rdbms
+List departments with at least 10 employees.,      Indexed group counting is standard in relational databases.,rdbms
+Find the top 5 most returned products.,      Perform quick calculations with aggregate functions.,rdbms
+Generate a report of monthly sales growth.,      Temporal data queries are well within SQL’s capabilities.,rdbms
+Get a list of clients who haven’t placed an order in the last year.,      Slow changing dimensions are handled effectively.,rdbms
+List courses with no prerequisites.,      Efficient use of anti join logic.,rdbms
+Identify the employee with the most sales.,      Ranking and aggregating can be optimized with indexes.,rdbms
+Find all flights delayed by more than an hour.,      Relational databases process range queries efficiently.,rdbms
+Retrieve the number of students by course sorted by largest enrollment.,      Sorting post aggregation works well with SQL.,rdbms
+Find all shipments scheduled after a certain date.,      Handling future dates and conditions is efficient.,rdbms
+List the longest serving employees.,      Calculating durations using date functions is straight forward.,rdbms
+Retrieve all users who are friends with both Alice and Bob.,      Capable of handling multiple join conditions.,rdbms
+Find customers with orders in consecutive months.,      Sequence pattern recognition is handled well.,rdbms
+Identify all managers who manage more than 5 projects.,      Capabilities in aggregation and filtering.,rdbms
+Get all transactions that include a discount code.,      Optimize boolean based searches.,rdbms
+List universities attended by more than 10 alumni.,      Perform excellently in indexed group queries.,rdbms
+Get the count of posts by users with less than 100 followers.,      Filtering post aggregation is highly efficient.,rdbms
+Find all cars with a service record in the last month.,      Efficient processing with date joins.,rdbms
+List employees who have worked in 3 different departments.,      Flexibility in handling multiple roles.,rdbms
+Show orders that were delivered late.,      Efficiently manage date conditions and status filters.,rdbms
+Find all branches without a single account signed up.,      Use of efficient anti joins for non existence queries.,rdbms
+Retrieve the latest job position for each employee.,      Efficient use of subqueries and partitioning.,rdbms
+List members not active in any community.,      Quick handling of exclusion joins.,rdbms
+Show products with increasing sales volume month over month.,      Handle temporal pattern queries efficiently.,rdbms
+Find sales reps with a monthly sales drop.,      Utilizing SQL's window functions for trend analysis.,rdbms

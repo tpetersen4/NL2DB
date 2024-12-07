@@ -1,0 +1,38 @@
+nl_query,explanation,db
+List all customers who have placed an order in the last month.,"     Relational databases handle join operations efficiently, especially when tables are indexed.",rdbms
+Find total sales for each product category.,     Aggregation queries with GROUP BY clauses are highly optimized in relational databases.,rdbms
+Retrieve the customer name and total order amount where order value is greater than $500.,     Relational databases excel at filtering and aggregating data across related tables.,rdbms
+Get the list of employees who work in the marketing department.,     Well suited for relational databases with properly indexed foreign key relationships.,rdbms
+Count the number of products in each inventory location.,     Efficient handling of COUNT and GROUP BY operations with indexing.,rdbms
+Show the top 10 products by sales volume this year.,     Use of ranking functions and efficient sorting in SQL can optimize this query.,rdbms
+Find all orders that have not been shipped yet.,     Easy to perform conditional logic with standard SQL WHERE clauses.,rdbms
+List all unique suppliers and their contact information.,     Fast deduplication and retrieval of records with DISTINCT keyword.,rdbms
+Retrieve all overdue invoices and their corresponding customer information.,     Effective at combining data from multiple tables using JOINs.,rdbms
+Display employees ordered by hire date.,      SQL provides excellent support for ordering results with ORDER BY.,rdbms
+Which products have a stock level below 10?,      Simple conditions evaluated efficiently due to indexing capabilities.,rdbms
+Calculate average salary by department.,      Uses aggregate functions and grouping that are optimized in SQL.,rdbms
+Get all customers who have not made a purchase in the last year.,      Complex subquery handling and joining work well in relational systems.,rdbms
+Summarize total revenue by quarter for this fiscal year.,      Relational databases handle date and time functions effectively.,rdbms
+Identify all employees with a specific skill set.,      Relational databases utilize join and filter capabilities efficiently.,rdbms
+List all books authored by a specific writer published after 2010.,      Complex filtering and join operations are optimized in SQL.,rdbms
+Retrieve a list of all active projects and their assigned teams.,      Efficient querying due to relational model's support for complex relationships.,rdbms
+"Show customer order history for those who spent more than $1,000.",      Aggregation and filtering of transactional data are strengths of relational databases.,rdbms
+Find all employees eligible for a promotion based on tenure and performance.,"      Capable of balancing complex querying logic, benefiting from structured SQL.",rdbms
+Display the list of top performing sales representatives.,      Strong support for analytical queries with ranking functions in relational databases.,rdbms
+Get all accounts that have been inactive for over a year.,      Perfect for efficiently checking conditions across potentially large datasets.,rdbms
+Show the distribution of order amounts using percentiles.,      SQL can efficiently handle statistical operations using analytical functions.,rdbms
+List the names of customers who ordered the most popular product.,      Relational systems can manage subqueries and joins effectively for this use case.,rdbms
+Which departments have the highest number of employees?,      Aggregation and grouping queries perform well in SQL.,rdbms
+Find products with a discount greater than 20% and available in stock.,      Optimized filtering capabilities make this suitable for relational databases.,rdbms
+Generate a report of monthly expenses broken down by category.,      Strong support for both aggregation and complex report generation.,rdbms
+Retrieve orders shipped later than the estimated delivery date.,      Ability to handle complex date calculations efficiently using SQL.,rdbms
+Show the list of regions with the most sales in the last quarter.,      Relational databases manage summarizations and ordering well.,rdbms
+Identify top 5 city locations where most services are scheduled.,      SQL provides good performance on ranking and counting operations.,rdbms
+List all products that have had a price increase this year.,      Efficient comparison and historical data operations in relational databases.,rdbms
+What are the average ratings of products by customer demographic groups?,      SQL supports complex grouping and averaging with ease.,rdbms
+Display inventory items with stock levels reviewed by last.Inventory check date.,      Scheduling and ordering capabilities in SQL enhance this query's performance.,rdbms
+List transactions within specific financial guidelines and regulatory criteria.,      Flexible to handle extensive filtering criteria efficiently.,rdbms
+Which users logged in more than ten times last month?,      Well suited for counting and filtering over sequential data.,rdbms
+Generate personnel turnover rate by department for the recent year.,      Detailed analytical and summarization operations are efficient in SQL.,rdbms
+Retrieve the detailed orders for the customers ranked among the top ten spenders.,      Efficient handling of complex joins and subqueries in SQL.,rdbms
+List all discontinued products and their last purchase statistics.,      SQL efficiently processes historical data combined with condition checks.,rdbms

@@ -1,99 +1,95 @@
-Certainly! Here are 32 complex natural language queries that would run efficiently on relational databases but might not be as efficient on non-relational databases. Relational databases excel in these scenarios due to their powerful querying capabilities, robust indexing mechanisms, and ability to perform complex joins and aggregations across multiple tables.
-
 1. **Identify the top 10 products with the highest sales growth rates over the past three years across various regions and compare them by average customer satisfaction ratings.**
-    - **Explanation:** This query involves aggregation and comparison across multiple dimensions (time, region, product) and requires joins between sales and customer satisfaction data.
+      This query involves aggregation and comparison across multiple dimensions (time, region, product) and requires joins between sales and customer satisfaction data.
 
 2. **List the top 15 employees who received the most diverse performance reviews, averaging above 4.2, in the finance and technology departments, over the past 5 years.**
-    - **Explanation:** Complex joins between employee details, department info, and performance review tables are efficiently handled by relational databases.
+      Complex joins between employee details, department info, and performance review tables are efficiently handled by relational databases.
 
 3. **Extract all projects completed in the last 2 years which have received mixed feedback from teams located in at least 3 different countries, with an average budget utilization of less than 80%.**
-    - **Explanation:** Efficiently manages joins and filtering on feedback, location, and budget data.
+      Efficiently manages joins and filtering on feedback, location, and budget data.
 
 4. **Find the top 5 cities with the highest average annual increase in population density over the past decade, specifically for cities with populations exceeding 1 million.**
-    - **Explanation:** Requires calculating growth rates over time with constraints on population size, supported by rich aggregation features in relational databases.
+      Requires calculating growth rates over time with constraints on population size, supported by rich aggregation features in relational databases.
 
 5. **Identify the 20 most popular movies in comedy and drama genres, released between 2000 and 2020, with average audience reviews above 4 stars, shot in multiple countries.**
-    - **Explanation:** Involves complex queries across time, genres, and reviews, efficiently executed with relational databases' indexing and joins.
+      Involves complex queries across time, genres, and reviews, efficiently executed with relational databases' indexing and joins.
 
 6. **Retrieve all suppliers who have delivered defective products at least twice in the past year, with an overall defect rate below 5% across all shipments.**
-    - **Explanation:** Utilizes foreign key relationships to efficiently identify defect occurrences and calculate defect rates.
+      Utilizes foreign key relationships to efficiently identify defect occurrences and calculate defect rates.
 
 7. **Determine the top 10 universities with the highest number of publications in computer science and biology journals, with an average citation index above 3, in the last 15 years.**
-    - **Explanation:** Incorporates aggregation, filtering, and complex conditions across multiple relationships.
+      Incorporates aggregation, filtering, and complex conditions across multiple relationships.
 
 8. **Find customers who have ordered products from at least 5 different categories, with each order exceeding $500, in the last two years.**
-    - **Explanation:** Relational databases handle the required joins and aggregation on diverse order and product data efficiently.
+      Relational databases handle the required joins and aggregation on diverse order and product data efficiently.
 
 9. **List the top 25 athletes who have won medals in multi-nation tournaments in both Track and Field events, with at least three gold medals.**
-    - **Explanation:** Involves querying extensive historical performance data across different sports events efficiently.
+      Involves querying extensive historical performance data across different sports events efficiently.
 
 10. **Extract top-performing mutual funds that have consistently outperformed the market average by at least 3% annually over the past decade, from fund managers managing portfolios in more than 2 sectors.**
-    - **Explanation:** Efficiently manages data aggregation, historical performance comparison, and complex filtering through relational operations.
+      Efficiently manages data aggregation, historical performance comparison, and complex filtering through relational operations.
 
 11. **Identify the top 5 pharmaceuticals by revenue across more than 3 continents that have launched at least 10 successful drugs with over 90% efficacy in the past 20 years.**
-    - **Explanation:** Requires complex joins, aggregations, and filtering across different data tables related to revenue and efficacy.
+      Requires complex joins, aggregations, and filtering across different data tables related to revenue and efficacy.
 
 12. **List the top 15 restaurants with average customer ratings above 4.7 in both casual and fine dining categories, spanning at least 3 cities, over the last year.**
-    - **Explanation:** Combines restaurant, review, and location data with efficient joins and conditions.
+      Combines restaurant, review, and location data with efficient joins and conditions.
 
 13. **Identify the top 10 tech companies that introduced the most innovative patents, influencing at least 5 industries, with a citation count above 200, over the past 5 years.**
-    - **Explanation:** Leverages powerful relational querying to handle patent, citation, and industry influence data.
+      Leverages powerful relational querying to handle patent, citation, and industry influence data.
 
 14. **Retrieve a list of top-selling electronic gadgets in the past two years, with an average customer review rating above 4.3, sold across at least 3 online platforms.**
-    - **Explanation:** Complex data aggregation and filtering on sales and review data across multiple platforms.
+      Complex data aggregation and filtering on sales and review data across multiple platforms.
 
 15. **Determine the most influential academic conferences in the fields of machine learning and data science, with participation from more than 30 countries, from 2015 onward.**
-    - **Explanation:** Involves querying dense relational data on participation and conference details efficiently.
+      Involves querying dense relational data on participation and conference details efficiently.
 
 16. **Identify the top 50 social media influencers who have collaborated with brands in at least 5 product categories, with an average engagement rate above 8%, over the last 3 years.**
-    - **Explanation:** Requires efficient joins and aggregations across influencer, collaboration, and engagement data.
+      Requires efficient joins and aggregations across influencer, collaboration, and engagement data.
 
 17. **List the top 20 charities with the highest impact scores that have operated in more than 5 countries and maintained administrative costs below 10% over the past decade.**
-    - **Explanation:** Efficiently manages complex filtering, joins, and aggregation related to impact and financials.
+      Efficiently manages complex filtering, joins, and aggregation related to impact and financials.
 
 18. **Find the top 10 most lucrative real estate markets based on property appreciation rates over 15 years in cities with populations between 500k to 2 million.**
-    - **Explanation:** Involves efficient computations and data retrieval on property and demographic data.
+      Involves efficient computations and data retrieval on property and demographic data.
 
 19. **Identify the top 10 car manufacturers with the highest average fuel efficiency across multiple models, sold in at least 10 countries, over the past 5 years.**
-    - **Explanation:** Manages complex data joins and aggregations effectively for multi-model data handling.
+      Manages complex data joins and aggregations effectively for multi-model data handling.
 
 20. **Extract top-performing advertising campaigns for products in at least 3 sectors, with a return on investment exceeding 200%, executed since 2010.**
-    - **Explanation:** Efficiently performs data retrieval, comparison, and calculation on performance and financial data.
+      Efficiently performs data retrieval, comparison, and calculation on performance and financial data.
 
 21. **List the top 10 investment portfolios that achieved an average annual return exceeding 15%, diversified across at least 5 asset classes, in the past decade.**
-    - **Explanation:** Handles complex financial data and aggregation to compute annual returns and diversity analysis.
+      Handles complex financial data and aggregation to compute annual returns and diversity analysis.
 
 22. **Identify the top 50 cities with the fastest-growing technology hubs, based on startup funding raised, in the last 5 years.**
-    - **Explanation:** Requires efficient joins and aggregations on startup and funding data.
+      Requires efficient joins and aggregations on startup and funding data.
 
 23. **Find the top 25 banks with the lowest non-performing asset ratios in both corporate and retail sectors, operating in multiple countries, for the last fiscal year.**
-    - **Explanation:** Manages complex relational data retrieval and filtering on financial and geographic data.
+      Manages complex relational data retrieval and filtering on financial and geographic data.
 
 24. **Retrieve countries with the highest number of cultural heritage sites recognized by multiple international bodies, with an average visitation growth rate above 5% since 2000.**
-    - **Explanation:** Involves dense data joins and filtering on cultural, recognition, and visitation data.
+      Involves dense data joins and filtering on cultural, recognition, and visitation data.
 
 25. **List 20 luxury fashion brands with consistently high social media engagement across at least 4 platforms, in the last 3 years.**
-    - **Explanation:** Efficiently handles complex joins, aggregation, and comparison on brand and social media data.
+      Efficiently handles complex joins, aggregation, and comparison on brand and social media data.
 
 26. **Identify the top-performing hospital networks with patient recovery rates exceeding 90% across multiple specialties, over the past 5 years, and in at least 3 cities.**
-    - **Explanation:** Efficient joins and aggregations across patient, specialty, and geographical data.
+      Efficient joins and aggregations across patient, specialty, and geographical data.
 
 27. **Find the top 20 art galleries with the most diverse collections, showcasing artworks from at least 10 different cultures, within the last 5 years.**
-    - **Explanation:** Combines complex filters, joins, and aggregation to analyze cultural diversity in collections.
+      Combines complex filters, joins, and aggregation to analyze cultural diversity in collections.
 
 28. **Extract top 15 global law firms with the highest number of successfully closed cases in international law and corporate law, over the last decade.**
-    - **Explanation:** Involves efficient relational database capabilities to handle historical and categorical data.
+      Involves efficient relational database capabilities to handle historical and categorical data.
 
 29. **Determine the top 10 airlines with the best on-time performance records for international routes, operating across at least 3 continents, for the past 2 years.**
-    - **Explanation:** Manages complex condition checks and aggregation for performance data efficiently.
+      Manages complex condition checks and aggregation for performance data efficiently.
 
 30. **Identify the top 10 cities for international students based on average academic performance and post-graduation employment rates, over the past 5 years.**
-    - **Explanation:** Efficiently manages diverse data sets involving academic and employment statistics.
+      Efficiently manages diverse data sets involving academic and employment statistics.
 
 31. **List the top 20 music festivals with the highest attendance rates in various countries, showcasing at least 5 genres, over the past decade.**
-    - **Explanation:** Involves powerful querying and aggregations on genre, location, and attendance data.
+      Involves powerful querying and aggregations on genre, location, and attendance data.
 
 32. **Find the 15 most subscribed online learning platforms based on student completion rates for courses in technology and business, over the past 3 years.**
-    - **Explanation:** Efficiently performs complex data retrieval, aggregation, and filtering on academic data.
-
-These queries leverage relational databases' strength in handling complex joins, conditions, aggregations, and indexing across structured datasets, making them more efficient than non-relational databases, which may lack the indexing structures or query optimization needed to execute such complex operations effectively.
+      Efficiently performs complex data retrieval, aggregation, and filtering on academic data.

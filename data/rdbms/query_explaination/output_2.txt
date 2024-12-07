@@ -1,123 +1,113 @@
-Creating queries that run efficiently on relational databases (RDBMS) but might not perform as well on other types of databases like NoSQL databases, involves understanding the strengths of relational databases. Relational databases are particularly efficient at handling queries that involve complex relationships, structured data, transactions, and operations involving joins, aggregations, and precise conditions. Here are 38 natural language queries well-suited for execution on RDBMS:
+1. **Retrieve all customers who have placed more than five orders within the last month.**
+    Utilizes indexed columns, aggregate functions, and conditional filtering in a well-structured schema.
 
-1. **Retrieve all customers who have placed more than five orders within the last month.**  
-   *Why efficient on RDBMS:* Utilizes indexed columns, aggregate functions, and conditional filtering in a well-structured schema.
+2. **List all employees who have been with the company for more than ten years and are working in managerial positions.**
+    Joins between employee tenure data and position tables benefit from defined relationships and constraints.
 
-2. **List all employees who have been with the company for more than ten years and are working in managerial positions.**  
-   *Why efficient on RDBMS:* Joins between employee tenure data and position tables benefit from defined relationships and constraints.
+3. **Find the total sales by product category for the past year, sorted by highest to lowest.**
+    Grouping and sorting are efficiently handled using indexes and B-trees in RDBMS.
 
-3. **Find the total sales by product category for the past year, sorted by highest to lowest.**  
-   *Why efficient on RDBMS:* Grouping and sorting are efficiently handled using indexes and B-trees in RDBMS.
+4. **Get a report of all students who have not submitted their assignments, along with their contact information.**
+    Uses LEFT JOINs to identify missing submissions and retrieves related contact details.
 
-4. **Get a report of all students who have not submitted their assignments, along with their contact information.**  
-   *Why efficient on RDBMS:* Uses LEFT JOINs to identify missing submissions and retrieves related contact details.
+5. **Identify books authored by more than one person within a specific genre.**
+    Multiple table joins are handled seamlessly due to foreign key relationships.
 
-5. **Identify books authored by more than one person within a specific genre.**  
-   *Why efficient on RDBMS:* Multiple table joins are handled seamlessly due to foreign key relationships.
+6. **Show all suppliers who have a contract worth over $100,000 and supply more than three different products.**
+    Compound conditions leveraging relational logic across different tables.
 
-6. **Show all suppliers who have a contract worth over $100,000 and supply more than three different products.**  
-   *Why efficient on RDBMS:* Compound conditions leveraging relational logic across different tables.
+7. **List all open support tickets assigned to teams, including their creation and last updated timestamps.**
+    Dates and team assignments are indexed and updated transactions are ACID-compliant.
 
-7. **List all open support tickets assigned to teams, including their creation and last updated timestamps.**  
-   *Why efficient on RDBMS:* Dates and team assignments are indexed and updated transactions are ACID-compliant.
+8. **Retrieve all orders containing products in both the electronics and home appliance categories.**
+    Handling set-based operations requiring EXISTS clauses or INNER JOINs.
 
-8. **Retrieve all orders containing products in both the electronics and home appliance categories.**  
-   *Why efficient on RDBMS:* Handling set-based operations requiring EXISTS clauses or INNER JOINs.
+9. **Compute the average score per subject for each student in a class.**
+    Group by and aggregating scores per student-subject relationships with indexes.
 
-9. **Compute the average score per subject for each student in a class.**  
-   *Why efficient on RDBMS:* Group by and aggregating scores per student-subject relationships with indexes.
+10. **Find all projects that require more than three departments and span into the next fiscal year.**
+     Relational tables model complex interdepartmental requirements; timestamps queried efficiently.
 
-10. **Find all projects that require more than three departments and span into the next fiscal year.**  
-    *Why efficient on RDBMS:* Relational tables model complex interdepartmental requirements; timestamps queried efficiently.
+11. **Count the number of active members who joined each month for the past two years.**
+     Efficient aggregation over time periods using indexes.
 
-11. **Count the number of active members who joined each month for the past two years.**  
-    *Why efficient on RDBMS:* Efficient aggregation over time periods using indexes.
+12. **Determine which products are rarely ordered, appearing less than 10 times in last quarter's sales.**
+     COUNT statements over order details combined with relational constraints.
 
-12. **Determine which products are rarely ordered, appearing less than 10 times in last quarter's sales.**  
-    *Why efficient on RDBMS:* COUNT statements over order details combined with relational constraints.
+13. **Extract a list of patients whose appointments were rescheduled more than once in the last six months.**
+     Employs queries on relational logs with efficient tracking through indexes.
 
-13. **Extract a list of patients whose appointments were rescheduled more than once in the last six months.**  
-    *Why efficient on RDBMS:* Employs queries on relational logs with efficient tracking through indexes.
+14. **Generate a listing of employees and their managers including only those where the two share the same last name.**
+     Efficient joins and filtering to create hierarchical datasets.
 
-14. **Generate a listing of employees and their managers including only those where the two share the same last name.**  
-    *Why efficient on RDBMS:* Efficient joins and filtering to create hierarchical datasets.
+15. **Identify all branches that sold more than $500,000 in seasonal promotions this year.**
+     Efficient use of partitioning and indexing for seasonal period analysis.
 
-15. **Identify all branches that sold more than $500,000 in seasonal promotions this year.**  
-    *Why efficient on RDBMS:* Efficient use of partitioning and indexing for seasonal period analysis.
+16. **List customers who have not purchased within the past year but spent over $5,000 the year before.**
+     Complex condition checking with historical transaction records.
 
-16. **List customers who have not purchased within the past year but spent over $5,000 the year before.**  
-    *Why efficient on RDBMS:* Complex condition checking with historical transaction records.
+17. **Find duplicate entries in a user database for emails registered with slight variations in spelling.**
+     Combines LIKE clauses with wildcard matching, possible with efficient text indexes.
 
-17. **Find duplicate entries in a user database for emails registered with slight variations in spelling.**  
-    *Why efficient on RDBMS:* Combines LIKE clauses with wildcard matching, possible with efficient text indexes.
+18. **Compile inventory details for items that are concurrently low in stock across multiple regions.**
+     Cross-region stock availability checks leverage relational models.
 
-18. **Compile inventory details for items that are concurrently low in stock across multiple regions.**  
-    *Why efficient on RDBMS:* Cross-region stock availability checks leverage relational models.
+19. **Retrieve a list of all transactions that failed within a critical application system.**
+     Transaction integrity and failure logging are strengths of RDBMS.
 
-19. **Retrieve a list of all transactions that failed within a critical application system.**  
-    *Why efficient on RDBMS:* Transaction integrity and failure logging are strengths of RDBMS.
+20. **Find employees who are both in the top 10% salary-wise and have received promotions in the last year.**
+     SQL queries managing complex aggregations and rankings with window functions.
 
-20. **Find employees who are both in the top 10% salary-wise and have received promotions in the last year.**  
-    *Why efficient on RDBMS:* SQL queries managing complex aggregations and rankings with window functions.
+21. **Show all courses with prerequisites that students often fail, ranked by fail rate.**
+     Relational database excels at multi-table joins and failure rate calculations.
 
-21. **Show all courses with prerequisites that students often fail, ranked by fail rate.**  
-    *Why efficient on RDBMS:* Relational database excels at multi-table joins and failure rate calculations.
+22. **List buildings that are fully occupied, including room-to-room utilization statistics.**
+     Indexed queries on occupancy metadata and relational statistics.
 
-22. **List buildings that are fully occupied, including room-to-room utilization statistics.**  
-    *Why efficient on RDBMS:* Indexed queries on occupancy metadata and relational statistics.
+23. **Identify website users who made more than five wish-list changes in the previous week.**
+     SQL efficiently analyzes user actions recorded over time.
 
-23. **Identify website users who made more than five wish-list changes in the previous week.**  
-    *Why efficient on RDBMS:* SQL efficiently analyzes user actions recorded over time.
+24. **Compile a report detailing vendor contracts due for renewal in the next 90 days.**
+     Indexed relational data makes future date projections accurate and fast.
 
-24. **Compile a report detailing vendor contracts due for renewal in the next 90 days.**  
-    *Why efficient on RDBMS:* Indexed relational data makes future date projections accurate and fast.
+25. **List athletes who participate in more than two sports across different seasons.**
+     Natural use of JOINs and aggregation over sparsely connected data.
 
-25. **List athletes who participate in more than two sports across different seasons.**  
-    *Why efficient on RDBMS:* Natural use of JOINs and aggregation over sparsely connected data.
+26. **Find all insurance policies that have filed claims in multiple states.**
+     Relations handling and query across location-based policies.
 
-26. **Find all insurance policies that have filed claims in multiple states.**  
-    *Why efficient on RDBMS:* Relations handling and query across location-based policies.
+27. **List all upcoming project milestones requiring multiple team inputs, with the closest due dates displayed first.**
+     Sorting and prioritization of deadlines benefits from indexed field queries.
 
-27. **List all upcoming project milestones requiring multiple team inputs, with the closest due dates displayed first.**  
-    *Why efficient on RDBMS:* Sorting and prioritization of deadlines benefits from indexed field queries.
+28. **Identify customers who upgraded their subscriptions more than twice last year.**
+     Efficient processing of subscription logs and upgrade histories.
 
-28. **Identify customers who upgraded their subscriptions more than twice last year.**  
-    *Why efficient on RDBMS:* Efficient processing of subscription logs and upgrade histories.
+29. **Extract a list of all active job listings with over 50 applications.**
+     Applications count and job listing status captured in relational schema.
 
-29. **Extract a list of all active job listings with over 50 applications.**  
-    *Why efficient on RDBMS:* Applications count and job listing status captured in relational schema.
+30. **Detail sessions where speakers received feedback scores below the average threshold of the entire conference.**
+     Comparisons involving statistical references overframe-specified datasets.
 
-30. **Detail sessions where speakers received feedback scores below the average threshold of the entire conference.**  
-    *Why efficient on RDBMS:* Comparisons involving statistical references overframe-specified datasets.
+31. **Display items ordered together most frequently with beverages.**
+     Complex relation queries extracting co-occurrence patterns.
 
-31. **Display items ordered together most frequently with beverages.**  
-    *Why efficient on RDBMS:* Complex relation queries extracting co-occurrence patterns.
+32. **Find top-performing tutors whose students show significant improvement across tested benchmarks.**
+     Aggregating and analyzing student performance related to tutor assignments.
 
-32. **Find top-performing tutors whose students show significant improvement across tested benchmarks.**  
-    *Why efficient on RDBMS:* Aggregating and analyzing student performance related to tutor assignments.
+33. **Count the number of returning buyers who purchased the same model more than once.**
+     Multiple table joins and duplicates elimination efficiently handled.
 
-33. **Count the number of returning buyers who purchased the same model more than once.**  
-    *Why efficient on RDBMS:* Multiple table joins and duplicates elimination efficiently handled.
+34. **List all department heads with departments earning the largest budget increases year over year.**
+     Historical budget comparisons with year-based filtering.
 
-34. **List all department heads with departments earning the largest budget increases year over year.**  
-    *Why efficient on RDBMS:* Historical budget comparisons with year-based filtering.
+35. **Identify devices with high incident reports from multiple locations.**
+     Leveraging relational joins and groupings on identifiers.
 
-35. **Identify devices with high incident reports from multiple locations.**  
-    *Why efficient on RDBMS:* Leveraging relational joins and groupings on identifiers.
+36. **Retrieve all membership plans being upgraded within two months of subscription start dates.**
+     Date-based queries and relational plan hierarchy management.
 
-36. **Retrieve all membership plans being upgraded within two months of subscription start dates.**  
-    *Why efficient on RDBMS:* Date-based queries and relational plan hierarchy management.
+37. **List all authors with multiple publications that were peer-reviewed in the last decade.**
+     Review and publication tracking using JOINs.
 
-37. **List all authors with multiple publications that were peer-reviewed in the last decade.**  
-    *Why efficient on RDBMS:* Review and publication tracking using JOINs.
-
-38. **Generate attendance statistics for events with interactive segments attracting more attendees.**  
-    *Why efficient on RDBMS:* Relational breakdown of event segments and participant interactions.
-
-**Benefits in RDBMS:**
-- **Structure & Integrity:** RDBMS schemas with strict data types, relationships (FK, PK), and constraints ensure efficient query processing.
-- **Query Optimization:** Advanced optimizers and use of indexes and execution plans improve speed.
-- **Transaction Safety:** ACID properties ensure the trustworthiness of complex queries involving multi-step transactional data.
-- **Joins & Aggregations:** Efficiently designed to handle join operations and aggregations that rely on normalized tables.
-
-Such queries typically involve structured data with established relationships and benefit from the advanced utilities provided by RDBMS, which might not be as effective in handling intricate relations or ensuring data integrity in non-relational databases.
+38. **Generate attendance statistics for events with interactive segments attracting more attendees.**
+     Relational breakdown of event segments and participant interactions.
