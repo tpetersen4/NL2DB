@@ -1,0 +1,38 @@
+nl_query,explanation,db
+ Find all customers who have purchased products from both the Electronics and Furniture categories.,     The efficiency of SQL joins is well-optimized in relational systems compared to NoSQL databases that typically don't support complex joins.,rdbms
+ Calculate the total sales amount for the last quarter for each product category.,"     Relational databases excel in aggregations using `GROUP BY` with filters, while in some NoSQL databases, this can require complex pipelines or map-reduce operations.",rdbms
+ Find the top 3 salespersons who exceeded the average sales of their department.,"     Relational databases handle subqueries effectively, whereas many NoSQL systems struggle with deeply nested queries.",rdbms
+ List all entries violating the foreign key constraints between orders and customers.,"     Relational databases enforce constraints at the database level, unlike many NoSQL systems that require application-level validation.",rdbms
+ Enforce unique email addresses across all user profiles.,"     Relational databases maintain integrity through constraints efficiently, while in NoSQL, this often involves complex checks.",rdbms
+ Update order status and adjust stock levels atomically across tables.,"     ACID transactions in relational databases ensure atomicity, consistency, and isolation, which can be challenging with non-ACID compliant NoSQL systems.",rdbms
+ Rank customers by the total value of their purchases in descending order.,"     SQL's `ORDER BY` with `RANK()` functions are optimized for such tasks, unlike many NoSQL databases.",rdbms
+ Retrieve the entire organizational hierarchy for a given employee.,"     Recursive CTEs (`WITH RECURSIVE`) are efficient in relational databases, unlike graph-like traversals in other systems.",rdbms
+ Pivot quarterly sales data from columns to rows.,"     SQL handles `PIVOT` operations efficiently, while many NoSQL databases require complex aggregation logic.",rdbms
+ Delete a product category and cascade the deletion to associated products.,      Cascading operations are built into relational database engines.,rdbms
+ Select records where the price increased compared to the previous day.,      Relational databases can efficiently handle sequential data comparisons using `LAG()` functions.,rdbms
+ Find orders placed during sales promotion periods.,      SQL can effectively join multiple date ranges with complex queries.,rdbms
+ Select employee salary evolution over five years.,      Relational databases support schema evolution with history tracking better than many NoSQL databases.,rdbms
+" Generate a report of sales by region, product, and quarter.",      Relational databases are designed for multidimensional data analysis using OLAP operations.,rdbms
+ Normalize a list of products and their suppliers into separate tables.,"      Relational systems apply normalization principles natively, leading to efficient storage and access.",rdbms
+ Find employees eligible for a bonus based on performance and tenure conditions.,      SQL's rich set of functions for conditional logic outperforms many NoSQL query languages.,rdbms
+ Show changes made to employee data over time.,      Relational databases support historical tracking using date-stamping and robust logging mechanisms.,rdbms
+ Fetch user roles and permissions from a centralized table structure.,      Relational databases efficiently manage security constraints via relational integrity.,rdbms
+ Identify financial transactions that exceed reporting limits.,      Relational systems are preferred for compliance due to strong integrity constraints.,rdbms
+ Ensure no duplicate entries in employee records without unique email or ID.,      Relational databases reduce redundancy and anomalies through normalization.,rdbms
+ List employees in order of hire dates.,      Efficient ordering and indexing available in relational models.,rdbms
+ Identify user segments for targeted marketing based on purchase patterns.,      Efficient use of indexes and complex conditions filtering.,rdbms
+ Present a catalog structure as parent-child relationships.,      Supports normalized tables efficiently modeling hierarchies.,rdbms
+ Ensure project assignments have unique employee and task combinations.,      Compound keys enforce multi-column uniqueness.,rdbms
+ Analyze database state at a given point in time.,      Supports transactional snapshots efficiently.,rdbms
+ Batch update inventory quantities across warehouses.,      Batch updates are optimized with ACID compliance in SQL.,rdbms
+ Perform matrix multiplication on tabular data.,      SQL can handle matrix operations in relational tables effectively.,rdbms
+ Cross-reference product defects reported with warranty claims.,      This is naturally catered to by relational join operations.,rdbms
+ Perform set operations like union and intersection on customer lists.,      RDBMSs are designed to handle relational algebra operations natively.,rdbms
+ Fetch all temperature records between 20 and 25 degrees.,      Well-optimized through indexing mechanisms.,rdbms
+ Automatically generate unique keys for new records.,      Relational models support auto-increment fields efficiently.,rdbms
+ Create a view combining static product details and dynamic sales data.,      Efficient use of views to create hybrid datasets.,rdbms
+ Move old transaction records to an archive table while ensuring access remains seamless.,      Relational systems manage archiving with partitioning techniques.,rdbms
+ Optimize read-heavy access patterns for frequently accessed records.,      Index optimization and query planning are strengths of RDBMSs.,rdbms
+ Extract schema details from the database for documentation purposes.,      Supports metadata queries natively through system views.,rdbms
+ Sum the sales discount where sales exceeded the default limit.,      Can perform conditional aggregations with inline subqueries and case statements.,rdbms
+ Predict future sales patterns based on historical quarterly data.,      Historical data handling with complex predictive analytics is optimized for relational models through SQL and extended features.,rdbms

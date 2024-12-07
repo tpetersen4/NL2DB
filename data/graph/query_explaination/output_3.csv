@@ -1,0 +1,41 @@
+nl_query,explanation,db
+Find the shortest path between two people in a social network.,     Graph databases excel in shortest path algorithms due to their node and edge architecture.,graph
+Identify mutual friends between two users.,     Efficient in graph databases with direct traversal over relationships.,graph
+Determine the degree of separation between two actors in a movie network.,     Quickly navigates connections using graph search techniques.,graph
+"List all employees who report, directly or indirectly, to a given manager.",     Hierarchical traversals are quick and straightforward in a graph model.,graph
+Find all the projects connected to a particular technology through collaborators.,     Graphs handle multi hop relationships efficiently.,graph
+Identify communities or clusters of closely connected users in a network.,     Community detection algorithms are native to graph frameworks.,graph
+Trace the supply chain to find all suppliers related to a specific product.,     Graphs excel in multi tier supply chain analysis.,graph
+Discover all articles a specific author is indirectly connected to through co authorship networks.,     Relational inference is a strength of graph databases.,graph
+Retrieve all influencers in a given network based on their connections.,     Centrality measures are efficient in graph contexts.,graph
+Identify all potential fraud rings based on transaction relationships.,      Complex pattern matching is optimized in graph systems.,graph
+Find the most common connection path between two entities.,"      Graph traversals make this efficient, avoiding complex joins.",graph
+List all direct and indirect dependencies of a software module.,      Dependency graphs are inherently navigable in graph databases.,graph
+Identify all shared interests between two users based on their social links.,      Overlaying interest graphs on social networks is powerful in graph models.,graph
+Cluster businesses based on shared categories and ownership hierarchies.,      Multi characteristic clustering is more feasible in graph processing.,graph
+Find recommendations for a user based on what similar users have liked.,      Collaborative filtering through graphs is fast and effective.,graph
+Trace genealogy to find common ancestors for two family members.,      Ancestry queries naturally fit into a graph schema.,graph
+Determine influence spread for a marketing campaign through networks.,      Propagation modeling relies on graph traversal algorithms.,graph
+Infer relationship strength based on the connectedness in communication patterns.,      Graphs can quantify relational intensity via edge weights.,graph
+List all paths connecting two concepts in a mind map.,      Concept networks perform well with graph path queries.,graph
+Find topological ordering of tasks in a project management graph.,      Task dependencies align well with DAG structures.,graph
+Identify all items frequently bought together based on a transaction graph.,      Association rules can quickly derive insights from graphs.,graph
+Discover cyclical relationships in organizational structures.,      Cycle detection is efficient in a graph database.,graph
+Seek all common group memberships between two users in a networked system.,      Membership networks leverage graph structure for quick access.,graph
+Highlight impact areas of a key node's removal in infrastructural networks.,      Vulnerability analysis benefits from interconnected graph insights.,graph
+Identify clusters of disease outbreaks from patient contact networks.,      Epidemiological clustering thrives in graph analysis.,graph
+Find all documents reviewed by members of a specific committee in an organization.,      Navigating collaborative review trails benefits from graph databases.,graph
+Determine bottlenecks in logistics by analyzing flow graphs.,      Flow analysis is straightforward in graph representations.,graph
+Trace regulatory compliance connections across international branches.,      Compliance links form intricate networks optimized by graph traversal.,graph
+List services connected through various providers in a digital ecosystem.,      Service network overlays excel with graph models for connectivity.,graph
+Identify users affected by a bug reported through a software dependency graph.,      Immediate impact mapping is graph database friendly.,graph
+Find the optimal team formation based on skill graphs.,      Skill matching can leverage interconnected data efficiently.,graph
+Locate individuals with overlapping interests in diverse professional networks.,      Graphs efficiently manage multi domain interest and professional links.,graph
+Detect insider threat patterns through communication and access logs.,      Pattern queries benefit from direct path tracing in graphs.,graph
+Examine cascading effects of a financial disruption through interconnected markets.,      Economic dependencies translate well into graph models.,graph
+Identify the key information broker in an intelligence network.,      Broker detection relies on centrality and network analysis.,graph
+Trace the evolution of viral content across different social networks.,      Viral propagation benefits from the graph’s dynamic edge evaluation.,graph
+Catalog all influences on a particular legislative bill topology.,      Legislative impact assessments use network linkages effectively.,graph
+Discover the web of partners surrounding a key corporation.,      Partnership networks are manageable with graph exploration.,graph
+Analyze common pathways affected by power grid disruptions.,      Pathway reliability relies on electrical grid topology in graphs.,graph
+Seek hidden connections in criminal networks via communication graphs.,      Hidden node identification uses pattern detection efficiently on graphs.,graph

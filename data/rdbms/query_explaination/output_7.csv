@@ -1,0 +1,35 @@
+nl_query,explanation,db
+Find all customers who made more than three purchases in the past month.,     Relational databases are optimized for handling joins and aggregations quickly.,rdbms
+Get all employees who have been with the company for more than five years and work in the sales department.,     SQL allows filtering and searching on specific columns with indexed queries.,rdbms
+List all products with stock levels below the reorder threshold.,     Relational databases efficiently handle querying with conditional operators.,rdbms
+Retrieve the top 10 highest grossing movies from the past decade.,     Sorting and limiting results are efficiently handled by SQL queries.,rdbms
+Find pairings of customers and their highest paid jobs completed this year.,     Complex joins and subqueries are efficiently processed by SQL.,rdbms
+Get a list of suppliers with their average delivery times.,     Aggregation functions are optimized in relational databases for performance.,rdbms
+Identify all students who scored above 90 in math and are enrolled this semester.,     Relational databases excel in searching and filtering based on multiple criteria.,rdbms
+Fetch all blog posts with more than 100 comments.,     Databases efficiently manage indexed searches on related tables.,rdbms
+List all orders that include a specific product with their total cost.,     Multiple joins across tables are handled well in relational operations.,rdbms
+Find all transactions involving customers in the top 10% spending bracket.,      Subqueries and ranking using functions like `RANK()` or `NTILE()` are efficient in SQL.,rdbms
+Get all items sold in the last year grouped by category and summed by revenue.,      Grouping and summarizing data is naturally suited to SQL queries.,rdbms
+"Retrieve a list of employees and their managers, showing department hierarchies.",      Hierarchical queries involving self joins are efficiently supported.,rdbms
+Show all active subscriptions and their payment histories for the past year.,      Efficient handling of time based queries and related data retrieval.,rdbms
+List projects with deadlines in the next month and their assigned team members.,      Combining time conditions with joins is efficient on relational databases.,rdbms
+Find all doctors who have conducted more than 50 surgeries this year.,      Capability for quick calculations and condition checks.,rdbms
+Fetch a report of total sales grouped by month and region.,      Group by and aggregate functions provide efficient reporting capabilities.,rdbms
+Identify all flights with more than 80% occupancy in the past three months.,      Relational databases efficiently evaluate conditions across large datasets.,rdbms
+List top 5 customers by total lifetime value.,      SQL supports sorting and ranking across potentially large data volumes.,rdbms
+"Get details of all loans approved with amounts greater than $50,000.",      Efficiently manages selection criteria with index based searches.,rdbms
+Find all authors who have published more than three bestsellers.,      Joins and filters over multiple tables benefit from relational database optimization.,rdbms
+Retrieve all insurance claims filed in the last quarter with their approval status.,      Temporal queries and status filtering are straightforward.,rdbms
+Show all hotels in the database with average ratings above 4.5.,      Aggregating ratings is easily managed with optimizations.,rdbms
+List customer feedback responses received in the last 30 days.,      Efficiency in sorting and fetching time based records.,rdbms
+Generate a list of all employees eligible for a performance bonus this year.,      Complex conditions involving multiple criteria are efficiently processed.,rdbms
+Identify top performing salespersons with sales above a certain target.,      Rank and filter data over multiple criteria using built in SQL capabilities.,rdbms
+Retrieve all marketing campaigns active in the current quarter.,      Date based filtering is efficiently executed.,rdbms
+Get a list of products along with their suppliers and latest price updates.,      Multi table joins and date based selections perform well on indexed columns.,rdbms
+Find all classes with enrollment quotas exceeded.,      Simple but efficient queries around limits and constraints.,rdbms
+List all new product launches planned for the next six months.,      Forecasting queries are well suited for relational time based search.,rdbms
+Fetch customer rental history and flag overdue accounts.,      Combining customer and transaction data with conditions is efficient.,rdbms
+Get a detailed report of all vehicles serviced with parts used and costs incurred.,      Complex relationships and joins processed effectively.,rdbms
+Identify all online orders with an express delivery option chosen.,      Filtering and selection based on specific attributes work well.,rdbms
+Retrieve a ranking of articles based on views in the last month.,      SQL's ranking functions work efficiently on properly indexed tables.,rdbms
+"List all open support tickets from customers, categorized by priority level.",      Efficient categorization and prioritization through filtering and sorting.,rdbms

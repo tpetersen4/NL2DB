@@ -1,0 +1,37 @@
+nl_query,explanation,db
+Find all customers who purchased product X in the last 30 days.,"      Relational databases excel in handling structured data with relational integrity, making it easier to perform complex joins and filter based on time constraints.",rdbms
+List all employees with their respective department and department head.,      The ability to perform joins and subqueries efficiently is a hallmark of relational databases where relationships between tables are explicitly defined.,rdbms
+Generate a monthly sales report grouped by region.,      Aggregation functions like `GROUP BY` are standard SQL operations that are optimized in relational databases.,rdbms
+Retrieve the top 5 selling products for the previous quarter.,      Relational databases support complex queries with ordering and limits efficiently.,rdbms
+Find all orders where the order total exceeds the average order total.,      Relational databases efficiently handle aggregate functions and subqueries to compute averages and compare them with other data.,rdbms
+List suppliers with an overall product rating above 4.5.,      Utilizes relational joins and filtering which are natively handled well by SQL in relational databases.,rdbms
+Identify customers who haven’t ordered in the last year.,      Databases like SQL rely on index scans and subqueries to efficiently identify non matches.,rdbms
+Calculate the year over year sales growth for each product category.,      Relational databases can efficiently handle complex calculations and comparisons over time series data.,rdbms
+Retrieve all students with their respective courses and grades.,      Exploitation of foreign key relationships and joins optimizes performance in relational databases.,rdbms
+Find duplicate entries in the email column of the contacts table.,       SQL’s duplicate finding using `GROUP BY` and `HAVING` clauses is efficient.,rdbms
+Determine the customer with the most number of orders this year.,       Relational databases are adept at aggregation and ranking using `COUNT()` and `ORDER BY`.,rdbms
+Fetch products that are currently out of stock.,       Relational databases use indexing to quickly access status flags in tables.,rdbms
+List employees who report directly to a manager named 'John Doe'.,       Hierarchical relationships are handled well with self joins and foreign keys.,rdbms
+Who are the new vendors added in the last three months?,       Date comparisons and queries are optimized in relational databases.,rdbms
+"Identify all cities having more than 10,000 registered users.",       SQL aggregation and filtering operations are optimal for this structure.,rdbms
+Generate a list of all invoices along with their payment status.,       Complex joins for combining invoice and payment tables are efficiently processed.,rdbms
+What are the most common issues reported in support tickets?,       Text categorization using frequency counts can be efficiently queried in structured tables.,rdbms
+Determine the total revenue generated from each product category.,       Relational databases excel in aggregating and grouping operations.,rdbms
+List overdue tasks from all active projects.,       SQL’s handling of multiple conditions across joined tables is efficient.,rdbms
+Fetch all reviews for a specific product with ratings greater than 4.,       Filtered queries using well indexed tables are processed quickly.,rdbms
+Identify the projects with deadlines within the next week.,       Date based filtering is natively supported and optimized.,rdbms
+Show the hierarchy of all employees in a department.,       Recursive queries (CTEs) are well optimized in relational databases.,rdbms
+Select all items in inventory tagged as perishable.,       Boolean filtering is natively efficient in structured data format.,rdbms
+List the number of employees in each department with a graphical representation.,       Aggregation and count queries are easily manageable in SQL.,rdbms
+Find the average order size per customer.,       Relational databases efficiently handle averages through grouped calculations.,rdbms
+Identify the last purchase date for every active customer.,       Relational databases are effective at retrieving latest records using `MAX()` functions.,rdbms
+Generate a list of all active subscriptions and their renewal dates.,       Combining current status with future dates via filtering is straightforward in SQL.,rdbms
+List products that have never been sold.,       Absence based queries are efficiently processed via joins and anti joins.,rdbms
+Compute the utilization rate of a resource across all projects.,       Relational models manage computational operations over collected data effectively.,rdbms
+Explore budget allocations for each department over the last fiscal year.,       SQL’s aggregate and analytical functions handle such historical queries well.,rdbms
+Identify relationships between authors and books they've published.,       Relational databases' strength in managing many to many relationships is beneficial for this query.,rdbms
+Fetch user profiles having no linked social media accounts.,       Anti join operations are efficiently handled in the structured environment of relational databases.,rdbms
+Provide a count of users by gender and age group.,       Aggregation functions on multiple groupings are strengths of relational systems.,rdbms
+Show all transactions that were part of a promotional campaign.,       Explicit relationships and filters are efficiently executed with well prepared datasets.,rdbms
+Find all students who have not submitted their final project.,       Addressing null or missing entries through joins is a native feature of SQL optimization.,rdbms
+Identify which movies have ratings below a certain threshold in all reviews.,       Relational databases leverage joins and subqueries to effectively compare across datasets.,rdbms

@@ -1,0 +1,34 @@
+nl_query,explanation,db
+Join multiple tables to find all customers who have purchased a specific product.,     Relational databases are optimized for executing JOIN operations efficiently due to their structured nature and indexing strategies.,rdbms
+Retrieve all employees in a department along with their manager’s details.,     Complex queries involving self-joins and hierarchical data are well-supported in relational databases.,rdbms
+Find customers who haven't placed any orders.,     Relational databases efficiently handle SQL queries such as those involving LEFT JOIN and IS NULL to identify missing relationships.,rdbms
+List all orders with more than three items.,"     Grouping and aggregate functions (e.g., COUNT) are optimized in relational databases, making these queries efficient.",rdbms
+Get the top 10 highest-paid employees in the sales department.,"     Relational databases efficiently execute ORDER BY and LIMIT clauses, allowing for quick retrieval of top-ranked results.",rdbms
+Calculate average order value per customer.,     Using GROUP BY along with aggregate functions like AVG is highly performant in relational database systems.,rdbms
+Identify the most frequently ordered product.,     Aggregate functions and efficient indexing support make finding most frequent items fast in relational databases.,rdbms
+Retrieve all books published by a particular publisher in the last 5 years.,     Combining conditions with WHERE clauses is a strong suit of relational databases.,rdbms
+Find the total sales amount per region this year.,     Relational databases are designed to perform scalable aggregations and summarizations.,rdbms
+List all employees who joined in the last quarter.,      Relational databases can efficiently evaluate date conditions and manipulate dates.,rdbms
+Get the distinct list of all suppliers serving at least two products.,      Subqueries and DISTINCT operations are executed efficiently in the relational model.,rdbms
+Retrieve customer emails who have not logged in over a year.,      Handling date comparisons and large datasets is efficient with relational database indexing.,rdbms
+Insert a batch of new sales records efficiently.,      ACID properties ensure efficient batch processing of inserts in environments requiring transactional integrity.,rdbms
+List products with no sales in the past month.,      Relational databases efficiently process left outer joins and subqueries to filter on non-existent relationships.,rdbms
+Update prices for products based on category-specific rules.,      The structured schema allows for efficient batch updates and conditional expressions.,rdbms
+Identify orders with discrepancies between requested and shipped quantities.,      Relational schemas allow for efficient comparison operations across related tables.,rdbms
+Retrieve all authors who have collaborated on books with more than three other authors.,      Handles complex joins and many-to-many relationships effectively.,rdbms
+Find top 5 customers by total order value.,      Indexed lookups and sorting are highly efficient in relational databases.,rdbms
+Show students with grades in the top 10 percentile.,      Handling ranking functions and precise filters is efficiently supported.,rdbms
+Calculate the compound annual growth rate of sales over the last 5 years.,      Advanced numeric processing and data retrieval optimizations facilitate efficiency.,rdbms
+Identify all stores that sell exclusively electronics.,      Complex filtering and set-based logic are ideal for relational databases.,rdbms
+Find all employees with the same last name.,      Efficient execution of queries based on pattern matching or conditions due to indexing.,rdbms
+Get a list of all overdue invoices including customer contact information.,      Multi-table queries with WHERE constraints on dates are efficiently managed.,rdbms
+Generate a monthly report summarizing transactions per branch.,      Aggregation by group and partitioned calculations are optimized in relational systems.,rdbms
+Count the number of active vs. inactive users.,      Efficiently processed using aggregates and conditional counting.,rdbms
+List all customers having the same address to identify potential duplicates.,      Supports expression-based deduplication and validation.,rdbms
+"Show all cities with more than 5,000 registered users.",      Aggregate functions and WHERE filters efficiently manage large datasets.,rdbms
+Determine average customer order frequency.,      Relational databases efficiently handle queries involving calculations over time-related data.,rdbms
+Find users who have been inactive since registration.,      Conditional joins and filters on related time-sensitive data are optimized.,rdbms
+List all pending shipments that are delayed by more than two weeks.,      Efficient evaluation of time series and date-based conditions.,rdbms
+Retrieve products where the supply is lower than demand forecasts.,      Handles complex comparison and analytical operations smoothly.,rdbms
+Identify duplicate product entries by name and category.,      Efficient detection of duplicates using GROUP BY and HAVING clauses.,rdbms
+Match customers to their preferred payment methods based on past usage trends.,      Adept at handling intricate join conditions and trend analysis through subqueries and aggregates.,rdbms

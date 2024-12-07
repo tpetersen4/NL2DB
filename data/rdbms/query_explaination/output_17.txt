@@ -1,7 +1,3 @@
-When designing queries that are efficiently executed on relational databases but might present challenges for other types of databases, we are typically leveraging the strengths of SQL query optimization, complex joins, aggregations, and indexing capabilities that RDBMSs offer. Complex queries often involve multiple conditions, aggregations, or joins, which can be less efficient on non-relational databases, particularly those that struggle with advanced querying or lack SQL optimizations.
-
-Here are 38 natural language queries that fit this criterion:
-
 1. Retrieve the top 50 movies released in the last five years with an average audience score of above 85%, focusing on dramas and thrillers, produced by more than three studios.
 
 2. Identify the top 25 employees with sales exceeding $500,000 annually, aged 25 to 40, and living in cities with populations over 1 million.
@@ -77,5 +73,3 @@ Here are 38 natural language queries that fit this criterion:
 37. Retrieve the top 20 publishing houses with the most critically acclaimed literature, scoring high reader satisfaction and gaining awards since 2010, managing books primarily in fiction genres.
 
 38. List the top 15 fashion events with changing trends and gatherings totaling at least 50,000 attendees per event, recognized globally within fashion week exhibitions, regularly hosted in key metropolitan areas.
-
-These queries would particularly run efficiently on relational databases due to their ability to handle complex joins, leverage tuned indexing strategies, apply powerful aggregations, and optimize performance through sophisticated query planning. Other databases might struggle due to limitations in handling multiple related datasets, lack of comparable indexing capabilities, or difficulty in optimizing complex logical operations and conditional query constructs.

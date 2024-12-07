@@ -1,139 +1,135 @@
-Relational databases, such as those using SQL, excel in efficiently handling complex queries involving intricate relationships and structured data. Here are 34 example queries that would typically perform better in a relational database context compared to others like NoSQL databases:
-
 1. **Identify the top 10 suppliers who have consistently provided raw materials on time, with at least 95% order accuracy, over the last decade in North America.**
 
-   *Why Relational DBs?* This query involves joining supplier records with order details and filtering based on geography and performance metrics, which relational databases handle efficiently through indexing and structured joins.
+     This query involves joining supplier records with order details and filtering based on geography and performance metrics, which relational databases handle efficiently through indexing and structured joins.
 
 2. **Find all employees who have improved their performance ratings by at least 50% over the past five years and have participated in more than two professional development programs.**
 
-   *Why Relational DBs?* This involves analyzing time-series data and complex joins between performance reports and training records.
+     This involves analyzing time-series data and complex joins between performance reports and training records.
 
 3. **List the top 5 cities where the property tax collection improved by over 20% annually over the past five years while maintaining an average population growth of 3%.**
 
-   *Why Relational DBs?* The query requires aggregating tax collection data along with demographic trends, best handled with relational data aggregations.
+     The query requires aggregating tax collection data along with demographic trends, best handled with relational data aggregations.
 
 4. **Select the top 3 contractors who have completed at least 20 infrastructure projects with fewer than 2% cost overruns and no safety incidents in the last ten years.**
 
-   *Why Relational DBs?* These operations involve multiple joins between tables like projects, budgets, and safety records.
+     These operations involve multiple joins between tables like projects, budgets, and safety records.
 
 5. **Identify products whose sales have doubled each quarter in the last two years in at least three different regions.**
 
-   *Why Relational DBs?* You need complex computations on sales trends and geographical data, making use of efficient indexed queries.
+     You need complex computations on sales trends and geographical data, making use of efficient indexed queries.
 
 6. **Determine the top 5 universities whose alumni have generated the highest number of startups valued at over $10 million within five years of graduation.**
 
-   *Why Relational DBs?* This requires linking alumni with their entrepreneurial activities and financial evaluations.
+     This requires linking alumni with their entrepreneurial activities and financial evaluations.
 
 7. **Find all industries where the average workforce salaries have increased by at least 5% each year in the last five years, but the employment rate declined.**
 
-   *Why Relational DBs?* It involves complex calculations and comparisons across multiple datasets, including employment and wage data.
+     It involves complex calculations and comparisons across multiple datasets, including employment and wage data.
 
 8. **List the top 10 healthcare providers who have maintained patient satisfaction scores above 95% while reducing their operation costs by at least 10% annually.**
 
-   *Why Relational DBs?* This involves multiple metrics across different database tables, suitable for relational database queries.
+     This involves multiple metrics across different database tables, suitable for relational database queries.
 
 9. **Identify the top 5 film directors who have produced movies grossing over $100 million but with production budgets under $10 million, over the past decade.**
 
-   *Why Relational DBs?* This requires querying complex data involving movie budgets, revenues, and director records.
+     This requires querying complex data involving movie budgets, revenues, and director records.
 
 10. **Select all food suppliers who have reduced delivery times by 30% while maintaining or improving quality scores in urban areas over the past three years.**
 
-    *Why Relational DBs?* It requires indexing across delivery timelines, quality measures, and geographic constraints.
+      It requires indexing across delivery timelines, quality measures, and geographic constraints.
 
 11. **Identify the regions where the average house price has doubled in value over the past five years while residency rates increased by 10%.**
 
-    *Why Relational DBs?* Relational databases best handle historical data manipulations and complex joins involving real estate and demographic data.
+      Relational databases best handle historical data manipulations and complex joins involving real estate and demographic data.
 
 12. **List all authors who have published at least five bestsellers in the last ten years while their books' average ratings stayed above 4.5 stars.**
 
-    *Why Relational DBs?* This query involves complex joins between sales and review databases.
+      This query involves complex joins between sales and review databases.
 
 13. **Find all companies that have increased their market share by 15% annually in at least two different continents over the past five years.**
 
-    *Why Relational DBs?* Analysis of structured market share data across multiple dimensions (time and location) is ideal for relational databases.
+      Analysis of structured market share data across multiple dimensions (time and location) is ideal for relational databases.
 
 14. **Select the top 10 athletes who won at least three international competitions and improved their personal record times in the last five years.**
 
-    *Why Relational DBs?* You need efficient cross-referencing of competition records and performance metrics.
+      You need efficient cross-referencing of competition records and performance metrics.
 
 15. **Identify all transport companies that have decreased their carbon footprint by 20% per annum while expanding their fleet by at least 10% each year.**
 
-    *Why Relational DBs?* This involves complex environmental impact calculations and inventory expansions best handled relationally.
+      This involves complex environmental impact calculations and inventory expansions best handled relationally.
 
 16. **List all technologies filed for patents which later crossed $1 billion in market value within five years, in the tech equipment sector.**
 
-    *Why Relational DBs?* Joins between patent filings and financial market results require complex transactions history analyses.
+      Joins between patent filings and financial market results require complex transactions history analyses.
 
 17. **Select the top 5 publishing houses that have consistently succeeded in reducing their book production costs by 10% while increasing sales by 15% annually over the past decade.**
 
-    *Why Relational DBs?* Requires analytics on financials and performance metrics from multiple data sources.
+      Requires analytics on financials and performance metrics from multiple data sources.
 
 18. **Identify cities where energy consumption has decreased by 20% while GDP increased by at least 2% annually over five years.**
 
-    *Why Relational DBs?* Data modeling of economic and energy metrics often involves relational database efficiencies for deriving insights. 
+      Data modeling of economic and energy metrics often involves relational database efficiencies for deriving insights.
 
 19. **Find retail chains where, over the past seven years, store openings have grown by 5% annually with a 98% satisfaction score maintained.**
 
-    *Why Relational DBs?* The complexity of transactional and survey data linked over time benefits from the relational model.
+      The complexity of transactional and survey data linked over time benefits from the relational model.
 
 20. **Select all hospitals where the average recovery times for complex surgeries reduced by at least 15% and patient influx increased by 10% in the past three years.**
 
-    *Why Relational DBs?* Relational joins and subqueries efficiently correlate healthcare results and patient records over time. 
+      Relational joins and subqueries efficiently correlate healthcare results and patient records over time.
 
 21. **Identify artists who have exhibited in at least three different countries annually and increased their auction sale prices by 25% each year, over the previous decade.**
 
-    *Why Relational DBs?* Dealing with exhibition and sales records across geographies and times involves relational data efficiencies. 
+      Dealing with exhibition and sales records across geographies and times involves relational data efficiencies.
 
 22. **List all automobile brands that launched five or more eco-friendly models over the past decade while securing a 25% market growth annually.**
 
-    *Why Relational DBs?* The integration of launch, market, and environmental performance data suits relational structures.
+      The integration of launch, market, and environmental performance data suits relational structures.
 
 23. **Find all schools that improved their student-teacher ratio by 10% each year and exceeded the national standard testing scores by 20% in the last five years.**
 
-    *Why Relational DBs?* Complex educational metrics meshed with standardized result analyses are best handled in a relational framework.
+      Complex educational metrics meshed with standardized result analyses are best handled in a relational framework.
 
 24. **Select top 5 financial analysts consistently predicting market trends with over 90% accuracy, achieving at least a 15% portfolio growth in three distinct financial sectors over ten years.**
 
-    *Why Relational DBs?* Historical accuracy indices and cross-sector growth metrics necessitate robust relational querying capabilities.
+      Historical accuracy indices and cross-sector growth metrics necessitate robust relational querying capabilities.
 
 25. **Identify top 5 volunteer organizations where intern participation rose by 10% annually while project impact ratings averaged above 4.7 over the past seven years.**
 
-    *Why Relational DBs?* Multi-dimensional data like volunteer efforts, project links, and ratings are optimized in relational databases. 
+      Multi-dimensional data like volunteer efforts, project links, and ratings are optimized in relational databases.
 
 26. **List cities demonstrating a yearly 5% increase in public transport usage while reducing private vehicle emissions by at least 10% over the past decade.**
 
-    *Why Relational DBs?* Transportation and environmental impact metrics integration benefits from the relational structure.
+      Transportation and environmental impact metrics integration benefits from the relational structure.
 
 27. **Find online platforms where user growth doubled each year and the content approval rating remained above 85% over the last three years.**
 
-    *Why Relational DBs?* Complex user growth trends and feedback loops are efficiently analyzed in relational systems.
+      Complex user growth trends and feedback loops are efficiently analyzed in relational systems.
 
 28. **Select the top 5 regions with the highest increase in renewable energy adoption of over 10% yearly, correlating with an economic growth of at least 3% over five years.**
 
-    *Why Relational DBs?* Developing renewable energy metrics alongside economic indicators fits well with relational models.
+      Developing renewable energy metrics alongside economic indicators fits well with relational models.
 
 29. **Identify all software companies where annual revenues doubled over the past five years while customer churn rate remained under 5%.**
 
-    *Why Relational DBs?* Requires complex analyses over time-series financial data and customer retention metrics. 
+      Requires complex analyses over time-series financial data and customer retention metrics.
 
 30. **List all construction companies that decreased their project completion times by 15% annually with a consistent 98% safety compliance record over the past decade.**
 
-    *Why Relational DBs?* Time efficiency and safety record correlations benefit from relational query optimizations.
+      Time efficiency and safety record correlations benefit from relational query optimizations.
 
 31. **Find all musical artists with five years of consistent top chart albums released yearly across at least four global markets.**
 
-    *Why Relational DBs?* Performance trends over time, linked with geographic market data, are efficiently managed relationally.
+      Performance trends over time, linked with geographic market data, are efficiently managed relationally.
 
 32. **Select restaurants that have maintained a 5-star review average while increasing the diversity of their menu offering by 10% every year for the past decade.**
 
-    *Why Relational DBs?* Relational databases can efficiently handle diverse operations data and detailed review correlations.
+      Relational databases can efficiently handle diverse operations data and detailed review correlations.
 
 33. **Identify all tourist destinations that saw a 15% increase in visitor numbers yearly while reducing visitor impact on local ecosystems over the past ten years.**
 
-    *Why Relational DBs?* The complex intersection of tourism, impacts, and environmental data cooperatively fits relational databases.
+      The complex intersection of tourism, impacts, and environmental data cooperatively fits relational databases.
 
 34. **List top 5 IT consultants successfully achieving more than 20% annual improvement in client utilization and project execution under budget constraints over the last five years.**
 
-    *Why Relational DBs?* The efficient merger of financial and performance data suits SQL's powerful data relationship handling.
-
-These complex queries involving heavy joins, subqueries, aggregations, and index usage are well-suited for relational databases due to their structured design and optimization capabilities for handling intricate data relationships, something that non-relational databases may struggle with due to their nature of data storage and querying limitations.
+      The efficient merger of financial and performance data suits SQL's powerful data relationship handling.

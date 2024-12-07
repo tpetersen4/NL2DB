@@ -1,120 +1,116 @@
-When it comes to complex queries that are efficient on relational databases but less so on other types of databases, the key factors are the relational database's ability to handle complex joins, aggregation, and filtering efficiently due to its structured schema and indexing capabilities. Here's a list of complex queries along with explanations of why they are particularly suitable for relational databases:
-
 1. **Identify the top 10 employees with the highest sales revenue in multiple regions, involving employees older than 35 years with more than 5 years of service, in the past year.**
-   - **Why Relational Databases:** Joins between employees, sales, regions, and time-based filtering ensure efficiency through indexed queries.
+     Joins between employees, sales, regions, and time-based filtering ensure efficiency through indexed queries.
 
 2. **Retrieve top 15 manufacturers who have produced vehicles with an average fuel efficiency above 30 mpg in the SUVs and trucks categories over the last 5 years.**
-   - **Why Relational Databases:** Vehicle data, manufacturer details, categories, and temporal data are efficiently handled with structured joins and aggregations.
+     Vehicle data, manufacturer details, categories, and temporal data are efficiently handled with structured joins and aggregations.
 
 3. **List the top 25 U.S. cities with the highest average household income growth, for households with more than four members, over the past decade.**
-   - **Why Relational Databases:** Complex aggregations and joins on household data, cities, and income statistics can be managed well using pre-defined relationships.
+     Complex aggregations and joins on household data, cities, and income statistics can be managed well using pre-defined relationships.
 
 4. **Determine the top 10 universities with the highest number of graduates who have founded successful startups, where success is defined as raising more than $1 million in funding in the technology sector, over the last 15 years.**
-   - **Why Relational Databases:** Involves multiple joins between graduate records, startup data, funding details, and sector-based filtering.
+     Involves multiple joins between graduate records, startup data, funding details, and sector-based filtering.
 
 5. **Extract the top 20 doctors who have participated in at least five clinical trials with success rates over 80% in cancer research, in the last decade.**
-   - **Why Relational Databases:** Requires detailed join operations across doctor profiles, clinical trials data, and success metrics.
+     Requires detailed join operations across doctor profiles, clinical trials data, and success metrics.
 
 6. **Find 30 most popular films (rating over 8.0) from directors who have directed movies in both action and drama genres in multiple countries in the past 7 years.**
-   - **Why Relational Databases:** The query needs complex joins and filtering involving films, directors, genres, and geographical data.
+     The query needs complex joins and filtering involving films, directors, genres, and geographical data.
 
 7. **Rank the top 15 financial advisors by clients' investment returns above 10% with portfolios over $1 million diversified across real estate and technology sectors in the last 3 years.**
-   - **Why Relational Databases:** Efficient handling of client, investment, sectoral and financial data through structured queries.
+     Efficient handling of client, investment, sectoral and financial data through structured queries.
 
 8. **Identify the top 5 cities where restaurant sales have grown the most among venues offering both dine-in and takeout services, over the past 5 years.**
-   - **Why Relational Databases:** Involves detailed aggregation and joining sales data with geographical and service type information.
+     Involves detailed aggregation and joining sales data with geographical and service type information.
 
 9. **List the 10 countries with the fastest-growing renewable energy production averaged across solar, wind, and hydroelectric sources, over the past decade.**
-   - **Why Relational Databases:** Relational databases can efficiently handle and aggregate complex datasets on energy production subdivided by type.
+     Relational databases can efficiently handle and aggregate complex datasets on energy production subdivided by type.
 
 10. **Retrieve the top 10 fashion brands by annual sales in the luxury segment across at least three continents over the last two decades.**
-    - **Why Relational Databases:** Requires joining sales records, brand data, segmentation information, and global categorization.
+      Requires joining sales records, brand data, segmentation information, and global categorization.
 
 11. **Determine the top 25 pharmaceutical companies based on product approvals from FDA and EMA, for cardiovascular drugs, over the last 15 years.**
-    - **Why Relational Databases:** Involves database joins and filters across company data and detailed product approval records across two regulatory agencies.
+      Involves database joins and filters across company data and detailed product approval records across two regulatory agencies.
 
 12. **Extract the names of the top 10 international airports by passenger traffic showing an increase of at least 5% annually over the last decade, offering more than 50 international destinations.**
-    - **Why Relational Databases:** Can efficiently handle transport data, international filters, and annual passenger statistics through relational mechanisms.
+      Can efficiently handle transport data, international filters, and annual passenger statistics through relational mechanisms.
 
 13. **List 15 retailers with the highest year-over-year revenue growth for eco-friendly products in the apparel and household essentials categories, over the past 5 years.**
-    - **Why Relational Databases:** Joins between product categories, sales data, and environmental attributes are handled efficiently using relational queries.
+      Joins between product categories, sales data, and environmental attributes are handled efficiently using relational queries.
 
 14. **Identify the top 10 states where public spending on green technologies tripled in the past decade, considering both R&D and infrastructure investments.**
-    - **Why Relational Databases:** Green technology data, public spending records, and category-specific investment filters are managed through structured joins.
+      Green technology data, public spending records, and category-specific investment filters are managed through structured joins.
 
 15. **Extract top 20 authors whose books, with an average rating above 4.0, have been translated into at least 10 languages in the past 10 years in both suspense and romance genres.**
-    - **Why Relational Databases:** Books, author data, ratings, genre classifications, and translation records are efficiently related and filtered in a relational database.
+      Books, author data, ratings, genre classifications, and translation records are efficiently related and filtered in a relational database.
 
 16. **Identify the top 5 electronics companies by innovation index, with products launched in AI and robotics having more than 50 patents each, over the last 5 years.**
-    - **Why Relational Databases:** Innovation index calculations and extensive product-patent database join operations align with relational database capabilities.
+      Innovation index calculations and extensive product-patent database join operations align with relational database capabilities.
 
 17. **List 10 most influential chefs based on the number of original recipes published and international event participations in fusion cuisine in the last two decades.**
-    - **Why Relational Databases:** Database joins between chefs, recipes, event records, and cuisine types facilitate complex intersection and aggregation.
+      Database joins between chefs, recipes, event records, and cuisine types facilitate complex intersection and aggregation.
 
 18. **Find the top 7 airlines with over 90% on-time arrival rates for flights longer than 3 hours, across at least 5 continents, in the past 3 years.**
-    - **Why Relational Databases:** Efficient handling of flight data, time calculations, and extensive geographical reach with relational queries.
+      Efficient handling of flight data, time calculations, and extensive geographical reach with relational queries.
 
 19. **Retrieve 25 multinational tech companies with double-digit growth in AI workforce, with more than 30% of employees over 50 years old, in the past 5 years.**
-    - **Why Relational Databases:** Employee demographics, company data, and growth figures benefit from structured data and relational association.
+      Employee demographics, company data, and growth figures benefit from structured data and relational association.
 
 20. **Identify the top 12 musical bands, who have released albums in both rock and classical genres, with album sales exceeding 1 million in the past 15 years.**
-    - **Why Relational Databases:** Joins between band data, album sales records, and genre classification enable efficient complex queries.
+      Joins between band data, album sales records, and genre classification enable efficient complex queries.
 
 21. **Determine top 15 countries by export value growth in agricultural technology, involving hydroponics and drone-based farming solutions, in the past decade.**
-    - **Why Relational Databases:** Combines complex dataset categories with export records and technological subtypes through efficient relational queries.
+      Combines complex dataset categories with export records and technological subtypes through efficient relational queries.
 
 22. **Extract the top 10 financial markets with the highest foreign investment in renewable energy projects, focusing on solar and wind, over the past decade.**
-    - **Why Relational Databases:** Handles investment data, market details, and energy project categorizations effectively through relational schemas.
+      Handles investment data, market details, and energy project categorizations effectively through relational schemas.
 
 23. **Identify the top 8 logistics companies with supply chains optimized for eco-efficiency, having reduced emissions by at least 25% over 5 years, globally.**
-    - **Why Relational Databases:** Supply chain and emissions data require structured joins and detailed processing for efficiency in complex queries.
+      Supply chain and emissions data require structured joins and detailed processing for efficiency in complex queries.
 
 24. **List the top 15 hospitals with the highest patient satisfaction ratings, offering specialized treatments in cardiology and neurology in more than three countries over the last decade.**
-    - **Why Relational Databases:** Combines healthcare provider data, treatment records, and patient satisfaction measures efficiently through structured operations.
+      Combines healthcare provider data, treatment records, and patient satisfaction measures efficiently through structured operations.
 
 25. **Determine top 20 consumer electronics companies by market share in smart home technologies, offering products compatible with at least three major AI platforms, over the last 5 years.**
-    - **Why Relational Databases:** Product compatibility, company data, and market share statistics are effectively managed and queried in an efficient relational structure.
+      Product compatibility, company data, and market share statistics are effectively managed and queried in an efficient relational structure.
 
 26. **Identify the top 10 national parks by annual visitor growth rates above 10%, offering guided tours in multiple languages over the past 5 years.**
-    - **Why Relational Databases:** Visitor statistics, service offerings, and multi-language tours necessitate relational data operations for complex querying.
+      Visitor statistics, service offerings, and multi-language tours necessitate relational data operations for complex querying.
 
 27. **Retrieve 30 sports brands leading in global market penetration for apparel categorized under performance athletics and casual sportswear, in the last 10 years.**
-    - **Why Relational Databases:** Market penetration data, brand details, and category-specific structuring are efficiently processed relationally.
+      Market penetration data, brand details, and category-specific structuring are efficiently processed relationally.
 
 28. **List the top 18 cities by per capita digital infrastructure investment growth, featuring 5G deployment in public sectors, over the past decade.**
-    - **Why Relational Databases:** Involves nuanced join operations between city data, investment records, and digital infrastructure specifics.
+      Involves nuanced join operations between city data, investment records, and digital infrastructure specifics.
 
 29. **Extract top 14 culinary schools producing chefs with over 5 global culinary awards, specialized in fusion and molecular gastronomy, over the last 20 years.**
-    - **Why Relational Databases:** Complex joins between school data, chef profiles, and award records enable comprehensive data makeup.
+      Complex joins between school data, chef profiles, and award records enable comprehensive data makeup.
 
 30. **Find the top 10 wildlife reserves with a biodiversity index increase of at least 15%, offering research and tourist excursions in collaboration with at least three international conservation bodies, in the past decade.**
-    - **Why Relational Databases:** Reserves data, biodiversity metrics, and conservation collaborations are well-suited for detailed relational querying.
+      Reserves data, biodiversity metrics, and conservation collaborations are well-suited for detailed relational querying.
 
 31. **Identify the top 15 tech startups by employee growth in cybersecurity, with more than 20% women workforce, in the past 3 years.**
-    - **Why Relational Databases:** Growth figures, employee demographics, and industry roles provide efficiency when well-structured relationally.
+      Growth figures, employee demographics, and industry roles provide efficiency when well-structured relationally.
 
 32. **Determine the top 20 cities with the highest tech job growth, featuring at least one tech incubator with a startup success rate over 30%, in the past 5 years.**
-    - **Why Relational Databases:** Combines employment statistics, incubator success rates, and tech sector filtering through efficient relations.
+      Combines employment statistics, incubator success rates, and tech sector filtering through efficient relations.
 
 33. **List 10 retail chains with the most significant expansion in eco-friendly product lines across home, fashion, and beauty segments, in the last decade.**
-    - **Why Relational Databases:** Retail data, expansion records, and product segmentations are efficiently organized in a relational database.
+      Retail data, expansion records, and product segmentations are efficiently organized in a relational database.
 
 34. **Retrieve top 18 automobile brands with the largest increase in electric vehicle sales, offering models in at least three different size categories, over the 5 past years.**
-    - **Why Relational Databases:** Brand data, sales records, and categorical classification facilitate structured, efficient complex queries.
+      Brand data, sales records, and categorical classification facilitate structured, efficient complex queries.
 
 35. **Identify the top 12 cities hosting the largest increase in international art exhibitions, with over 50% featuring contemporary works, in the past decade.**
-    - **Why Relational Databases:** Art exhibition data, contemporary classification, and geographical insights are processed relationally for better efficiency.
+      Art exhibition data, contemporary classification, and geographical insights are processed relationally for better efficiency.
 
 36. **List the top 10 countries with the largest growth in remote work infrastructure, focusing on internet speeds and coworking spaces, in the last 5 years.**
-    - **Why Relational Databases:** Combines data on infrastructure, technological enhancements, and workspace trends efficiently in a relational context.
+      Combines data on infrastructure, technological enhancements, and workspace trends efficiently in a relational context.
 
 37. **Retrieve the top 30 research universities with output exceeding 50 patents annually in biotech and AI, collaborating with industry partners across multiple continents over the last 20 years.**
-    - **Why Relational Databases:** Managing university research data, patent records, and industry partnerships requires structured joins for efficiency.
+      Managing university research data, patent records, and industry partnerships requires structured joins for efficiency.
 
 38. **Determine the top 15 insurance companies based on payout efficiency in climate-related claims, focusing on agriculture and residential policies, over the past 10 years.**
-    - **Why Relational Databases:** Insurance claim data, policy types, and efficiency metrics align with relational database strengths for complex queries.
+      Insurance claim data, policy types, and efficiency metrics align with relational database strengths for complex queries.
 
 39. **Identify the top 7 global construction firms by sustainable building practices, achieving green certifications on projects across at least three continents in the last 8 years.**
-    - **Why Relational Databases:** Firm data, certification records, and geographical distribution necessitate robust relational querying for efficient processing.
-
-These queries are complex and require the type of structured data advantages offered by relational databases, such as normalization, indexed keys, and adherence to ACID principles, making them less efficient on NoSQL or graph databases that lack such optimization for complex joins and aggregations.
+      Firm data, certification records, and geographical distribution necessitate robust relational querying for efficient processing.

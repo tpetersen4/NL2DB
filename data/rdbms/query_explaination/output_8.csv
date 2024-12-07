@@ -1,0 +1,41 @@
+nl_query,explanation,db
+List all customer orders along with the respective customer details.,     Relational databases efficiently handle JOIN operations across multiple tables using optimized indexes and query planners.,rdbms
+Transfer funds between two accounts and ensure that neither account ends up with a negative balance.,"     ACID transaction support in RDBMS ensures data integrity and consistency, which is less robust in many non-relational databases.",rdbms
+Calculate the total sales for each product category for the last quarter.,     RDBMS are optimized for aggregations with GROUP BY and have fast execution plans using indexed columns.,rdbms
+Find all employees who earn more than the average salary of their department.,     Subqueries can be efficiently managed by relational databases through optimized execution plans.,rdbms
+List the organizational hierarchy for a specific employee.,     Recursive common table expressions (CTEs) in SQL are efficiently handled in RDBMS.,rdbms
+Find the rank of each product based on sales volume within its category.,     SQL window functions provide powerful analytical operations that are difficult to replicate with the same performance in non-relational systems.,rdbms
+Ensure orders cannot be placed for non-existent products.,     Foreign key constraints in RDBMS enforce referential integrity efficiently.,rdbms
+Add a new column to an existing large table with minimal downtime.,     Relational databases often handle schema updates more efficiently through well-optimized internal mechanisms.,rdbms
+Calculate the age of customers based on their birthdate.,     RDBMS often provide efficient built-in functions for date and time manipulations.,rdbms
+Retrieve orders where the order total is above the cost but below the product's price times quantity.,      Complex WHERE clause filtering is optimized using indexes in RDBMS.,rdbms
+Apply a 10% discount to all products in a specified category.,      Transaction-oriented batch updates are managed efficiently by RDBMS.,rdbms
+"Enforce validation rules that span across customer, order, and product tables.",      Relational schemas provide robust support for multi-table constraints.,rdbms
+Ensure no two customers registered with the same email.,      Unique constraints are effectively implemented in RDBMS.,rdbms
+Join customer data from two different schemas owned by different departments.,      RDBMS are designed to handle queries across schemas while maintaining performance.,rdbms
+Revert a batch import of faulty transaction records.,"      Transaction rollback features are feature-rich in RDBMS, preserving data integrity.",rdbms
+"Search for products based on complex filters like price range, ratings, and brand.","      RDBMS can leverage indexed searches using LIKE, BETWEEN, or similar SQL operators.",rdbms
+Work efficiently with large datasets by partitioning data.,      RDBMS support table partitioning for enhanced performance on large datasets.,rdbms
+Perform statistical calculations like standard deviation and variance on sales data.,      Built-in functions for statistical analysis are often optimized in RDBMS.,rdbms
+Generate cross-tab reports showing monthly sales for each region.,      RDBMS efficiently handle pivot and aggregation operations needed for decision support.,rdbms
+Manage and query hierarchical product categories.,      Recursive CTEs effectively manage hierarchical data.,rdbms
+Find all orders where the product description matches a specific pattern.,"      SQL's pattern matching capabilities (LIKE, REGEXP) are fast with proper indexing.",rdbms
+Automatically adjust inventory when an order is processed.,"      Triggers allow automatic actions on data changes, efficiently managed in RDBMS.",rdbms
+Create an index on multiple columns to optimize complex query filters.,      Indexing strategies in RDBMS enhance query performance significantly.,rdbms
+Create a view showing customer names combined with their ID.,      Virtual columns or computed fields are efficiently managed.,rdbms
+Ensure product prices cannot be negative.,      Check constraints ensure data validity efficiently.,rdbms
+Synchronize data updates between central and regional tables.,      Relational design supports complex sync operations maintaining integrity.,rdbms
+Bulk load millions of records with tracking progress.,      Bulk load tools in RDBMS are highly optimized.,rdbms
+Restrict data access based on user roles in the sales department.,      Fine-grained access control is a robust feature of RDBMS.,rdbms
+Sort products by ratings with pagination support.,      Optimized query planners handle ORDER BY and LIMIT efficiently.,rdbms
+Archive old transaction data while maintaining access performance.,      Archiving strategies are supported through partitioning and indexing.,rdbms
+Implement data replication with minimal lag.,      Advanced replication features in RDBMS ensure data consistency and availability.,rdbms
+Convert currency values on-the-fly during a query.,      Transformations using SQL functions are optimized for performance.,rdbms
+Work with temporary datasets efficiently during complex operations.,      Temporary tables and variables are efficiently managed in RDBMS.,rdbms
+Integrate real-time customer feedback into the sales analysis dashboard.,      Relational databases handle concurrent processing efficiently for real-time updates.,rdbms
+Update product records conditionally based on stock levels.,      Conditional updates based on JOINs or subqueries are well-optimized.,rdbms
+"Execute secure, confidential financial transactions with audit trails.",      Transaction logs and auditing features ensure secure operations.,rdbms
+Detect and merge duplicate customer records efficiently.,      Duplicate detection using complex criteria is efficiently handled.,rdbms
+Query customer orders across two different databases with a unified interface.,      RDBMS can efficiently manage cross-database queries while maintaining performance and data integrity.,rdbms
+Query across dynamically-created tables with consistent performance.,      Relational databases structure schema changes with predictable impact on query performance.,rdbms
+Execute complex analytical queries that run for extended periods without degradation.,      Query optimizers in RDBMS can handle optimization for extended query execution times.,rdbms

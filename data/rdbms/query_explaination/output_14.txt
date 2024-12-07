@@ -1,5 +1,3 @@
-Relational databases excel in handling structured queries with complex conditions and joins due to their ACID (Atomicity, Consistency, Isolation, Durability) properties and the SQL language, which is optimized for these requirements. Below are 39 complex natural language query examples that would typically perform efficiently on relational databases but might not be as efficient on other types of databases, such as NoSQL databases, which are designed for scalability and flexibility rather than complex queries:
-
 1. Identify the top 10 suppliers who have delivered components on time with less than 1% defect rate across three production lines for the past three years.
 
 2. List the employees who have worked on at least two projects that finished early and under budget in both the R&D and Customer Service departments.
@@ -77,15 +75,3 @@ Relational databases excel in handling structured queries with complex condition
 38. List the universities with research programs that show a yearly growth exceeding 10% in patents and publications in both artificial intelligence and renewable energy sectors over the last decade.
 
 39. Identify retailers who have expanded into at least two new international markets annually, maintaining profitability margins above 15% while enhancing their product offerings for the past seven years.
-
-In relational databases, such queries are efficient due to the following reasons:
-
-- **Structured Data**: Relational databases are designed to handle structured data with well-defined relationships, enabling efficient querying with complex joins and conditions.
-  
-- **SQL Optimization**: SQL query optimization techniques and index utilization help in processing complex queries efficiently.
-  
-- **ACID Transactions**: These ensure data integrity, making operations like multi-way joins and subqueries reliable and efficient.
-  
-- **Normalized Data**: Data normalization reduces redundancy and dependency, facilitating efficient query processing through joins and aggregations.
-
-In contrast, other databases like NoSQL systems (e.g., document or key-value stores) are optimized for horizontal scaling and flexibility, often sacrificing query complexity and consistency for these features, which can impact the efficiency of executing complex queries with multiple joins and nested conditions.

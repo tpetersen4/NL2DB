@@ -1,0 +1,38 @@
+nl_query,explanation,db
+ Query a social network to find all friends up to the second degree of connection.,       Graph databases excel at complex and recursive relationships.,nosql
+ Retrieve configuration settings for various microservices based on environment and version.,       Key value stores quickly retrieve data without needing complex joins.,nosql
+" Search for articles with a specific tag, published date, and include authors' profiles.","       Document stores handle nested, rich text data efficiently.",nosql
+ Compute real time analytics on IoT device data streams.,       Time series databases are optimized for handling sequential data with time based queries.,nosql
+ Retrieve all changes to an entity in an event sourcing system to reconstruct its state at any given time.,       Event stores efficiently track changes event by event.,nosql
+ Implement a search function with relevance ranking over a large corpus of documents.,       Some NoSQL databases are optimized for full text indexing and search.,nosql
+ Find all delivery routes that pass within a certain distance of a given location.,       Geospatial databases efficiently index and query spatial data.,nosql
+ Fetch products where the specifications vary widely between items.,       Document and column family stores can cater to dynamic and non uniform fields.,nosql
+ Continuously aggregate user interaction data across platforms for real time dashboard updates.,"       Handle high velocity, high volatility data ingestion and querying.",nosql
+ Navigate a product category hierarchy with unlimited levels of nesting.,        Document and graph databases naturally model hierarchies.,nosql
+ Query a database of images by a combination of GPS location and camera settings.,"        Designed for unstructured data, like metadata rich documents.",nosql
+ Aggregate analytics from sharded datasets spread across geolocations.,        Sharding capabilities handle partitioned data efficiently.,nosql
+ Aggregate behavioral data of users in real time to personalize content.,        Optimized for distributed aggregations across datasets.,nosql
+ Process large logs of server access data to count requests by hour.,        Map reduce frameworks are integrated within some NoSQL systems for batch processing.,nosql
+ Access any version of a document across its history for audit purposes.,        Some document stores are designed to track document versions.,nosql
+ Retrieve linked orders and customer data where links aren't predefined.,        Flexible data models allow dynamic relations without pre defined schemas.,nosql
+ Filter through a collection with billions of documents for a subset based on dynamic criteria.,        Indexed storage formats and distributed architecture improve handling of large datasets.,nosql
+ Retrieve all records of a stock ticker for specific time frames across years.,        Optimized temporal queries in some NoSQL architectures.,nosql
+ Retrieve all posts with a particular combination of user generated tags.,"        Document stores are designed for flexible, multi faceted query patterns.",nosql
+ Aggregate data not only at one field level but across deeply nested documents.,        Efficiently manage nested structures.,nosql
+" Combine data derived from various diversified sources, such as logs or social media streams.",        Schema less data models facilitate diverse data integration.,nosql
+ Computing page rank over a web scale set of interconnected documents.,        Graph databases pruned for complex node traversal and analysis.,nosql
+ Create and query materialized views generated from server side scripts.,        Scriptability akin to server side logic in databases.,nosql
+ Fetch embedded media elements for products featuring guidance usage videos.,        Efficiently manage documents with binary large objects (BLOBs).,nosql
+ Support user defined complex queries by combining various criteria dynamically.,        Adaptive query parsing and optimization.,nosql
+ Increment exactly without locking a counter tracking concurrent user transactions.,        Optimized for concurrency and lock free updates.,nosql
+" Run OLAP style workloads with roll up, drill down of multi dimensional data.",        Some NoSQL variants are tuned for OLAP operations.,nosql
+" Execute transient, high speed, lightweight analytics for ad hoc queries.",        In memory storage facilitates rapid analytics.,nosql
+ Uber for logistics: handle concurrent high write and query load for real time tracking.,        Architectures are often based on eventually consistent data models for scalability.,nosql
+ Machine learning support: store and retrieve high dimensional data vectors.,        Document stores designed for diverse data structures.,nosql
+ Implement and query roles and permissions in arbitrary depth hierarchy.,        Flexible data structures with nested or linked documents.,nosql
+ Retrieve sequences of events with guaranteed order for workflow process monitoring.,        Senses sequential operations through logical or real temporal series.,nosql
+ Assemble a complex document from disparate microservices in real time.,        Handle distributed data creation and assembly.,nosql
+ Efficiently query millions of records where each customer record has custom subscription terms.,        Built for variable schema without enforced structural conformity.,nosql
+ Continuously process and query video feed data for pattern recognition.,"        Handle media rich, large data ingest pipelines efficiently.",nosql
+ Compare user defined metadata categories over extensive datasets.,        Support for unstructured columns that can vary per record.,nosql
+" Store and query configurations for dynamic, cloud deployed apps where settings change frequently.",        Key value data structures providing scalability and rapid read for frequently changing data.,nosql

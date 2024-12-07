@@ -1,0 +1,110 @@
+1. ** Identify all students in a university who have taken courses taught by professors who have supervised at least five PhD students and are involved in inter-departmental collaborations. Also, find the shortest advisor-supervisor connection amongst the professors.
+     Efficient for traversing relationships and finding shortest paths.
+
+2. ** Retrieve the network of collaborations among researchers, highlighting those who co-authored papers with Nobel laureates and are connected through fewer than three intermediary collaborations.
+     Ideal for analyzing networks and discovering connections.
+
+3. ** Determine the influence spread in a social network, defining users who can potentially influence at least 500 others through connections of at most four degrees.
+     Superior for social network analysis and influence spread modeling.
+
+4. ** Find all software engineers who have contributed to open-source projects with contributors from at least three different continents and identify the shortest collaboration chain connecting them to a project’s lead developer.
+     Handles geospatial social collaboration networks effectively.
+
+5. ** List all products that have been reviewed by users who have reviewed other products also reviewed by one of the top 10 customer review influencers, along with the minimum review interactions to these influencers.
+     Optimized for graph traversal and exploring user-product interactions.
+
+6. ** Identify patients who participate in clinical trials with other patients who have tried at least five different treatments in the last two years, and find the shortest path in the trial participation network.
+     Suited for complex healthcare data relationships and network paths.
+
+7. ** Determine the career paths of actors who have worked in movies with individuals who have previously worked with Oscar-winning directors, showing the shortest connection paths to these directors.
+     Efficient for exploring interconnected media industry networks.
+
+8. ** Locate all musicians who have collaborated in bands where at least one member has played with a Grammy-winning artist, and find the least number of collaborations to these artists.
+     Ideal for complex data about collaborative networks in the music industry.
+
+9. ** Determine the shortest document citation chain for academic papers that cite at least three papers from authors with Erdős number ≤ 2.
+     Excels in bibliometric analyses and finding connection chains.
+
+10. ** Identify users on a learning platform who completed courses with instructors that previously worked for a top-ranked university, and show the shortest mentorship path.
+      Best for handling educational network path queries.
+
+11. ** Retrieve all city officials directly or indirectly involved in infrastructure projects related to urban development innovations, and depict the shortest report paths to the city planner.
+      Excellent for administrative network mapping
+
+12. ** Find suppliers in a supply chain who provide components used in products along with those involved in sustainability initiatives, and visualize their shortest business relationship path.
+      Tailored for supply chain analysis with relationship depth.
+
+13. ** Identify users in an e-commerce site who frequently buy products from sellers whose product categories changed in the past year and show the shortest product interaction path.
+      Ideal for e-commerce catalog and user interaction insights.
+
+14. ** Determine the social community connection path among people who have all viewed more than five modules of an online course that involved collaborations with international educators.
+      Works well with interconnected educational community data.
+
+15. ** Retrieve all investors who have stakes in cross-industry ventures where at least one co-investor previously worked for a Fortune 500 company, and identify the shortest deal-making paths.
+      Efficient in representing investor networks and financial relationships.
+
+16. ** Identify alumni from a global university alumni network involved in professional circles with at least three members from different continents, and reveal the shortest alumni-to-peer network path.
+      Tailored for alumni network connection and globalization studies.
+
+17. ** Locate chefs who have cooked for restaurants with chefs that are Michelin star recipients and display the least number of collaborative cooking events among these nodes.
+      Handles complex hierarchies in dynamic organizational environments.
+
+18. ** Identify all working professionals connected to international projects spanning at least three continents, and detail the shortest employee-to-project leadership path.
+      Suited for parsing intricate international project collaborations.
+
+19. ** Discover journalists who have published articles in outlets where contributors also wrote for nationally recognized newspapers, highlighting the shortest collaboration path among them.
+      Efficient for traversals in publication and collaboration graphs.
+
+20. ** Identify all politicians who chaired sessions where fellow participants chaired at least three national committees, and show the shortest committee role connection.
+      Robust for exploring hierarchical and influence networks in political settings.
+
+21. ** Collect information on writers whose books have at least five co-authors from different geographical regions and demonstrate the shortest collaboration loop.
+      Ideal for exploring author collaboration networks and geospatial dynamics.
+
+22. ** Retrieve data on IT consultants who worked on projects in three different technology sectors, involving partnerships with startup founders, noting the shortest project-to-founder advisory path.
+      Designed to handle insights in dynamic and cross-functional project networks.
+
+23. ** Locate all volunteers involved with non-profits where key volunteers had direct interactions with board members of other non-profits, displaying the shortest influence path.
+      Works well for networks of interconnected non-profit relationships.
+
+24. ** Identify musicians who toured with artists that later formed bands with world-renowned producers and visualize the shortest path of connected tours.
+      Effective at showcasing real-world connected paths in entertainment networks.
+
+25. ** Retrieve tenant networks in a housing complex where tenants shared tenancy with others having moved from different city quarters recently, and show the shortest connected stay moves.
+      Optimizes tenant network and mobility connections.
+
+26. ** Determine tech-startup employees who have switched startups within cities with venture capital hotspots, highlighting the shortest path of career progression within investment zones.
+    **Why Graph Databases**: Captures detailed career networking and investment paths efficiently.
+
+27. ** Discover network bridges in peer-to-peer lending platforms, where lenders have given loans to borrowers connecting multiple cross-regional residences.
+      Excellent for distributed lending network and geographical loan mapping.
+
+28. ** Find customer service representatives who resolved issues within departments that combined involved multiple product lines, and map customer interaction pathways.
+      Specialized in detailing intricate department and customer service interactions.
+
+29. ** Locate minority enterprise owners with professional affiliations bridging business councils across three different industries, including the shortest entrepreneurial networks paths.
+      Efficient for parsing intricate business affiliation and policy influence networks.
+
+30. ** Identify industrial connections among contractors who worked on energy projects with companies previously affiliated with environmental exchanges.
+      Excellent for cross-industry collaboration and environmental data networking.
+
+31. ** Retrieve the connection paths of legal advisors who represented clients in cases where co-advisors worked on international human rights cases.
+      Suited for insights into legal collaboration and international case networks.
+
+32. ** Discover logistics sectors that employed drivers who operated on routes chartered by carriers that have adapted sustainable policies in transport services.
+      Excels at representing logistics paths and sustainable transportation networks.
+
+33. ** Map paths between public administrators who leverage finance strategies applied in multi-agency projects involving counterparts in other governmental entities.
+      Efficient for spanning governmental finance strategy networks.
+
+34. ** Identify connections among community organizers who facilitated events where participants coordinated in action networks with at least two external communities.
+      Handles community network relations and cross-community event integration efficiently.
+
+35. ** Determine colleague networks in global corporations where members led corporate trainings that were simultaneously implemented in other international branches.
+      Optimized for multinational corporate training and knowledge sharing networks.
+
+36. ** Locate connections in family businesses where family members hold positions interfacing with executives in at least two different industries.
+      Appropriate for tracking multi-industry family business influence networks.
+
+37. ** Identify associated pathways for university departments undertaking joint research where leading academics held advisory roles in international think tanks.
+      Specialized for academic-advisory and joint research think tank networks.

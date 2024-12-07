@@ -1,0 +1,37 @@
+nl_query,explanation,db
+Find all direct and indirect friends of a given user.,"     Graph databases can traverse relationships quickly, making them ideal for finding connections between nodes.",graph
+Identify the shortest path between two people in a social network.,     Graph databases use algorithms like Dijkstra's to efficiently compute shortest paths among connected nodes.,graph
+Discover common interests among group members.,"     Graph databases excel at intersection operations in graphs, quickly identifying common nodes between connections.",graph
+Trace the genealogy of a person back ten generations.,     Relationship traversals in graphs can handle deep ancestry queries effectively.,graph
+Find all products frequently bought together by users similar to a given customer.,     Graph databases can match patterns across large datasets with many shared characteristics swiftly.,graph
+Identify influencers in a social network based on connections and interactions.,     Centrality and influence metrics are efficiently calculated on graph structures.,graph
+Suggest friends of friends in a social networking platform.,     Graph traversal makes it easy to suggest connections based on second degree relationships.,graph
+List all employees and their managers up the hierarchy.,     Hierarchical queries that require traversing up a tree like structure perform very well in graphs.,graph
+Detect cycles in a transportation network.,     Cycle detection is a natural operation for graph databases.,graph
+Determine all potential supply chain disruptions from a single point of failure.,      Graphs can quickly show all dependencies and impacts of a node failure.,graph
+Find the maximum flow of goods through a network of warehouses and logistics nodes.,      Flow algorithms are highly efficient on graph data structures.,graph
+Analyze community structure in a social graph.,      Community detection algorithms work naturally on the interconnected nature of graphs.,graph
+Identify all network nodes reachable within three hops from a given node.,      Hopping queries are direct on graph databases through efficient edge traversals.,graph
+Detect fraud in a financial network by identifying anomalous transaction patterns.,      Pattern matching across the network is highly efficient due to direct connections.,graph
+Follow an information cascade in a knowledge network.,      Easily traceable in graphs through vertex and edge exploration.,graph
+Find the top k nearest neighbors in a proximity based recommendation system.,      Graph databases handle similarity and proximity queries optimally.,graph
+Identify subgraphs where most nodes have high connectivity scores.,      Graph metrics such as clustering coefficients are efficiently computed.,graph
+Trace a customer journey through various interactions on a platform.,      Path traversal naturally follows sequences of interactions in graph models.,graph
+Predict relationship strength between two non connected nodes.,      Link prediction algorithms are well executed in graphs.,graph
+Find all alternative paths between two major cities in a transport network.,      Calculating all paths can be handled efficiently by graph traversal.,graph
+Discover latent user groups with shared interests or behaviors.,      Community and clustering analyses are built in functionalities in graph systems.,graph
+Generate a dependency tree for software modules.,      Graph traversal can be used to explore module dependencies and hierarchies.,graph
+Compute user influence scores based on follower and engagement ratios.,"      Influence metrics, like centrality scores, directly leverage graph structures.",graph
+Map real time traffic conditions onto a city’s street network.,      Geospatial and graph analytics converge to provide fast pathfinding based on conditions.,graph
+Forecast supply chain demand using dependency linkages.,      Dependencies in supply chains can be modeled as graph nodes and edges to predict alterations.,graph
+Locate critical infrastructure points in a utility network.,      Identifying nodes with high betweenness centrality can highlight critical infrastructure.,graph
+Determine overlapping communities in a user's social connection graph.,      Graph based methods for community overlap detection are optimal and efficient.,graph
+Assess advertising impact across a network of interconnected media channels.,      Impact calculation across nodes and edges aligns with graph analytics.,graph
+Track propagation of a hashtag across a network of users.,      Propagation models are easily computed through graph traversal strategies.,graph
+Estimate the number of unique connections between two clusters before a specified time.,      Temporal graph queries follow time constrained relationships effectively.,graph
+Recommend content by analyzing similar user pathways.,      Pathway analysis leverages graph traversal and similarity searching.,graph
+Identify all critical nodes for maintaining network connectivity if some fail.,      Key node importance to connectivity is quickly identifiable by graph connectivity algorithms.,graph
+Examine connections with a specific keyword in academic collaboration networks.,      Keyword based connection searching harnesses the graph's structural data.,graph
+Track transaction flows in a blockchain network.,      The transactional nature is naturally and efficiently mapped as a graph.,graph
+Project influence propagation from a starting influencer to a network.,      Influence spread is modeled across nodes through dissemination algorithms.,graph
+Analyze covert networks by discerning non direct influences and shared traits.,      Indirect influence metrics find efficient calculation via graph models.,graph
