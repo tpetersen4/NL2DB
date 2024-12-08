@@ -25,7 +25,7 @@ def convert_to_chat_format(input_data):
     return chat_data
 
 # Read the input data from a JSON file (replace 'input_data.json' with your actual file name)
-input_file = 'formatted_output_with_validation.jsonl'  # Change this to your actual file path
+input_file = 'test.jsonl'  # Change this to your actual file path
 
 # Load the input data from the file
 with open(input_file, 'r') as file:
@@ -37,7 +37,7 @@ with open(input_file, 'r') as file:
 chat_data = convert_to_chat_format(input_data)
 
 # Save the result to a new file in .jsonl format
-output_file = 'validation_data.jsonl'  # Output filename
+output_file = 'test_data.jsonl'  # Output filename
 with open(output_file, 'w') as file:
     for item in chat_data:
         # Write each chat_data item as a single line in the file

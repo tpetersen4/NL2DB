@@ -26,4 +26,4 @@ def prepare_for_llm(input_filename, output_filename):
                 json.dump(data, outfile)
                 outfile.write("\n")
 # Example usage:
-prepare_for_llm('../data/model/validation.csv', 'formatted_output_with_validation.jsonl')
+prepare_for_llm('../data/model/test.csv', 'test.jsonl')
