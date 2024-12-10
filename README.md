@@ -6,4 +6,11 @@ Running llm_chat_interface.py will test all of data/training/test.jsonl set on t
 
 Use the create_response function from llm_chat_interface.py to test a single input.
 
+To Run the fastApi server - You have install few dependencies,
+
+pip install fastapi uvicorn
+
+Once dependencies installed fire up the fastapi server by running - 
+
+uvicorn main:app --reload
 
